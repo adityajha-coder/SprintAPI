@@ -7,3 +7,5 @@ node_modules
 .next/
 .DS_Store
 plan.txt
+.vscode/
+tsconfig.tsbuildinfo

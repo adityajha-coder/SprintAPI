@@ -85,6 +85,22 @@ export function Directory() {
   const [showAllCategories, setShowAllCategories] = useState(false)
   const filterPanelRef = useRef<HTMLDivElement>(null)
   const filterBtnRef = useRef<HTMLButtonElement>(null)
+  const searchInputRef = useRef<HTMLInputElement>(null)
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (
+        (e.key === '/' || (e.key === 'k' && (e.metaKey || e.ctrlKey))) &&
+        document.activeElement?.tagName !== 'INPUT' &&
+        document.activeElement?.tagName !== 'TEXTAREA'
+      ) {
+        e.preventDefault()
+        searchInputRef.current?.focus()
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [])
 
   const categories =
     tab === 'apis'
@@ -253,18 +269,18 @@ export function Directory() {
         <span id="chrome-extensions" className="absolute -top-28" />
       </div>
 
-      {/* Sticky control bar — compact single row */}
+      {/* Sticky control bar — mobile-friendly responsive row */}
       <div className="sticky top-24 z-30 -mx-4 rounded-2xl border border-border glass md:mx-0">
-        <div className="flex items-center gap-2 p-2 md:gap-3 md:p-3">
-          {/* Tabs */}
-          <div className="flex shrink-0 rounded-xl border border-border bg-secondary/40 p-1">
+        <div className="flex flex-col gap-2.5 p-2 md:flex-row md:items-center md:gap-3 md:p-3">
+          {/* Tabs — scrollable on mobile */}
+          <div className="flex overflow-x-auto rounded-xl border border-border bg-secondary/40 p-1 scrollbar-none shrink-0 max-w-full">
             {tabs.map((t) => (
               <button
                 key={t.id}
                 type="button"
                 onClick={() => changeTab(t.id)}
                 className={cn(
-                  'flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm font-medium transition-colors md:px-3.5',
+                  'flex shrink-0 items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm font-medium transition-colors md:px-3.5',
                   tab === t.id
                     ? 'bg-primary text-primary-foreground'
                     : 'text-muted-foreground hover:text-foreground',
@@ -283,70 +299,76 @@ export function Directory() {
             ))}
           </div>
 
-          {/* Search — fills remaining space */}
-          <div className="relative min-w-0 flex-1">
-            <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
-            <input
-              type="search"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder={`Search ${
-                tab === 'extensions'
-                  ? 'VSC Extensions'
-                  : tab === 'chrome-extensions'
-                    ? 'Chrome Extensions'
-                    : tab
-              }...`}
-              className="w-full rounded-xl border border-border bg-background/60 py-2 pl-9 pr-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-primary"
-              aria-label={`Search ${
-                tab === 'extensions'
-                  ? 'VSC Extensions'
-                  : tab === 'chrome-extensions'
-                    ? 'Chrome Extensions'
-                    : tab
-              }`}
-            />
-          </div>
-
-          {/* Filter toggle — right side */}
-          <div className="relative shrink-0">
-            <button
-              ref={filterBtnRef}
-              type="button"
-              onClick={() => setShowFilters((v) => !v)}
-              className={cn(
-                'flex items-center gap-1.5 rounded-xl border px-3 py-2 text-sm font-medium transition-colors',
-                showFilters
-                  ? 'border-primary/40 bg-primary/10 text-primary'
-                  : 'border-border bg-secondary/50 text-muted-foreground hover:text-foreground',
-              )}
-              aria-pressed={showFilters}
-              aria-haspopup="true"
-              aria-expanded={showFilters}
-            >
-              <SlidersHorizontal className="size-4" />
-              <span className="hidden sm:inline">Filters</span>
-              {activeFilters > 0 && (
-                <span className="rounded-md bg-primary px-1.5 text-[10px] font-semibold text-primary-foreground">
-                  {activeFilters}
-                </span>
-              )}
-              <ChevronDown
-                className={cn(
-                  'size-3.5 transition-transform',
-                  showFilters && 'rotate-180',
-                )}
+          {/* Search & Filter Group — horizontal row filling remaining space */}
+          <div className="flex items-center gap-2 flex-1 min-w-0 w-full">
+            {/* Search */}
+            <div className="relative min-w-0 flex-1">
+              <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+              <input
+                ref={searchInputRef}
+                type="search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder={`Search ${
+                  tab === 'extensions'
+                    ? 'VSC Extensions'
+                    : tab === 'chrome-extensions'
+                      ? 'Chrome Extensions'
+                      : tab
+                }...`}
+                className="w-full rounded-xl border border-border bg-background/60 py-2 pl-9 pr-12 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-primary"
+                aria-label={`Search ${
+                  tab === 'extensions'
+                    ? 'VSC Extensions'
+                    : tab === 'chrome-extensions'
+                      ? 'Chrome Extensions'
+                      : tab
+                }`}
               />
-            </button>
+              <div className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 hidden items-center rounded border border-border/80 bg-secondary/70 px-2 py-0.5 text-[10px] font-semibold text-muted-foreground sm:flex">
+                <span>/</span>
+              </div>
+            </div>
 
-            {/* Filter dropdown panel */}
-            {showFilters && (
-              <div
-                ref={filterPanelRef}
-                className="absolute right-0 top-full z-50 mt-2 w-[min(28rem,calc(100vw-2rem))] origin-top-right animate-in fade-in slide-in-from-top-2 rounded-2xl border border-border bg-card p-4 shadow-2xl sm:w-[32rem]"
-                role="dialog"
-                aria-label="Filter options"
+            {/* Filter toggle — right side */}
+            <div className="relative shrink-0">
+              <button
+                ref={filterBtnRef}
+                type="button"
+                onClick={() => setShowFilters((v) => !v)}
+                className={cn(
+                  'flex items-center gap-1.5 rounded-xl border px-3 py-2 text-sm font-medium transition-colors',
+                  showFilters
+                    ? 'border-primary/40 bg-primary/10 text-primary'
+                    : 'border-border bg-secondary/50 text-muted-foreground hover:text-foreground',
+                )}
+                aria-pressed={showFilters}
+                aria-haspopup="true"
+                aria-expanded={showFilters}
               >
+                <SlidersHorizontal className="size-4" />
+                <span className="hidden sm:inline">Filters</span>
+                {activeFilters > 0 && (
+                  <span className="rounded-md bg-primary px-1.5 text-[10px] font-semibold text-primary-foreground">
+                    {activeFilters}
+                  </span>
+                )}
+                <ChevronDown
+                  className={cn(
+                    'size-3.5 transition-transform',
+                    showFilters && 'rotate-180',
+                  )}
+                />
+              </button>
+
+              {/* Filter dropdown panel */}
+              {showFilters && (
+                <div
+                  ref={filterPanelRef}
+                  className="absolute right-0 top-full z-50 mt-2 w-[min(28rem,calc(100vw-2rem))] origin-top-right animate-in fade-in slide-in-from-top-2 rounded-2xl border border-border bg-card p-4 shadow-2xl sm:w-[32rem]"
+                  role="dialog"
+                  aria-label="Filter options"
+                >
                 {/* Header */}
                 <div className="mb-3 flex items-center justify-between">
                   <h3 className="text-sm font-semibold text-foreground">
@@ -505,6 +527,7 @@ export function Directory() {
             )}
           </div>
         </div>
+      </div>
 
         {/* Active filter pills — compact row below the bar */}
         {(activeFilters > 0 || query) && (
