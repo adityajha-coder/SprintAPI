@@ -403,11 +403,6 @@
         "id": "ms-vscode.vscode-node-azure-pack"
       },
       {
-        "name": "Remote Containers",
-        "desc": "Develop inside Docker containers",
-        "id": "ms-vscode-remote.remote-containers"
-      },
-      {
         "name": "Nginx Configuration",
         "desc": "Syntax highlighting for Nginx config files",
         "id": "william-voyek.vscode-nginx"
