@@ -1,0 +1,297 @@
+[
+  {
+    "cat": "Developer Tools",
+    "items": [
+      {
+        "name": "React Developer Tools",
+        "desc": "Inspect React component hierarchies, state, hooks, and performance profiles inside Chrome DevTools.",
+        "id": "fmkadmapgofadopljbjfkapdkoienihi"
+      },
+      {
+        "name": "Redux DevTools",
+        "desc": "DevTools for Redux supporting hot reloading, state diff logging, and time travel debugging.",
+        "id": "lmhkpmbekcpmknklioeibmetcafokgll"
+      },
+      {
+        "name": "Vue.js devtools",
+        "desc": "Chrome DevTools extension for debugging Vue.js applications, components, events, and Vuex states.",
+        "id": "nhdogjmejiglipccpnnnmgbleoihmgie"
+      },
+      {
+        "name": "Angular DevTools",
+        "desc": "Debug Angular applications with visualization of component structure, change detection profiling, and state tracking.",
+        "id": "ekhagcgcholfbfloedocgkocabjcocoi"
+      },
+      {
+        "name": "Svelte DevTools",
+        "desc": "Inspect Svelte component state, hierarchy, and events directly in your developer panel.",
+        "id": "fbillikclhbknnnoploadoojeenicomp"
+      },
+      {
+        "name": "JSON Viewer",
+        "desc": "Customizable Chrome extension for formatting, styling, and searching raw JSON files directly in browser tabs.",
+        "id": "gbmdgocknibhggghjicbjibnhnnnfjgo"
+      },
+      {
+        "name": "JSONView",
+        "desc": "Formats and syntax highlights JSON documents with collapsible tree structures, clickable URLs, and raw formats.",
+        "id": "gbeocmaobmjfopkbbnlfopdbikdfidil"
+      },
+      {
+        "name": "Wappalyzer",
+        "desc": "Uncover the technology stacks behind any website, including CMSs, frameworks, analytics tools, and databases.",
+        "id": "gppongmhjkpfnkgbndcplbglcllckplm"
+      },
+      {
+        "name": "BuiltWith Technology Profiler",
+        "desc": "Find out what technologies a website is built with, including widgets, analytics, hosting, and mail frameworks.",
+        "id": "dapbellcmocmffjmmcnjofillinbjmon"
+      },
+      {
+        "name": "axe DevTools",
+        "desc": "Fast, lightweight accessibility testing tool to identify and resolve critical accessibility errors in your HTML.",
+        "id": "lhdoppojpmngadmnindnejefpokejbmm"
+      },
+      {
+        "name": "WAVE Evaluation Tool",
+        "desc": "Web accessibility evaluation tool that injects visual indicators onto the webpage to help diagnose WCAG errors.",
+        "id": "jbbplionnjooebhiiedpeconejeidnin"
+      },
+      {
+        "name": "CSS Peeper",
+        "desc": "A smart CSS inspector tailored for web designers. Extract nested styles, colors, layouts, and image assets in one click.",
+        "id": "paaflmbljceokgpejeggfillnlogjoof"
+      },
+      {
+        "name": "Web Developer",
+        "desc": "Adds a complete utility toolbar to inspect styles, toggle CSS, disable scripts, edit cookies, and check accessibility.",
+        "id": "bfmbbndokecfjgoaeedomeaonmonflad"
+      },
+      {
+        "name": "VisBug",
+        "desc": "Open-source web design debug tools built with web components. Inspect elements, align spacing, and edit text visually.",
+        "id": "cdockenadnadbemedfkimgbfciookpad"
+      },
+      {
+        "name": "Requestly",
+        "desc": "Redirect URLs, modify headers, cancel requests, insert custom scripts, and mock API responses on the fly.",
+        "id": "mdnleldcmiljblolnjhpnblkcekpdkpa"
+      },
+      {
+        "name": "ModHeader",
+        "desc": "Modify request headers, response headers, and redirect requests to test custom authorization tokens and testing states.",
+        "id": "idgpnmonknjnojddfkpgkljpfnnfcklj"
+      },
+      {
+        "name": "Ember Inspector",
+        "desc": "Inspect Ember.js applications, routes, controllers, active models, promises, and data layer performance.",
+        "id": "bmdblmgknldnooihnmfcbbonmjggghob"
+      },
+      {
+        "name": "PHP Console",
+        "desc": "Handle PHP errors, dumps, and debugging queries directly in your browser console via headers payload.",
+        "id": "nfhampibmdjdojfaiffadigjnbieihap"
+      }
+    ]
+  },
+  {
+    "cat": "Productivity",
+    "items": [
+      {
+        "name": "Octotree",
+        "desc": "Enhance GitHub with an interactive code tree sidebar. Easily browse repository files, commits, and pull requests.",
+        "id": "bkhaagobfilplnnghlndhibigiphjjon"
+      },
+      {
+        "name": "Refined GitHub",
+        "desc": "Simplifies and streamlines the GitHub interface, adding dozens of productivity tweaks, hotkeys, and shortcuts.",
+        "id": "hlepapnkhmhmcbdaddhajjgbgdhbakbh"
+      },
+      {
+        "name": "OctoLinker",
+        "desc": "Links dependency code blocks (like require, import, package.json dependencies) directly to their respective source sites.",
+        "id": "jlnejaoaaddcjjeenejoanijnepbnhom"
+      },
+      {
+        "name": "daily.dev",
+        "desc": "The ultimate developer homepage. Curates a personalized tech news feed from top engineering communities.",
+        "id": "jlmpopbefjoebdohminaimmbbafkilme"
+      },
+      {
+        "name": "Clockify Time Tracker",
+        "desc": "Track coding hours, timesheets, and project tasks directly from Chrome. Integrates with GitHub, Jira, and Gitlab.",
+        "id": "pmijbbjbedijobihjcmgikcjoiholgbp"
+      },
+      {
+        "name": "Toggl Track",
+        "desc": "Simple productivity timer inside web tools. Tracks screen time and syncs entries directly to Toggl.",
+        "id": "boemmnjjkkjenkkpfgoljoocencgocig"
+      },
+      {
+        "name": "Lighthouse",
+        "desc": "Automated open-source tool for auditing performance, accessibility, SEO, and best practices of web apps.",
+        "id": "blipmdconlkpinefehnmjammfjpmpbjk"
+      },
+      {
+        "name": "Clear Cache",
+        "desc": "Clear your browser cache, storage, cookies, and local database instantly with a single button or shortcut key.",
+        "id": "cppjkneekbjaeellbfkmgnhonkkjfpdn"
+      },
+      {
+        "name": "EditThisCookie",
+        "desc": "Full-featured cookie manager. Edit, add, delete, search, block, and export cookies in a simple visual popup.",
+        "id": "fngmhnnpilhplaeedifhccceomclgfbg"
+      },
+      {
+        "name": "Session Buddy",
+        "desc": "Manage tabs and browser sessions with ease. Save, restore, group, and backup active tab lists.",
+        "id": "edacbacmappgpdfhkifdecbbdoacfggl"
+      },
+      {
+        "name": "OneTab",
+        "desc": "Save up to 95% memory and reduce tab clutter by converting all of your active tabs into a clean list layout.",
+        "id": "chphlbnfaefgjhppedhjmegecsnocdpe"
+      },
+      {
+        "name": "Tab Wrangler",
+        "desc": "Automatically closes inactive tabs after a configured time delay, keeping tab lists tidy and conserving system resources.",
+        "id": "egnjhciaieeiiohknchakbobeffihibe"
+      },
+      {
+        "name": "Grammarly",
+        "desc": "Provides real-time feedback on writing clarity, grammar, tone, and spelling across all web editors and input boxes.",
+        "id": "kbfnbcaeplbcioakkpcpgfkihknhocof"
+      },
+      {
+        "name": "Tampermonkey",
+        "desc": "The most popular userscript manager. Write, install, and execute custom JavaScript logic on specific web pages.",
+        "id": "dhdgffkkbafomddoafaafociphfbkeim"
+      },
+      {
+        "name": "Stylus",
+        "desc": "Redesign your favorite websites by installing and customizing custom CSS stylesheets locally.",
+        "id": "clngdbkpkpeebahjckaimhifcfooccca"
+      },
+      {
+        "name": "Ghostery",
+        "desc": "Clean up webpages, block analytics trackers, block ads, and inspect trackers to speed up load times.",
+        "id": "gdoanihjigngopjbgddjmdihobngdncl"
+      },
+      {
+        "name": "Speedtest by Ookla",
+        "desc": "Measure your internet connection speeds, latency, and ping metrics directly from a quick Chrome popup.",
+        "id": "gcppoloiidmkooihjbommdcmioncbcfn"
+      }
+    ]
+  },
+  {
+    "cat": "Design & Utility",
+    "items": [
+      {
+        "name": "ColorZilla",
+        "desc": "Advanced eyedropper, page color analyzer, color picker, palette generator, and CSS gradient builder.",
+        "id": "bhlhceobgnbodgnogcclnjnfnjgpkcba"
+      },
+      {
+        "name": "Site Palette",
+        "desc": "Extract and generate beautiful, shareable color palettes from any website layout dynamically.",
+        "id": "acamppomgocaccojocakkpacmflmcolg"
+      },
+      {
+        "name": "SVG Export",
+        "desc": "Search, preview, copy code, or download SVGs from web pages in bulk. Converts icons to PNG/JPEG formats.",
+        "id": "lhgiejihimafpjkiciomadjomjfgocbi"
+      },
+      {
+        "name": "PerfectPixel",
+        "desc": "Overlay design mockup images on top of developed HTML to verify alignments and ensure pixel-perfect matches.",
+        "id": "dcalmjicommgocconggocjjedmifjbed"
+      },
+      {
+        "name": "Mobile Simulator",
+        "desc": "Test responsive designs using mock smartphone, tablet, and smart TV viewpoints with screen touch gestures.",
+        "id": "ckejmhbidppggebamidalkhpbfeedboe"
+      },
+      {
+        "name": "Window Resizer",
+        "desc": "Resize your browser window to simulate specific viewport resolutions, including mobile, laptop, and tablet widths.",
+        "id": "kkelicaakdanhinjdeamajgbgfhcdpja"
+      },
+      {
+        "name": "Dimensions",
+        "desc": "A tool for designers to measure screen dimensions, margins, paddings, and relative pixel distances on mouse movements.",
+        "id": "jplnbeohdccomdjnkjgknmfibfddbmmc"
+      },
+      {
+        "name": "Grid Ruler",
+        "desc": "Draw layout guidelines, align columns, measure absolute margins, and set grids directly over top of web pages.",
+        "id": "fgjoembllfdpaleeebimjclieddomgif"
+      },
+      {
+        "name": "WhatFont",
+        "desc": "Identify web typography instantly. Hover over text to inspect font families, sizes, line heights, and weights.",
+        "id": "jabopobgopjdoijmfgmdopgdoonionfg"
+      },
+      {
+        "name": "Fonts Ninja",
+        "desc": "Inspect typography on any page. View font names, css values, weights, and try fonts inside the visual dashboard.",
+        "id": "eliahhhnncaiejaigjbbblpeepmhkjpe"
+      },
+      {
+        "name": "User-Agent Switcher",
+        "desc": "Mock your browser's user-agent headers to test mobile websites, specific browser render views, and user-agent scripts.",
+        "id": "djflhoibgkdhocjiljbaokmcapocjoej"
+      },
+      {
+        "name": "Check My Links",
+        "desc": "A link checker that crawls web pages and lists status codes, highlighting working (200) and broken (404) links.",
+        "id": "ocphkkejidiocanmclinbjolejiombhn"
+      },
+      {
+        "name": "Hjson Viewer",
+        "desc": "Inspect and format Human JSON datasets, providing collapsing nodes, trees, syntax coloring, and copy shortcuts.",
+        "id": "dfoblgahbgbbdfgofphhmljofgimgeeb"
+      },
+      {
+        "name": "WhatRuns",
+        "desc": "One-click widget showing web application technology stacks, tracking scripts, webservers, and analytics platforms.",
+        "id": "cmkdbbanegilmedafeeicgfeeidcljmp"
+      },
+      {
+        "name": "Wapiti Mobile Simulator",
+        "desc": "Interactive viewport resize and simulation of mock environments to test responsive web layouts easily.",
+        "id": "jddmgnnleekklonpcbcklcooabmllgpc"
+      }
+    ]
+  },
+  {
+    "cat": "Fun & Customization",
+    "items": [
+      {
+        "name": "Momentum",
+        "desc": "Replace new tab page with a personal dashboard featuring to-do, weather, inspiration, and focus prompts.",
+        "id": "laookkfknpbbblfpciffpaejjkokdgca"
+      },
+      {
+        "name": "Custom Cursor for Chrome",
+        "desc": "Customize your browser cursor with a massive collection of fun, creative, and cute custom cursors.",
+        "id": "ogdlpmhglpejoiomcodnpjnfgcpmgale"
+      },
+      {
+        "name": "GIPHY for Chrome",
+        "desc": "Search and drag-and-drop GIFs and stickers into emails, Slack, social media posts, and repositories instantly.",
+        "id": "jlleokkdhkflpmghiioglgmnminbekdi"
+      },
+      {
+        "name": "Isometric Contributions",
+        "desc": "Toggles your 2D GitHub contribution graph into a 3D isometric building block view.",
+        "id": "mjoedlfflcchnleknnceiplgaeoegien"
+      },
+      {
+        "name": "Panic Button",
+        "desc": "Hide all of your active browser tabs at once with a single click or keyboard shortcut, and restore them later.",
+        "id": "faminaigigodmhcgngfbnfmjbbclgplk"
+      }
+    ]
+  }
+]
