@@ -1,0 +1,817 @@
+[
+  {
+    "cat": "Essentials",
+    "items": [
+      {
+        "name": "Prettier",
+        "desc": "Opinionated code formatter for consistent style",
+        "id": "esbenp.prettier-vscode"
+      },
+      {
+        "name": "ESLint",
+        "desc": "Integrates ESLint into VS Code for JS/TS linting",
+        "id": "dbaeumer.vscode-eslint"
+      },
+      {
+        "name": "EditorConfig",
+        "desc": "Override editor settings with .editorconfig files",
+        "id": "EditorConfig.EditorConfig"
+      },
+      {
+        "name": "Path Intellisense",
+        "desc": "Autocompletes file paths in your code",
+        "id": "christian-kohler.path-intellisense"
+      },
+      {
+        "name": "Auto Rename Tag",
+        "desc": "Automatically rename paired HTML/XML tags",
+        "id": "formulahendry.auto-rename-tag"
+      },
+      {
+        "name": "Error Lens",
+        "desc": "Highlight errors and warnings inline in the editor",
+        "id": "usernamehw.errorlens"
+      },
+      {
+        "name": "Auto Close Tag",
+        "desc": "Automatically close HTML/XML tags",
+        "id": "formulahendry.auto-close-tag"
+      },
+      {
+        "name": "npm Intellisense",
+        "desc": "Autocomplete npm modules in import statements",
+        "id": "christian-kohler.npm-intellisense"
+      },
+      {
+        "name": "Import Cost",
+        "desc": "Display the size of imported JS packages inline",
+        "id": "wix.vscode-import-cost"
+      },
+      {
+        "name": "Trailing Spaces",
+        "desc": "Highlight and remove trailing whitespace",
+        "id": "shardulm94.trailing-spaces"
+      }
+    ]
+  },
+  {
+    "cat": "Language Support",
+    "items": [
+      {
+        "name": "Python",
+        "desc": "Rich support for Python (IntelliSense, linting, debugging)",
+        "id": "ms-python.python"
+      },
+      {
+        "name": "Pylance",
+        "desc": "Fast, feature-rich Python language server",
+        "id": "ms-python.vscode-pylance"
+      },
+      {
+        "name": "C/C++",
+        "desc": "IntelliSense, debugging, and code browsing for C/C++",
+        "id": "ms-vscode.cpptools"
+      },
+      {
+        "name": "Java Extension Pack",
+        "desc": "Popular extensions for Java development",
+        "id": "vscjava.vscode-java-pack"
+      },
+      {
+        "name": "Go",
+        "desc": "Rich Go language support with IntelliSense",
+        "id": "golang.Go"
+      },
+      {
+        "name": "Rust Analyzer",
+        "desc": "Fast and feature-rich Rust language server",
+        "id": "rust-lang.rust-analyzer"
+      },
+      {
+        "name": "Dart",
+        "desc": "Dart language support and debugger",
+        "id": "Dart-Code.dart-code"
+      },
+      {
+        "name": "PHP Intelephense",
+        "desc": "High performance PHP IntelliSense",
+        "id": "bmewburn.vscode-intelephense-client"
+      },
+      {
+        "name": "Ruby LSP",
+        "desc": "Ruby language server for IntelliSense",
+        "id": "Shopify.ruby-lsp"
+      },
+      {
+        "name": "Kotlin",
+        "desc": "Smart code completion and debugging for Kotlin",
+        "id": "mathiasfrohlich.Kotlin"
+      },
+      {
+        "name": "Swift",
+        "desc": "Swift language support for VS Code",
+        "id": "sswg.swift-lang"
+      },
+      {
+        "name": "Lua",
+        "desc": "Lua language support and IntelliSense",
+        "id": "sumneko.lua"
+      }
+    ]
+  },
+  {
+    "cat": "Git & Version Control",
+    "items": [
+      {
+        "name": "GitLens",
+        "desc": "Supercharge Git — blame, history, compare, and more",
+        "id": "eamodio.gitlens"
+      },
+      {
+        "name": "Git Graph",
+        "desc": "View Git log as a beautiful graph",
+        "id": "mhutchie.git-graph"
+      },
+      {
+        "name": "Git History",
+        "desc": "View and search git log, file history, compare branches",
+        "id": "donjayamanne.githistory"
+      },
+      {
+        "name": "Conventional Commits",
+        "desc": "Write standardized commit messages",
+        "id": "vivaxy.vscode-conventional-commits"
+      },
+      {
+        "name": "GitHub Pull Requests",
+        "desc": "Review and manage GitHub PRs within VS Code",
+        "id": "GitHub.vscode-pull-request-github"
+      },
+      {
+        "name": "Git Blame",
+        "desc": "See git blame info in the status bar",
+        "id": "waderyan.gitblame"
+      },
+      {
+        "name": "GitHub Actions",
+        "desc": "Manage GitHub Actions workflows from VS Code",
+        "id": "github.vscode-github-actions"
+      }
+    ]
+  },
+  {
+    "cat": "Themes & Appearance",
+    "items": [
+      {
+        "name": "One Dark Pro",
+        "desc": "Atom's iconic One Dark theme for VS Code",
+        "id": "zhuangtongfa.Material-theme"
+      },
+      {
+        "name": "GitHub Theme",
+        "desc": "GitHub's official VS Code themes",
+        "id": "GitHub.github-vscode-theme"
+      },
+      {
+        "name": "Dracula Official",
+        "desc": "Dark theme for many editors and apps",
+        "id": "dracula-theme.theme-dracula"
+      },
+      {
+        "name": "Material Icon Theme",
+        "desc": "Material Design icons for files and folders",
+        "id": "PKief.material-icon-theme"
+      },
+      {
+        "name": "Tokyo Night",
+        "desc": "Clean dark theme inspired by Tokyo city lights",
+        "id": "enkia.tokyo-night"
+      },
+      {
+        "name": "Catppuccin",
+        "desc": "Soothing pastel theme for VS Code",
+        "id": "Catppuccin.catppuccin-vsc"
+      },
+      {
+        "name": "Ayu",
+        "desc": "Simple and bright theme with three variants",
+        "id": "teabyii.ayu"
+      },
+      {
+        "name": "Monokai Pro",
+        "desc": "Professional Monokai-inspired theme",
+        "id": "monokai.theme-monokai-pro-vscode"
+      },
+      {
+        "name": "Night Owl",
+        "desc": "Accessible theme for night owls and low light",
+        "id": "sdras.night-owl"
+      },
+      {
+        "name": "VSCode Icons",
+        "desc": "Icon theme with wide file type coverage",
+        "id": "vscode-icons-team.vscode-icons"
+      },
+      {
+        "name": "Peacock",
+        "desc": "Color your workspace for multi-project setups",
+        "id": "johnpapa.vscode-peacock"
+      },
+      {
+        "name": "Gruvbox Material",
+        "desc": "Gruvbox theme with a material color palette",
+        "id": "sainnhe.gruvbox-material"
+      },
+      {
+        "name": "Rosé Pine",
+        "desc": "Minimalist, soothing pastel palette for developers",
+        "id": "mvllow.rose-pine"
+      },
+      {
+        "name": "SynthWave '84",
+        "desc": "Retro 80s neon synthwave styling with optional glow effects",
+        "id": "RobbOwen.synthwave-84"
+      }
+    ]
+  },
+  {
+    "cat": "Productivity",
+    "items": [
+      {
+        "name": "Todo Tree",
+        "desc": "Highlight and list TODO, FIXME comments in your code",
+        "id": "Gruntfuggly.todo-tree"
+      },
+      {
+        "name": "Better Comments",
+        "desc": "Colorful annotations for alerts, queries, TODOs",
+        "id": "aaron-bond.better-comments"
+      },
+      {
+        "name": "Code Spell Checker",
+        "desc": "Catch common spelling errors in code",
+        "id": "streetsidesoftware.code-spell-checker"
+      },
+      {
+        "name": "Project Manager",
+        "desc": "Easily switch between projects",
+        "id": "alefragnani.project-manager"
+      },
+      {
+        "name": "Bookmarks",
+        "desc": "Mark lines and jump to them quickly",
+        "id": "alefragnani.Bookmarks"
+      },
+      {
+        "name": "Polacode",
+        "desc": "Polaroid-style screenshots of your code",
+        "id": "pnp.polacode"
+      },
+      {
+        "name": "File Utils",
+        "desc": "Create, move, rename, delete files from command palette",
+        "id": "sleistner.vscode-fileutils"
+      },
+      {
+        "name": "Toggle Quotes",
+        "desc": "Toggle between single, double, and backtick quotes",
+        "id": "BriteSnow.vscode-toggle-quotes"
+      },
+      {
+        "name": "Change Case",
+        "desc": "Quickly change text between camelCase, UPPER, snake_case",
+        "id": "wmaurer.change-case"
+      },
+      {
+        "name": "Wakatime",
+        "desc": "Track your coding activity and time automatically",
+        "id": "WakaTime.vscode-wakatime"
+      },
+      {
+        "name": "Settings Sync",
+        "desc": "Synchronize settings, snippets, themes across machines",
+        "id": "Shan.code-settings-sync"
+      }
+    ]
+  },
+  {
+    "cat": "Frontend & Styling",
+    "items": [
+      {
+        "name": "Tailwind CSS IntelliSense",
+        "desc": "Autocomplete for Tailwind CSS classes",
+        "id": "bradlc.vscode-tailwindcss"
+      },
+      {
+        "name": "CSS Peek",
+        "desc": "Jump to CSS definitions from HTML",
+        "id": "pranaygp.vscode-css-peek"
+      },
+      {
+        "name": "HTML CSS Support",
+        "desc": "CSS IntelliSense for HTML class names",
+        "id": "ecmel.vscode-html-css"
+      },
+      {
+        "name": "Live Server",
+        "desc": "Launch a local dev server with live reload",
+        "id": "ritwickdey.LiveServer"
+      },
+      {
+        "name": "Color Highlight",
+        "desc": "Visualize CSS color codes inline",
+        "id": "naumovs.color-highlight"
+      },
+      {
+        "name": "SVG Preview",
+        "desc": "Preview SVG files directly in VS Code",
+        "id": "SimonSiefke.svg-preview"
+      },
+      {
+        "name": "Headwind",
+        "desc": "Automatically sort Tailwind CSS classes",
+        "id": "heybourn.headwind"
+      },
+      {
+        "name": "CSS Modules",
+        "desc": "Autocomplete and go-to-definition for CSS modules",
+        "id": "clinyong.vscode-css-modules"
+      },
+      {
+        "name": "Stylelint",
+        "desc": "Lint CSS/SCSS/Less with modern stylelint",
+        "id": "stylelint.vscode-stylelint"
+      },
+      {
+        "name": "Image Preview",
+        "desc": "Show image preview on hover in markup",
+        "id": "kisstkondansen.vscode-gutter-preview"
+      },
+      {
+        "name": "Live Preview",
+        "desc": "Microsoft's in-editor browser preview",
+        "id": "ms-vscode.live-server"
+      }
+    ]
+  },
+  {
+    "cat": "Backend & DevOps",
+    "items": [
+      {
+        "name": "Docker",
+        "desc": "Build, manage, and deploy containerized apps",
+        "id": "ms-azuretools.vscode-docker"
+      },
+      {
+        "name": "Remote - SSH",
+        "desc": "Open folders on remote machines via SSH",
+        "id": "ms-vscode-remote.remote-ssh"
+      },
+      {
+        "name": "REST Client",
+        "desc": "Send HTTP requests directly from VS Code",
+        "id": "humao.rest-client"
+      },
+      {
+        "name": "Thunder Client",
+        "desc": "Lightweight REST API client within VS Code",
+        "id": "rangav.vscode-thunder-client"
+      },
+      {
+        "name": "YAML",
+        "desc": "YAML language support with validation",
+        "id": "redhat.vscode-yaml"
+      },
+      {
+        "name": "DotENV",
+        "desc": "Syntax highlighting for .env files",
+        "id": "mikestead.dotenv"
+      },
+      {
+        "name": "Kubernetes",
+        "desc": "Develop, deploy, and debug K8s apps",
+        "id": "ms-kubernetes-tools.vscode-kubernetes-tools"
+      },
+      {
+        "name": "HashiCorp Terraform",
+        "desc": "Terraform language support and snippets",
+        "id": "HashiCorp.terraform"
+      },
+      {
+        "name": "Azure Tools",
+        "desc": "Comprehensive Azure development extensions",
+        "id": "ms-vscode.vscode-node-azure-pack"
+      },
+      {
+        "name": "Remote Containers",
+        "desc": "Develop inside Docker containers",
+        "id": "ms-vscode-remote.remote-containers"
+      },
+      {
+        "name": "Nginx Configuration",
+        "desc": "Syntax highlighting for Nginx config files",
+        "id": "william-voyek.vscode-nginx"
+      }
+    ]
+  },
+  {
+    "cat": "Testing & Debugging",
+    "items": [
+      {
+        "name": "Jest Runner",
+        "desc": "Run/debug Jest tests inline",
+        "id": "firsttris.vscode-jest-runner"
+      },
+      {
+        "name": "Test Explorer UI",
+        "desc": "Unified UI for running and viewing test results",
+        "id": "hbenl.vscode-test-explorer"
+      },
+      {
+        "name": "Code Runner",
+        "desc": "Run code snippets in many languages",
+        "id": "formulahendry.code-runner"
+      },
+      {
+        "name": "Turbo Console Log",
+        "desc": "Insert console.log with one shortcut",
+        "id": "ChakrounAnas.turbo-console-log"
+      },
+      {
+        "name": "Quokka.js",
+        "desc": "Live JavaScript/TypeScript scratchpad in editor",
+        "id": "WallabyJs.quokka-vscode"
+      },
+      {
+        "name": "Vitest",
+        "desc": "Run and debug Vitest tests from VS Code",
+        "id": "ZixuanChen.vitest-explorer"
+      },
+      {
+        "name": "Playwright Test",
+        "desc": "Run Playwright e2e tests within VS Code",
+        "id": "ms-playwright.playwright"
+      },
+      {
+        "name": "Coverage Gutters",
+        "desc": "Display test coverage status inline using colors in gutters",
+        "id": "ryanluker.vscode-coverage-gutters"
+      }
+    ]
+  },
+  {
+    "cat": "AI Assistants",
+    "items": [
+      {
+        "name": "GitHub Copilot",
+        "desc": "Your AI pair programmer powered by OpenAI",
+        "id": "GitHub.copilot"
+      },
+      {
+        "name": "GitHub Copilot Chat",
+        "desc": "Conversational AI coding assistant",
+        "id": "GitHub.copilot-chat"
+      },
+      {
+        "name": "Codeium",
+        "desc": "Free AI-powered code completion",
+        "id": "Codeium.codeium"
+      },
+      {
+        "name": "Tabnine",
+        "desc": "AI code completions for all languages",
+        "id": "TabNine.tabnine-vscode"
+      },
+      {
+        "name": "IntelliCode",
+        "desc": "AI-assisted development by Microsoft",
+        "id": "VisualStudioExptTeam.vscodeintellicode"
+      },
+      {
+        "name": "AWS Toolkit",
+        "desc": "AI coding companion from Amazon (CodeWhisperer)",
+        "id": "AmazonWebServices.aws-toolkit-vscode"
+      },
+      {
+        "name": "Continue",
+        "desc": "Open-source AI code assistant and chat",
+        "id": "Continue.continue"
+      },
+      {
+        "name": "Cline",
+        "desc": "Autonomous AI coding agent right in your editor",
+        "id": "saoudrizwan.claude-dev"
+      },
+      {
+        "name": "BlackBox AI",
+        "desc": "AI-powered code autocomplete, search, and chat",
+        "id": "Blackboxapp.blackbox"
+      },
+      {
+        "name": "Supermaven",
+        "desc": "Super-fast AI code completion agent for inline assistance",
+        "id": "supermaven.supermaven"
+      },
+      {
+        "name": "Gemini Code Assist",
+        "desc": "AI pair programmer and assistant powered by Google Gemini",
+        "id": "google.gemini-code-assist"
+      },
+      {
+        "name": "Phind",
+        "desc": "Phind AI copilot inside the VS Code editor panel",
+        "id": "phind.phind-vscode"
+      }
+    ]
+  },
+  {
+    "cat": "Snippets & Shortcuts",
+    "items": [
+      {
+        "name": "ES7+ React Snippets",
+        "desc": "React/Redux/React-Native snippets for ES7+",
+        "id": "dsznajder.es7-react-js-snippets"
+      },
+      {
+        "name": "JavaScript (ES6) Snippets",
+        "desc": "Code snippets for JS in ES6 syntax",
+        "id": "xabikos.JavaScriptSnippets"
+      },
+      {
+        "name": "Vue 3 Snippets",
+        "desc": "Snippets for Vue 3 Composition API",
+        "id": "hollowtree.vue-snippets"
+      },
+      {
+        "name": "Angular Snippets",
+        "desc": "TypeScript and HTML snippets for Angular",
+        "id": "johnpapa.Angular2"
+      },
+      {
+        "name": "Python Snippets",
+        "desc": "Python code snippets for common patterns",
+        "id": "frhtylcn.pythonsnippets"
+      },
+      {
+        "name": "Next.js Snippets",
+        "desc": "Snippets for Next.js pages, API routes, hooks",
+        "id": "PulkitGangwar.nextjs-snippets"
+      },
+      {
+        "name": "Emmet Live",
+        "desc": "Expand abbreviations into HTML/CSS live",
+        "id": "ysemeniuk.emmet-live"
+      },
+      {
+        "name": "Surround",
+        "desc": "Wrap selected code with snippets like try/catch, if/else",
+        "id": "yatki.vscode-surround"
+      }
+    ]
+  },
+  {
+    "cat": "Database & SQL",
+    "items": [
+      {
+        "name": "SQLTools",
+        "desc": "Database management and query runner",
+        "id": "mtxr.sqltools"
+      },
+      {
+        "name": "MongoDB for VS Code",
+        "desc": "Browse, query, and manage MongoDB databases",
+        "id": "mongodb.mongodb-vscode"
+      },
+      {
+        "name": "PostgreSQL",
+        "desc": "Explorer and query runner for PostgreSQL",
+        "id": "ckolkman.vscode-postgres"
+      },
+      {
+        "name": "Redis",
+        "desc": "Redis database manager within VS Code",
+        "id": "cweijan.vscode-redis-client"
+      },
+      {
+        "name": "Prisma",
+        "desc": "Syntax highlighting and formatting for Prisma schemas",
+        "id": "Prisma.prisma"
+      },
+      {
+        "name": "GraphQL",
+        "desc": "Syntax highlighting and IntelliSense for GraphQL",
+        "id": "GraphQL.vscode-graphql"
+      }
+    ]
+  },
+  {
+    "cat": "Markdown & Docs",
+    "items": [
+      {
+        "name": "Markdown All in One",
+        "desc": "Shortcuts, TOC, preview, and more for Markdown",
+        "id": "yzhang.markdown-all-in-one"
+      },
+      {
+        "name": "Markdown Preview Enhanced",
+        "desc": "Rich Markdown preview with diagrams and math",
+        "id": "shd101wyy.markdown-preview-enhanced"
+      },
+      {
+        "name": "markdownlint",
+        "desc": "Linting and style checking for Markdown files",
+        "id": "DavidAnson.vscode-markdownlint"
+      },
+      {
+        "name": "Draw.io Integration",
+        "desc": "Create and edit diagrams inside VS Code",
+        "id": "hediet.vscode-drawio"
+      },
+      {
+        "name": "Mermaid Preview",
+        "desc": "Preview Mermaid diagrams in Markdown",
+        "id": "bierner.markdown-mermaid"
+      },
+      {
+        "name": "Docs View",
+        "desc": "View documentation on hover in a side panel",
+        "id": "bierner.docs-view"
+      }
+    ]
+  },
+  {
+    "cat": "Mobile & Flutter",
+    "items": [
+      {
+        "name": "Flutter",
+        "desc": "Full Flutter development support — debug, hot reload",
+        "id": "Dart-Code.flutter"
+      },
+      {
+        "name": "React Native Tools",
+        "desc": "Debug and develop React Native applications",
+        "id": "msjsdiag.vscode-react-native"
+      },
+      {
+        "name": "Expo Tools",
+        "desc": "Autocomplete and IntelliSense for Expo config",
+        "id": "expo.vscode-expo-tools"
+      },
+      {
+        "name": "Gradle for Java",
+        "desc": "Gradle build tool support for Android/Java",
+        "id": "vscjava.vscode-gradle"
+      },
+      {
+        "name": "XML Tools",
+        "desc": "XML formatting and XPath for Android layouts",
+        "id": "DotJoshJohnson.xml"
+      }
+    ]
+  },
+  {
+    "cat": "Remote & Collaboration",
+    "items": [
+      {
+        "name": "Live Share",
+        "desc": "Real-time collaborative editing and debugging",
+        "id": "MS-vsliveshare.vsliveshare"
+      },
+      {
+        "name": "Remote - WSL",
+        "desc": "Open folders in Windows Subsystem for Linux",
+        "id": "ms-vscode-remote.remote-wsl"
+      },
+      {
+        "name": "Remote - Tunnels",
+        "desc": "Connect to remote machines via VS Code tunnels",
+        "id": "ms-vscode.remote-server"
+      },
+      {
+        "name": "SSH FS",
+        "desc": "Mount remote file systems over SSH",
+        "id": "Kelvin.vscode-sshfs"
+      },
+      {
+        "name": "Dev Containers",
+        "desc": "Develop inside containerized environments",
+        "id": "ms-vscode-remote.remote-containers"
+      },
+      {
+        "name": "CodeTour",
+        "desc": "Record and playback guided walkthroughs of codebases",
+        "id": "vsls-contrib.codetour"
+      }
+    ]
+  },
+  {
+    "cat": "Fun & Vibes",
+    "items": [
+      {
+        "name": "VS Code Pets",
+        "desc": "Adorable pets that live in your editor panel",
+        "id": "tonybaloney.vscode-pets"
+      },
+      {
+        "name": "Power Mode",
+        "desc": "Epic combo effects and screen shake while typing",
+        "id": "hoovercj.vscode-power-mode"
+      },
+      {
+        "name": "Vscode Spotify",
+        "desc": "Control Spotify playback from your editor",
+        "id": "shyykoserhiy.vscode-spotify"
+      },
+      {
+        "name": "Discord Presence",
+        "desc": "Show what you're coding on Discord Rich Presence",
+        "id": "icrawl.discord-vscode"
+      },
+      {
+        "name": "Rain",
+        "desc": "Relaxing rain animation in your VS Code background",
+        "id": "naumovs.vscode-rain"
+      },
+      {
+        "name": "Emoji",
+        "desc": "Insert emojis from command palette",
+        "id": "Perkovec.emoji"
+      },
+      {
+        "name": "VS Code Counter",
+        "desc": "Count lines of code in your project",
+        "id": "uctakeoff.vscode-counter"
+      }
+    ]
+  },
+  {
+    "cat": "Machine Learning & Data Science",
+    "items": [
+      {
+        "name": "Jupyter",
+        "desc": "Full Jupyter Notebook support inside VS Code editor workspace",
+        "id": "ms-toolsai.jupyter"
+      },
+      {
+        "name": "Jupyter Keymap",
+        "desc": "Common Jupyter Notebook keybindings and shortcut configurations",
+        "id": "ms-toolsai.jupyter-keymap"
+      },
+      {
+        "name": "Jupyter Notebook Renderers",
+        "desc": "Renderers for data frames, plots, images, and other HTML outputs in notebooks",
+        "id": "ms-toolsai.jupyter-renderers"
+      },
+      {
+        "name": "Data Wrangler",
+        "desc": "Code-centric data cleaning and profiling tool integrated with notebooks",
+        "id": "ms-toolsai.datawrangler"
+      },
+      {
+        "name": "TensorBoard",
+        "desc": "Visualize machine learning models, training graphs, metrics, and profiles",
+        "id": "ms-toolsai.tensorboard"
+      },
+      {
+        "name": "DVC (Data Version Control)",
+        "desc": "Track machine learning pipelines, dataset versions, and model registry artifacts",
+        "id": "Iterative.dvc"
+      },
+      {
+        "name": "Kubeflow Pipelines",
+        "desc": "Manage, deploy, and inspect KubeFlow pipelines inside VS Code",
+        "id": "canonical.kubeflow"
+      },
+      {
+        "name": "Python Indent",
+        "desc": "Ensure proper indentation for Python code scripts when writing DS/ML logic",
+        "id": "KevinRose.vsc-python-indent"
+      }
+    ]
+  },
+  {
+    "cat": "Security & Validation",
+    "items": [
+      {
+        "name": "Snyk Security",
+        "desc": "Find and fix security vulnerabilities and code quality bugs",
+        "id": "snyk-security.snyk-vulnerability-scanner"
+      },
+      {
+        "name": "SonarLint",
+        "desc": "Real-time code quality and bug checking inside VS Code",
+        "id": "SonarSource.sonarlint-vscode"
+      },
+      {
+        "name": "Trivy Vulnerability Scanner",
+        "desc": "Scan config files and open dependencies for security hazards",
+        "id": "aquasecurity.trivy-vulnerability-scanner"
+      },
+      {
+        "name": "Dotenv Vault",
+        "desc": "Manage, encrypt, and sync environment variables from the editor",
+        "id": "dotenv-org.dotenv-vault-vscode"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2738 @@
+[
+  {
+    "name": "Hacker News API",
+    "desc": "Official Firebase-based API for Hacker News. Access top stories, new posts, comments, and user profiles in real time.",
+    "url": "https://github.com/HackerNews/API",
+    "category": "Development",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "StackExchange API",
+    "desc": "Query StackOverflow and all StackExchange sites. Search questions, answers, tags, users, and reputation data.",
+    "url": "https://api.stackexchange.com",
+    "category": "Development",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "httpbin",
+    "desc": "A simple HTTP request and response testing service. Test headers, status codes, redirects, auth, and request inspection.",
+    "url": "https://httpbin.org",
+    "category": "Testing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "npm Registry API",
+    "desc": "Query the npm package registry directly. Get package metadata, versions, downloads, dependencies, and maintainer info.",
+    "url": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md",
+    "category": "Development",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Shields.io",
+    "desc": "Generate custom status badges for your GitHub repos, npm packages, CI builds, and any other metadata as SVG images.",
+    "url": "https://shields.io",
+    "category": "Development",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "YouTube Data API",
+    "desc": "Search videos, retrieve channel stats, manage playlists, and access YouTube content metadata programmatically.",
+    "url": "https://developers.google.com/youtube/v3",
+    "category": "Entertainment",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Telegram Bot API",
+    "desc": "Build bots for Telegram. Send messages, manage groups, handle inline queries, and process payments.",
+    "url": "https://core.telegram.org/bots/api",
+    "category": "Communication",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Slack Web API",
+    "desc": "Build integrations for Slack workspaces. Send messages, manage channels, upload files, and respond to events.",
+    "url": "https://api.slack.com",
+    "category": "Communication",
+    "auth": "OAuth",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Cloudinary",
+    "desc": "Image and video management API. Upload, transform, optimize, and deliver media assets with on-the-fly URL transforms.",
+    "url": "https://cloudinary.com/documentation",
+    "category": "Photos",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Resend",
+    "desc": "Modern email API for developers. Send transactional emails with React-based templates and high deliverability.",
+    "url": "https://resend.com/docs",
+    "category": "Communication",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Upstash Redis REST API",
+    "desc": "Serverless Redis database with a simple HTTP/REST interface. Ideal for edge functions and serverless deployments.",
+    "url": "https://docs.upstash.com/redis/features/restapi",
+    "category": "Development",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Clearbit Logo API",
+    "desc": "Retrieve any company's logo by domain name. Returns high-quality PNG logos for use in dashboards and apps.",
+    "url": "https://clearbit.com/logo",
+    "category": "Business",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "OpenGraph.io",
+    "desc": "Extract Open Graph metadata, title, description, and preview images from any URL for link preview cards.",
+    "url": "https://www.opengraph.io",
+    "category": "Development",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Country State City API",
+    "desc": "A comprehensive database of countries, states, and cities. Useful for address forms and location dropdowns.",
+    "url": "https://countrystatecity.in",
+    "category": "Data",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "cdnjs API",
+    "desc": "Search and discover open-source JavaScript libraries hosted on cdnjs. Get versions, file lists, and CDN URLs.",
+    "url": "https://cdnjs.com/api",
+    "category": "Development",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Crontab Guru API",
+    "desc": "Parse and validate cron expressions. Returns human-readable descriptions of cron schedules for debugging.",
+    "url": "https://crontab.guru",
+    "category": "Development",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "LibreTranslate",
+    "desc": "Free, open-source machine translation API. Translate text between dozens of languages without vendor lock-in.",
+    "url": "https://libretranslate.com",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Open Meteo",
+    "desc": "Free weather forecast API with no API key required. Hourly and daily forecasts, historical data, and geocoding.",
+    "url": "https://open-meteo.com",
+    "category": "Weather",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Fake Store API",
+    "desc": "A free REST API providing fake e-commerce product data. Perfect for building shopping cart UIs and prototypes.",
+    "url": "https://fakestoreapi.com",
+    "category": "Testing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "EmailJS",
+    "desc": "Send emails directly from client-side JavaScript without any server code. Supports templates and attachments.",
+    "url": "https://www.emailjs.com/docs/",
+    "category": "Communication",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "The One API",
+    "desc": "The Lord of the Rings database. Get data about books, movies, characters, quotes, and chapters.",
+    "url": "https://the-one-api.dev",
+    "category": "Entertainment",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Dog CEO API",
+    "desc": "The internet's biggest collection of open-source dog pictures. Fetch random images by breed or sub-breed.",
+    "url": "https://dog.ceo/dog-api/",
+    "category": "Animals",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "HTTP Cat",
+    "desc": "Get HTTP status codes represented as images of cats. Ideal for developer error page customization.",
+    "url": "https://http.cat",
+    "category": "Development",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Nationalize.io",
+    "desc": "Predict the nationality of a person based on their first name using statistical data analysis.",
+    "url": "https://nationalize.io",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Genderize.io",
+    "desc": "Predict the gender of a person based on their first name using global name statistics.",
+    "url": "https://genderize.io",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Studio Ghibli API",
+    "desc": "Access resources from the Studio Ghibli films: characters, species, locations, and vehicles.",
+    "url": "https://ghibliapi.vercel.app",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Bacon Ipsum",
+    "desc": "A meatier Lorem Ipsum text generator API for developer layouts and design prototypes.",
+    "url": "https://baconipsum.com/json-api/",
+    "category": "Testing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "CoinDesk Bitcoin Price Index",
+    "desc": "Real-time and historical Bitcoin price index data in USD, EUR, and GBP.",
+    "url": "https://www.coindesk.com/coindesk-api",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Animechan",
+    "desc": "Get random or filtered anime quotes from characters, series, or specific quotes.",
+    "url": "https://animechan.xyz",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Nager.Date",
+    "desc": "Worldwide public holidays query API. Get holiday calendars for more than 100 countries.",
+    "url": "https://date.nager.at",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "World Universities API",
+    "desc": "Search and retrieve a comprehensive JSON list of universities around the world by country name.",
+    "url": "http://universities.hipolabs.com",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "QuickChart",
+    "desc": "Generate static charts and graphs (bar, line, pie, radar) as PNG or SVG image URLs on the fly.",
+    "url": "https://quickchart.io",
+    "category": "Development",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Useless Facts",
+    "desc": "Get random, verified, completely useless facts in English or German.",
+    "url": "https://uselessfacts.jsph.pl",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Evil Insult Generator",
+    "desc": "Generate clever, funny, and sometimes mean insults in multiple languages.",
+    "url": "https://evilinsult.com/api/",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Zippopotam.us",
+    "desc": "Postal code location info API. Get country, state, city, and coordinates from a zip code.",
+    "url": "https://www.zippopotam.us",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Advice Slip",
+    "desc": "Get random or searched pieces of advice as simple JSON slips.",
+    "url": "https://adviceslip.com",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "SuperHero API",
+    "desc": "A database of all superheroes and villains from all comic universes with power stats, appearance, and biography.",
+    "url": "https://superheroapi.com",
+    "category": "Entertainment",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Lyrics.ovh",
+    "desc": "A simple API to retrieve lyrics of millions of songs by artist name and song title.",
+    "url": "https://lyrics.ovh",
+    "category": "Music",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "GeoJS",
+    "desc": "A free, fast, and CORS-friendly IP geolocation API returning country, city, and ISP info in JSON format.",
+    "url": "https://www.geojs.io",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "TacoFancy API",
+    "desc": "A community-driven taco recipe API. Fetch random, detailed taco recipes including fillings, shells, and salsas.",
+    "url": "https://taco-randomizer.herokuapp.com/",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Imgflip API",
+    "desc": "Retrieve a list of popular blank meme templates and generate customized memes programmatically.",
+    "url": "https://imgflip.com/api",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Marvel API",
+    "desc": "Access the vast Marvel Comics database, containing characters, comic series, stories, and creators.",
+    "url": "https://developer.marvel.com",
+    "category": "Entertainment",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Cataas",
+    "desc": "Cat as a service. Fetch random cat pictures, GIFs, or customize them with custom text overlays.",
+    "url": "https://cataas.com",
+    "category": "Animals",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Lorem Picsum",
+    "desc": "The Lorem Ipsum for photos. Quick and easy placeholder images of any size.",
+    "url": "https://picsum.photos",
+    "category": "Photos",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Coinbase API",
+    "desc": "Read-only access to cryptocurrency market data, prices, and conversion rates across multiple trading pairs.",
+    "url": "https://developers.coinbase.com",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "ZenQuotes",
+    "desc": "Inspirational quote API. Fetch random quotes, quotes of the day, or search quote indices.",
+    "url": "https://zenquotes.io",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Jikan API",
+    "desc": "The most active open-source Jikan API for MyAnimeList. Access anime, manga, character profiles, and search indices.",
+    "url": "https://jikan.moe",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "The Rick and Morty API",
+    "desc": "REST and GraphQL API to access characters, locations, and episodes from the Rick and Morty television show.",
+    "url": "https://rickandmortyapi.com",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Star Wars API",
+    "desc": "The Star Wars API (SWAPI) provides all the Star Wars data: planets, spaceships, films, and species.",
+    "url": "https://swapi.dev",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Deck of Cards API",
+    "desc": "Simulate card games by shuffling, dealing, and managing multiple decks of playing cards via simple JSON endpoints.",
+    "url": "https://deckofcardsapi.com",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Harry Potter API",
+    "desc": "A comprehensive database of spells, characters, houses, and wand details from the Wizarding World.",
+    "url": "https://hp-api.onrender.com",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Robohash",
+    "desc": "Generate unique, high-quality robot, monster, or kitten avatar images based on any user text input dynamically.",
+    "url": "https://robohash.org",
+    "category": "Photos",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "DiceBear",
+    "desc": "An avatar library for designers and developers. Generate customizable profile avatars dynamically via URL parameters.",
+    "url": "https://www.dicebear.com",
+    "category": "Development",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "ipify",
+    "desc": "A simple public IP address API that works fast and returns your client IPv4 or IPv6 address in plain text or JSON.",
+    "url": "https://www.ipify.org",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Chuck Norris Facts",
+    "desc": "A free JSON API for curated Chuck Norris jokes, facts, and category lists.",
+    "url": "https://api.chucknorris.io",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Open Food Facts",
+    "desc": "A collaborative, free and open database of food products from around the world, with ingredients, allergens, and nutrition facts.",
+    "url": "https://world.openfoodfacts.org/data",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "JSONPlaceholder",
+    "desc": "Free fake REST API for testing and prototyping. Provides posts, comments, users, and more.",
+    "url": "https://jsonplaceholder.typicode.com",
+    "category": "Testing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "OpenWeatherMap",
+    "desc": "Current weather data, forecasts, and historical data for any location worldwide.",
+    "url": "https://openweathermap.org/api",
+    "category": "Weather",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "REST Countries",
+    "desc": "Get information about countries including population, languages, currencies, and flags.",
+    "url": "https://restcountries.com",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "PokeAPI",
+    "desc": "All the Pokémon data you will ever need in one place. RESTful API for Pokémon data.",
+    "url": "https://pokeapi.co",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "The Dog API",
+    "desc": "A free API to get random dog images, breeds info, and sub-breed information.",
+    "url": "https://thedogapi.com",
+    "category": "Animals",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "The Cat API",
+    "desc": "Random cat images, breeds info, and categories. Perfect for cat lovers.",
+    "url": "https://thecatapi.com",
+    "category": "Animals",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "NewsAPI",
+    "desc": "Search worldwide news articles and headlines from over 80,000 sources.",
+    "url": "https://newsapi.org",
+    "category": "News",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Random User",
+    "desc": "Generate random user data including names, emails, photos and more for testing.",
+    "url": "https://randomuser.me",
+    "category": "Testing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Unsplash",
+    "desc": "Beautiful, free images and photos from the world largest open collection.",
+    "url": "https://unsplash.com/developers",
+    "category": "Photos",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Quotable",
+    "desc": "Free API for famous quotes. Get random quotes, search by author or tags.",
+    "url": "https://github.com/lukePeavey/quotable",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "CoinGecko",
+    "desc": "Comprehensive cryptocurrency data including prices, market cap, and exchange info.",
+    "url": "https://www.coingecko.com/api",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "NASA APIs",
+    "desc": "Access to NASA data including astronomy picture of the day, Mars rover photos, and more.",
+    "url": "https://api.nasa.gov",
+    "category": "Science",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "GitHub API",
+    "desc": "Access GitHub data including repos, users, organizations, issues, and pull requests.",
+    "url": "https://docs.github.com/en/rest",
+    "category": "Development",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Open Library",
+    "desc": "Access millions of book records with covers, descriptions, and metadata.",
+    "url": "https://openlibrary.org/developers/api",
+    "category": "Books",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "TMDB",
+    "desc": "The Movie Database API for movies, TV shows, actors, and images.",
+    "url": "https://developers.themoviedb.org",
+    "category": "Entertainment",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Spotify Web API",
+    "desc": "Access Spotify music catalog, playlists, user data, and playback controls.",
+    "url": "https://developer.spotify.com/documentation/web-api",
+    "category": "Music",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "ExchangeRate-API",
+    "desc": "Free currency exchange rate API with support for 160+ currencies.",
+    "url": "https://www.exchangerate-api.com",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "IP API",
+    "desc": "IP geolocation API. Get country, city, timezone, and ISP info from an IP address.",
+    "url": "https://ipapi.co",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "JokeAPI",
+    "desc": "Get programming, dark, pun, or miscellaneous jokes in various formats.",
+    "url": "https://jokeapi.dev",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Agify.io",
+    "desc": "Predict the age of a person based on their name using statistical analysis.",
+    "url": "https://agify.io",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "DummyJSON",
+    "desc": "Fake REST API with 150+ products, carts, users, posts, and more for frontend testing.",
+    "url": "https://dummyjson.com",
+    "category": "Testing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Public APIs",
+    "desc": "A collective list of free APIs for use in software and web development.",
+    "url": "https://api.publicapis.org",
+    "category": "Development",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Cloudflare Workers AI",
+    "desc": "Run serverless AI inference on various models including text, image, and translation.",
+    "url": "https://developers.cloudflare.com/workers-ai",
+    "category": "AI/ML",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Hugging Face",
+    "desc": "Access thousands of ML models for NLP, vision, audio and more via inference API.",
+    "url": "https://huggingface.co/docs/api-inference",
+    "category": "AI/ML",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Mapbox",
+    "desc": "Maps, geocoding, navigation, and location search APIs for web and mobile.",
+    "url": "https://docs.mapbox.com/api",
+    "category": "Maps",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Firebase",
+    "desc": "Google backend-as-a-service with auth, database, storage, hosting and functions.",
+    "url": "https://firebase.google.com/docs/reference/rest",
+    "category": "Development",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Twilio",
+    "desc": "Cloud communications platform for SMS, voice, video, and email APIs.",
+    "url": "https://www.twilio.com/docs/usage/api",
+    "category": "Communication",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "SendGrid",
+    "desc": "Cloud-based email delivery service for transactional and marketing emails.",
+    "url": "https://docs.sendgrid.com/api-reference",
+    "category": "Communication",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Stripe",
+    "desc": "Payment processing API for online businesses. Cards, subscriptions, and invoices.",
+    "url": "https://stripe.com/docs/api",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Giphy",
+    "desc": "Search and share GIFs. Access millions of animated GIFs, stickers, and clips.",
+    "url": "https://developers.giphy.com",
+    "category": "Entertainment",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Pexels",
+    "desc": "Free stock photos and videos. Search, curated collections, and popular content.",
+    "url": "https://www.pexels.com/api",
+    "category": "Photos",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Abstract API",
+    "desc": "Suite of APIs for email validation, IP geolocation, VAT, and holiday data.",
+    "url": "https://www.abstractapi.com",
+    "category": "Data",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Notion API",
+    "desc": "Integrate with Notion workspaces to read and write pages, databases, and blocks.",
+    "url": "https://developers.notion.com",
+    "category": "Productivity",
+    "auth": "OAuth",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Discord API",
+    "desc": "Build bots and integrations for Discord servers with messaging and voice APIs.",
+    "url": "https://discord.com/developers/docs",
+    "category": "Communication",
+    "auth": "OAuth",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Vercel API",
+    "desc": "Manage deployments, domains, secrets, and projects on the Vercel platform.",
+    "url": "https://vercel.com/docs/rest-api",
+    "category": "Development",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "OpenAI API",
+    "desc": "Access GPT models for text generation, embeddings, image generation, and more.",
+    "url": "https://platform.openai.com/docs/api-reference",
+    "category": "AI/ML",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Gemini API",
+    "desc": "Google multimodal AI model API for text, image, and code generation tasks.",
+    "url": "https://ai.google.dev/docs",
+    "category": "AI/ML",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Anthropic API",
+    "desc": "Access Claude models for safe, helpful AI assistance and text generation.",
+    "url": "https://docs.anthropic.com/en/docs",
+    "category": "AI/ML",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "RapidAPI",
+    "desc": "API marketplace with thousands of APIs across categories. Single key for all.",
+    "url": "https://rapidapi.com",
+    "category": "Development",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Alpha Vantage",
+    "desc": "Free APIs for realtime and historical stock market data, forex, and crypto.",
+    "url": "https://www.alphavantage.co",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "World Bank API",
+    "desc": "Access World Bank data on development indicators, countries, and topics.",
+    "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Pixabay",
+    "desc": "Free images and video clips. Over 2.6 million royalty free stock media.",
+    "url": "https://pixabay.com/api/docs",
+    "category": "Photos",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Wikipedia API",
+    "desc": "Access Wikipedia content, search articles, and get page summaries programmatically.",
+    "url": "https://www.mediawiki.org/wiki/API:Main_page",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Google Fonts API",
+    "desc": "Access the entire Google Fonts library metadata and serve web fonts dynamically.",
+    "url": "https://developers.google.com/fonts",
+    "category": "Development",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Recharts Data",
+    "desc": "Generate mock chart data for testing visualization libraries and dashboards.",
+    "url": "https://dummyjson.com",
+    "category": "Testing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Bored API",
+    "desc": "Activity suggestions generator (Community-maintained fork/alternative).",
+    "url": "https://www.boredapi.com",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Cat Facts API",
+    "desc": "Daily cat facts for your applications and scripts.",
+    "url": "https://catfact.ninja",
+    "category": "Animals",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Dog Facts API",
+    "desc": "Get random facts about dogs.",
+    "url": "https://dog-api.kinduff.com",
+    "category": "Animals",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Open Trivia DB",
+    "desc": "Free to use, user-contributed trivia question database.",
+    "url": "https://opentdb.com",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "ReqRes",
+    "desc": "A hosted REST-API ready to respond to your AJAX requests.",
+    "url": "https://reqres.in",
+    "category": "Testing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "JSONBin",
+    "desc": "Free JSON storage service ideal for small web apps.",
+    "url": "https://jsonbin.io",
+    "category": "Development",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Numbers API",
+    "desc": "An API for interesting facts about numbers.",
+    "url": "http://numbersapi.com",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "CryptoCompare",
+    "desc": "Streaming pricing data, historic data, and news for cryptocurrencies.",
+    "url": "https://min-api.cryptocompare.com",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Dad Jokes API",
+    "desc": "Free API to get dad jokes in various formats (JSON, text, HTML).",
+    "url": "https://icanhazdadjoke.com/api",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Frankfurter",
+    "desc": "Open-source API for current and historical foreign exchange rates published by the European Central Bank.",
+    "url": "https://www.frankfurter.app",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "IPstack",
+    "desc": "Locate and Identify Website Visitors by IP Address",
+    "url": "https://ipstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+    "category": "Miscellaneous",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "Marketstack",
+    "desc": "Free, easy-to-use REST API interface delivering worldwide stock market data in JSON format",
+    "url": "https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+    "category": "Miscellaneous",
+    "auth": "None",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "Weatherstack",
+    "desc": "Retrieve instant, accurate weather information for any location in the world in lightweight JSON format",
+    "url": "https://weatherstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+    "category": "Miscellaneous",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "Numverify",
+    "desc": "Global Phone Number Validation & Lookup JSON API",
+    "url": "https://numverify.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers ",
+    "category": "Miscellaneous",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "Fixer",
+    "desc": "Fixer is a simple and lightweight API for current and historical foreign exchange (forex) rates.",
+    "url": "https://fixer.io/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+    "category": "Miscellaneous",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "Aviationstack",
+    "desc": "Free, real-time flight status and global Aviation data API",
+    "url": "https://aviationstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+    "category": "Miscellaneous",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "Zenserp",
+    "desc": "Fast, Accurate Google Search Data Built for Developers",
+    "url": "https://zenserp.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+    "category": "Miscellaneous",
+    "auth": "None",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "Screenshotlayer",
+    "desc": "Capture highly customizable screenshots of any website",
+    "url": "https://screenshotlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+    "category": "Miscellaneous",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "Exchangerate Host",
+    "desc": "Real-time current and historical foreign exchange and crypto rates",
+    "url": "https://exchangerate.host/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+    "category": "Miscellaneous",
+    "auth": "None",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "Mailboxlayer",
+    "desc": "Email Validation & Verification JSON API for Developers",
+    "url": "https://mailboxlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+    "category": "Miscellaneous",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "Bitquery",
+    "desc": "Onchain GraphQL APIs & DEX APIs",
+    "url": "https://graphql.bitquery.io/ide",
+    "category": "Blockchain",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Chainlink",
+    "desc": "Build hybrid smart contracts with Chainlink",
+    "url": "https://chain.link/developer-resources",
+    "category": "Blockchain",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Chainpoint",
+    "desc": "Chainpoint is a global network for anchoring data to the Bitcoin blockchain",
+    "url": "https://tierion.com/chainpoint/",
+    "category": "Blockchain",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Covalent",
+    "desc": "Multi-blockchain data aggregator platform",
+    "url": "https://www.covalenthq.com/docs/api/",
+    "category": "Blockchain",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Etherscan",
+    "desc": "Ethereum explorer API",
+    "url": "https://etherscan.io/apis",
+    "category": "Blockchain",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Helium",
+    "desc": "Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage",
+    "url": "https://docs.helium.com/api/blockchain/introduction/",
+    "category": "Blockchain",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Nownodes",
+    "desc": "Blockchain-as-a-service solution that provides high-quality connection via API",
+    "url": "https://nownodes.io/",
+    "category": "Blockchain",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Steem",
+    "desc": "Blockchain-based blogging and social media website",
+    "url": "https://developers.steem.io/",
+    "category": "Blockchain",
+    "auth": "None",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "The Graph",
+    "desc": "Indexing protocol for querying networks like Ethereum with GraphQL",
+    "url": "https://thegraph.com",
+    "category": "Blockchain",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Walltime",
+    "desc": "To retrieve Walltime's market info",
+    "url": "https://walltime.info/api.html",
+    "category": "Blockchain",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Watchdata",
+    "desc": "Provide simple and reliable API access to Ethereum blockchain",
+    "url": "https://docs.watchdata.io",
+    "category": "Blockchain",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Apache Superset",
+    "desc": "API to manage your BI dashboards and data sources on Superset",
+    "url": "https://superset.apache.org/docs/api",
+    "category": "Business",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Charity Search",
+    "desc": "Non-profit charity data",
+    "url": "http://charityapi.orghunter.com/",
+    "category": "Business",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Clearbit Logo",
+    "desc": "Search for company logos and embed them in your projects",
+    "url": "https://clearbit.com/docs#logo-api",
+    "category": "Business",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Domainsdb.info",
+    "desc": "Registered Domain Names Search",
+    "url": "https://domainsdb.info/",
+    "category": "Business",
+    "auth": "None",
+    "cors": false,
+    "pricing": "Free"
+  },
+  {
+    "name": "Freelancer",
+    "desc": "Hire freelancers to get work done",
+    "url": "https://developers.freelancer.com",
+    "category": "Business",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Gmail",
+    "desc": "Flexible, RESTful access to the user's inbox",
+    "url": "https://developers.google.com/gmail/api/",
+    "category": "Business",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Google Analytics",
+    "desc": "Collect, configure and analyze your data to reach the right audience",
+    "url": "https://developers.google.com/analytics/",
+    "category": "Business",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Instatus",
+    "desc": "Post to and update maintenance and incidents on your status page through an HTTP REST API",
+    "url": "https://instatus.com/help/api",
+    "category": "Business",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Mailchimp",
+    "desc": "Send marketing campaigns and transactional mails",
+    "url": "https://mailchimp.com/developer/",
+    "category": "Business",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "mailjet",
+    "desc": "Marketing email can be sent and mail templates made in MJML or HTML can be sent using API",
+    "url": "https://www.mailjet.com/",
+    "category": "Business",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "markerapi",
+    "desc": "Trademark Search",
+    "url": "https://markerapi.com",
+    "category": "Business",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "ORB Intelligence",
+    "desc": "Company lookup",
+    "url": "https://api.orb-intelligence.com/docs/",
+    "category": "Business",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Redash",
+    "desc": "Access your queries and dashboards on Redash",
+    "url": "https://redash.io/help/user-guide/integrations-and-api/api",
+    "category": "Business",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Smartsheet",
+    "desc": "Allows you to programmatically access and Smartsheet data and account information",
+    "url": "https://smartsheet.redoc.ly/",
+    "category": "Business",
+    "auth": "OAuth",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Square",
+    "desc": "Easy way to take payments, manage refunds, and help customers checkout online",
+    "url": "https://developer.squareup.com/reference/square",
+    "category": "Business",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "SwiftKanban",
+    "desc": "Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity",
+    "url": "https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi",
+    "category": "Business",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Tenders in Hungary",
+    "desc": "Get data for procurements in Hungary in JSON format",
+    "url": "https://tenders.guru/hu/api",
+    "category": "Business",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Tenders in Poland",
+    "desc": "Get data for procurements in Poland in JSON format",
+    "url": "https://tenders.guru/pl/api",
+    "category": "Business",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Tenders in Romania",
+    "desc": "Get data for procurements in Romania in JSON format",
+    "url": "https://tenders.guru/ro/api",
+    "category": "Business",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Tenders in Spain",
+    "desc": "Get data for procurements in Spain in JSON format",
+    "url": "https://tenders.guru/es/api",
+    "category": "Business",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Tenders in Ukraine",
+    "desc": "Get data for procurements in Ukraine in JSON format",
+    "url": "https://tenders.guru/ua/api",
+    "category": "Business",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Tomba email finder",
+    "desc": "Email Finder for B2B sales and email marketing and email verifier",
+    "url": "https://tomba.io/api",
+    "category": "Business",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Trello",
+    "desc": "Boards, lists and cards to help you organize and prioritize your projects",
+    "url": "https://developers.trello.com/",
+    "category": "Business",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Box",
+    "desc": "File Sharing and Storage",
+    "url": "https://developer.box.com/",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "ddownload",
+    "desc": "File Sharing and Storage",
+    "url": "https://ddownload.com/api",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Dropbox",
+    "desc": "File Sharing and Storage",
+    "url": "https://www.dropbox.com/developers",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "File.io",
+    "desc": "Super simple file sharing, convenient, anonymous and secure",
+    "url": "https://www.file.io",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Filestack",
+    "desc": "Filestack File Uploader & File Upload API",
+    "url": "https://www.filestack.com",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "GoFile",
+    "desc": "Unlimited size file uploads for free",
+    "url": "https://gofile.io/api",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Google Drive",
+    "desc": "File Sharing and Storage",
+    "url": "https://developers.google.com/drive/",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Gyazo",
+    "desc": "Save & Share screen captures instantly",
+    "url": "https://gyazo.com/api/docs",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Imgbb",
+    "desc": "Simple and quick private image sharing",
+    "url": "https://api.imgbb.com/",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "OneDrive",
+    "desc": "File Sharing and Storage",
+    "url": "https://developer.microsoft.com/onedrive",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Pantry",
+    "desc": "Free JSON storage for small projects",
+    "url": "https://getpantry.cloud/",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Pastebin",
+    "desc": "Plain Text Storage",
+    "url": "https://pastebin.com/doc_api",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Pinata",
+    "desc": "IPFS Pinning Services API",
+    "url": "https://docs.pinata.cloud/",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Quip",
+    "desc": "File Sharing and Storage for groups",
+    "url": "https://quip.com/dev/automation/documentation",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Storj",
+    "desc": "Decentralized Open-Source Cloud Storage",
+    "url": "https://docs.storj.io/dcs/",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "The Null Pointer",
+    "desc": "No-bullshit file hosting and URL shortening service",
+    "url": "https://0x0.st",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Web3 Storage",
+    "desc": "File Sharing and Storage for Free with 1TB Space",
+    "url": "https://web3.storage/",
+    "category": "Cloud Storage & File Sharing",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "VATlayer",
+    "desc": "VAT number validation",
+    "url": "https://vatlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+    "category": "Data Validation",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Lob.com",
+    "desc": "US Address Verification",
+    "url": "https://lob.com/",
+    "category": "Data Validation",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Postman Echo",
+    "desc": "Test api server to receive and return value from HTTP method",
+    "url": "https://www.postman-echo.com",
+    "category": "Data Validation",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "PurgoMalum",
+    "desc": "Content validator against profanity & obscenity",
+    "url": "http://www.purgomalum.com",
+    "category": "Data Validation",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "US Autocomplete",
+    "desc": "Enter address data quickly with real-time address suggestions",
+    "url": "https://www.smarty.com/docs/cloud/us-autocomplete-pro-api",
+    "category": "Data Validation",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "US Extract",
+    "desc": "Extract postal addresses from any text including emails",
+    "url": "https://www.smarty.com/products/apis/us-extract-api",
+    "category": "Data Validation",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "US Street Address",
+    "desc": "Validate and append data for any US postal address",
+    "url": "https://www.smarty.com/docs/cloud/us-street-api",
+    "category": "Data Validation",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Aletheia",
+    "desc": "Insider trading data, earnings call analysis, financial statements, and more",
+    "url": "https://aletheiaapi.com/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Alpaca",
+    "desc": "Realtime and historical market data on all US equities and ETFs",
+    "url": "https://alpaca.markets/docs/api-documentation/api-v2/market-data/alpaca-data-api-v2/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Banco do Brasil",
+    "desc": "All Banco do Brasil financial transaction APIs",
+    "url": "https://developers.bb.com.br/home",
+    "category": "Finance",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Bank Data API",
+    "desc": "Instant IBAN and SWIFT number validation across the globe",
+    "url": "https://apilayer.com/marketplace/bank_data-api",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Billplz",
+    "desc": "Payment platform",
+    "url": "https://www.billplz.com/api",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Binlist",
+    "desc": "Public access to a database of IIN/BIN information",
+    "url": "https://binlist.net/",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Boleto.Cloud",
+    "desc": "A api to generate boletos in Brazil",
+    "url": "https://boleto.cloud/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Citi",
+    "desc": "All Citigroup account and statement data APIs",
+    "url": "https://sandbox.developerhub.citi.com/api-catalog-list",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Econdb",
+    "desc": "Global macroeconomic data",
+    "url": "https://www.econdb.com/api/",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Fed Treasury",
+    "desc": "U.S. Department of the Treasury Data",
+    "url": "https://fiscaldata.treasury.gov/api-documentation/",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Finage",
+    "desc": "Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider",
+    "url": "https://finage.co.uk",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Financial Modeling Prep",
+    "desc": "Realtime and historical stock data",
+    "url": "https://site.financialmodelingprep.com/developer/docs",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Finnhub",
+    "desc": "Real-Time RESTful APIs and Websocket for Stocks, Currencies, and Crypto",
+    "url": "https://finnhub.io/docs/api",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "FRED",
+    "desc": "Economic data from the Federal Reserve Bank of St. Louis",
+    "url": "https://fred.stlouisfed.org/docs/api/fred/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Front Accounting APIs",
+    "desc": "Front accounting is multilingual and multicurrency software for small businesses",
+    "url": "https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule",
+    "category": "Finance",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Hotstoks",
+    "desc": "Stock market data powered by SQL",
+    "url": "https://hotstoks.com?utm_source=public-apis",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "IEX Cloud",
+    "desc": "Realtime & Historical Stock and Market Data",
+    "url": "https://iexcloud.io/docs/api/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "IG",
+    "desc": "Spreadbetting and CFD Market Data",
+    "url": "https://labs.ig.com/gettingstarted",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Indian Mutual Fund",
+    "desc": "Get complete history of India Mutual Funds Data",
+    "url": "https://www.mfapi.in/",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Intrinio",
+    "desc": "A wide selection of financial data feeds",
+    "url": "https://intrinio.com/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Klarna",
+    "desc": "Klarna payment and shopping service",
+    "url": "https://docs.klarna.com/klarna-payments/api/payments-api/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "MercadoPago",
+    "desc": "Mercado Pago API reference - all the information you need to develop your integrations",
+    "url": "https://www.mercadopago.com.br/developers/es/reference",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Mono",
+    "desc": "Connect with users’ bank accounts and access transaction data in Africa",
+    "url": "https://mono.co/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Moov",
+    "desc": "The Moov API makes it simple for platforms to send, receive, and store money",
+    "url": "https://docs.moov.io/api/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Nordigen",
+    "desc": "Connect to bank accounts using official bank APIs and get raw transaction data",
+    "url": "https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "OpenFIGI",
+    "desc": "Equity, index, futures, options symbology from Bloomberg LP",
+    "url": "https://www.openfigi.com/api",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Plaid",
+    "desc": "Connect with user's bank accounts and access transaction data",
+    "url": "https://www.plaid.com/docs",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Polygon",
+    "desc": "Historical stock market data",
+    "url": "https://polygon.io/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Portfolio Optimizer",
+    "desc": "Portfolio analysis and optimization",
+    "url": "https://portfoliooptimizer.io/",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Razorpay IFSC",
+    "desc": "Indian Financial Systems Code (Bank Branch Codes)",
+    "url": "https://razorpay.com/docs/",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Real Time Finance",
+    "desc": "Websocket API to access realtime stock data",
+    "url": "https://github.com/Real-time-finance/finance-websocket-API/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "SEC EDGAR Data",
+    "desc": "API to access annual reports of public US companies",
+    "url": "https://www.sec.gov/edgar/sec-api-documentation",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "SmartAPI",
+    "desc": "Gain access to set of <SmartAPI> and create end-to-end broking services",
+    "url": "https://smartapi.angelbroking.com/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "StockData",
+    "desc": "Real-Time, Intraday & Historical Market Data, News and Sentiment API",
+    "url": "https://www.StockData.org",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Styvio",
+    "desc": "Realtime and historical stock data and current stock sentiment",
+    "url": "https://www.Styvio.com",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Tax Data API",
+    "desc": "Instant VAT number and tax validation across the globe",
+    "url": "https://apilayer.com/marketplace/tax_data-api",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Tradier",
+    "desc": "US equity/option market data (delayed, intraday, historical)",
+    "url": "https://developer.tradier.com",
+    "category": "Finance",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Twelve Data",
+    "desc": "Stock market data (real-time & historical)",
+    "url": "https://twelvedata.com/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "VAT Validation",
+    "desc": "Validate VAT numbers and calculate VAT rates",
+    "url": "https://www.abstractapi.com/vat-validation-rates-api",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "WallstreetBets",
+    "desc": "WallstreetBets Stock Comments Sentiment Analysis",
+    "url": "https://dashboard.nbshare.io/apps/reddit/api/",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Yahoo Finance",
+    "desc": "Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange",
+    "url": "https://www.yahoofinanceapi.com/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "YNAB",
+    "desc": "Budgeting & Planning",
+    "url": "https://api.youneedabudget.com/",
+    "category": "Finance",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Zoho Books",
+    "desc": "Online accounting software, built for your business",
+    "url": "https://www.zoho.com/books/api/v3/",
+    "category": "Finance",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "4chan",
+    "desc": "Simple image-based bulletin board dedicated to a variety of topics",
+    "url": "https://github.com/4chan/4chan-API",
+    "category": "Social",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Ayrshare",
+    "desc": "Social media APIs to post, get analytics, and manage multiple users social media accounts",
+    "url": "https://www.ayrshare.com",
+    "category": "Social",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "aztro",
+    "desc": "Daily horoscope info for yesterday, today, and tomorrow",
+    "url": "https://aztro.sameerkumar.website/",
+    "category": "Social",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Blogger",
+    "desc": "The Blogger APIs allows client applications to view and update Blogger content",
+    "url": "https://developers.google.com/blogger/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Cisco Spark",
+    "desc": "Team Collaboration Software",
+    "url": "https://developer.ciscospark.com",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Dangerous Discord Database",
+    "desc": "Database of malicious Discord accounts",
+    "url": "https://discord.riverside.rocks/docs/index.php",
+    "category": "Social",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Discord",
+    "desc": "Make bots for Discord, integrate Discord onto an external platform",
+    "url": "https://discord.com/developers/docs/intro",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Disqus",
+    "desc": "Communicate with Disqus data",
+    "url": "https://disqus.com/api/docs/auth/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Doge-Meme",
+    "desc": "Top meme posts from r/dogecoin which include 'Meme' flair",
+    "url": "https://api.doge-meme.lol/docs",
+    "category": "Social",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Facebook",
+    "desc": "Facebook Login, Share on FB, Social Plugins, Analytics and more",
+    "url": "https://developers.facebook.com/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Foursquare",
+    "desc": "Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc)",
+    "url": "https://developer.foursquare.com/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Fuck Off as a Service",
+    "desc": "Asks someone to fuck off",
+    "url": "https://www.foaas.com",
+    "category": "Social",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Full Contact",
+    "desc": "Get Social Media profiles and contact Information",
+    "url": "https://docs.fullcontact.com/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "HackerNews",
+    "desc": "Social news for CS and entrepreneurship",
+    "url": "https://github.com/HackerNews/API",
+    "category": "Social",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Hashnode",
+    "desc": "A blogging platform built for developers",
+    "url": "https://hashnode.com",
+    "category": "Social",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Instagram",
+    "desc": "Instagram Login, Share on Instagram, Social Plugins and more",
+    "url": "https://www.instagram.com/developer/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Kakao",
+    "desc": "Kakao Login, Share on KakaoTalk, Social Plugins and more",
+    "url": "https://developers.kakao.com/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Lanyard",
+    "desc": "Retrieve your presence on Discord through an HTTP REST API or WebSocket",
+    "url": "https://github.com/Phineas/lanyard",
+    "category": "Social",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Line",
+    "desc": "Line Login, Share on Line, Social Plugins and more",
+    "url": "https://developers.line.biz/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "LinkedIn",
+    "desc": "The foundation of all digital integrations with LinkedIn",
+    "url": "https://docs.microsoft.com/en-us/linkedin/?context=linkedin/context",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Meetup.com",
+    "desc": "Data about Meetups from Meetup.com",
+    "url": "https://www.meetup.com/api/guide",
+    "category": "Social",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Microsoft Graph",
+    "desc": "Access the data and intelligence in Microsoft 365, Windows 10, and Enterprise Mobility",
+    "url": "https://docs.microsoft.com/en-us/graph/api/overview",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "NAVER",
+    "desc": "NAVER Login, Share on NAVER, Social Plugins and more",
+    "url": "https://developers.naver.com/main/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Open Collective",
+    "desc": "Get Open Collective data",
+    "url": "https://docs.opencollective.com/help/developers/api",
+    "category": "Social",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Pinterest",
+    "desc": "The world's catalog of ideas",
+    "url": "https://developers.pinterest.com/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Product Hunt",
+    "desc": "The best new products in tech",
+    "url": "https://api.producthunt.com/v2/docs",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Reddit",
+    "desc": "Homepage of the internet",
+    "url": "https://www.reddit.com/dev/api",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Revolt",
+    "desc": "Revolt open source Discord alternative",
+    "url": "https://developers.revolt.chat/api/",
+    "category": "Social",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Saidit",
+    "desc": "Open Source Reddit Clone",
+    "url": "https://www.saidit.net/dev/api",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Slack",
+    "desc": "Team Instant Messaging",
+    "url": "https://api.slack.com/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "TamTam",
+    "desc": "Bot API to interact with TamTam",
+    "url": "https://dev.tamtam.chat/",
+    "category": "Social",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Telegram Bot",
+    "desc": "Simplified HTTP version of the MTProto API for bots",
+    "url": "https://core.telegram.org/bots/api",
+    "category": "Social",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Telegram MTProto",
+    "desc": "Read and write Telegram data",
+    "url": "https://core.telegram.org/api#getting-started",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Telegraph",
+    "desc": "Create attractive blogs easily, to share",
+    "url": "https://telegra.ph/api",
+    "category": "Social",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "TikTok",
+    "desc": "Fetches user info and user's video posts on TikTok platform",
+    "url": "https://developers.tiktok.com/doc/login-kit-web",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Trash Nothing",
+    "desc": "A freecycling community with thousands of free items posted every day",
+    "url": "https://trashnothing.com/developer",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Tumblr",
+    "desc": "Read and write Tumblr Data",
+    "url": "https://www.tumblr.com/docs/en/api/v2",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Twitch",
+    "desc": "Game Streaming API",
+    "url": "https://dev.twitch.tv/docs",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Twitter",
+    "desc": "Read and write Twitter data",
+    "url": "https://developer.twitter.com/en/docs",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "vk",
+    "desc": "Read and write vk data",
+    "url": "https://vk.com/dev/sites",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Bloomberg API",
+    "desc": "Enterprise Financial data, real-time pricing.",
+    "url": "https://www.bloomberg.com/professional/product/api/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Paid"
+  },
+  {
+    "name": "Equifax API",
+    "desc": "Credit scoring data, consumer authentication.",
+    "url": "https://developer.equifax.com/",
+    "category": "Data",
+    "auth": "OAuth",
+    "cors": false,
+    "pricing": "Paid"
+  },
+  {
+    "name": "Twitter Enterprise",
+    "desc": "Full-archive search, elevated rate limits for Twitter.",
+    "url": "https://developer.twitter.com/en/products/twitter-api/enterprise",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": false,
+    "pricing": "Paid"
+  },
+  {
+    "name": "Salesforce Einstein",
+    "desc": "High-tier CRM predictive capabilities, advanced AI.",
+    "url": "https://developer.salesforce.com/docs/",
+    "category": "AI/ML",
+    "auth": "OAuth",
+    "cors": false,
+    "pricing": "Paid"
+  },
+  {
+    "name": "Amazon SP-API",
+    "desc": "APIs for Amazon sellers (FBA, catalog creation, selling).",
+    "url": "https://developer-docs.amazon.com/sp-api/",
+    "category": "Business",
+    "auth": "OAuth",
+    "cors": false,
+    "pricing": "Paid"
+  },
+  {
+    "name": "Gnip/Datasift",
+    "desc": "Enterprise data syndication APIs.",
+    "url": "https://www.datasift.com/",
+    "category": "Data",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Paid"
+  },
+  {
+    "name": "Groq API",
+    "desc": "Ultra-fast AI inference engine for large language models, providing near-instant responses.",
+    "url": "https://console.groq.com/docs/api-reference",
+    "category": "AI/ML",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Cohere API",
+    "desc": "Access advanced language models for text generation, semantic search, summarization, and classification.",
+    "url": "https://docs.cohere.com/reference/about",
+    "category": "AI/ML",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Replicate API",
+    "desc": "Run open-source machine learning models in the cloud via a simple HTTP API (Stable Diffusion, Llama, etc.).",
+    "url": "https://replicate.com/docs/reference/http",
+    "category": "AI/ML",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Fal.ai API",
+    "desc": "Blazing-fast media generation API for text-to-image, video, and audio synthesis models.",
+    "url": "https://fal.ai/docs",
+    "category": "AI/ML",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "DeepL Translation API",
+    "desc": "Highly accurate neural machine translation API for texts and full documents.",
+    "url": "https://www.deepl.com/pro-api",
+    "category": "Data",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Have I Been Pwned API",
+    "desc": "Query password breaches and email compromises to verify user security status.",
+    "url": "https://haveibeenpwned.com/API/v3",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Paid"
+  },
+  {
+    "name": "VirusTotal API",
+    "desc": "Submit and analyze files, URLs, domains, and IP addresses for malware detection and security threats.",
+    "url": "https://docs.virustotal.com/reference/overview",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "AbuseIPDB API",
+    "desc": "Check IP addresses for reports of spamming, hacking, and brute-force attempts.",
+    "url": "https://docs.abuseipdb.com/",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "URLScan.io API",
+    "desc": "Scan and analyze website URLs, returning page screenshots, DOM, request trees, and security intelligence.",
+    "url": "https://urlscan.io/docs/api/",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Shodan API",
+    "desc": "Search engine for internet-connected devices, ports, banners, and vulnerabilities.",
+    "url": "https://developer.shodan.io/api",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "IGDB API",
+    "desc": "Twitch's video game database. Access profiles, ratings, release dates, reviews, and cover art.",
+    "url": "https://api-docs.igdb.com/",
+    "category": "Games",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Chess.com API",
+    "desc": "Access Chess.com player profiles, match histories, club rosters, stats, and live leaderboard data.",
+    "url": "https://www.chess.com/news/view/published-data-api",
+    "category": "Games",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Pokémon TCG API",
+    "desc": "Browse and query Pokémon Trading Card Game cards, sets, market prices, and high-res card art.",
+    "url": "https://pokemontcg.io/",
+    "category": "Games",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "RAWG Video Games Database",
+    "desc": "Vast database of video games, ratings, release timelines, and cross-platform information.",
+    "url": "https://rawg.io/apidocs",
+    "category": "Games",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Ergast F1 API",
+    "desc": "Historical data for Formula One motor racing, including drivers, constructors, circuits, qualifying, and results.",
+    "url": "http://ergast.com/mrd/",
+    "category": "Sports",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "The SportsDB API",
+    "desc": "Crowdsourced database of sports metadata, teams, leagues, players, fixtures, and event photos.",
+    "url": "https://www.thesportsdb.com/api.php",
+    "category": "Sports",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "TheMealDB API",
+    "desc": "Crowdsourced food recipes and cooking instructions database, filterable by main ingredient or category.",
+    "url": "https://www.themealdb.com/api.php",
+    "category": "Food & Drink",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "TheCocktailDB API",
+    "desc": "Crowdsourced cocktail recipes, glass guidelines, and drink preparation steps with images.",
+    "url": "https://www.thecocktaildb.com/api.php",
+    "category": "Food & Drink",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "OpenCage Geocoding API",
+    "desc": "Forward and reverse geocoding API combining multiple open-source location databases.",
+    "url": "https://opencagedata.com/api",
+    "category": "Maps",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Radar API",
+    "desc": "Geocoding, address autocomplete, routing, and geofencing platform for location-aware apps.",
+    "url": "https://radar.com/documentation/api",
+    "category": "Maps",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Nominatim OSM API",
+    "desc": "OpenStreetMap search API for forward and reverse geocoding of OSM data without keys.",
+    "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+    "category": "Maps",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "IPinfo.io API",
+    "desc": "Fast and reliable IP address geolocation, ASN, company, and carrier lookup API.",
+    "url": "https://ipinfo.io/developers",
+    "category": "Data",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "IP-API.com",
+    "desc": "Simple IP geolocation API requiring no registration or key (free for non-commercial).",
+    "url": "https://ip-api.com",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Open-Notify ISS API",
+    "desc": "Live International Space Station coordinates and the list of astronauts currently in space.",
+    "url": "http://open-notify.org/Open-Notify-API/",
+    "category": "Science",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Launch Library 2 API",
+    "desc": "Detailed tracking of upcoming and historical space rocket launches, agencies, and pads.",
+    "url": "https://thespacedevs.com/llapi",
+    "category": "Science",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Solar System OpenData API",
+    "desc": "Access orbital parameters and physical dimensions for all major solar system objects and moons.",
+    "url": "https://api.le-systeme-solaire.net/en/",
+    "category": "Science",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Sunrise Sunset API",
+    "desc": "Get sunrise, sunset, dawn, and dusk times for any coordinates globally.",
+    "url": "https://sunrise-sunset.org/api",
+    "category": "Weather",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Weatherbit API",
+    "desc": "High-performance weather forecast, historical observations, and air quality index API.",
+    "url": "https://www.weatherbit.io/api",
+    "category": "Weather",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Project Gutenberg API",
+    "desc": "Query catalog metadata from Project Gutenberg's library of over 70,000 public domain eBooks.",
+    "url": "https://gutendex.com/",
+    "category": "Books",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "PoetryDB API",
+    "desc": "Database of public domain poetry. Search by author, title, lines, or poem count.",
+    "url": "https://github.com/thundercomb/poetrydb",
+    "category": "Books",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "OpenAlex API",
+    "desc": "A massive, open catalog of global scientific papers, authors, venues, institutions, and concepts.",
+    "url": "https://docs.openalex.org/",
+    "category": "Science",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Dev.to API",
+    "desc": "Retrieve and publish articles, check tags, and query community posts on the Dev.to developer network.",
+    "url": "https://developers.forem.com/api",
+    "category": "Social",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Clerk Auth API",
+    "desc": "Modern user authentication and management API with pre-built UI components.",
+    "url": "https://clerk.com/docs/reference/backend-api",
+    "category": "Development",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Auth0 API",
+    "desc": "Robust user management and token validation API supporting OAuth2 and OpenID Connect.",
+    "url": "https://auth0.com/docs/api",
+    "category": "Development",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Novu Notifications",
+    "desc": "Open-source notification system API to manage email, SMS, push, and in-app alerts.",
+    "url": "https://docs.novu.co/api-reference/overview",
+    "category": "Communication",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "HaveIBeenPwned API",
+    "desc": "Verify if specific accounts or passwords have been exposed in known historical data breaches.",
+    "url": "https://haveibeenpwned.com/API/v3",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Paid"
+  }
+]

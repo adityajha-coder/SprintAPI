@@ -1,0 +1,712 @@
+[
+  {
+    "cat": "AI Assistants",
+    "items": [
+      {
+        "name": "GitHub Copilot",
+        "desc": "Your AI pair programmer",
+        "url": "https://copilot.github.com"
+      },
+      {
+        "name": "Cursor",
+        "desc": "The AI-first code editor",
+        "url": "https://cursor.sh"
+      },
+      {
+        "name": "Ollama",
+        "desc": "Run large language models locally on your machine",
+        "url": "https://ollama.com"
+      },
+      {
+        "name": "ChatGPT",
+        "desc": "OpenAI conversational AI model",
+        "url": "https://chat.openai.com"
+      },
+      {
+        "name": "Claude",
+        "desc": "Next generation AI assistant by Anthropic",
+        "url": "https://claude.ai"
+      },
+      {
+        "name": "Perplexity",
+        "desc": "AI-powered search engine",
+        "url": "https://perplexity.ai"
+      },
+      {
+        "name": "Midjourney",
+        "desc": "AI image generation tool",
+        "url": "https://midjourney.com"
+      },
+      {
+        "name": "v0 by Vercel",
+        "desc": "Generative UI system",
+        "url": "https://v0.dev"
+      },
+      {
+        "name": "Tabnine",
+        "desc": "AI assistant for software developers",
+        "url": "https://www.tabnine.com"
+      },
+      {
+        "name": "Codeium",
+        "desc": "Free AI code completion",
+        "url": "https://codeium.com"
+      },
+      {
+        "name": "Replit Agent",
+        "desc": "Autonomously build full-stack web applications from text prompts",
+        "url": "https://replit.com"
+      },
+      {
+        "name": "Phind",
+        "desc": "AI search engine and pair programmer for developers",
+        "url": "https://phind.com"
+      },
+      {
+        "name": "Supermaven",
+        "desc": "Ultra-fast AI code completion tab assistant",
+        "url": "https://supermaven.com"
+      }
+    ]
+  },
+  {
+    "cat": "Coding Assistants",
+    "items": [
+      {
+        "name": "Claude Code",
+        "desc": "Anthropic's agentic command-line tool for writing code and managing terminal tasks",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code"
+      },
+      {
+        "name": "GitHub Copilot CLI",
+        "desc": "Write shell commands using natural language inside your terminal",
+        "url": "https://github.com/github/copilot-cli"
+      },
+      {
+        "name": "Gemini CLI",
+        "desc": "Access Google's Gemini models directly from your command-line terminal",
+        "url": "https://github.com/google/generative-ai-cli"
+      },
+      {
+        "name": "OpenAI Codex",
+        "desc": "AI system by OpenAI that translates natural language to code",
+        "url": "https://openai.com/blog/openai-codex"
+      },
+      {
+        "name": "Aider",
+        "desc": "AI pair programming tool in your terminal to edit local files directly",
+        "url": "https://aider.chat"
+      },
+      {
+        "name": "Continue",
+        "desc": "Open-source autopilot extension for custom IDE integrations (VS Code, JetBrains)",
+        "url": "https://github.com/continuedev/continue"
+      }
+    ]
+  },
+  {
+    "cat": "Frontend & UI",
+    "items": [
+      {
+        "name": "Tailwind CSS",
+        "desc": "Utility-first CSS framework",
+        "url": "https://tailwindcss.com"
+      },
+      {
+        "name": "Framer Motion",
+        "desc": "Production-ready animation library",
+        "url": "https://www.framer.com/motion/"
+      },
+      {
+        "name": "Shadcn UI",
+        "desc": "Beautifully designed components that you can copy and paste",
+        "url": "https://ui.shadcn.com"
+      },
+      {
+        "name": "React",
+        "desc": "The library for web and native user interfaces",
+        "url": "https://react.dev"
+      },
+      {
+        "name": "Vue.js",
+        "desc": "The Progressive JavaScript Framework",
+        "url": "https://vuejs.org"
+      },
+      {
+        "name": "Radix UI",
+        "desc": "Unstyled, accessible components for React",
+        "url": "https://www.radix-ui.com/"
+      },
+      {
+        "name": "Chakra UI",
+        "desc": "Simple, modular and accessible component library",
+        "url": "https://chakra-ui.com"
+      },
+      {
+        "name": "Material UI",
+        "desc": "MUI offers a comprehensive suite of UI tools",
+        "url": "https://mui.com"
+      },
+      {
+        "name": "DaisyUI",
+        "desc": "Tailwind CSS component library with theme support",
+        "url": "https://daisyui.com"
+      },
+      {
+        "name": "Panda CSS",
+        "desc": "Build-time type-safe CSS-in-JS engine",
+        "url": "https://panda-css.com"
+      },
+      {
+        "name": "Park UI",
+        "desc": "Beautifully designed components built with Ark UI and Panda CSS",
+        "url": "https://park-ui.com"
+      }
+    ]
+  },
+  {
+    "cat": "Backend & APIs",
+    "items": [
+      {
+        "name": "Supabase",
+        "desc": "Open source Firebase alternative",
+        "url": "https://supabase.com"
+      },
+      {
+        "name": "Express.js",
+        "desc": "Fast, unopinionated, minimalist web framework for Node.js",
+        "url": "https://expressjs.com"
+      },
+      {
+        "name": "NestJS",
+        "desc": "A progressive Node.js framework",
+        "url": "https://nestjs.com"
+      },
+      {
+        "name": "Appwrite",
+        "desc": "Secure backend server for Web, Mobile & Flutter developers",
+        "url": "https://appwrite.io"
+      },
+      {
+        "name": "PlanetScale",
+        "desc": "Serverless MySQL platform",
+        "url": "https://planetscale.com"
+      },
+      {
+        "name": "Stripe",
+        "desc": "Financial infrastructure platform for the internet",
+        "url": "https://stripe.com"
+      },
+      {
+        "name": "Hasura",
+        "desc": "Instant GraphQL APIs on your data",
+        "url": "https://hasura.io"
+      },
+      {
+        "name": "FastAPI",
+        "desc": "Modern, fast web framework for building APIs with Python",
+        "url": "https://fastapi.tiangolo.com"
+      },
+      {
+        "name": "Hono",
+        "desc": "Ultrafast web framework for the Edges (Cloudflare Workers, Deno, Bun)",
+        "url": "https://hono.dev"
+      },
+      {
+        "name": "tRPC",
+        "desc": "End-to-end typesafe APIs without GraphQL or code generation",
+        "url": "https://trpc.io"
+      }
+    ]
+  },
+  {
+    "cat": "Core Utilities",
+    "items": [
+      {
+        "name": "Docker",
+        "desc": "Accelerate how you build, share, and run applications",
+        "url": "https://docker.com"
+      },
+      {
+        "name": "Figma",
+        "desc": "Collaborative interface design tool",
+        "url": "https://figma.com"
+      },
+      {
+        "name": "Prettier",
+        "desc": "An opinionated code formatter",
+        "url": "https://prettier.io"
+      },
+      {
+        "name": "ESLint",
+        "desc": "Find and fix problems in your JavaScript code",
+        "url": "https://eslint.org"
+      },
+      {
+        "name": "Vite",
+        "desc": "Next Generation Frontend Tooling",
+        "url": "https://vitejs.dev"
+      },
+      {
+        "name": "Bun",
+        "desc": "Fast all-in-one JavaScript runtime",
+        "url": "https://bun.sh"
+      },
+      {
+        "name": "Zod",
+        "desc": "TypeScript-first schema validation with static type inference",
+        "url": "https://zod.dev"
+      },
+      {
+        "name": "Webpack",
+        "desc": "Static module bundler for modern JavaScript applications",
+        "url": "https://webpack.js.org"
+      },
+      {
+        "name": "Biome",
+        "desc": "One toolchain for your web project (linter, formatter, and more)",
+        "url": "https://biomejs.dev"
+      },
+      {
+        "name": "Rspack",
+        "desc": "High-performance Rust-based web bundler compatible with Webpack",
+        "url": "https://rspack.dev"
+      },
+      {
+        "name": "TurboRepo",
+        "desc": "High-performance build system for JavaScript and TypeScript monorepos",
+        "url": "https://turbo.build/repo"
+      }
+    ]
+  },
+  {
+    "cat": "Full-Stack Frameworks",
+    "items": [
+      {
+        "name": "Next.js",
+        "desc": "The React Framework for the Web",
+        "url": "https://nextjs.org"
+      },
+      {
+        "name": "Remix",
+        "desc": "Full stack web framework",
+        "url": "https://remix.run"
+      },
+      {
+        "name": "Astro",
+        "desc": "The web framework for content-driven websites",
+        "url": "https://astro.build"
+      },
+      {
+        "name": "SvelteKit",
+        "desc": "Rapidly developing robust, performant web applications",
+        "url": "https://kit.svelte.dev"
+      },
+      {
+        "name": "Nuxt",
+        "desc": "The Intuitive Vue Framework",
+        "url": "https://nuxt.com"
+      },
+      {
+        "name": "Laravel",
+        "desc": "The PHP Framework for Web Artisans",
+        "url": "https://laravel.com"
+      },
+      {
+        "name": "Ruby on Rails",
+        "desc": "Web development that doesnt hurt",
+        "url": "https://rubyonrails.org"
+      }
+    ]
+  },
+  {
+    "cat": "DevOps & Hosting",
+    "items": [
+      {
+        "name": "Vercel",
+        "desc": "Deploy web projects with the best frontend experience",
+        "url": "https://vercel.com"
+      },
+      {
+        "name": "Netlify",
+        "desc": "Build, deploy, and scale modern web projects",
+        "url": "https://netlify.com"
+      },
+      {
+        "name": "AWS",
+        "desc": "Comprehensive cloud platform",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "Cloudflare",
+        "desc": "Global platform for edge computing and security",
+        "url": "https://cloudflare.com"
+      },
+      {
+        "name": "Heroku",
+        "desc": "Cloud platform as a service",
+        "url": "https://heroku.com"
+      },
+      {
+        "name": "DigitalOcean",
+        "desc": "Cloud computing services for developers",
+        "url": "https://www.digitalocean.com"
+      },
+      {
+        "name": "Railway",
+        "desc": "Infrastructure platform where you can provision infrastructure",
+        "url": "https://railway.app"
+      },
+      {
+        "name": "Render",
+        "desc": "Unified cloud to build and run all your apps",
+        "url": "https://render.com"
+      },
+      {
+        "name": "Coolify",
+        "desc": "Self-hosted Heroku and Vercel alternative",
+        "url": "https://coolify.io"
+      },
+      {
+        "name": "Zeabur",
+        "desc": "Deploy full-stack applications with one click",
+        "url": "https://zeabur.com"
+      },
+      {
+        "name": "Fly.io",
+        "desc": "Run app servers close to your users in global regions",
+        "url": "https://fly.io"
+      },
+      {
+        "name": "SST",
+        "desc": "Build serverless full-stack apps on AWS with live lambda development",
+        "url": "https://sst.dev"
+      }
+    ]
+  },
+  {
+    "cat": "Databases & Storage",
+    "items": [
+      {
+        "name": "MongoDB",
+        "desc": "Document based NoSQL database",
+        "url": "https://www.mongodb.com"
+      },
+      {
+        "name": "PostgreSQL",
+        "desc": "The world's most advanced open source relational database",
+        "url": "https://postgresql.org"
+      },
+      {
+        "name": "Redis",
+        "desc": "Open source in-memory data store",
+        "url": "https://redis.io"
+      },
+      {
+        "name": "Firebase",
+        "desc": "App development platform by Google",
+        "url": "https://firebase.google.com"
+      },
+      {
+        "name": "MySQL",
+        "desc": "Open-source relational database management system",
+        "url": "https://www.mysql.com"
+      },
+      {
+        "name": "SQLite",
+        "desc": "C-language library that implements a small, fast SQL database engine",
+        "url": "https://www.sqlite.org"
+      },
+      {
+        "name": "Cassandra",
+        "desc": "Open source NoSQL distributed database",
+        "url": "https://cassandra.apache.org"
+      },
+      {
+        "name": "Turso",
+        "desc": "Edge database powered by libSQL (SQLite-compatible fork)",
+        "url": "https://turso.tech"
+      },
+      {
+        "name": "Neon",
+        "desc": "Serverless, multi-cloud Postgres database with branching support",
+        "url": "https://neon.tech"
+      },
+      {
+        "name": "Meilisearch",
+        "desc": "Lightning-fast, open-source search engine tailored for developers",
+        "url": "https://www.meilisearch.com"
+      }
+    ]
+  },
+  {
+    "cat": "API & Networking",
+    "items": [
+      {
+        "name": "Insomnia",
+        "desc": "Design, test, and deploy APIs",
+        "url": "https://insomnia.rest"
+      },
+      {
+        "name": "Ngrok",
+        "desc": "Unified ingress platform",
+        "url": "https://ngrok.com"
+      },
+      {
+        "name": "Postman",
+        "desc": "API platform for building and using APIs",
+        "url": "https://postman.com"
+      },
+      {
+        "name": "GraphQL",
+        "desc": "A query language for your API",
+        "url": "https://graphql.org"
+      },
+      {
+        "name": "Apollo",
+        "desc": "The supergraph platform",
+        "url": "https://www.apollographql.com"
+      },
+      {
+        "name": "Axios",
+        "desc": "Promise based HTTP client for the browser and node.js",
+        "url": "https://axios-http.com"
+      },
+      {
+        "name": "Socket.io",
+        "desc": "Bidirectional and low-latency communication for every platform",
+        "url": "https://socket.io"
+      }
+    ]
+  },
+  {
+    "cat": "Frontend Utilities",
+    "items": [
+      {
+        "name": "Heroicons",
+        "desc": "Beautiful hand-crafted SVG icons",
+        "url": "https://heroicons.com"
+      },
+      {
+        "name": "Font Awesome",
+        "desc": "The web's most popular icon set and toolkit",
+        "url": "https://fontawesome.com"
+      },
+      {
+        "name": "Animista",
+        "desc": "On-demand CSS animations library",
+        "url": "https://animista.net"
+      }
+    ]
+  },
+  {
+    "cat": "Backend & Cryptography",
+    "items": [
+      {
+        "name": "Bcrypt Generator",
+        "desc": "Generate and test bcrypted strings",
+        "url": "https://bcrypt-generator.com"
+      },
+      {
+        "name": "JWT.io",
+        "desc": "Decode, verify and generate JWT",
+        "url": "https://jwt.io"
+      },
+      {
+        "name": "UUID Generator",
+        "desc": "Online UUID/GUID generator",
+        "url": "https://www.uuidgenerator.net"
+      }
+    ]
+  },
+  {
+    "cat": "Text Manipulation",
+    "items": [
+      {
+        "name": "Regex101",
+        "desc": "Regular expression tester and debugger",
+        "url": "https://regex101.com"
+      },
+      {
+        "name": "JSON Formatter",
+        "desc": "Format, validate and beautify JSON",
+        "url": "https://jsonformatter.org"
+      },
+      {
+        "name": "Diffchecker",
+        "desc": "Compare text to find the difference",
+        "url": "https://www.diffchecker.com"
+      }
+    ]
+  },
+  {
+    "cat": "Colors & Design",
+    "items": [
+      {
+        "name": "Coolors",
+        "desc": "The super fast color palettes generator",
+        "url": "https://coolors.co"
+      },
+      {
+        "name": "Color Hunt",
+        "desc": "Color palettes for designers and artists",
+        "url": "https://colorhunt.co"
+      },
+      {
+        "name": "CSS Gradient",
+        "desc": "Free css gradient generator tool",
+        "url": "https://cssgradient.io"
+      }
+    ]
+  },
+  {
+    "cat": "Machine Learning & Data Science",
+    "items": [
+      {
+        "name": "Jupyter Notebook",
+        "desc": "Web-based interactive computing environment for notebooks",
+        "url": "https://jupyter.org"
+      },
+      {
+        "name": "Google Colab",
+        "desc": "Hosted Jupyter notebook service requiring zero configuration",
+        "url": "https://colab.research.google.com"
+      },
+      {
+        "name": "Hugging Face",
+        "desc": "Hub for pre-trained machine learning models, datasets, and spaces",
+        "url": "https://huggingface.co"
+      },
+      {
+        "name": "Kaggle",
+        "desc": "Data science competitions, public datasets, and learning resources",
+        "url": "https://www.kaggle.com"
+      },
+      {
+        "name": "PyTorch",
+        "desc": "Open-source deep learning framework developed by Meta's AI research lab",
+        "url": "https://pytorch.org"
+      },
+      {
+        "name": "TensorFlow",
+        "desc": "End-to-end open-source machine learning platform by Google",
+        "url": "https://www.tensorflow.org"
+      },
+      {
+        "name": "Scikit-Learn",
+        "desc": "Simple and efficient machine learning tools for Python",
+        "url": "https://scikit-learn.org"
+      },
+      {
+        "name": "Pandas",
+        "desc": "High-performance data analysis and manipulation library for Python",
+        "url": "https://pandas.pydata.org"
+      },
+      {
+        "name": "Weights & Biases",
+        "desc": "Experiment tracking, model serialization, and dataset versioning platform",
+        "url": "https://wandb.ai"
+      },
+      {
+        "name": "Streamlit",
+        "desc": "Create and share custom web applications for data science and ML",
+        "url": "https://streamlit.io"
+      }
+    ]
+  },
+  {
+    "cat": "App Development",
+    "items": [
+      {
+        "name": "Expo Go",
+        "desc": "Client app to run and test React Native projects on physical devices",
+        "url": "https://expo.dev/client"
+      },
+      {
+        "name": "Flipper",
+        "desc": "Extensible mobile app debugger developed by Meta",
+        "url": "https://fbflipper.com"
+      },
+      {
+        "name": "Reactotron",
+        "desc": "Desktop app for inspecting React Native and React application state and network requests",
+        "url": "https://github.com/infinitered/reactotron"
+      },
+      {
+        "name": "Flutter DevTools",
+        "desc": "Suite of performance, debugging, and profiling tools for Flutter apps",
+        "url": "https://docs.flutter.dev/tools/devtools"
+      },
+      {
+        "name": "Fastlane",
+        "desc": "Open-source tool to automate beta deployments and App Store releases for iOS and Android",
+        "url": "https://fastlane.tools"
+      },
+      {
+        "name": "Tauri",
+        "desc": "Framework for building tiny, blazing fast desktop applications using web technologies and Rust",
+        "url": "https://tauri.app"
+      },
+      {
+        "name": "CocoaPods",
+        "desc": "Dependency manager for Swift and Objective-C Cocoa projects",
+        "url": "https://cocoapods.org"
+      },
+      {
+        "name": "Android Studio",
+        "desc": "The official Integrated Development Environment (IDE) for Android app development",
+        "url": "https://developer.android.com/studio"
+      }
+    ]
+  },
+  {
+    "cat": "Documentation",
+    "items": [
+      {
+        "name": "Docusaurus",
+        "desc": "Build optimized website docs using React and Markdown",
+        "url": "https://docusaurus.io"
+      },
+      {
+        "name": "Mintlify",
+        "desc": "Modern developer documentation platform that integrates with GitHub",
+        "url": "https://mintlify.com"
+      },
+      {
+        "name": "Nextra",
+        "desc": "Next.js static site generator optimized for docs layouts",
+        "url": "https://nextra.site"
+      },
+      {
+        "name": "GitBook",
+        "desc": "Collaborative documentation platform for teams and developers",
+        "url": "https://www.gitbook.com"
+      }
+    ]
+  },
+  {
+    "cat": "Security & Testing",
+    "items": [
+      {
+        "name": "Snyk",
+        "desc": "Scan and monitor code dependencies and containers for vulnerabilities",
+        "url": "https://snyk.io"
+      },
+      {
+        "name": "LocalStack",
+        "desc": "Fully functional local AWS cloud stack environment for offline tests",
+        "url": "https://localstack.cloud"
+      },
+      {
+        "name": "SonarQube",
+        "desc": "Continuous inspection tool for code quality and code security checks",
+        "url": "https://www.sonarqube.org"
+      },
+      {
+        "name": "Infisical",
+        "desc": "Open-source secret management platform for configs and tokens",
+        "url": "https://infisical.com"
+      }
+    ]
+  }
+]
