@@ -37,6 +37,66 @@ function Favicon({ url, name }: { url: string; name: string }) {
   )
 }
 
+function getVSCodeIconUrl(id: string) {
+  const parts = id.split('.')
+  if (parts.length < 2) return ''
+  const publisher = parts[0]
+  const extName = parts.slice(1).join('.')
+  return `https://marketplace.visualstudio.com/_apis/public/gallery/publishers/${publisher}/extensions/${extName}/latest/assetbyname/Microsoft.VisualStudio.Services.Icons.Default`
+}
+
+function VSCodeExtensionIcon({ id, name }: { id: string; name: string }) {
+  const [failed, setFailed] = useState(false)
+  const url = getVSCodeIconUrl(id)
+
+  if (failed || !url) {
+    return (
+      <span className="flex size-10 shrink-0 items-center justify-center rounded-xl border border-border bg-secondary text-primary">
+        <Puzzle className="size-5" aria-hidden="true" />
+      </span>
+    )
+  }
+
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={url}
+      alt=""
+      width={40}
+      height={40}
+      loading="lazy"
+      onError={() => setFailed(true)}
+      className="size-10 shrink-0 rounded-xl border border-border bg-secondary p-1.5 object-contain"
+    />
+  )
+}
+
+function ChromeExtensionIcon({ id, name }: { id: string; name: string }) {
+  const [failed, setFailed] = useState(false)
+  const url = `https://chrome.google.com/webstore/detail/${id}/images/icon/128`
+
+  if (failed) {
+    return (
+      <span className="flex size-10 shrink-0 items-center justify-center rounded-xl border border-border bg-secondary text-primary">
+        <Puzzle className="size-5" aria-hidden="true" />
+      </span>
+    )
+  }
+
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={url}
+      alt=""
+      width={40}
+      height={40}
+      loading="lazy"
+      onError={() => setFailed(true)}
+      className="size-10 shrink-0 rounded-xl border border-border bg-secondary p-1 object-contain"
+    />
+  )
+}
+
 const pricingStyles: Record<string, string> = {
   Free: 'border-chart-2/40 bg-chart-2/10 text-chart-2',
   Freemium: 'border-primary/40 bg-primary/10 text-primary',
@@ -138,9 +198,7 @@ export function ExtensionCard({ item }: { item: ExtensionEntry }) {
     <a href={marketplace} target="_blank" rel="noreferrer" className={cardBase}>
       <div className="flex items-start justify-between gap-3">
         <div className="flex items-center gap-3">
-          <span className="flex size-10 shrink-0 items-center justify-center rounded-xl border border-border bg-secondary text-primary">
-            <Puzzle className="size-5" aria-hidden="true" />
-          </span>
+          <VSCodeExtensionIcon id={item.id} name={item.name} />
           <div>
             <h3 className="font-semibold leading-tight">{item.name}</h3>
             <span className="text-xs text-muted-foreground">{item.category}</span>
@@ -177,3 +235,36 @@ export function ExtensionCard({ item }: { item: ExtensionEntry }) {
     </a>
   )
 }
+
+export function ChromeExtensionCard({ item }: { item: ExtensionEntry }) {
+  const storeUrl = `https://chromewebstore.google.com/detail/${item.id}`
+
+  return (
+    <a href={storeUrl} target="_blank" rel="noreferrer" className={cardBase}>
+      <div className="flex items-start justify-between gap-3">
+        <div className="flex items-center gap-3">
+          <ChromeExtensionIcon id={item.id} name={item.name} />
+          <div>
+            <h3 className="font-semibold leading-tight">{item.name}</h3>
+            <span className="text-xs text-muted-foreground">{item.category}</span>
+          </div>
+        </div>
+        <ArrowUpRight className="size-4 shrink-0 text-muted-foreground transition-colors group-hover:text-primary" />
+      </div>
+
+      <p className="mt-3 line-clamp-3 flex-1 text-sm leading-relaxed text-muted-foreground">
+        {item.desc}
+      </p>
+
+      <div className="mt-4 flex items-center justify-between">
+        <span className="rounded-lg border border-primary/20 bg-primary/5 px-2 py-1 text-[10px] font-semibold text-primary">
+          Chrome Web Store
+        </span>
+        <span className="text-xs font-medium text-muted-foreground group-hover:text-primary transition-colors">
+          Add to Chrome
+        </span>
+      </div>
+    </a>
+  )
+}
+
