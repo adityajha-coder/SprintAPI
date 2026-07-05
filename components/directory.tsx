@@ -78,9 +78,9 @@ function matches(query: string, ...fields: string[]) {
 export function Directory() {
   const [tab, setTab] = useState<Tab>('apis')
   const [query, setQuery] = useState('')
-  const [category, setCategory] = useState('All')
-  const [auth, setAuth] = useState('All')
-  const [pricing, setPricing] = useState('All')
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([])
+  const [selectedAuths, setSelectedAuths] = useState<string[]>([])
+  const [selectedPricings, setSelectedPricings] = useState<string[]>([])
   const [showFilters, setShowFilters] = useState(false)
   const [showAllCategories, setShowAllCategories] = useState(false)
   const filterPanelRef = useRef<HTMLDivElement>(null)
@@ -97,9 +97,9 @@ export function Directory() {
 
   const changeTab = (next: Tab) => {
     setTab(next)
-    setCategory('All')
-    setAuth('All')
-    setPricing('All')
+    setSelectedCategories([])
+    setSelectedAuths([])
+    setSelectedPricings([])
     setShowAllCategories(false)
     window.history.replaceState(null, '', `#${next}`)
     window.dispatchEvent(new HashChangeEvent('hashchange'))
@@ -143,42 +143,42 @@ export function Directory() {
     () =>
       apis.filter(
         (a) =>
-          (category === 'All' || a.category === category) &&
-          (auth === 'All' || a.auth === auth) &&
-          (pricing === 'All' || a.pricing === pricing) &&
+          (selectedCategories.length === 0 || selectedCategories.includes(a.category)) &&
+          (selectedAuths.length === 0 || selectedAuths.includes(a.auth)) &&
+          (selectedPricings.length === 0 || selectedPricings.includes(a.pricing)) &&
           matches(query, a.name, a.desc, a.category),
       ),
-    [category, auth, pricing, query],
+    [selectedCategories, selectedAuths, selectedPricings, query],
   )
 
   const filteredTools = useMemo(
     () =>
       tools.filter(
         (t) =>
-          (category === 'All' || t.category === category) &&
+          (selectedCategories.length === 0 || selectedCategories.includes(t.category)) &&
           matches(query, t.name, t.desc, t.category),
       ),
-    [category, query],
+    [selectedCategories, query],
   )
 
   const filteredExtensions = useMemo(
     () =>
       extensions.filter(
         (e) =>
-          (category === 'All' || e.category === category) &&
+          (selectedCategories.length === 0 || selectedCategories.includes(e.category)) &&
           matches(query, e.name, e.desc, e.category, e.id),
       ),
-    [category, query],
+    [selectedCategories, query],
   )
 
   const filteredChromeExtensions = useMemo(
     () =>
       chromeExtensions.filter(
         (e) =>
-          (category === 'All' || e.category === category) &&
+          (selectedCategories.length === 0 || selectedCategories.includes(e.category)) &&
           matches(query, e.name, e.desc, e.category, e.id),
       ),
-    [category, query],
+    [selectedCategories, query],
   )
 
   // Live faceted counts — each dimension counts against the *other* active filters + query.
@@ -191,9 +191,9 @@ export function Directory() {
       apis.forEach((a) => {
         const q = matches(query, a.name, a.desc, a.category)
         if (!q) return
-        const passAuth = auth === 'All' || a.auth === auth
-        const passPricing = pricing === 'All' || a.pricing === pricing
-        const passCategory = category === 'All' || a.category === category
+        const passAuth = selectedAuths.length === 0 || selectedAuths.includes(a.auth)
+        const passPricing = selectedPricings.length === 0 || selectedPricings.includes(a.pricing)
+        const passCategory = selectedCategories.length === 0 || selectedCategories.includes(a.category)
         if (passAuth && passPricing) categoryCount[a.category] = (categoryCount[a.category] ?? 0) + 1
         if (passCategory && passPricing) authCount[a.auth] = (authCount[a.auth] ?? 0) + 1
         if (passCategory && passAuth) pricingCount[a.pricing] = (pricingCount[a.pricing] ?? 0) + 1
@@ -214,7 +214,7 @@ export function Directory() {
       })
     }
     return { categoryCount, authCount, pricingCount }
-  }, [tab, query, category, auth, pricing])
+  }, [tab, query, selectedCategories, selectedAuths, selectedPricings])
 
   const totalForCategoryAll = useMemo(
     () => Object.values(facets.categoryCount).reduce((sum, n) => sum + n, 0),
@@ -231,14 +231,14 @@ export function Directory() {
           : filteredChromeExtensions.length
 
   const activeFilters =
-    (category !== 'All' ? 1 : 0) +
-    (tab === 'apis' && auth !== 'All' ? 1 : 0) +
-    (tab === 'apis' && pricing !== 'All' ? 1 : 0)
+    selectedCategories.length +
+    (tab === 'apis' ? selectedAuths.length : 0) +
+    (tab === 'apis' ? selectedPricings.length : 0)
 
   const clearAll = useCallback(() => {
-    setCategory('All')
-    setAuth('All')
-    setPricing('All')
+    setSelectedCategories([])
+    setSelectedAuths([])
+    setSelectedPricings([])
     setQuery('')
   }, [])
 
@@ -386,21 +386,26 @@ export function Directory() {
                     </p>
                     <div className="flex max-h-40 flex-wrap gap-1.5 overflow-y-auto pr-1">
                       <Chip
-                        active={category === 'All'}
-                        onClick={() => setCategory('All')}
+                        active={selectedCategories.length === 0}
+                        onClick={() => setSelectedCategories([])}
                         count={totalForCategoryAll}
                       >
                         All
                       </Chip>
                       {visibleCategories.map((c) => {
                         const count = facets.categoryCount[c] ?? 0
+                        const isActive = selectedCategories.includes(c)
                         return (
                           <Chip
                             key={c}
-                            active={category === c}
-                            onClick={() => setCategory(category === c ? 'All' : c)}
+                            active={isActive}
+                            onClick={() =>
+                              setSelectedCategories((prev) =>
+                                prev.includes(c) ? prev.filter((x) => x !== c) : [...prev, c],
+                              )
+                            }
                             count={count}
-                            disabled={count === 0 && category !== c}
+                            disabled={count === 0 && !isActive}
                           >
                             {c}
                           </Chip>
@@ -434,18 +439,26 @@ export function Directory() {
                           Auth
                         </p>
                         <div className="flex flex-wrap gap-1.5">
-                          <Chip active={auth === 'All'} onClick={() => setAuth('All')}>
+                          <Chip
+                            active={selectedAuths.length === 0}
+                            onClick={() => setSelectedAuths([])}
+                          >
                             All
                           </Chip>
                           {apiAuthTypes.map((a) => {
                             const count = facets.authCount[a] ?? 0
+                            const isActive = selectedAuths.includes(a)
                             return (
                               <Chip
                                 key={a}
-                                active={auth === a}
-                                onClick={() => setAuth(auth === a ? 'All' : a)}
+                                active={isActive}
+                                onClick={() =>
+                                  setSelectedAuths((prev) =>
+                                    prev.includes(a) ? prev.filter((x) => x !== a) : [...prev, a],
+                                  )
+                                }
                                 count={count}
-                                disabled={count === 0 && auth !== a}
+                                disabled={count === 0 && !isActive}
                               >
                                 {a}
                               </Chip>
@@ -458,18 +471,26 @@ export function Directory() {
                           Pricing
                         </p>
                         <div className="flex flex-wrap gap-1.5">
-                          <Chip active={pricing === 'All'} onClick={() => setPricing('All')}>
+                          <Chip
+                            active={selectedPricings.length === 0}
+                            onClick={() => setSelectedPricings([])}
+                          >
                             All
                           </Chip>
                           {apiPricingTypes.map((p) => {
                             const count = facets.pricingCount[p] ?? 0
+                            const isActive = selectedPricings.includes(p)
                             return (
                               <Chip
                                 key={p}
-                                active={pricing === p}
-                                onClick={() => setPricing(pricing === p ? 'All' : p)}
+                                active={isActive}
+                                onClick={() =>
+                                  setSelectedPricings((prev) =>
+                                    prev.includes(p) ? prev.filter((x) => x !== p) : [...prev, p],
+                                  )
+                                }
                                 count={count}
-                                disabled={count === 0 && pricing !== p}
+                                disabled={count === 0 && !isActive}
                               >
                                 {p}
                               </Chip>
@@ -494,15 +515,35 @@ export function Directory() {
             {query && (
               <ActivePill label={`"${query}"`} onRemove={() => setQuery('')} />
             )}
-            {category !== 'All' && (
-              <ActivePill label={category} onRemove={() => setCategory('All')} />
-            )}
-            {tab === 'apis' && auth !== 'All' && (
-              <ActivePill label={`Auth: ${auth}`} onRemove={() => setAuth('All')} />
-            )}
-            {tab === 'apis' && pricing !== 'All' && (
-              <ActivePill label={pricing} onRemove={() => setPricing('All')} />
-            )}
+            {selectedCategories.map((c) => (
+              <ActivePill
+                key={c}
+                label={c}
+                onRemove={() =>
+                  setSelectedCategories((prev) => prev.filter((x) => x !== c))
+                }
+              />
+            ))}
+            {tab === 'apis' &&
+              selectedAuths.map((a) => (
+                <ActivePill
+                  key={a}
+                  label={`Auth: ${a}`}
+                  onRemove={() =>
+                    setSelectedAuths((prev) => prev.filter((x) => x !== a))
+                  }
+                />
+              ))}
+            {tab === 'apis' &&
+              selectedPricings.map((p) => (
+                <ActivePill
+                  key={p}
+                  label={p}
+                  onRemove={() =>
+                    setSelectedPricings((prev) => prev.filter((x) => x !== p))
+                  }
+                />
+              ))}
             <button
               type="button"
               onClick={clearAll}
