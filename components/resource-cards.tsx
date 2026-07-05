@@ -27,7 +27,7 @@ function Favicon({ url, name }: { url: string; name: string }) {
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={`https://www.google.com/s2/favicons?domain=${domain}&sz=64`}
-      alt=""
+      alt={`${name} favicon`}
       width={40}
       height={40}
       loading="lazy"
@@ -61,7 +61,7 @@ function VSCodeExtensionIcon({ id, name }: { id: string; name: string }) {
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={url}
-      alt=""
+      alt={`${name} icon`}
       width={40}
       height={40}
       loading="lazy"
@@ -87,7 +87,7 @@ function ChromeExtensionIcon({ id, name }: { id: string; name: string }) {
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={url}
-      alt=""
+      alt={`${name} icon`}
       width={40}
       height={40}
       loading="lazy"
