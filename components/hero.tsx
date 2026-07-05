@@ -87,7 +87,7 @@ export function Hero() {
 
         {/* Right: terminal-style visual */}
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
-          <div className="overflow-hidden rounded-2xl border border-border bg-card shadow-xl glow">
+          <div className="overflow-hidden rounded-2xl border border-border bg-card shadow-xl">
             <div className="flex items-center gap-2 border-b border-border bg-secondary px-4 py-3">
               <span className="size-3 rounded-full bg-primary/70" aria-hidden="true" />
               <span className="size-3 rounded-full bg-muted-foreground/40" aria-hidden="true" />

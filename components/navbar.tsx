@@ -1,7 +1,8 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { Zap, Menu, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
+import Image from 'next/image'
 import { cn } from '@/lib/utils'
 
 const links = [
@@ -26,14 +27,18 @@ export function Navbar() {
       <nav
         className={cn(
           'flex w-full max-w-6xl items-center justify-between rounded-2xl border border-border px-4 py-3 transition-all duration-300 md:px-6',
-          scrolled ? 'glass glow shadow-lg' : 'glass',
+          scrolled ? 'glass shadow-lg' : 'glass',
         )}
         aria-label="Main navigation"
       >
         <a href="#top" className="flex items-center gap-2">
-          <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <Zap className="size-5" aria-hidden="true" />
-          </span>
+          <Image
+            src="/fevicon.png"
+            alt="SprintAPI logo"
+            width={32}
+            height={32}
+            className="size-8 rounded-lg"
+          />
           <span className="text-base font-semibold tracking-tight">
             Sprint<span className="text-primary">API</span>
           </span>

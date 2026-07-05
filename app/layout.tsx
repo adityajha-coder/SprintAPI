@@ -25,6 +25,10 @@ export const metadata: Metadata = {
     'public apis',
     'directory',
   ],
+  icons: {
+    icon: '/fevicon.png',
+    apple: '/fevicon.png',
+  },
 }
 
 export const viewport: Viewport = {

@@ -63,7 +63,7 @@ function Badge({
 }
 
 const cardBase =
-  'group relative flex h-full flex-col rounded-2xl border border-border bg-card/60 p-5 transition-all duration-200 hover:-translate-y-1 hover:border-primary/40 hover:glow glass-card'
+  'group relative flex h-full flex-col rounded-2xl border border-border bg-card/60 p-5 transition-all duration-200 hover:-translate-y-1 hover:border-primary/40 glass-card'
 
 export function ApiCard({ item }: { item: ApiEntry }) {
   return (
