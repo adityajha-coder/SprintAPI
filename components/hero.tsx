@@ -19,7 +19,7 @@ export function Hero() {
         <h1 className="text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl md:text-6xl">
           The open directory of free
           <br />
-          <span className="text-primary">Resources</span>
+          <span className="font-cursive text-primary font-normal tracking-normal text-5xl sm:text-6xl md:text-7xl">Resources</span>
         </h1>
 
         {/* Description */}
