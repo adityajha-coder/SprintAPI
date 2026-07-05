@@ -66,6 +66,71 @@
         "name": "Supermaven",
         "desc": "Ultra-fast AI code completion tab assistant",
         "url": "https://supermaven.com"
+      },
+      {
+        "name": "Antigravity IDE",
+        "desc": "Google DeepMind's agentic AI-first IDE designed for autonomous pairing, refactoring, and multi-file debugging.",
+        "url": "https://deepmind.google/technologies/gemini/"
+      },
+      {
+        "name": "Qoder IDE",
+        "desc": "An agentic AI software engineering IDE built to autonomously navigate and maintain complex codebases.",
+        "url": "https://qoder.ai"
+      },
+      {
+        "name": "OpenClaw",
+        "desc": "Open-source agentic LLM orchestration engine for file modification and code refactoring.",
+        "url": "https://github.com/open-claw"
+      },
+      {
+        "name": "Kimi Chat",
+        "desc": "Moonshot AI's conversational assistant supporting long-context document analysis and code writing.",
+        "url": "https://kimi.moonshot.cn"
+      },
+      {
+        "name": "Emergent",
+        "desc": "An agentic workspace built for software engineers to automate developer tasks and pipelines.",
+        "url": "https://emergent.sh"
+      },
+      {
+        "name": "OpenHands",
+        "desc": "Autonomous agentic software engineer capable of executing bash commands and editing workspace files.",
+        "url": "https://github.com/All-Hands-AI/OpenHands"
+      },
+      {
+        "name": "SWE-agent",
+        "desc": "Software engineering agent that turns LM models into autonomous coders using a customized bash interface.",
+        "url": "https://github.com/princeton-nlp/SWE-agent"
+      },
+      {
+        "name": "PearAI",
+        "desc": "Open-source AI-first code editor designed as a transparent alternative for custom developer plugins.",
+        "url": "https://trypear.handswork.com"
+      },
+      {
+        "name": "Void Editor",
+        "desc": "Open-source developer environment built for self-hosted LLM assistants and full data privacy.",
+        "url": "https://voideditor.com"
+      },
+      {
+        "name": "Continue",
+        "desc": "Open-source autopilot assistant linking any model to VS Code and JetBrains IDE sidebars.",
+        "url": "https://www.continue.dev"
+      },
+      {
+        "name": "Mentat",
+        "desc": "Command-line AI coding assistant that coordinates with multiple files directly inside your Git workspace.",
+        "url": "https://github.com/Typeable/mentat"
+      },
+      {
+        "name": "GPT-Engineer",
+        "desc": "Specify what you want to build, and let the agent generate a complete codebase in minutes.",
+        "url": "https://github.com/gpt-engineer-org/gpt-engineer"
+      },
+      {
+        "name": "Devika",
+        "desc": "Open-source agentic software engineer designed to understand user instructions and write clean modules.",
+        "url": "https://github.com/stitionai/devika"
       }
     ]
   },
@@ -685,27 +750,352 @@
     ]
   },
   {
-    "cat": "Security & Testing",
+    "cat": "Frameworks & Libraries",
     "items": [
       {
-        "name": "Snyk",
-        "desc": "Scan and monitor code dependencies and containers for vulnerabilities",
-        "url": "https://snyk.io"
+        "name": "Next.js",
+        "desc": "The React framework for the web, enabling server-side rendering and static site generation.",
+        "url": "https://nextjs.org"
       },
       {
-        "name": "LocalStack",
-        "desc": "Fully functional local AWS cloud stack environment for offline tests",
-        "url": "https://localstack.cloud"
+        "name": "Nuxt",
+        "desc": "The intuitive Vue framework for building production-grade web applications.",
+        "url": "https://nuxt.com"
       },
       {
-        "name": "SonarQube",
-        "desc": "Continuous inspection tool for code quality and code security checks",
-        "url": "https://www.sonarqube.org"
+        "name": "SvelteKit",
+        "desc": "The official application framework for Svelte, providing fast routing and server rendering.",
+        "url": "https://kit.svelte.dev"
       },
       {
-        "name": "Infisical",
-        "desc": "Open-source secret management platform for configs and tokens",
-        "url": "https://infisical.com"
+        "name": "Astro",
+        "desc": "Web framework for building content-driven websites with zero client-side JavaScript by default.",
+        "url": "https://astro.build"
+      },
+      {
+        "name": "Remix",
+        "desc": "Full-stack web framework focused on web standards, modern user experience, and fast loads.",
+        "url": "https://remix.run"
+      },
+      {
+        "name": "SolidJS",
+        "desc": "Simple and reactive JavaScript library for building user interfaces with no virtual DOM.",
+        "url": "https://solidjs.com"
+      },
+      {
+        "name": "Tailwind CSS",
+        "desc": "Utility-first CSS framework for rapid UI development and highly customizable designs.",
+        "url": "https://tailwindcss.com"
+      },
+      {
+        "name": "Bootstrap",
+        "desc": "The most popular HTML, CSS, and JS library for responsive, mobile-first front-end web layouts.",
+        "url": "https://getbootstrap.com"
+      },
+      {
+        "name": "Fastify",
+        "desc": "Highly efficient, low overhead, and fast web framework for Node.js backend systems.",
+        "url": "https://fastify.dev"
+      },
+      {
+        "name": "NestJS",
+        "desc": "Progressive Node.js framework for building efficient, reliable, and scalable server-side applications.",
+        "url": "https://nestjs.com"
+      },
+      {
+        "name": "Express",
+        "desc": "Fast, unopinionated, minimalist web framework for Node.js server applications.",
+        "url": "https://expressjs.com"
+      },
+      {
+        "name": "Django",
+        "desc": "High-level Python web framework that encourages rapid development and clean, pragmatic design.",
+        "url": "https://www.djangoproject.com"
+      },
+      {
+        "name": "FastAPI",
+        "desc": "Modern, fast, high-performance web framework for building APIs with Python and auto-docs.",
+        "url": "https://fastapi.tiangolo.com"
+      },
+      {
+        "name": "Ruby on Rails",
+        "desc": "SaaS framework for web development, encouraging convention over configuration.",
+        "url": "https://rubyonrails.org"
+      },
+      {
+        "name": "Spring Boot",
+        "desc": "Build stand-alone, production-grade Spring-based Java applications with minimal configuration.",
+        "url": "https://spring.io/projects/spring-boot"
+      },
+      {
+        "name": "Laravel",
+        "desc": "Web application framework with expressive, elegant syntax for PHP web systems.",
+        "url": "https://laravel.com"
+      },
+      {
+        "name": "Fiber",
+        "desc": "An Express-inspired web framework written in Go, focusing on speed and minimal memory foot-print.",
+        "url": "https://gofiber.io"
+      },
+      {
+        "name": "Actix Web",
+        "desc": "A powerful, pragmatic, and extremely fast web framework for Rust servers.",
+        "url": "https://actix.rs"
+      }
+    ]
+  },
+  {
+    "cat": "Design & UX Resources",
+    "items": [
+      {
+        "name": "Figma",
+        "desc": "Collaborative interface design tool to design, prototype, and export frontend web layouts.",
+        "url": "https://figma.com"
+      },
+      {
+        "name": "Adobe XD",
+        "desc": "Fast, reliable UI/UX design tool to draw vector grids and animate layout interactions.",
+        "url": "https://adobe.com/products/xd"
+      },
+      {
+        "name": "Framer",
+        "desc": "Design and publish responsive sites visually, with built-in layout engines and animations.",
+        "url": "https://framer.com"
+      },
+      {
+        "name": "Spline 3D",
+        "desc": "Create interactive 3D web designs and export them to React, HTML, or vector modules.",
+        "url": "https://spline.design"
+      },
+      {
+        "name": "Font Awesome",
+        "desc": "Comprehensive icon library and toolkit offering thousands of vector icons for websites.",
+        "url": "https://fontawesome.com"
+      },
+      {
+        "name": "Google Fonts",
+        "desc": "Curated directory of free, open-source typography families to fetch and link inside CSS.",
+        "url": "https://fonts.google.com"
+      },
+      {
+        "name": "Dribbble",
+        "desc": "Discover designs, layouts, graphics, branding portfolios, and illustrations from top creators.",
+        "url": "https://dribbble.com"
+      },
+      {
+        "name": "Behance",
+        "desc": "Showcase and discover creative graphic designs, typography, illustrations, and user interface concepts.",
+        "url": "https://behance.net"
+      },
+      {
+        "name": "Mobbin",
+        "desc": "Comprehensive directory of real-world mobile and web interface screen screenshots for inspiration.",
+        "url": "https://mobbin.com"
+      },
+      {
+        "name": "Undraw",
+        "desc": "A continuously updated collection of beautiful SVG illustrations that you can use completely free.",
+        "url": "https://undraw.co"
+      },
+      {
+        "name": "Humaans",
+        "desc": "Mix-and-match illustrations of people to build customized graphics, states, and landing illustrations.",
+        "url": "https://humaans.com"
+      },
+      {
+        "name": "Heroicons",
+        "desc": "Beautiful, hand-crafted SVG icons by the creators of Tailwind CSS, available as outline and solid styles.",
+        "url": "https://heroicons.com"
+      },
+      {
+        "name": "Lucide Icons",
+        "desc": "Community-run fork of Feather Icons. Crisp, customizable SVG icons for layouts.",
+        "url": "https://lucide.dev"
+      },
+      {
+        "name": "Coolors",
+        "desc": "The super-fast color palettes generator. Create, save, and share beautiful color schemes.",
+        "url": "https://coolors.co"
+      },
+      {
+        "name": "Realtime Colors",
+        "desc": "Visualize custom colors on a real-world page template before integrating design tokens.",
+        "url": "https://realtimecolors.com"
+      },
+      {
+        "name": "CSS-Tricks",
+        "desc": "Front-end articles, guides, code snippets, and css properties dictionary for web builders.",
+        "url": "https://css-tricks.com"
+      },
+      {
+        "name": "Color Hunt",
+        "desc": "Open platform for color inspiration with thousands of trendy hand-picked color palettes.",
+        "url": "https://colorhunt.co"
+      },
+      {
+        "name": "UI Gradients",
+        "desc": "A collection of beautiful CSS color gradients to browse, copy, and set in background styles.",
+        "url": "https://uigradients.com"
+      }
+    ]
+  },
+  {
+    "cat": "Hosting & Deployment",
+    "items": [
+      {
+        "name": "Vercel",
+        "desc": "Deploy serverless frontend apps, static sites, and edge functions instantly with git integrations.",
+        "url": "https://vercel.com"
+      },
+      {
+        "name": "Netlify",
+        "desc": "SaaS hosting, serverless functions, form helpers, and edge deploy integrations for modern sites.",
+        "url": "https://netlify.com"
+      },
+      {
+        "name": "Heroku",
+        "desc": "SaaS cloud platform to compile, run, and scale backend server applications and databases.",
+        "url": "https://heroku.com"
+      },
+      {
+        "name": "Render",
+        "desc": "Modern hosting for web services, static sites, databases, cron jobs, and background workers.",
+        "url": "https://render.com"
+      },
+      {
+        "name": "Railway",
+        "desc": "Infrastructure platform to spin up backend services, databases, and cron processes in seconds.",
+        "url": "https://railway.app"
+      },
+      {
+        "name": "Fly.io",
+        "desc": "Run server microVMs closer to users with zero-config database replication and global CDNs.",
+        "url": "https://fly.io"
+      },
+      {
+        "name": "Firebase Hosting",
+        "desc": "Production-grade hosting for web applications, static assets, and dynamic serverless configurations.",
+        "url": "https://firebase.google.com"
+      },
+      {
+        "name": "DigitalOcean",
+        "desc": "Simple, reliable cloud virtual machines (Droplets), kubernetes clusters, and managed databases.",
+        "url": "https://digitalocean.com"
+      },
+      {
+        "name": "Linode",
+        "desc": "Managed cloud services, hosting, compute instances, and load balancers by Akamai.",
+        "url": "https://linode.com"
+      },
+      {
+        "name": "AWS Amplify",
+        "desc": "Configure secure mobile and web backends, compile frontends, and deploy static assets on AWS.",
+        "url": "https://aws.amazon.com/amplify"
+      },
+      {
+        "name": "Cloudflare Pages",
+        "desc": "JAMstack platform for developers to deploy static websites with Cloudflare's global edge speed.",
+        "url": "https://pages.cloudflare.com"
+      },
+      {
+        "name": "GitHub Pages",
+        "desc": "Host public repositories, project websites, blogs, and documentations directly from GitHub.",
+        "url": "https://pages.github.com"
+      },
+      {
+        "name": "GitLab Pages",
+        "desc": "Configure GitLab CI/CD pipelines to build and deploy static sites directly from repositories.",
+        "url": "https://docs.gitlab.com/ee/user/project/pages/"
+      },
+      {
+        "name": "Supabase Hosting",
+        "desc": "Run edge functions, storage buckets, and secure serverless backend instances on Supabase.",
+        "url": "https://supabase.com"
+      },
+      {
+        "name": "Surge.sh",
+        "desc": "Simple command-line hosting tool to publish static directory assets instantly.",
+        "url": "https://surge.sh"
+      },
+      {
+        "name": "Zeal",
+        "desc": "Simple offline API documentation browser to read and search docs for 200+ technologies without internet.",
+        "url": "https://zealdocs.org"
+      }
+    ]
+  },
+  {
+    "cat": "Fun & Interactive",
+    "items": [
+      {
+        "name": "GitHub Skyline",
+        "desc": "Visualize your annual GitHub commit contribution graph as an interactive 3D model or virtual reality city.",
+        "url": "https://skyline.github.com"
+      },
+      {
+        "name": "Regex101",
+        "desc": "Online interactive regular expression debugger, tester, explanation generator, and library.",
+        "url": "https://regex101.com"
+      },
+      {
+        "name": "DevHints",
+        "desc": "A curated directory of simple, clean, and interactive cheat sheets for developer tools and languages.",
+        "url": "https://devhints.io"
+      },
+      {
+        "name": "JSON Hero",
+        "desc": "A beautiful, interactive JSON explorer that makes reading, searching, and mapping JSON files clean and intuitive.",
+        "url": "https://jsonhero.io"
+      },
+      {
+        "name": "Carbon",
+        "desc": "Create and share beautiful high-resolution image snapshots of your source code snippets.",
+        "url": "https://carbon.now.sh"
+      },
+      {
+        "name": "Ray.so",
+        "desc": "Turn your coding selections into beautiful, customized screenshot layouts with gradient backgrounds.",
+        "url": "https://ray.so"
+      },
+      {
+        "name": "Excalidraw",
+        "desc": "Virtual collaborative whiteboard for sketching hand-drawn-like diagrams, layouts, and system mockups.",
+        "url": "https://excalidraw.com"
+      },
+      {
+        "name": "TLDR Pages",
+        "desc": "Simplified and community-driven terminal man pages, offering practical command usage examples.",
+        "url": "https://tldr.sh"
+      },
+      {
+        "name": "CodePen",
+        "desc": "Social development playground to write, test, share, and debug front-end HTML, CSS, and JS components.",
+        "url": "https://codepen.io"
+      },
+      {
+        "name": "StackBlitz",
+        "desc": "Online IDE powered by WebContainers to spin up full-stack Node.js environments inside browser tabs.",
+        "url": "https://stackblitz.com"
+      },
+      {
+        "name": "JSFiddle",
+        "desc": "Online playground to write, test, inspect, and share HTML, CSS, and JavaScript snippets.",
+        "url": "https://jsfiddle.net"
+      },
+      {
+        "name": "HackerTyper",
+        "desc": "Type random keys on your keyboard and watch complete software code appear on screen like in the movies.",
+        "url": "https://hackertyper.net"
+      },
+      {
+        "name": "GitKraken",
+        "desc": "Cross-platform visual Git client featuring interactive merge conflict tools, commit trees, and terminal integration.",
+        "url": "https://www.gitkraken.com"
+      },
+      {
+        "name": "GitFight",
+        "desc": "Enter your GitHub username to compare contribution stats and launch a visual 'fight' with other programmers.",
+        "url": "https://gitfight.com"
       }
     ]
   }
