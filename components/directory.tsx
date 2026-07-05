@@ -6,21 +6,24 @@ import {
   apis,
   tools,
   extensions,
+  chromeExtensions,
   apiCategories,
   apiAuthTypes,
   apiPricingTypes,
   toolCategories,
   extensionCategories,
+  chromeExtensionCategories,
 } from '@/lib/data'
-import { ApiCard, ToolCard, ExtensionCard } from '@/components/resource-cards'
+import { ApiCard, ToolCard, ExtensionCard, ChromeExtensionCard } from '@/components/resource-cards'
 import { cn } from '@/lib/utils'
 
-type Tab = 'apis' | 'tools' | 'extensions'
+type Tab = 'apis' | 'tools' | 'extensions' | 'chrome-extensions'
 
 const tabs: { id: Tab; label: string; count: number }[] = [
   { id: 'apis', label: 'APIs', count: apis.length },
   { id: 'tools', label: 'Tools', count: tools.length },
-  { id: 'extensions', label: 'Extensions', count: extensions.length },
+  { id: 'extensions', label: 'VSC Extensions', count: extensions.length },
+  { id: 'chrome-extensions', label: 'Chrome Extensions', count: chromeExtensions.length },
 ]
 
 const CATEGORY_LIMIT = 10
@@ -84,7 +87,13 @@ export function Directory() {
   const filterBtnRef = useRef<HTMLButtonElement>(null)
 
   const categories =
-    tab === 'apis' ? apiCategories : tab === 'tools' ? toolCategories : extensionCategories
+    tab === 'apis'
+      ? apiCategories
+      : tab === 'tools'
+        ? toolCategories
+        : tab === 'extensions'
+          ? extensionCategories
+          : chromeExtensionCategories
 
   const changeTab = (next: Tab) => {
     setTab(next)
@@ -116,7 +125,12 @@ export function Directory() {
   useEffect(() => {
     const syncFromHash = () => {
       const hash = window.location.hash.replace('#', '')
-      if (hash === 'apis' || hash === 'tools' || hash === 'extensions') {
+      if (
+        hash === 'apis' ||
+        hash === 'tools' ||
+        hash === 'extensions' ||
+        hash === 'chrome-extensions'
+      ) {
         changeTab(hash)
       }
     }
@@ -157,6 +171,16 @@ export function Directory() {
     [category, query],
   )
 
+  const filteredChromeExtensions = useMemo(
+    () =>
+      chromeExtensions.filter(
+        (e) =>
+          (category === 'All' || e.category === category) &&
+          matches(query, e.name, e.desc, e.category, e.id),
+      ),
+    [category, query],
+  )
+
   // Live faceted counts — each dimension counts against the *other* active filters + query.
   const facets = useMemo(() => {
     const categoryCount: Record<string, number> = {}
@@ -175,7 +199,12 @@ export function Directory() {
         if (passCategory && passAuth) pricingCount[a.pricing] = (pricingCount[a.pricing] ?? 0) + 1
       })
     } else {
-      const source = tab === 'tools' ? tools : extensions
+      const source =
+        tab === 'tools'
+          ? tools
+          : tab === 'extensions'
+            ? extensions
+            : chromeExtensions
       source.forEach((item) => {
         const q =
           tab === 'tools'
@@ -197,7 +226,9 @@ export function Directory() {
       ? filteredApis.length
       : tab === 'tools'
         ? filteredTools.length
-        : filteredExtensions.length
+        : tab === 'extensions'
+          ? filteredExtensions.length
+          : filteredChromeExtensions.length
 
   const activeFilters =
     (category !== 'All' ? 1 : 0) +
@@ -219,6 +250,7 @@ export function Directory() {
         <span id="apis" className="absolute -top-28" />
         <span id="tools" className="absolute -top-28" />
         <span id="extensions" className="absolute -top-28" />
+        <span id="chrome-extensions" className="absolute -top-28" />
       </div>
 
       {/* Sticky control bar — compact single row */}
@@ -258,9 +290,21 @@ export function Directory() {
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder={`Search ${tab}...`}
+              placeholder={`Search ${
+                tab === 'extensions'
+                  ? 'VSC Extensions'
+                  : tab === 'chrome-extensions'
+                    ? 'Chrome Extensions'
+                    : tab
+              }...`}
               className="w-full rounded-xl border border-border bg-background/60 py-2 pl-9 pr-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-primary"
-              aria-label={`Search ${tab}`}
+              aria-label={`Search ${
+                tab === 'extensions'
+                  ? 'VSC Extensions'
+                  : tab === 'chrome-extensions'
+                    ? 'Chrome Extensions'
+                    : tab
+              }`}
             />
           </div>
 
@@ -305,7 +349,14 @@ export function Directory() {
               >
                 {/* Header */}
                 <div className="mb-3 flex items-center justify-between">
-                  <h3 className="text-sm font-semibold text-foreground">Filter {tab}</h3>
+                  <h3 className="text-sm font-semibold text-foreground">
+                    Filter{' '}
+                    {tab === 'extensions'
+                      ? 'VSC Extensions'
+                      : tab === 'chrome-extensions'
+                        ? 'Chrome Extensions'
+                        : tab}
+                  </h3>
                   <div className="flex items-center gap-2">
                     {activeFilters > 0 && (
                       <button
@@ -468,9 +519,19 @@ export function Directory() {
         <p className="text-sm text-muted-foreground">
           Showing <span className="font-semibold text-foreground">{resultCount}</span> of{' '}
           <span className="font-semibold text-foreground">
-            {tab === 'apis' ? apis.length : tab === 'tools' ? tools.length : extensions.length}
+            {tab === 'apis'
+              ? apis.length
+              : tab === 'tools'
+                ? tools.length
+                : tab === 'extensions'
+                  ? extensions.length
+                  : chromeExtensions.length}
           </span>{' '}
-          {tab}
+          {tab === 'extensions'
+            ? 'VSC Extensions'
+            : tab === 'chrome-extensions'
+              ? 'Chrome Extensions'
+              : tab}
         </p>
       </div>
 
@@ -500,6 +561,10 @@ export function Directory() {
           {tab === 'extensions' &&
             filteredExtensions.map((item) => (
               <ExtensionCard key={item.id} item={item} />
+            ))}
+          {tab === 'chrome-extensions' &&
+            filteredChromeExtensions.map((item) => (
+              <ChromeExtensionCard key={item.id} item={item} />
             ))}
         </div>
       )}
