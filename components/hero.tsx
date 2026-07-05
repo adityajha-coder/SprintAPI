@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react'
 import { counts } from '@/lib/data'
 
 export function Hero() {
-  const total = counts.apis + counts.tools + counts.extensions
+  const total = counts.apis + counts.tools + counts.extensions + counts.chromeExtensions
 
   return (
     <section className="relative overflow-hidden pt-36 pb-20 md:pt-44 md:pb-28">
@@ -31,20 +31,6 @@ export function Hero() {
           researching and more time building.
         </p>
 
-        {/* Stats inline */}
-        <div className="mx-auto mt-8 flex items-center justify-center gap-8 text-sm text-muted-foreground">
-          <span>
-            <strong className="text-foreground text-lg font-semibold">{counts.apis}</strong> APIs
-          </span>
-          <span className="text-border">·</span>
-          <span>
-            <strong className="text-foreground text-lg font-semibold">{counts.tools}</strong> Tools
-          </span>
-          <span className="text-border">·</span>
-          <span>
-            <strong className="text-foreground text-lg font-semibold">{counts.extensions}</strong> Extensions
-          </span>
-        </div>
 
         {/* Actions */}
         <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">

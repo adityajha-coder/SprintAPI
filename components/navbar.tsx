@@ -8,7 +8,8 @@ import { cn } from '@/lib/utils'
 const links = [
   { label: 'APIs', href: '#apis' },
   { label: 'Tools', href: '#tools' },
-  { label: 'Extensions', href: '#extensions' },
+  { label: 'VSC Extensions', href: '#extensions' },
+  { label: 'Chrome Extensions', href: '#chrome-extensions' },
 ]
 
 export function Navbar() {
