@@ -297,7 +297,7 @@ export function Directory() {
             {showFilters && (
               <div
                 ref={filterPanelRef}
-                className="absolute right-0 top-full z-50 mt-2 w-[min(28rem,calc(100vw-2rem))] origin-top-right animate-in fade-in slide-in-from-top-2 rounded-2xl border border-border p-4 shadow-xl glass-card sm:w-[32rem]"
+                className="absolute right-0 top-full z-50 mt-2 w-[min(28rem,calc(100vw-2rem))] origin-top-right animate-in fade-in slide-in-from-top-2 rounded-2xl border border-border bg-card p-4 shadow-2xl sm:w-[32rem]"
                 role="dialog"
                 aria-label="Filter options"
               >
