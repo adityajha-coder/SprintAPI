@@ -14,12 +14,55 @@ const links = [
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
+  const [activeLink, setActiveLink] = useState<string | null>(null)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8)
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  // Highlight active link based on intersection & hash
+  useEffect(() => {
+    let isDirectoryVisible = false
+
+    const handleHashChange = () => {
+      if (isDirectoryVisible) {
+        setActiveLink(window.location.hash || '#apis')
+      } else {
+        setActiveLink(null)
+      }
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        isDirectoryVisible = entry.isIntersecting
+        if (entry.isIntersecting) {
+          // If directory is visible, highlight current hash or default to #apis
+          setActiveLink(window.location.hash || '#apis')
+        } else {
+          setActiveLink(null)
+        }
+      },
+      {
+        // Highlight when directory occupies at least 20% of viewport
+        threshold: 0.2,
+        rootMargin: '-80px 0px 0px 0px', // account for header height
+      }
+    )
+
+    const directoryEl = document.getElementById('directory')
+    if (directoryEl) {
+      observer.observe(directoryEl)
+    }
+
+    window.addEventListener('hashchange', handleHashChange)
+
+    return () => {
+      observer.disconnect()
+      window.removeEventListener('hashchange', handleHashChange)
+    }
   }, [])
 
   return (
@@ -49,7 +92,12 @@ export function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="rounded-lg px-3 py-2 text-sm text-muted-foreground"
+              className={cn(
+                'rounded-lg px-3 py-2 text-sm transition-all duration-200',
+                activeLink === link.href
+                  ? 'bg-secondary text-foreground font-semibold'
+                  : 'text-muted-foreground hover:text-foreground'
+              )}
             >
               {link.label}
             </a>
@@ -81,7 +129,12 @@ export function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="rounded-lg px-3 py-2.5 text-sm text-muted-foreground"
+                className={cn(
+                  'rounded-lg px-3 py-2.5 text-sm transition-all duration-200',
+                  activeLink === link.href
+                    ? 'bg-secondary text-foreground font-semibold'
+                    : 'text-muted-foreground hover:text-foreground'
+                )}
               >
                 {link.label}
               </a>

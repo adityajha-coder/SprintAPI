@@ -92,6 +92,8 @@ export function Directory() {
     setAuth('All')
     setPricing('All')
     setShowAllCategories(false)
+    window.history.replaceState(null, '', `#${next}`)
+    window.dispatchEvent(new HashChangeEvent('hashchange'))
   }
 
   // Close filter dropdown when clicking outside
@@ -464,8 +466,11 @@ export function Directory() {
       {/* Result count */}
       <div className="mt-6 flex items-center justify-between">
         <p className="text-sm text-muted-foreground">
-          <span className="font-semibold text-foreground">{resultCount}</span> result
-          {resultCount === 1 ? '' : 's'}
+          Showing <span className="font-semibold text-foreground">{resultCount}</span> of{' '}
+          <span className="font-semibold text-foreground">
+            {tab === 'apis' ? apis.length : tab === 'tools' ? tools.length : extensions.length}
+          </span>{' '}
+          {tab}
         </p>
       </div>
 
