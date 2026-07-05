@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Search, SlidersHorizontal, X, ChevronDown } from 'lucide-react'
 import {
   apis,
@@ -78,8 +78,10 @@ export function Directory() {
   const [category, setCategory] = useState('All')
   const [auth, setAuth] = useState('All')
   const [pricing, setPricing] = useState('All')
-  const [showFilters, setShowFilters] = useState(true)
+  const [showFilters, setShowFilters] = useState(false)
   const [showAllCategories, setShowAllCategories] = useState(false)
+  const filterPanelRef = useRef<HTMLDivElement>(null)
+  const filterBtnRef = useRef<HTMLButtonElement>(null)
 
   const categories =
     tab === 'apis' ? apiCategories : tab === 'tools' ? toolCategories : extensionCategories
@@ -91,6 +93,23 @@ export function Directory() {
     setPricing('All')
     setShowAllCategories(false)
   }
+
+  // Close filter dropdown when clicking outside
+  useEffect(() => {
+    if (!showFilters) return
+    const handleClick = (e: MouseEvent) => {
+      if (
+        filterPanelRef.current &&
+        !filterPanelRef.current.contains(e.target as Node) &&
+        filterBtnRef.current &&
+        !filterBtnRef.current.contains(e.target as Node)
+      ) {
+        setShowFilters(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [showFilters])
 
   useEffect(() => {
     const syncFromHash = () => {
@@ -183,12 +202,12 @@ export function Directory() {
     (tab === 'apis' && auth !== 'All' ? 1 : 0) +
     (tab === 'apis' && pricing !== 'All' ? 1 : 0)
 
-  const clearAll = () => {
+  const clearAll = useCallback(() => {
     setCategory('All')
     setAuth('All')
     setPricing('All')
     setQuery('')
-  }
+  }, [])
 
   const visibleCategories = showAllCategories ? categories : categories.slice(0, CATEGORY_LIMIT)
 
@@ -199,18 +218,19 @@ export function Directory() {
         <span id="tools" className="absolute -top-28" />
         <span id="extensions" className="absolute -top-28" />
       </div>
-      {/* Sticky control bar */}
-      <div className="sticky top-24 z-30 -mx-4 rounded-2xl border border-border p-3 glass md:mx-0 md:p-4">
-        <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+
+      {/* Sticky control bar — compact single row */}
+      <div className="sticky top-24 z-30 -mx-4 rounded-2xl border border-border glass md:mx-0">
+        <div className="flex items-center gap-2 p-2 md:gap-3 md:p-3">
           {/* Tabs */}
-          <div className="flex rounded-xl border border-border bg-secondary/40 p-1">
+          <div className="flex shrink-0 rounded-xl border border-border bg-secondary/40 p-1">
             {tabs.map((t) => (
               <button
                 key={t.id}
                 type="button"
                 onClick={() => changeTab(t.id)}
                 className={cn(
-                  'flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium transition-colors md:px-4',
+                  'flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm font-medium transition-colors md:px-3.5',
                   tab === t.id
                     ? 'bg-primary text-primary-foreground'
                     : 'text-muted-foreground hover:text-foreground',
@@ -219,7 +239,7 @@ export function Directory() {
                 {t.label}
                 <span
                   className={cn(
-                    'rounded-md px-1.5 py-0.5 text-[10px] font-semibold tabular-nums',
+                    'hidden rounded-md px-1.5 py-0.5 text-[10px] font-semibold tabular-nums sm:inline',
                     tab === t.id ? 'bg-primary-foreground/20' : 'bg-secondary text-muted-foreground',
                   )}
                 >
@@ -229,29 +249,34 @@ export function Directory() {
             ))}
           </div>
 
-          {/* Search */}
-          <div className="flex items-center gap-2">
-            <div className="relative flex-1 md:w-72">
-              <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
-              <input
-                type="search"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder={`Search ${tab}...`}
-                className="w-full rounded-xl border border-border bg-background/60 py-2.5 pl-9 pr-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-primary"
-                aria-label={`Search ${tab}`}
-              />
-            </div>
+          {/* Search — fills remaining space */}
+          <div className="relative min-w-0 flex-1">
+            <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+            <input
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={`Search ${tab}...`}
+              className="w-full rounded-xl border border-border bg-background/60 py-2 pl-9 pr-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-primary"
+              aria-label={`Search ${tab}`}
+            />
+          </div>
+
+          {/* Filter toggle — right side */}
+          <div className="relative shrink-0">
             <button
+              ref={filterBtnRef}
               type="button"
               onClick={() => setShowFilters((v) => !v)}
               className={cn(
-                'flex items-center gap-1.5 rounded-xl border px-3 py-2.5 text-sm font-medium transition-colors',
+                'flex items-center gap-1.5 rounded-xl border px-3 py-2 text-sm font-medium transition-colors',
                 showFilters
                   ? 'border-primary/40 bg-primary/10 text-primary'
                   : 'border-border bg-secondary/50 text-muted-foreground hover:text-foreground',
               )}
               aria-pressed={showFilters}
+              aria-haspopup="true"
+              aria-expanded={showFilters}
             >
               <SlidersHorizontal className="size-4" />
               <span className="hidden sm:inline">Filters</span>
@@ -260,14 +285,157 @@ export function Directory() {
                   {activeFilters}
                 </span>
               )}
+              <ChevronDown
+                className={cn(
+                  'size-3.5 transition-transform',
+                  showFilters && 'rotate-180',
+                )}
+              />
             </button>
+
+            {/* Filter dropdown panel */}
+            {showFilters && (
+              <div
+                ref={filterPanelRef}
+                className="absolute right-0 top-full z-50 mt-2 w-[min(28rem,calc(100vw-2rem))] origin-top-right animate-in fade-in slide-in-from-top-2 rounded-2xl border border-border p-4 shadow-xl glass-card sm:w-[32rem]"
+                role="dialog"
+                aria-label="Filter options"
+              >
+                {/* Header */}
+                <div className="mb-3 flex items-center justify-between">
+                  <h3 className="text-sm font-semibold text-foreground">Filter {tab}</h3>
+                  <div className="flex items-center gap-2">
+                    {activeFilters > 0 && (
+                      <button
+                        type="button"
+                        onClick={clearAll}
+                        className="text-xs font-medium text-primary transition-colors hover:underline"
+                      >
+                        Clear all
+                      </button>
+                    )}
+                    <button
+                      type="button"
+                      onClick={() => setShowFilters(false)}
+                      className="flex size-6 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+                      aria-label="Close filters"
+                    >
+                      <X className="size-4" />
+                    </button>
+                  </div>
+                </div>
+
+                <div className="space-y-4">
+                  {/* Category */}
+                  <div>
+                    <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                      Category
+                    </p>
+                    <div className="flex max-h-40 flex-wrap gap-1.5 overflow-y-auto pr-1">
+                      <Chip
+                        active={category === 'All'}
+                        onClick={() => setCategory('All')}
+                        count={totalForCategoryAll}
+                      >
+                        All
+                      </Chip>
+                      {visibleCategories.map((c) => {
+                        const count = facets.categoryCount[c] ?? 0
+                        return (
+                          <Chip
+                            key={c}
+                            active={category === c}
+                            onClick={() => setCategory(category === c ? 'All' : c)}
+                            count={count}
+                            disabled={count === 0 && category !== c}
+                          >
+                            {c}
+                          </Chip>
+                        )
+                      })}
+                      {categories.length > CATEGORY_LIMIT && (
+                        <button
+                          type="button"
+                          onClick={() => setShowAllCategories((v) => !v)}
+                          className="inline-flex shrink-0 items-center gap-1 rounded-full border border-dashed border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
+                        >
+                          {showAllCategories
+                            ? 'Show less'
+                            : `+${categories.length - CATEGORY_LIMIT} more`}
+                          <ChevronDown
+                            className={cn(
+                              'size-3 transition-transform',
+                              showAllCategories && 'rotate-180',
+                            )}
+                          />
+                        </button>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Auth & Pricing — only for APIs */}
+                  {tab === 'apis' && (
+                    <>
+                      <div className="border-t border-border pt-3">
+                        <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                          Auth
+                        </p>
+                        <div className="flex flex-wrap gap-1.5">
+                          <Chip active={auth === 'All'} onClick={() => setAuth('All')}>
+                            All
+                          </Chip>
+                          {apiAuthTypes.map((a) => {
+                            const count = facets.authCount[a] ?? 0
+                            return (
+                              <Chip
+                                key={a}
+                                active={auth === a}
+                                onClick={() => setAuth(auth === a ? 'All' : a)}
+                                count={count}
+                                disabled={count === 0 && auth !== a}
+                              >
+                                {a}
+                              </Chip>
+                            )
+                          })}
+                        </div>
+                      </div>
+                      <div className="border-t border-border pt-3">
+                        <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                          Pricing
+                        </p>
+                        <div className="flex flex-wrap gap-1.5">
+                          <Chip active={pricing === 'All'} onClick={() => setPricing('All')}>
+                            All
+                          </Chip>
+                          {apiPricingTypes.map((p) => {
+                            const count = facets.pricingCount[p] ?? 0
+                            return (
+                              <Chip
+                                key={p}
+                                active={pricing === p}
+                                onClick={() => setPricing(pricing === p ? 'All' : p)}
+                                count={count}
+                                disabled={count === 0 && pricing !== p}
+                              >
+                                {p}
+                              </Chip>
+                            )
+                          })}
+                        </div>
+                      </div>
+                    </>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         </div>
 
-        {/* Active filter pills */}
+        {/* Active filter pills — compact row below the bar */}
         {(activeFilters > 0 || query) && (
-          <div className="mt-3 flex flex-wrap items-center gap-2">
-            <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+          <div className="flex flex-wrap items-center gap-2 border-t border-border/50 px-3 py-2 md:px-4">
+            <span className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground">
               Active
             </span>
             {query && (
@@ -289,110 +457,6 @@ export function Directory() {
             >
               Clear all
             </button>
-          </div>
-        )}
-
-        {/* Filters */}
-        {showFilters && (
-          <div className="mt-3 space-y-3 border-t border-border pt-3">
-            <div>
-              <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                Category
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <Chip
-                  active={category === 'All'}
-                  onClick={() => setCategory('All')}
-                  count={totalForCategoryAll}
-                >
-                  All
-                </Chip>
-                {visibleCategories.map((c) => {
-                  const count = facets.categoryCount[c] ?? 0
-                  return (
-                    <Chip
-                      key={c}
-                      active={category === c}
-                      onClick={() => setCategory(category === c ? 'All' : c)}
-                      count={count}
-                      disabled={count === 0 && category !== c}
-                    >
-                      {c}
-                    </Chip>
-                  )
-                })}
-                {categories.length > CATEGORY_LIMIT && (
-                  <button
-                    type="button"
-                    onClick={() => setShowAllCategories((v) => !v)}
-                    className="inline-flex shrink-0 items-center gap-1 rounded-full border border-dashed border-border px-3.5 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
-                  >
-                    {showAllCategories
-                      ? 'Show less'
-                      : `+${categories.length - CATEGORY_LIMIT} more`}
-                    <ChevronDown
-                      className={cn(
-                        'size-3.5 transition-transform',
-                        showAllCategories && 'rotate-180',
-                      )}
-                    />
-                  </button>
-                )}
-              </div>
-            </div>
-
-            {tab === 'apis' && (
-              <div className="grid gap-3 sm:grid-cols-2">
-                <div>
-                  <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                    Auth
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <Chip active={auth === 'All'} onClick={() => setAuth('All')}>
-                      All
-                    </Chip>
-                    {apiAuthTypes.map((a) => {
-                      const count = facets.authCount[a] ?? 0
-                      return (
-                        <Chip
-                          key={a}
-                          active={auth === a}
-                          onClick={() => setAuth(auth === a ? 'All' : a)}
-                          count={count}
-                          disabled={count === 0 && auth !== a}
-                        >
-                          {a}
-                        </Chip>
-                      )
-                    })}
-                  </div>
-                </div>
-                <div>
-                  <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                    Pricing
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <Chip active={pricing === 'All'} onClick={() => setPricing('All')}>
-                      All
-                    </Chip>
-                    {apiPricingTypes.map((p) => {
-                      const count = facets.pricingCount[p] ?? 0
-                      return (
-                        <Chip
-                          key={p}
-                          active={pricing === p}
-                          onClick={() => setPricing(pricing === p ? 'All' : p)}
-                          count={count}
-                          disabled={count === 0 && pricing !== p}
-                        >
-                          {p}
-                        </Chip>
-                      )
-                    })}
-                  </div>
-                </div>
-              </div>
-            )}
           </div>
         )}
       </div>
@@ -453,3 +517,4 @@ function ActivePill({ label, onRemove }: { label: string; onRemove: () => void }
     </span>
   )
 }
+
