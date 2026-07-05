@@ -2734,5 +2734,473 @@
     "auth": "API Key",
     "cors": true,
     "pricing": "Paid"
+  },
+  {
+    "name": "Hashnode API",
+    "desc": "Access user feeds, blog posts, publication details, and publication statistics via a GraphQL API.",
+    "url": "https://api.hashnode.com",
+    "category": "Development",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "GitHub Pages API",
+    "desc": "Configure, update, build, and deploy GitHub Pages settings and metadata configurations programmatically.",
+    "url": "https://docs.github.com/rest/pages",
+    "category": "Development",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "GitLab API",
+    "desc": "Interact with GitLab resources programmatically including projects, branches, merge requests, users, and issues.",
+    "url": "https://docs.gitlab.com/ee/api/",
+    "category": "Development",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Bitbucket API",
+    "desc": "REST API to manage code repositories, commits, pull requests, workspace configurations, and pipelines in Bitbucket.",
+    "url": "https://developer.atlassian.com/cloud/bitbucket/rest/intro/",
+    "category": "Development",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Netlify API",
+    "desc": "Deploy websites, trigger builds, configure build environments, and manage domains programmatically on Netlify.",
+    "url": "https://docs.netlify.com/api/get-started/",
+    "category": "Development",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Fly.io API",
+    "desc": "Deploy server applications closer to users. Spin up virtual machines and load balancers programmatically via GraphQL.",
+    "url": "https://fly.io/docs/reference/api/",
+    "category": "Development",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Railway API",
+    "desc": "Programmatically manage your cloud infrastructure deployments, environments, variables, and services in Railway.",
+    "url": "https://docs.railway.app/reference/public-api",
+    "category": "Development",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Render API",
+    "desc": "Orchestrate render deployments, fetch database metrics, launch services, and control host settings.",
+    "url": "https://api-docs.render.com",
+    "category": "Development",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Supabase API",
+    "desc": "Open source Firebase alternative. Instantly interact with your PostgreSQL database, authentication, and file storage layers.",
+    "url": "https://supabase.com/docs/reference/api",
+    "category": "Data",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Firebase REST API",
+    "desc": "Directly interact with your Firebase Realtime Database and Cloud Storage buckets using standardized HTTP requests.",
+    "url": "https://firebase.google.com/docs/reference/rest",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "PocketBase API",
+    "desc": "REST API framework for PocketBase backend. Create users, store records, list collections, and watch real-time updates.",
+    "url": "https://pocketbase.io/docs/api-rules-and-filters/",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "FaunaDB API",
+    "desc": "Query Fauna's serverless document database utilizing robust FQL (Fauna Query Language) over secure API connections.",
+    "url": "https://docs.fauna.com",
+    "category": "Data",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "CockroachDB Cloud API",
+    "desc": "Configure serverless clusters, track database usage, and provision nodes programmatically in CockroachDB Cloud.",
+    "url": "https://www.cockroachlabs.com/docs/stable/cockroachcloud-api",
+    "category": "Data",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "MongoDB Atlas API",
+    "desc": "Query cluster stats, manage user access permissions, control backups, and configure database metrics.",
+    "url": "https://www.mongodb.com/docs/atlas/api/",
+    "category": "Data",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Neon API",
+    "desc": "Orchestrate your serverless Postgres databases. Create project branches, database instances, and roles programmatically.",
+    "url": "https://neon.tech/docs/reference/api",
+    "category": "Data",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "PlanetScale API",
+    "desc": "Manage database branches, migration queues, deploy requests, and fetch query logs in PlanetScale database engine.",
+    "url": "https://planetscale.com/docs/reference/api",
+    "category": "Data",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Hasura GraphQL API",
+    "desc": "Query instantly generated GraphQL schemas over your active databases with integrated security layers.",
+    "url": "https://hasura.io/docs/latest/graphql/core/index/",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Strapi API",
+    "desc": "Read, create, update, and search headlessly managed content layouts with automatically generated REST endpoints.",
+    "url": "https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-reference/rest-api.html",
+    "category": "Data",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "IPinfo API",
+    "desc": "Identify geolocation details, ISP data, VPN presence, and connection networks for any IP address globally.",
+    "url": "https://ipinfo.io/developers",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "ZeroBounce API",
+    "desc": "Verify email addresses in real-time to detect invalid domains, spam traps, catch-all targets, and decrease bounce metrics.",
+    "url": "https://www.zerobounce.net/docs/",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Hunter.io API",
+    "desc": "Perform email verifications, find public corporate contact details, and check email deliverability options.",
+    "url": "https://hunter.io/api",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Mailgun API",
+    "desc": "Robust cloud email API for developers. Send, receive, parse, and validate transactional email outputs.",
+    "url": "https://documentation.mailgun.com/en/latest/api_reference.html",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Paid"
+  },
+  {
+    "name": "Twilio SendGrid API",
+    "desc": "Transactional and marketing email API designed for massive delivery, tracking statistics, and domain authentication.",
+    "url": "https://docs.sendgrid.com/api-reference",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Clerk API",
+    "desc": "Integrate complete user authentication flow, session validation, active login blocks, and profile settings.",
+    "url": "https://clerk.com/docs/reference/backend-api",
+    "category": "Security",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Kinde API",
+    "desc": "Manage organizations, fetch login details, provision client accounts, and control API authorization credentials.",
+    "url": "https://kinde.com/docs/developer-tools/kinde-api/",
+    "category": "Security",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "CoinGecko API",
+    "desc": "Access live cryptocurrency valuations, market caps, token details, volumes, exchange directories, and historical charts.",
+    "url": "https://www.coingecko.com/en/api",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "CryptoCompare API",
+    "desc": "Fetch blockchain prices, market updates, live coin conversions, news feeds, and historical cryptocurrency metrics.",
+    "url": "https://min-api.cryptocompare.com",
+    "category": "Finance",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Open Exchange Rates API",
+    "desc": "Accurate real-time global currency exchange rates, conversion tools, historical values, and fiat indexes.",
+    "url": "https://openexchangerates.org",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Fixer.io API",
+    "desc": "A lightweight currency converter API supporting live updates for 170+ global fiat currencies.",
+    "url": "https://fixer.io",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "CurrencyBeacon API",
+    "desc": "Lightweight REST API delivering real-time currency conversions, historical fiat data, and currency codes.",
+    "url": "https://currencybeacon.com",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Alpha Vantage API",
+    "desc": "Real-time and historical financial indexes, stock market quotes, forex exchanges, and cryptocurrency valuation metrics.",
+    "url": "https://www.alphavantage.co",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "IEX Cloud API",
+    "desc": "Access curated financial data feeds, historical stock metrics, corporate actions, and options data.",
+    "url": "https://iexcloud.io",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Paid"
+  },
+  {
+    "name": "Plaid API",
+    "desc": "Securely connect web applications with user bank account details to verify balances, fetch balances, and initialize ACH transactions.",
+    "url": "https://plaid.com/docs/api/",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Paid"
+  },
+  {
+    "name": "Stripe API",
+    "desc": "Integrate subscription logic, capture card payments, handle payouts, and manage invoice details globally.",
+    "url": "https://stripe.com/docs/api",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Paid"
+  },
+  {
+    "name": "Lemon Squeezy API",
+    "desc": "Manage SaaS subscriptions, create checkouts, fetch customer details, and track license keys.",
+    "url": "https://docs.lemonsqueezy.com/api",
+    "category": "Finance",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Reddit API",
+    "desc": "Interact with Reddit subreddits, fetch hot posts, query user metrics, and post content programmatically.",
+    "url": "https://www.reddit.com/dev/api/",
+    "category": "Social",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Unsplash API",
+    "desc": "Access Unsplash's collection of over 3 million high-quality, royalty-free photography images.",
+    "url": "https://unsplash.com/developers",
+    "category": "Photos",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Pexels API",
+    "desc": "Search and download thousands of royalty-free images and stock videos programmatically.",
+    "url": "https://www.pexels.com/api/",
+    "category": "Photos",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Pixabay API",
+    "desc": "Fetch high-resolution vector graphics, illustrations, photography, and audio clips programmatically.",
+    "url": "https://pixabay.com/api/docs/",
+    "category": "Photos",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "GIPHY API",
+    "desc": "Integrate GIPHY's library of animated GIFs, stickers, and emoticons into web layouts.",
+    "url": "https://developers.giphy.com",
+    "category": "Entertainment",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Genius API",
+    "desc": "Search song lyrics, fetch artist biographies, and query music annotations catalog data.",
+    "url": "https://docs.genius.com",
+    "category": "Entertainment",
+    "auth": "OAuth",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "TMDb API",
+    "desc": "Comprehensive metadata library for movies, TV series, actors, ratings, and video trailers.",
+    "url": "https://developer.themoviedb.org/docs",
+    "category": "Entertainment",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "OpenWeatherMap API",
+    "desc": "Live weather details, localized forecasts, historical weather reports, and satellite maps.",
+    "url": "https://openweathermap.org/api",
+    "category": "Weather",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Weatherstack API",
+    "desc": "Query global weather reports, current temperature indexes, and wind conditions using a simple REST format.",
+    "url": "https://weatherstack.com",
+    "category": "Weather",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "AccuWeather API",
+    "desc": "Access AccuWeather's forecasting indexes, localized weather metrics, and storm warnings.",
+    "url": "https://developer.accuweather.com",
+    "category": "Weather",
+    "auth": "API Key",
+    "cors": false,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "JSONPlaceholder API",
+    "desc": "Fake online REST API for testing and prototyping client-side scripts with mock user, post, and comment data.",
+    "url": "https://jsonplaceholder.typicode.com",
+    "category": "Testing",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Dog API",
+    "desc": "A public directory of dog breed images, lists, and sub-breeds for development and pet applications.",
+    "url": "https://dog.ceo/dog-api/",
+    "category": "Animals",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Cat Fact API",
+    "desc": "Retrieve random fun facts about cats, cat breeds, and cat stats programmatically.",
+    "url": "https://catfact.ninja",
+    "category": "Animals",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "Advice Slip API",
+    "desc": "Simple API that returns a random piece of advice or advice searches as JSON objects.",
+    "url": "https://api.adviceslip.com",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "AnimeChan API",
+    "desc": "Get random anime quotes, quotes by character names, or quotes by anime series.",
+    "url": "https://animechan.xyz",
+    "category": "Entertainment",
+    "auth": "None",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "NASA API",
+    "desc": "Access NASA's open databases including Astronomy Picture of the Day, Mars Rover Photos, and Asteroid hazards.",
+    "url": "https://api.nasa.gov",
+    "category": "Science",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
+  },
+  {
+    "name": "OpenRouter API",
+    "desc": "A unified interface for LLMs. Query dozens of top models including GPT-4, Claude 3, Llama 3, and Gemini via a single API key.",
+    "url": "https://openrouter.ai/docs",
+    "category": "Development",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
   }
 ]
