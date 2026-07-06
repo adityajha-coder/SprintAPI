@@ -139,7 +139,7 @@ export function ApiCard({ item }: { item: ApiEntry }) {
         <ArrowUpRight className="size-4 shrink-0 text-muted-foreground transition-colors group-hover:text-primary" />
       </div>
 
-      <p className="mt-3 line-clamp-3 flex-1 text-sm leading-relaxed text-muted-foreground">
+      <p className="mt-3 line-clamp-3 flex-1 text-sm leading-relaxed text-white">
         {item.desc}
       </p>
 
@@ -167,7 +167,7 @@ export function ToolCard({ item }: { item: ToolEntry }) {
         </div>
         <ArrowUpRight className="size-4 shrink-0 text-muted-foreground transition-colors group-hover:text-primary" />
       </div>
-      <p className="mt-3 line-clamp-3 flex-1 text-sm leading-relaxed text-muted-foreground">
+      <p className="mt-3 line-clamp-3 flex-1 text-sm leading-relaxed text-white">
         {item.desc}
       </p>
       <div className="mt-4">
@@ -207,7 +207,7 @@ export function ExtensionCard({ item }: { item: ExtensionEntry }) {
         <ArrowUpRight className="size-4 shrink-0 text-muted-foreground transition-colors group-hover:text-primary" />
       </div>
 
-      <p className="mt-3 line-clamp-3 flex-1 text-sm leading-relaxed text-muted-foreground">
+      <p className="mt-3 line-clamp-3 flex-1 text-sm leading-relaxed text-white">
         {item.desc}
       </p>
 
@@ -252,7 +252,7 @@ export function ChromeExtensionCard({ item }: { item: ExtensionEntry }) {
         <ArrowUpRight className="size-4 shrink-0 text-muted-foreground transition-colors group-hover:text-primary" />
       </div>
 
-      <p className="mt-3 line-clamp-3 flex-1 text-sm leading-relaxed text-muted-foreground">
+      <p className="mt-3 line-clamp-3 flex-1 text-sm leading-relaxed text-white">
         {item.desc}
       </p>
 

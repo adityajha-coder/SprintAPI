@@ -82,7 +82,7 @@ export function Hero() {
               Try:
             </span>
             <div className="relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_8%,white_92%,transparent)]">
-              <div className="flex w-max animate-marquee gap-8 whitespace-nowrap text-xs font-medium text-muted-foreground">
+              <div className="flex w-max animate-marquee gap-8 whitespace-nowrap text-xs font-medium text-white">
                 <div className="flex gap-8 shrink-0">
                   {marqueeItems.map((item, idx) => (
                     <span key={idx} className="hover:text-foreground transition-colors cursor-default">
