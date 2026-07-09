@@ -15,27 +15,27 @@
       {
         "name": "Vue.js devtools",
         "desc": "Chrome DevTools extension for debugging Vue.js applications, components, events, and Vuex states.",
-        "id": "nhdogjmejiglipccpnnnmgbleoihmgie"
+        "id": "nhdogjmejiglipccpnnnanhbledajbpd"
       },
       {
         "name": "Angular DevTools",
         "desc": "Debug Angular applications with visualization of component structure, change detection profiling, and state tracking.",
-        "id": "ekhagcgcholfbfloedocgkocabjcocoi"
+        "id": "ienfalfjdbdpebioblfackkekamfmbnh"
       },
       {
         "name": "Svelte DevTools",
         "desc": "Inspect Svelte component state, hierarchy, and events directly in your developer panel.",
-        "id": "fbillikclhbknnnoploadoojeenicomp"
+        "id": "kfidecgcdjjfpeckbblhmfkhmlgecoff"
       },
       {
         "name": "JSON Viewer",
         "desc": "Customizable Chrome extension for formatting, styling, and searching raw JSON files directly in browser tabs.",
-        "id": "cjkilmepecgopoeffjjbhoeenfkponie"
+        "id": "aimiinbnnkboelefkjlenlgimcabobli"
       },
       {
         "name": "JSONView",
         "desc": "Formats and syntax highlights JSON documents with collapsible tree structures, clickable URLs, and raw formats.",
-        "id": "gbeocmaobmjfopkbbnlfopdbikdfidil"
+        "id": "gmegofmjomhknnokphhckolhcffdaihd"
       },
       {
         "name": "GraphQL Network Inspector",
@@ -50,37 +50,37 @@
       {
         "name": "BuiltWith Technology Profiler",
         "desc": "Find out what technologies a website is built with, including widgets, analytics, hosting, and mail frameworks.",
-        "id": "dapbellcmocmffjmmcnjofillinbjmon"
+        "id": "dapjbgnjinbpoindlpdmhochffioedbn"
       },
       {
         "name": "axe DevTools",
         "desc": "Fast, lightweight accessibility testing tool to identify and resolve critical accessibility errors in your HTML.",
-        "id": "lhdoppojpmngadmnindnejefpokejbmm"
+        "id": "lhdoppojpmngadmnindnejefpokejbdd"
       },
       {
         "name": "WAVE Evaluation Tool",
         "desc": "Web accessibility evaluation tool that injects visual indicators onto the webpage to help diagnose WCAG errors.",
-        "id": "jbbplionnjooebhiiedpeconejeidnin"
+        "id": "jbbplnpkjmmeebjpijfedlgcdilocofh"
       },
       {
         "name": "CSS Peeper",
         "desc": "A smart CSS inspector tailored for web designers. Extract nested styles, colors, layouts, and image assets in one click.",
-        "id": "paaflmbljceokgpejeggfillnlogjoof"
+        "id": "mbnbehikldjhnfehhnaidhjhoofhpehk"
       },
       {
         "name": "Web Developer",
         "desc": "Adds a complete utility toolbar to inspect styles, toggle CSS, disable scripts, edit cookies, and check accessibility.",
-        "id": "bfmbbndokecfjgoaeedomeaonmonflad"
+        "id": "bfbameneiokkgbdmiekhjnmfkcnldhhm"
       },
       {
         "name": "Open in VS Code",
         "desc": "Open GitHub repositories directly in VS Code with one click.",
-        "id": "iamccoendbnnablpdhfplkgmpnbejnb"
+        "id": "pfakkjlkpobjeghlgipljkjmbgcanpji"
       },
       {
         "name": "VisBug",
         "desc": "Open-source web design debug tools built with web components. Inspect elements, align spacing, and edit text visually.",
-        "id": "cdockenadnadbemedfkimgbfciookpad"
+        "id": "cdockenadnadldjbbgcallicgledbeoc"
       },
       {
         "name": "Requestly",
@@ -95,17 +95,17 @@
       {
         "name": "Ember Inspector",
         "desc": "Inspect Ember.js applications, routes, controllers, active models, promises, and data layer performance.",
-        "id": "bmdblmgknldnooihnmfcbbonmjggghob"
+        "id": "bmdblncegkenkacieihfhpjfppoconhi"
       },
       {
         "name": "PHP Console",
         "desc": "Handle PHP errors, dumps, and debugging queries directly in your browser console via headers payload.",
-        "id": "nfhampibmdjdojfaiffadigjnbieihap"
+        "id": "plcmmfcfbnddbomdlnklhepfkkdmodkf"
       },
       {
         "name": "XPath Helper",
         "desc": "Extract, edit, and evaluate XPath queries live on any web page by holding Shift and hovering over elements.",
-        "id": "nmjjcokoigamfoklbjmhpmjajmcjbjld"
+        "id": "nlfdopnkeodpiondihlgnhgpjieoopbj"
       },
       {
         "name": "SEOquake",
@@ -125,12 +125,12 @@
       {
         "name": "Octotree",
         "desc": "Enhance GitHub with an interactive code tree sidebar. Easily browse repository files, commits, and pull requests.",
-        "id": "bkhaagobfilplnnghlndhibigiphjjon"
+        "id": "bkhaagjahfmjljalopjnoealnfndnagc"
       },
       {
         "name": "Refined GitHub",
         "desc": "Simplifies and streamlines the GitHub interface, adding dozens of productivity tweaks, hotkeys, and shortcuts.",
-        "id": "hlepapnkhmhmcbdaddhajjgbgdhbakbh"
+        "id": "hlepfoohegkhhmjieoechaddaejaokhf"
       },
       {
         "name": "OctoLinker",
@@ -140,17 +140,17 @@
       {
         "name": "daily.dev",
         "desc": "The ultimate developer homepage. Curates a personalized tech news feed from top engineering communities.",
-        "id": "jlmpopbefjoebdohminaimmbbafkilme"
+        "id": "jlmpjdjjbgclbocgajdjefcidcncaied"
       },
       {
         "name": "Clockify Time Tracker",
         "desc": "Track coding hours, timesheets, and project tasks directly from Chrome. Integrates with GitHub, Jira, and Gitlab.",
-        "id": "pmijbbjbedijobihjcmgikcjoiholgbp"
+        "id": "pmjeegjhjdlccodhacdgbgfagbpmccpe"
       },
       {
         "name": "Toggl Track",
         "desc": "Simple productivity timer inside web tools. Tracks screen time and syncs entries directly to Toggl.",
-        "id": "boemmnjjkkjenkkpfgoljoocencgocig"
+        "id": "oejgccbfbmkkpaidnkphaiaecficdnfn"
       },
       {
         "name": "Lighthouse",
@@ -165,37 +165,37 @@
       {
         "name": "EditThisCookie",
         "desc": "Full-featured cookie manager. Edit, add, delete, search, block, and export cookies in a simple visual popup.",
-        "id": "fngmhnnpilhplaeedifhccceomclgfbg"
+        "id": "ihfmcbadakjehneaijebhpogkegajgnk"
       },
       {
         "name": "OneTab",
         "desc": "Save up to 95% memory and reduce tab clutter by converting all of your active tabs into a clean list layout.",
-        "id": "chphlbnfaefgjhppedhjmegecsnocdpe"
+        "id": "chphlpgkkbolifaimnlloiipkdnihall"
       },
       {
         "name": "Tab Wrangler",
         "desc": "Automatically closes inactive tabs after a configured time delay, keeping tab lists tidy and conserving system resources.",
-        "id": "egnjhciaieeiiohknchakbobeffihibe"
+        "id": "egnjhciaieeiiohknchakcodbpgjnchh"
       },
       {
         "name": "Grammarly",
         "desc": "Provides real-time feedback on writing clarity, grammar, tone, and spelling across all web editors and input boxes.",
-        "id": "kbfnbcaeplbcioakkpcpgfkihknhocof"
+        "id": "kbfnbcaeplbcioakkpcpgfkobkghlhen"
       },
       {
         "name": "Stylus",
         "desc": "Redesign your favorite websites by installing and customizing custom CSS stylesheets locally.",
-        "id": "clngdbkpkpeebahjckaimhifcfooccca"
+        "id": "clngdbkpkpeebahjckkjfobafhncgmne"
       },
       {
         "name": "Ghostery",
         "desc": "Clean up webpages, block analytics trackers, block ads, and inspect trackers to speed up load times.",
-        "id": "gdoanihjigngopjbgddjmdihobngdncl"
+        "id": "mlomiejdfkolichcflejclcbmpeaniij"
       },
       {
         "name": "Speedtest by Ookla",
         "desc": "Measure your internet connection speeds, latency, and ping metrics directly from a quick Chrome popup.",
-        "id": "gcppoloiidmkooihjbommdcmioncbcfn"
+        "id": "lehkjkiamkllgoeapaekldipihookllo"
       },
       {
         "name": "Dark Reader",
@@ -260,7 +260,7 @@
       {
         "name": "AutoPagerize",
         "desc": "Automatically loads the next page while scrolling.",
-        "id": "igiofjhpmpihnifddepnpngfjhkfenbp"
+        "id": "kdplapeciagkkjoignnkfpbfkebcfbpb"
       }
     ]
   },
@@ -275,17 +275,17 @@
       {
         "name": "Site Palette",
         "desc": "Extract and generate beautiful, shareable color palettes from any website layout dynamically.",
-        "id": "acamppomgocaccojocakkpacmflmcolg"
+        "id": "pekhihjiehdafocefoimckjpbkegknoh"
       },
       {
         "name": "SVG Export",
         "desc": "Search, preview, copy code, or download SVGs from web pages in bulk. Converts icons to PNG/JPEG formats.",
-        "id": "aajlcjifgdpkfngbfkegnooenmlcfheh"
+        "id": "naeaaedieihlkmdajjefioajbbdbdjgp"
       },
       {
         "name": "PerfectPixel",
         "desc": "Overlay design mockup images on top of developed HTML to verify alignments and ensure pixel-perfect matches.",
-        "id": "dcalmjicommgocconggocjjedmifjbed"
+        "id": "dkaagdgjmgdmbnecmcefdhjekcoceebi"
       },
       {
         "name": "Image Downloader",
@@ -305,47 +305,42 @@
       {
         "name": "Window Resizer",
         "desc": "Resize your browser window to simulate specific viewport resolutions, including mobile, laptop, and tablet widths.",
-        "id": "kkelicaakdanhinjdeammmilcgefonfh"
+        "id": "hgjfanlllikpfpaadggdbchdpcbiaeei"
       },
       {
         "name": "Dimensions",
         "desc": "A tool for designers to measure screen dimensions, margins, paddings, and relative pixel distances on mouse movements.",
-        "id": "jplnbeohdccomdjnkjgknmfibfddbmmc"
+        "id": "baocaagndhipibgklemoalmkljaimfdj"
       },
       {
         "name": "Grid Ruler",
         "desc": "Draw layout guidelines, align columns, measure absolute margins, and set grids directly over top of web pages.",
-        "id": "fgjoembllfdpaleeebimjclieddomgif"
+        "id": "joadogiaiabhmggdifljlpkclnpfncmj"
       },
       {
         "name": "WhatFont",
         "desc": "Identify web typography instantly. Hover over text to inspect font families, sizes, line heights, and weights.",
-        "id": "jabopobgopjdoijmfgmdopgdoonionfg"
+        "id": "opogloaldjiplhogobhmghlgnlciebin"
       },
       {
         "name": "Fonts Ninja",
         "desc": "Inspect typography on any page. View font names, css values, weights, and try fonts inside the visual dashboard.",
-        "id": "eliahhhnncaiejaigjbbblpeepmhkjpe"
+        "id": "eljapbgkmlngdpckoiiibecpemleclhh"
       },
       {
         "name": "User-Agent Switcher",
         "desc": "Mock your browser's user-agent headers to test mobile websites, specific browser render views, and user-agent scripts.",
-        "id": "djflhoibgkdhocjiljbaokmcapocjoej"
+        "id": "djflhoibgkdhkhhcedjiklpkjnoahfmg"
       },
       {
         "name": "Check My Links",
         "desc": "A link checker that crawls web pages and lists status codes, highlighting working (200) and broken (404) links.",
-        "id": "ocphkkejidiocanmclinbjolejiombhn"
-      },
-      {
-        "name": "Hjson Viewer",
-        "desc": "Inspect and format Human JSON datasets, providing collapsing nodes, trees, syntax coloring, and copy shortcuts.",
-        "id": "dfoblgahbgbbdfgofphhmljofgimgeeb"
+        "id": "aajoalonednamcpodaeocebfgldhcpbe"
       },
       {
         "name": "WhatRuns",
         "desc": "One-click widget showing web application technology stacks, tracking scripts, webservers, and analytics platforms.",
-        "id": "cmkdbbanegilmedafeeicgfeeidcljmp"
+        "id": "cmkdbmfndkfgebldhnkbfhlneefdaaip"
       },
       {
         "name": "Wapiti Mobile Simulator",
@@ -412,51 +407,51 @@
   {
     "cat": "Privacy & Security",
     "items": [
-        {
-          "name": "uBlock Origin",
-          "desc": "Blocks ads, trackers, malware, and unwanted content for faster and safer browsing.",
-          "id": "cjpalhdlnbpafiamejdnhcphjbkeiagm"
-        },
-        {
-          "name": "Privacy Badger",
-          "desc": "Automatically detects and blocks invisible trackers while you browse.",
-          "id": "pkehgijcmpdhfbdbbnkijodmdjhbjlgp"
-        },
-        {
-          "name": "Cookie-Editor",
-          "desc": "View, edit, import, export, and manage browser cookies with ease.",
-          "id": "hlkenndednhfkekhgcdicdfddnkalmdm"
-        },
-        {
-          "name": "LocalCDN",
-          "desc": "Serves popular web libraries locally to improve privacy and reduce external requests.",
-          "id": "jlmhhokfnncdpfglafcfbinjdnfbjmjf"
-        },
-        {
-          "name": "Decentraleyes",
-          "desc": "Emulates popular CDNs locally to reduce requests to third-party servers.",
-          "id": "ldpochfccmkkmhdbclfhpagapcfdljkj"
-        },
-        {
-          "name": "ClearURLs",
-          "desc": "Removes tracking parameters from URLs before they are opened or shared.",
-          "id": "lckanjgmijmafbedllaakclkaicjfmnk"
-        },
-        {
-          "name": "I still don't care about cookies",
-          "desc": "Automatically hides or accepts cookie consent banners on supported websites.",
-          "id": "edibdbjcniadpccecjdfdjjppcpchdlm"
-        },
-        {
-          "name": "CanvasBlocker",
-          "desc": "Protects against browser fingerprinting by spoofing fingerprinting APIs.",
-          "id": "nomnklagbgmgghhjidfhnoelnjfndfpd"
-        },
-        {
-          "name": "NoScript",
-          "desc": "Provides advanced control over JavaScript, WebGL, and other active web content.",
-          "id": "doojmbjmlfjjnbmnoijecmcbfeoakpjm"
-        }
-      ]
+      {
+        "name": "uBlock Origin",
+        "desc": "Blocks ads, trackers, malware, and unwanted content for faster and safer browsing.",
+        "id": "cjpalhdlnbpafiamejdnhcphjbkeiagm"
+      },
+      {
+        "name": "Privacy Badger",
+        "desc": "Automatically detects and blocks invisible trackers while you browse.",
+        "id": "pkehgijcmpdhfbdbbnkijodmdjhbjlgp"
+      },
+      {
+        "name": "Cookie-Editor",
+        "desc": "View, edit, import, export, and manage browser cookies with ease.",
+        "id": "hlkenndednhfkekhgcdicdfddnkalmdm"
+      },
+      {
+        "name": "LocalCDN",
+        "desc": "Serves popular web libraries locally to improve privacy and reduce external requests.",
+        "id": "jlmhhokfnncdpfglafcfbinjdnfbjmjf"
+      },
+      {
+        "name": "Decentraleyes",
+        "desc": "Emulates popular CDNs locally to reduce requests to third-party servers.",
+        "id": "ldpochfccmkkmhdbclfhpagapcfdljkj"
+      },
+      {
+        "name": "ClearURLs",
+        "desc": "Removes tracking parameters from URLs before they are opened or shared.",
+        "id": "lckanjgmijmafbedllaakclkaicjfmnk"
+      },
+      {
+        "name": "I still don't care about cookies",
+        "desc": "Automatically hides or accepts cookie consent banners on supported websites.",
+        "id": "edibdbjcniadpccecjdfdjjppcpchdlm"
+      },
+      {
+        "name": "CanvasBlocker",
+        "desc": "Protects against browser fingerprinting by spoofing fingerprinting APIs.",
+        "id": "nomnklagbgmgghhjidfhnoelnjfndfpd"
+      },
+      {
+        "name": "NoScript",
+        "desc": "Provides advanced control over JavaScript, WebGL, and other active web content.",
+        "id": "doojmbjmlfjjnbmnoijecmcbfeoakpjm"
+      }
+    ]
   }
 ]
