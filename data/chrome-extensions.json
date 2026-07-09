@@ -10,7 +10,7 @@
       {
         "name": "Redux DevTools",
         "desc": "DevTools for Redux supporting hot reloading, state diff logging, and time travel debugging.",
-        "id": "lmhkpmbekcpmknklioeibmetcafokgll"
+        "id": "lmhkpmbekcpmknklioeibfkpmmfibljd"
       },
       {
         "name": "Vue.js devtools",
@@ -30,7 +30,7 @@
       {
         "name": "JSON Viewer",
         "desc": "Customizable Chrome extension for formatting, styling, and searching raw JSON files directly in browser tabs.",
-        "id": "gbmdgocknibhggghjicbjibnhnnnfjgo"
+        "id": "cjkilmepecgopoeffjjbhoeenfkponie"
       },
       {
         "name": "JSONView",
@@ -38,9 +38,14 @@
         "id": "gbeocmaobmjfopkbbnlfopdbikdfidil"
       },
       {
+        "name": "GraphQL Network Inspector",
+        "desc": "View and debug GraphQL requests directly in DevTools.",
+        "id": "ndlbedplllcgconngcnfmkadhokfaaln"
+      },
+      {
         "name": "Wappalyzer",
         "desc": "Uncover the technology stacks behind any website, including CMSs, frameworks, analytics tools, and databases.",
-        "id": "gppongmhjkpfnkgbndcplbglcllckplm"
+        "id": "gppongmhjkpfnbhagpmjfkannfbllamg"
       },
       {
         "name": "BuiltWith Technology Profiler",
@@ -68,6 +73,11 @@
         "id": "bfmbbndokecfjgoaeedomeaonmonflad"
       },
       {
+        "name": "Open in VS Code",
+        "desc": "Open GitHub repositories directly in VS Code with one click.",
+        "id": "iamccoendbnnablpdhfplkgmpnbejnb"
+      },
+      {
         "name": "VisBug",
         "desc": "Open-source web design debug tools built with web components. Inspect elements, align spacing, and edit text visually.",
         "id": "cdockenadnadbemedfkimgbfciookpad"
@@ -91,6 +101,21 @@
         "name": "PHP Console",
         "desc": "Handle PHP errors, dumps, and debugging queries directly in your browser console via headers payload.",
         "id": "nfhampibmdjdojfaiffadigjnbieihap"
+      },
+      {
+        "name": "XPath Helper",
+        "desc": "Extract, edit, and evaluate XPath queries live on any web page by holding Shift and hovering over elements.",
+        "id": "nmjjcokoigamfoklbjmhpmjajmcjbjld"
+      },
+      {
+        "name": "SEOquake",
+        "desc": "Free SEO toolkit showing on-page metrics, keyword density, link analysis, and SERP overlays for any webpage.",
+        "id": "akdgnmcogleenhbclghghlkkdndkjdjc"
+      },
+      {
+        "name": "Detailed SEO Extension",
+        "desc": "Get instant SEO insights for any page, including title tags, meta descriptions, headings, and robots directives.",
+        "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba"
       }
     ]
   },
@@ -143,11 +168,6 @@
         "id": "fngmhnnpilhplaeedifhccceomclgfbg"
       },
       {
-        "name": "Session Buddy",
-        "desc": "Manage tabs and browser sessions with ease. Save, restore, group, and backup active tab lists.",
-        "id": "edacbacmappgpdfhkifdecbbdoacfggl"
-      },
-      {
         "name": "OneTab",
         "desc": "Save up to 95% memory and reduce tab clutter by converting all of your active tabs into a clean list layout.",
         "id": "chphlbnfaefgjhppedhjmegecsnocdpe"
@@ -163,11 +183,6 @@
         "id": "kbfnbcaeplbcioakkpcpgfkihknhocof"
       },
       {
-        "name": "Tampermonkey",
-        "desc": "The most popular userscript manager. Write, install, and execute custom JavaScript logic on specific web pages.",
-        "id": "dhdgffkkbafomddoafaafociphfbkeim"
-      },
-      {
         "name": "Stylus",
         "desc": "Redesign your favorite websites by installing and customizing custom CSS stylesheets locally.",
         "id": "clngdbkpkpeebahjckaimhifcfooccca"
@@ -181,6 +196,71 @@
         "name": "Speedtest by Ookla",
         "desc": "Measure your internet connection speeds, latency, and ping metrics directly from a quick Chrome popup.",
         "id": "gcppoloiidmkooihjbommdcmioncbcfn"
+      },
+      {
+        "name": "Dark Reader",
+        "desc": "Applies a customizable dark mode to websites for more comfortable browsing & Productivity.",
+        "id": "eimadpbcbfnmbkopoojfekhnkhdbieeh"
+      },
+      {
+        "name": "Bitwarden",
+        "desc": "Secure password manager that stores, generates, and autofills passwords.",
+        "id": "nngceckbapebfimnlniiiahkandclblb"
+      },
+      {
+        "name": "LanguageTool",
+        "desc": "Checks grammar, spelling, punctuation, and writing style in real time.",
+        "id": "oldceeleldhonbafppcapldpdifcinji"
+      },
+      {
+        "name": "SponsorBlock",
+        "desc": "Automatically skips sponsored segments and other unwanted parts of YouTube videos.",
+        "id": "mnjggcdmjocbbbhaepdhchncahnbgone"
+      },
+      {
+        "name": "Tampermonkey",
+        "desc": "Runs custom userscripts to automate tasks and customize websites.",
+        "id": "dhdgffkkebhmkfjojejmpbldmpobfkfo"
+      },
+      {
+        "name": "Session Buddy",
+        "desc": "Saves and restores browser sessions to recover tabs after crashes or restarts.",
+        "id": "edacconmaakjimmfgnblocblbcdcpbko"
+      },
+      {
+        "name": "JSON Formatter",
+        "desc": "Formats and highlights JSON data for easier reading and debugging.",
+        "id": "bcjindcccaagfpapjjmafapmmgkkhgoa"
+      },
+      {
+        "name": "Todoist for Chrome",
+        "desc": "Add tasks and save web pages to Todoist as you browse, right-click to capture text, and plan your day from the toolbar.",
+        "id": "jldhpllghnbhlbpcmnajkpdmadaolakh"
+      },
+      {
+        "name": "Loom",
+        "desc": "Record your screen and camera with one click and instantly share the video with a link.",
+        "id": "liecbddmkiiihnedobmlmillhodjkdmb"
+      },
+      {
+        "name": "BlockSite",
+        "desc": "Block distracting websites and apps, schedule focus sessions, and password-protect your blocklist to stay on task.",
+        "id": "eiimnmioipafcokbfikbljfdeojpcgbh"
+      },
+      {
+        "name": "1Password",
+        "desc": "Sign in to sites, generate strong passwords, and autofill saved logins, passkeys, and cards from your vault.",
+        "id": "aeblfdkhhhdcdjpifhhbdiojplfjncoa"
+      },
+      {
+        "name": "Notion Web Clipper",
+        "desc": "Save any page on the web straight into a Notion database or page with a single click.",
+        "id": "knheggckgoiihginacbkhaalnibhilkk"
+      },
+      {
+        "name": "AutoPagerize",
+        "desc": "Automatically loads the next page while scrolling.",
+        "id": "igiofjhpmpihnifddepnpngfjhkfenbp"
       }
     ]
   },
@@ -190,7 +270,7 @@
       {
         "name": "ColorZilla",
         "desc": "Advanced eyedropper, page color analyzer, color picker, palette generator, and CSS gradient builder.",
-        "id": "bhlhceobgnbodgnogcclnjnfnjgpkcba"
+        "id": "bhlhnicpbhignbdhedgjhgdocnmhomnp"
       },
       {
         "name": "Site Palette",
@@ -200,7 +280,7 @@
       {
         "name": "SVG Export",
         "desc": "Search, preview, copy code, or download SVGs from web pages in bulk. Converts icons to PNG/JPEG formats.",
-        "id": "lhgiejihimafpjkiciomadjomjfgocbi"
+        "id": "aajlcjifgdpkfngbfkegnooenmlcfheh"
       },
       {
         "name": "PerfectPixel",
@@ -208,14 +288,24 @@
         "id": "dcalmjicommgocconggocjjedmifjbed"
       },
       {
+        "name": "Image Downloader",
+        "desc": "Download all images from a webpage with filtering options.",
+        "id": "cnpniohnfphhjihaiiggeabnkjhpaldj"
+      },
+      {
+        "name": "Page Ruler Redux",
+        "desc": "Measure pixel dimensions and spacing on webpages.",
+        "id": "jcbmcnpepaddcedmjdcmhbekjhbfnlff"
+      },
+      {
         "name": "Mobile Simulator",
         "desc": "Test responsive designs using mock smartphone, tablet, and smart TV viewpoints with screen touch gestures.",
-        "id": "ckejmhbidppggebamidalkhpbfeedboe"
+        "id": "ckejmhbmlajgoklhgbapkiccekfoccmk"
       },
       {
         "name": "Window Resizer",
         "desc": "Resize your browser window to simulate specific viewport resolutions, including mobile, laptop, and tablet widths.",
-        "id": "kkelicaakdanhinjdeamajgbgfhcdpja"
+        "id": "kkelicaakdanhinjdeammmilcgefonfh"
       },
       {
         "name": "Dimensions",
@@ -261,6 +351,21 @@
         "name": "Wapiti Mobile Simulator",
         "desc": "Interactive viewport resize and simulation of mock environments to test responsive web layouts easily.",
         "id": "jddmgnnleekklonpcbcklcooabmllgpc"
+      },
+      {
+        "name": "Eye Dropper",
+        "desc": "Pick colors from any webpage with a built-in color picker, then copy codes as HEX, RGB, or HSL.",
+        "id": "hmdcmlfkchdmnmnmheododdhjedfccka"
+      },
+      {
+        "name": "GoFullPage",
+        "desc": "Capture a full-page screenshot in one click, then crop, annotate, and export it as an image or PDF.",
+        "id": "fdpohaocaechififmbbbbbknoalclacl"
+      },
+      {
+        "name": "Fireshot",
+        "desc": "Capture, annotate, and export full webpage screenshots.",
+        "id": "mcbpblocgmgfnpjjppndjkmgjaogfceg"
       }
     ]
   },
@@ -291,7 +396,67 @@
         "name": "Panic Button",
         "desc": "Hide all of your active browser tabs at once with a single click or keyboard shortcut, and restore them later.",
         "id": "faminaigigodmhcgngfbnfmjbbclgplk"
+      },
+      {
+        "name": "Tabby Cat",
+        "desc": "Brightens every new tab with a unique, procedurally generated cat that blinks, sleeps, and can be petted.",
+        "id": "mefhakmgclhhfbdadeojlkbllmecialg"
+      },
+      {
+        "name": "New Tab Redirect",
+        "desc": "Replace the default new tab page with a custom URL, local file, or one of Chrome's built-in pages.",
+        "id": "icpgjfneehieebagbmdbhnlpiopdcmna"
       }
     ]
+  },
+  {
+    "cat": "Privacy & Security",
+    "items": [
+        {
+          "name": "uBlock Origin",
+          "desc": "Blocks ads, trackers, malware, and unwanted content for faster and safer browsing.",
+          "id": "cjpalhdlnbpafiamejdnhcphjbkeiagm"
+        },
+        {
+          "name": "Privacy Badger",
+          "desc": "Automatically detects and blocks invisible trackers while you browse.",
+          "id": "pkehgijcmpdhfbdbbnkijodmdjhbjlgp"
+        },
+        {
+          "name": "Cookie-Editor",
+          "desc": "View, edit, import, export, and manage browser cookies with ease.",
+          "id": "hlkenndednhfkekhgcdicdfddnkalmdm"
+        },
+        {
+          "name": "LocalCDN",
+          "desc": "Serves popular web libraries locally to improve privacy and reduce external requests.",
+          "id": "jlmhhokfnncdpfglafcfbinjdnfbjmjf"
+        },
+        {
+          "name": "Decentraleyes",
+          "desc": "Emulates popular CDNs locally to reduce requests to third-party servers.",
+          "id": "ldpochfccmkkmhdbclfhpagapcfdljkj"
+        },
+        {
+          "name": "ClearURLs",
+          "desc": "Removes tracking parameters from URLs before they are opened or shared.",
+          "id": "lckanjgmijmafbedllaakclkaicjfmnk"
+        },
+        {
+          "name": "I still don't care about cookies",
+          "desc": "Automatically hides or accepts cookie consent banners on supported websites.",
+          "id": "edibdbjcniadpccecjdfdjjppcpchdlm"
+        },
+        {
+          "name": "CanvasBlocker",
+          "desc": "Protects against browser fingerprinting by spoofing fingerprinting APIs.",
+          "id": "nomnklagbgmgghhjidfhnoelnjfndfpd"
+        },
+        {
+          "name": "NoScript",
+          "desc": "Provides advanced control over JavaScript, WebGL, and other active web content.",
+          "id": "doojmbjmlfjjnbmnoijecmcbfeoakpjm"
+        }
+      ]
   }
 ]
