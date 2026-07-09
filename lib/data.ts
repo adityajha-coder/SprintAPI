@@ -25,6 +25,7 @@ export type ExtensionEntry = {
   desc: string
   id: string
   category: string
+  icon?: string
 }
 
 type Group<T> = { cat: string; items: T[] }

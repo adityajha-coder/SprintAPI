@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowUpRight, Copy, Check, KeyRound, Puzzle } from 'lucide-react'
+import { ArrowUpRight, Copy, Check, KeyRound, Puzzle, Download } from 'lucide-react'
 import { useState } from 'react'
 import type { ApiEntry, ToolEntry, ExtensionEntry } from '@/lib/data'
 import { cn } from '@/lib/utils'
@@ -42,7 +42,7 @@ function getVSCodeIconUrl(id: string) {
   if (parts.length < 2) return ''
   const publisher = parts[0]
   const extName = parts.slice(1).join('.')
-  return `https://marketplace.visualstudio.com/_apis/public/gallery/publishers/${publisher}/extensions/${extName}/latest/assetbyname/Microsoft.VisualStudio.Services.Icons.Default`
+  return `https://${publisher}.gallery.vsassets.io/_apis/public/gallery/publisher/${publisher}/extension/${extName}/latest/assetbyname/Microsoft.VisualStudio.Services.Icons.Default`
 }
 
 function VSCodeExtensionIcon({ id, name }: { id: string; name: string }) {
@@ -51,9 +51,14 @@ function VSCodeExtensionIcon({ id, name }: { id: string; name: string }) {
 
   if (failed || !url) {
     return (
-      <span className="flex size-10 shrink-0 items-center justify-center rounded-xl border border-border bg-secondary text-primary">
-        <Puzzle className="size-5" aria-hidden="true" />
-      </span>
+      <img
+        src="https://www.google.com/s2/favicons?domain=marketplace.visualstudio.com&sz=64"
+        alt={`${name} fallback icon`}
+        width={40}
+        height={40}
+        loading="lazy"
+        className="size-10 shrink-0 rounded-xl border border-border bg-secondary p-1.5 object-contain"
+      />
     )
   }
 
@@ -71,15 +76,20 @@ function VSCodeExtensionIcon({ id, name }: { id: string; name: string }) {
   )
 }
 
-function ChromeExtensionIcon({ id, name }: { id: string; name: string }) {
+function ChromeExtensionIcon({ item }: { item: ExtensionEntry }) {
   const [failed, setFailed] = useState(false)
-  const url = `https://chrome.google.com/webstore/detail/${id}/images/icon/128`
+  const url = item.icon || `https://chrome.google.com/webstore/detail/${item.id}/images/icon/128`
 
   if (failed) {
     return (
-      <span className="flex size-10 shrink-0 items-center justify-center rounded-xl border border-border bg-secondary text-primary">
-        <Puzzle className="size-5" aria-hidden="true" />
-      </span>
+      <img
+        src="https://www.google.com/s2/favicons?domain=chromewebstore.google.com&sz=64"
+        alt={`${item.name} fallback icon`}
+        width={40}
+        height={40}
+        loading="lazy"
+        className="size-10 shrink-0 rounded-xl border border-border bg-secondary p-1.5 object-contain"
+      />
     )
   }
 
@@ -87,7 +97,7 @@ function ChromeExtensionIcon({ id, name }: { id: string; name: string }) {
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={url}
-      alt={`${name} icon`}
+      alt={`${item.name} icon`}
       width={40}
       height={40}
       loading="lazy"
@@ -180,18 +190,11 @@ export function ToolCard({ item }: { item: ToolEntry }) {
 }
 
 export function ExtensionCard({ item }: { item: ExtensionEntry }) {
-  const [copied, setCopied] = useState(false)
   const marketplace = `https://marketplace.visualstudio.com/items?itemName=${item.id}`
 
-  const copyId = async (e: React.MouseEvent) => {
+  const handleInstall = (e: React.MouseEvent) => {
     e.preventDefault()
-    try {
-      await navigator.clipboard.writeText(`ext install ${item.id}`)
-      setCopied(true)
-      setTimeout(() => setCopied(false), 1500)
-    } catch {
-      /* clipboard unavailable */
-    }
+    window.location.href = `vscode:extension/${item.id}`
   }
 
   return (
@@ -217,19 +220,11 @@ export function ExtensionCard({ item }: { item: ExtensionEntry }) {
         </code>
         <button
           type="button"
-          onClick={copyId}
+          onClick={handleInstall}
           className="flex shrink-0 items-center gap-1 rounded-lg border border-border bg-secondary/60 px-2.5 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-secondary"
-          aria-label={`Copy install command for ${item.name}`}
+          aria-label={`Install ${item.name} in VS Code`}
         >
-          {copied ? (
-            <>
-              <Check className="size-3.5 text-chart-2" /> Copied
-            </>
-          ) : (
-            <>
-              <Copy className="size-3.5" /> Install
-            </>
-          )}
+          <Download className="size-3.5" /> Install
         </button>
       </div>
     </a>
@@ -243,7 +238,7 @@ export function ChromeExtensionCard({ item }: { item: ExtensionEntry }) {
     <a href={storeUrl} target="_blank" rel="noreferrer" className={cardBase}>
       <div className="flex items-start justify-between gap-3">
         <div className="flex items-center gap-3">
-          <ChromeExtensionIcon id={item.id} name={item.name} />
+          <ChromeExtensionIcon item={item} />
           <div>
             <h3 className="font-semibold leading-tight">{item.name}</h3>
             <span className="text-xs text-muted-foreground">{item.category}</span>

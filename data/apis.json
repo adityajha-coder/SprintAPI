@@ -1,5 +1,41 @@
 [
   {
+    "name": "The Cat API",
+    "desc": "Cats as a service. Everyday is Caturday. Get cat images, facts, and more.",
+    "url": "https://thecatapi.com",
+    "category": "Animals",
+    "auth": "apiKey",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "OpenWeatherMap",
+    "desc": "Access current weather data, hourly, 5-day and 16-day forecasts, and historical weather data for any location.",
+    "url": "https://openweathermap.org/api",
+    "category": "Weather",
+    "auth": "apiKey",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Stripe API",
+    "desc": "The Stripe API allows developers to access and integrate the functionality of Stripe with other applications to process payments.",
+    "url": "https://stripe.com/docs/api",
+    "category": "Finance",
+    "auth": "apiKey",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "Twilio API",
+    "desc": "Add robust messaging, voice, and video capabilities to your web and mobile applications.",
+    "url": "https://www.twilio.com/docs/api",
+    "category": "Communication",
+    "auth": "apiKey",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
     "name": "Hacker News API",
     "desc": "Official Firebase-based API for Hacker News. Access top stories, new posts, comments, and user profiles in real time.",
     "url": "https://github.com/HackerNews/API",
@@ -513,15 +549,6 @@
     "pricing": "Free"
   },
   {
-    "name": "OpenWeatherMap",
-    "desc": "Current weather data, forecasts, and historical data for any location worldwide.",
-    "url": "https://openweathermap.org/api",
-    "category": "Weather",
-    "auth": "API Key",
-    "cors": true,
-    "pricing": "Freemium"
-  },
-  {
     "name": "REST Countries",
     "desc": "Get information about countries including population, languages, currencies, and flags.",
     "url": "https://restcountries.com",
@@ -543,15 +570,6 @@
     "name": "The Dog API",
     "desc": "A free API to get random dog images, breeds info, and sub-breed information.",
     "url": "https://thedogapi.com",
-    "category": "Animals",
-    "auth": "API Key",
-    "cors": true,
-    "pricing": "Freemium"
-  },
-  {
-    "name": "The Cat API",
-    "desc": "Random cat images, breeds info, and categories. Perfect for cat lovers.",
-    "url": "https://thecatapi.com",
     "category": "Animals",
     "auth": "API Key",
     "cors": true,
@@ -3027,15 +3045,6 @@
     "name": "Plaid API",
     "desc": "Securely connect web applications with user bank account details to verify balances, fetch balances, and initialize ACH transactions.",
     "url": "https://plaid.com/docs/api/",
-    "category": "Finance",
-    "auth": "API Key",
-    "cors": false,
-    "pricing": "Paid"
-  },
-  {
-    "name": "Stripe API",
-    "desc": "Integrate subscription logic, capture card payments, handle payouts, and manage invoice details globally.",
-    "url": "https://stripe.com/docs/api",
     "category": "Finance",
     "auth": "API Key",
     "cors": false,

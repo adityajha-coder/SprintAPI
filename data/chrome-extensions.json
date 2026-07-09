@@ -3,119 +3,160 @@
     "cat": "Developer Tools",
     "items": [
       {
+        "name": "ColorPick Eyedropper",
+        "desc": "A zoomed eyedropper & color chooser tool that allows you to select color values from webpages and more.",
+        "id": "ohcpnigalekghcmgcdcenkpelffpdolg",
+        "icon": "https://lh3.googleusercontent.com/AMn3fHR239GKDCbY0qffgLBZVq1NxYUZ66AhU9AJfgKVlpfzu8-L9C3njXq9TtlMDTRmHshBw0HPAkPQdEjd0Ci1hQ=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Video Speed Controller",
+        "desc": "Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts.",
+        "id": "nffaoalbilbmmfgbnbgppjihopabppdk",
+        "icon": "https://lh3.googleusercontent.com/5yY1QQ__b0c2ZLmmi6mcdjX-9V3LAgXhgUaZtsICFTjeQV0S6xkVncmV99oEtU-H8WN8dZpWh_cycXSXoyffADsoYg=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Volume Master",
+        "desc": "Up to 600% volume boost. Boost volume for each tab separately.",
+        "id": "jghecgabfgfdldnmbfkhmffanddigjhi",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
         "name": "React Developer Tools",
         "desc": "Inspect React component hierarchies, state, hooks, and performance profiles inside Chrome DevTools.",
-        "id": "fmkadmapgofadopljbjfkapdkoienihi"
+        "id": "fmkadmapgofadopljbjfkapdkoienihi",
+        "icon": "https://lh3.googleusercontent.com/TNijZW_Gp9MZ3eqXkve0YWDEiHV-a2IpSpD6IJzrV3Y76GJcLEyzX2regTLemXzBHbHVqkKuxnnWDT34Cp4sNh-Y=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Redux DevTools",
         "desc": "DevTools for Redux supporting hot reloading, state diff logging, and time travel debugging.",
-        "id": "lmhkpmbekcpmknklioeibfkpmmfibljd"
+        "id": "lmhkpmbekcpmknklioeibfkpmmfibljd",
+        "icon": "https://lh3.googleusercontent.com/yQq2WZi9-iZeUuBwJkrLq-7KVnaB_aIBgP8uqjT3vdIi6HC5v7Vni83rTQtk-WuSiZ_jcQ3I1hmXB03DNVFGX5nRcw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Vue.js devtools",
         "desc": "Chrome DevTools extension for debugging Vue.js applications, components, events, and Vuex states.",
-        "id": "nhdogjmejiglipccpnnnanhbledajbpd"
+        "id": "nhdogjmejiglipccpnnnanhbledajbpd",
+        "icon": "https://lh3.googleusercontent.com/Lu_6rc-5upC8g1v-SIBrYwQ8a-1blC81ZLSQss66IpTZ2_sinL7fP2ielWj3znVoIEtobNo-jlI39IV-7qnEvJWZb9A=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Angular DevTools",
         "desc": "Debug Angular applications with visualization of component structure, change detection profiling, and state tracking.",
-        "id": "ienfalfjdbdpebioblfackkekamfmbnh"
+        "id": "ienfalfjdbdpebioblfackkekamfmbnh",
+        "icon": "https://lh3.googleusercontent.com/nGmxpTaEuUIzOAkW7VjSyu3pBg3FD9J4tjoaz-q4VHDMfa4v8XpjuVFXxpx0wcdIqwbweVcpx8ZA3UAraO_3X5-p=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Svelte DevTools",
         "desc": "Inspect Svelte component state, hierarchy, and events directly in your developer panel.",
-        "id": "kfidecgcdjjfpeckbblhmfkhmlgecoff"
+        "id": "kfidecgcdjjfpeckbblhmfkhmlgecoff",
+        "icon": "https://lh3.googleusercontent.com/P9StdA1VxZOdzuPalXL97w6yhIMWx__5bVqCICQLD9NjEkgp96dPO3-Dnvnuf6GoDO8jNczlFOh1lp6JI1g0s9bgpQ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "JSON Viewer",
         "desc": "Customizable Chrome extension for formatting, styling, and searching raw JSON files directly in browser tabs.",
-        "id": "aimiinbnnkboelefkjlenlgimcabobli"
+        "id": "aimiinbnnkboelefkjlenlgimcabobli",
+        "icon": "https://lh3.googleusercontent.com/d0Gw2XAqKbd91Ig3f0DJtJGd7NmQSZZKFnvs2taYd9zb2W2BDQ78Cez1e8bALBXvsbPJA1IdhC2huueY7pPzTjC4rXY=s128-rj-sc0x00ffffff"
       },
       {
         "name": "JSONView",
         "desc": "Formats and syntax highlights JSON documents with collapsible tree structures, clickable URLs, and raw formats.",
-        "id": "gmegofmjomhknnokphhckolhcffdaihd"
+        "id": "gmegofmjomhknnokphhckolhcffdaihd",
+        "icon": "https://lh3.googleusercontent.com/8hRRsq-5RSeLvRv5NAGrQAmrPXTg2vnyYjNIdXM9qhbNCUI0A09T_J3wsFpsSBVsRcRs0-YSVT-gKc6GPqoWwpBPZQ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "GraphQL Network Inspector",
         "desc": "View and debug GraphQL requests directly in DevTools.",
-        "id": "ndlbedplllcgconngcnfmkadhokfaaln"
+        "id": "ndlbedplllcgconngcnfmkadhokfaaln",
+        "icon": "https://lh3.googleusercontent.com/aXyMmZfeSfGamfGUrQQBrwkOKA-0zlLl2oLrZaa1W_zbktYTcRtMTpBHEbCX1J7UE1OeF4HVD9j9hVs6ljwd6ia_5H8=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Wappalyzer",
         "desc": "Uncover the technology stacks behind any website, including CMSs, frameworks, analytics tools, and databases.",
-        "id": "gppongmhjkpfnbhagpmjfkannfbllamg"
+        "id": "gppongmhjkpfnbhagpmjfkannfbllamg",
+        "icon": "https://lh3.googleusercontent.com/YssvlGeiyyXJhYYV8Fh4aeW_kuQ7zC-ap7kygvyLT59TZwnFWYy-9aHCfXpyKgBEwJhFajvSUFqpjiG_42yfQXIw2Q=s128-rj-sc0x00ffffff"
       },
       {
         "name": "BuiltWith Technology Profiler",
         "desc": "Find out what technologies a website is built with, including widgets, analytics, hosting, and mail frameworks.",
-        "id": "dapjbgnjinbpoindlpdmhochffioedbn"
+        "id": "dapjbgnjinbpoindlpdmhochffioedbn",
+        "icon": "https://lh3.googleusercontent.com/HwFkjbZKZpswd6pZRLxVyk4cjtFEU6TLYGpAOMAN-EI_lcMfkHv75Eek5xKb0lFU7hTgk2lkd2K6wRw-jCDoAsYMWGY=s128-rj-sc0x00ffffff"
       },
       {
         "name": "axe DevTools",
         "desc": "Fast, lightweight accessibility testing tool to identify and resolve critical accessibility errors in your HTML.",
-        "id": "lhdoppojpmngadmnindnejefpokejbdd"
+        "id": "lhdoppojpmngadmnindnejefpokejbdd",
+        "icon": "https://lh3.googleusercontent.com/FAeHtqMDT3qrN6zuknas1KzOzMuJwo3OVzGsGPPVJMfcUz0iP7OpG8tjAB1uZ7IbP7_EkePpQbC7jZ8zbK_jBdIfzvY=s128-rj-sc0x00ffffff"
       },
       {
         "name": "WAVE Evaluation Tool",
         "desc": "Web accessibility evaluation tool that injects visual indicators onto the webpage to help diagnose WCAG errors.",
-        "id": "jbbplnpkjmmeebjpijfedlgcdilocofh"
+        "id": "jbbplnpkjmmeebjpijfedlgcdilocofh",
+        "icon": "https://lh3.googleusercontent.com/h2ECY8Ob8qxF28QRCB_hinHECmj0dyJHw1aGAKz_rBiK2USeQUT8M5WvqBpFssAYZo9nClfmKz3sKpS4P0TBlzhBkw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "CSS Peeper",
         "desc": "A smart CSS inspector tailored for web designers. Extract nested styles, colors, layouts, and image assets in one click.",
-        "id": "mbnbehikldjhnfehhnaidhjhoofhpehk"
+        "id": "mbnbehikldjhnfehhnaidhjhoofhpehk",
+        "icon": "https://lh3.googleusercontent.com/BOu_en-t3osn-gKHqUzr2kWXv5bnlIwIqPihLoaN65E0GCKO6IVYEyoMbFNz8pg1Dti-FLgXrr0ROWD2d60-1C6YCw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Web Developer",
         "desc": "Adds a complete utility toolbar to inspect styles, toggle CSS, disable scripts, edit cookies, and check accessibility.",
-        "id": "bfbameneiokkgbdmiekhjnmfkcnldhhm"
+        "id": "bfbameneiokkgbdmiekhjnmfkcnldhhm",
+        "icon": "https://lh3.googleusercontent.com/H662aZCLuvojQ3u36n76zhnyo1b_y2ef7OanOaeRowoU1hR1EMbKlnPslBiAknJzRplXmjq-OXeIgtV95i-BDE-BXw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Open in VS Code",
         "desc": "Open GitHub repositories directly in VS Code with one click.",
-        "id": "pfakkjlkpobjeghlgipljkjmbgcanpji"
+        "id": "pfakkjlkpobjeghlgipljkjmbgcanpji",
+        "icon": "https://lh3.googleusercontent.com/kxEfQ72HkeiGBQQgWj1rLPWRoj5PmhKL5MxFSP9-66ZgjvwChcdZYkKhzyzfUJWdFsF0nKqlHMPPMOZDBpNre2N6=s128-rj-sc0x00ffffff"
       },
       {
         "name": "VisBug",
         "desc": "Open-source web design debug tools built with web components. Inspect elements, align spacing, and edit text visually.",
-        "id": "cdockenadnadldjbbgcallicgledbeoc"
+        "id": "cdockenadnadldjbbgcallicgledbeoc",
+        "icon": "https://lh3.googleusercontent.com/uuSgZ6PkjJksEGebBy_Tz3I5bkPQmEygwMTzoZS7T1262Q9iZHDyWuh1-3gAb2L8mlx6zDccBelZpIRnij6-UypGSTc=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Requestly",
         "desc": "Redirect URLs, modify headers, cancel requests, insert custom scripts, and mock API responses on the fly.",
-        "id": "mdnleldcmiljblolnjhpnblkcekpdkpa"
+        "id": "mdnleldcmiljblolnjhpnblkcekpdkpa",
+        "icon": "https://lh3.googleusercontent.com/glE3RoqGA1A0PxDDR8O8hD8L6p6_JvDkYukrTgdiCzCPZBqtBYoXiGuuCaiPT1mVpoBf7lN7YQqqGyqQALGXKetLbw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "ModHeader",
         "desc": "Modify request headers, response headers, and redirect requests to test custom authorization tokens and testing states.",
-        "id": "idgpnmonknjnojddfkpgkljpfnnfcklj"
+        "id": "idgpnmonknjnojddfkpgkljpfnnfcklj",
+        "icon": "https://lh3.googleusercontent.com/C7f0yxnCB_U4uAiHoPN2vHGzDH5VrN8R1h0WAPEMBJIWtJUtzs8VoI2TyqqLOs_m0ZFdlmBCGCot5_t5rjZ2qJiK8g=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Ember Inspector",
         "desc": "Inspect Ember.js applications, routes, controllers, active models, promises, and data layer performance.",
-        "id": "bmdblncegkenkacieihfhpjfppoconhi"
+        "id": "bmdblncegkenkacieihfhpjfppoconhi",
+        "icon": "https://lh3.googleusercontent.com/SXD09MfZDFvwu0VK4ZI_2lHzAKehOFRCRu-dI5jbRgxhsl0OfbnTuzjCobbgKxfILwS4SNsxMHRy5pkG-ucGCAmSFw0=s128-rj-sc0x00ffffff"
       },
       {
         "name": "PHP Console",
         "desc": "Handle PHP errors, dumps, and debugging queries directly in your browser console via headers payload.",
-        "id": "plcmmfcfbnddbomdlnklhepfkkdmodkf"
+        "id": "plcmmfcfbnddbomdlnklhepfkkdmodkf",
+        "icon": "https://lh3.googleusercontent.com/_F2daINHySKvYEVqpvyteNWWKJEXCiyakBG4Gtzc-qprzs5OfvPNbxoZJeKck12lXqHzgduaXnSfDHZ59-jtC8GV=s128-rj-sc0x00ffffff"
       },
       {
         "name": "XPath Helper",
         "desc": "Extract, edit, and evaluate XPath queries live on any web page by holding Shift and hovering over elements.",
-        "id": "nlfdopnkeodpiondihlgnhgpjieoopbj"
+        "id": "nlfdopnkeodpiondihlgnhgpjieoopbj",
+        "icon": "https://lh3.googleusercontent.com/eHRsTkPJyCZviKJ36eN8uCxK5dkd8i_o1wYh4NbXkqUMhY-osFxM3wBFjHE5dblMRwZIgtIg0i5brEKiwJjnB1csew=s128-rj-sc0x00ffffff"
       },
       {
         "name": "SEOquake",
         "desc": "Free SEO toolkit showing on-page metrics, keyword density, link analysis, and SERP overlays for any webpage.",
-        "id": "akdgnmcogleenhbclghghlkkdndkjdjc"
+        "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
+        "icon": "https://lh3.googleusercontent.com/IE1jqFx-DXCjdlLRDrSHnbHl8IyWlRdMQ1OaM25phujx3wLRDCRfbLI1hpXIiSIOZfFhnxW3JBY_KnEoT4p-Ci9XztU=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Detailed SEO Extension",
         "desc": "Get instant SEO insights for any page, including title tags, meta descriptions, headings, and robots directives.",
-        "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba"
+        "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
+        "icon": "https://lh3.googleusercontent.com/oFVSn32RiYmiXqaAFCzhAnNh70kCeFtP_vRCUXq54kC6tMjxn2nbLT05mztIb6RqL9xfPP2FCmfStYRsaYjdu9RKjjI=s128-rj-sc0x00ffffff"
       }
     ]
   },
@@ -125,142 +166,170 @@
       {
         "name": "Octotree",
         "desc": "Enhance GitHub with an interactive code tree sidebar. Easily browse repository files, commits, and pull requests.",
-        "id": "bkhaagjahfmjljalopjnoealnfndnagc"
+        "id": "bkhaagjahfmjljalopjnoealnfndnagc",
+        "icon": "https://lh3.googleusercontent.com/wafm5uFaPRSo1RHMbhcdEghFzTPUfYo5GosPmBhkdNuYlGz8WigoAQM-8lulzuhWQBGTbbUyRvfoyIMDypJzuAVZ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Refined GitHub",
         "desc": "Simplifies and streamlines the GitHub interface, adding dozens of productivity tweaks, hotkeys, and shortcuts.",
-        "id": "hlepfoohegkhhmjieoechaddaejaokhf"
+        "id": "hlepfoohegkhhmjieoechaddaejaokhf",
+        "icon": "https://lh3.googleusercontent.com/4N2wipmBVx1qK0R0E0XdADE31-8IuMylOtO9AyFopOA9i3IQKoCC5L4nYFDy55xpxpk6qKusHuqXyKJqvw8jcJaiqg=s128-rj-sc0x00ffffff"
       },
       {
         "name": "OctoLinker",
         "desc": "Links dependency code blocks (like require, import, package.json dependencies) directly to their respective source sites.",
-        "id": "jlnejaoaaddcjjeenejoanijnepbnhom"
+        "id": "jlnejaoaaddcjjeenejoanijnepbnhom",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
       },
       {
         "name": "daily.dev",
         "desc": "The ultimate developer homepage. Curates a personalized tech news feed from top engineering communities.",
-        "id": "jlmpjdjjbgclbocgajdjefcidcncaied"
+        "id": "jlmpjdjjbgclbocgajdjefcidcncaied",
+        "icon": "https://lh3.googleusercontent.com/Sgm_PLoN_wYXJTo52h0wUgBKWw6s5Sog4CJc7fY62Cc7bdNEHx7uueW1HAc8IcDgcibkQn_x_lKhGk4L_40a1QtZzw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Clockify Time Tracker",
         "desc": "Track coding hours, timesheets, and project tasks directly from Chrome. Integrates with GitHub, Jira, and Gitlab.",
-        "id": "pmjeegjhjdlccodhacdgbgfagbpmccpe"
+        "id": "pmjeegjhjdlccodhacdgbgfagbpmccpe",
+        "icon": "https://lh3.googleusercontent.com/4gbvgktKv99mPCdF-THUpQySrKA9JgdQ2HuSZeySJq4cBq5rNogcBtvPe8fOnWbk8PfJ3H7RgQ0Rvw78FwXB7jC56Q=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Toggl Track",
         "desc": "Simple productivity timer inside web tools. Tracks screen time and syncs entries directly to Toggl.",
-        "id": "oejgccbfbmkkpaidnkphaiaecficdnfn"
+        "id": "oejgccbfbmkkpaidnkphaiaecficdnfn",
+        "icon": "https://lh3.googleusercontent.com/AjRe-X5G3zrimNuUQ9vKrsAvNvIGgradxY8o3twXJ6b2VajC3_uYAfYKZgCf8g74Y5yAsPJsCpKkV9chQoERNc_s=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Lighthouse",
         "desc": "Automated open-source tool for auditing performance, accessibility, SEO, and best practices of web apps.",
-        "id": "blipmdconlkpinefehnmjammfjpmpbjk"
+        "id": "blipmdconlkpinefehnmjammfjpmpbjk",
+        "icon": "https://lh3.googleusercontent.com/JsGtt7BHEbHhQl5OzJikROL49WGoN0fBNcU_mvLRjWqx7nm7r7rzdG0DpET4qcK1FhNkFpcKf600G-Eoxx-_q3D4iA=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Clear Cache",
         "desc": "Clear your browser cache, storage, cookies, and local database instantly with a single button or shortcut key.",
-        "id": "cppjkneekbjaeellbfkmgnhonkkjfpdn"
+        "id": "cppjkneekbjaeellbfkmgnhonkkjfpdn",
+        "icon": "https://lh3.googleusercontent.com/093tVZn83B-Rf88-2YQRI4850KUBdILGkZSRgK75KFUqAP4foJaIqq5bAUKxye8-z9yRhL2vXhK6Vi8Ew9REhB4JPA=s128-rj-sc0x00ffffff"
       },
       {
         "name": "EditThisCookie",
         "desc": "Full-featured cookie manager. Edit, add, delete, search, block, and export cookies in a simple visual popup.",
-        "id": "ihfmcbadakjehneaijebhpogkegajgnk"
+        "id": "ihfmcbadakjehneaijebhpogkegajgnk",
+        "icon": "https://lh3.googleusercontent.com/d2SezIViim7AMJ43PxhDld92w-8baXmSFdytzvm7hU-QE6aJUxucjT4QN8noTnEuGPXFMsYan81l-UCk0yDV6KdxVQ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "OneTab",
         "desc": "Save up to 95% memory and reduce tab clutter by converting all of your active tabs into a clean list layout.",
-        "id": "chphlpgkkbolifaimnlloiipkdnihall"
+        "id": "chphlpgkkbolifaimnlloiipkdnihall",
+        "icon": "https://lh3.googleusercontent.com/r9pG6yBSmqm_GGM9c2Q2JJvHQ6WXr9FTphOwvxS1PwrPpjfKeu1b9ha6OXqx8ALeGqtnRElPtZzdiCWD-4yUwA_LBVM=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Tab Wrangler",
         "desc": "Automatically closes inactive tabs after a configured time delay, keeping tab lists tidy and conserving system resources.",
-        "id": "egnjhciaieeiiohknchakcodbpgjnchh"
+        "id": "egnjhciaieeiiohknchakcodbpgjnchh",
+        "icon": "https://lh3.googleusercontent.com/249Hl51K94iezW8HV1G9iTAUjfsTgIdHrxftaGkfmI8S6xoxoGQhwbiOwVUlL4A9NN2XWU-JzVMDkMYjgonRrvkGdIg=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Grammarly",
         "desc": "Provides real-time feedback on writing clarity, grammar, tone, and spelling across all web editors and input boxes.",
-        "id": "kbfnbcaeplbcioakkpcpgfkobkghlhen"
+        "id": "kbfnbcaeplbcioakkpcpgfkobkghlhen",
+        "icon": "https://lh3.googleusercontent.com/Ywdz5mn9q2Mx76DU45LSH-Pv5OGpqk8QAOY3lT1AWScMTZYQtAhqhVjtY5I2JZK530QIycLZooe2a0k3quGqYUaZ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Stylus",
         "desc": "Redesign your favorite websites by installing and customizing custom CSS stylesheets locally.",
-        "id": "clngdbkpkpeebahjckkjfobafhncgmne"
+        "id": "clngdbkpkpeebahjckkjfobafhncgmne",
+        "icon": "https://lh3.googleusercontent.com/2K8pc_5-2DkPam9b3oAWoITZ7IuIz68A5a8Ssg2_MNNHTPWPOPSBVTFdTmeVu9hi8GJxpKbvTekgwpeyGV6vXyBKH80=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Ghostery",
         "desc": "Clean up webpages, block analytics trackers, block ads, and inspect trackers to speed up load times.",
-        "id": "mlomiejdfkolichcflejclcbmpeaniij"
+        "id": "mlomiejdfkolichcflejclcbmpeaniij",
+        "icon": "https://lh3.googleusercontent.com/cq9rmt9Qgky6HvDQxvS1BUr1j5pdnpJOVYn0fMOjRxUAJMXBcRi8D-hajtyK1Ztc5ePi_mQUnsvMInpJUG5rpkWM=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Speedtest by Ookla",
         "desc": "Measure your internet connection speeds, latency, and ping metrics directly from a quick Chrome popup.",
-        "id": "lehkjkiamkllgoeapaekldipihookllo"
+        "id": "lehkjkiamkllgoeapaekldipihookllo",
+        "icon": "https://lh3.googleusercontent.com/F5aQ4-6Z3i4wDfmmb7gC7S_oANDEV2BjOErGH9IyhwBhf7ZA1XlkgUmH-FR0P4cfSgNgGzqb37ZLqGEqmNL5dDVFRw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Dark Reader",
         "desc": "Applies a customizable dark mode to websites for more comfortable browsing & Productivity.",
-        "id": "eimadpbcbfnmbkopoojfekhnkhdbieeh"
+        "id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+        "icon": "https://lh3.googleusercontent.com/T66wTLk-gpBBGsMm0SDJJ3VaI8YM0Utr8NaGCSANmXOfb84K-9GmyXORLKoslfxtasKtQ4spDCdq_zlp_t3QQ6SI0A=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Bitwarden",
         "desc": "Secure password manager that stores, generates, and autofills passwords.",
-        "id": "nngceckbapebfimnlniiiahkandclblb"
+        "id": "nngceckbapebfimnlniiiahkandclblb",
+        "icon": "https://lh3.googleusercontent.com/J_l8abQyJgx7POjRoDfGaFYWFnYQNpRSy4kH5IlbwSdM-l_gZf2rJlk2NLSQTY8g-U2vrclpb0EZApHyOe6sjzbKcUc=s128-rj-sc0x00ffffff"
       },
       {
         "name": "LanguageTool",
         "desc": "Checks grammar, spelling, punctuation, and writing style in real time.",
-        "id": "oldceeleldhonbafppcapldpdifcinji"
+        "id": "oldceeleldhonbafppcapldpdifcinji",
+        "icon": "https://lh3.googleusercontent.com/aWtP0rIATRVsZjZHBoicvGMeXImFkM4PV4LVJ3SWyJ6LFYDFjHjp2oJYZAND3HW-3Fz0Sgx9liEq2G6Ftq4OIEOO0zE=s128-rj-sc0x00ffffff"
       },
       {
         "name": "SponsorBlock",
         "desc": "Automatically skips sponsored segments and other unwanted parts of YouTube videos.",
-        "id": "mnjggcdmjocbbbhaepdhchncahnbgone"
+        "id": "mnjggcdmjocbbbhaepdhchncahnbgone",
+        "icon": "https://lh3.googleusercontent.com/oSoXDpjLX_iytl11_ROa1thmFI0xPk9pL8ttEtnFkBI8Cie0Ge8KxVFaokgBRscvUR1cXH4bVeG_C_Fl6kBw3A3_=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Tampermonkey",
         "desc": "Runs custom userscripts to automate tasks and customize websites.",
-        "id": "dhdgffkkebhmkfjojejmpbldmpobfkfo"
+        "id": "dhdgffkkebhmkfjojejmpbldmpobfkfo",
+        "icon": "https://lh3.googleusercontent.com/zoY8FwoOqPlBgFxcmFdNSK2Q4CcLmv-gw7vTjF2KMR9cEabwBsGNrHBTEMitn0Ba6OmCVJ0NcLnFGu3N97BP8Phu0g=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Session Buddy",
         "desc": "Saves and restores browser sessions to recover tabs after crashes or restarts.",
-        "id": "edacconmaakjimmfgnblocblbcdcpbko"
+        "id": "edacconmaakjimmfgnblocblbcdcpbko",
+        "icon": "https://lh3.googleusercontent.com/zazW2wMEVcOpHAPq-MqRI_7aq6Oy0nqz5BT5QkySaxCqwSfSv1rl0EwYCSMpcWoMJzJcm3e6yDNtPWNq7xO7CdFuFQ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "JSON Formatter",
         "desc": "Formats and highlights JSON data for easier reading and debugging.",
-        "id": "bcjindcccaagfpapjjmafapmmgkkhgoa"
+        "id": "bcjindcccaagfpapjjmafapmmgkkhgoa",
+        "icon": "https://lh3.googleusercontent.com/kAyuA6Uo8kCc8EQJNkvj0GHetWNpbwU9ssHPf0tKbDaVddJD3FebnaZM5boUoU4_WLOOlJEVxnLoQFhPg_WuGPSI=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Todoist for Chrome",
         "desc": "Add tasks and save web pages to Todoist as you browse, right-click to capture text, and plan your day from the toolbar.",
-        "id": "jldhpllghnbhlbpcmnajkpdmadaolakh"
+        "id": "jldhpllghnbhlbpcmnajkpdmadaolakh",
+        "icon": "https://lh3.googleusercontent.com/zqKRvf52hI5Yk6N5C8k6NJnDT7bsEW6whE3wf1UqfpES79AtnrO2ykLgqwciE-bca6QghdXNFJDYe_9xO6iYsvK7=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Loom",
         "desc": "Record your screen and camera with one click and instantly share the video with a link.",
-        "id": "liecbddmkiiihnedobmlmillhodjkdmb"
+        "id": "liecbddmkiiihnedobmlmillhodjkdmb",
+        "icon": "https://lh3.googleusercontent.com/pnYDTiiZb5vcTWgbPgVS6VXiSZlLFZcxM9WE0qqzVwUoIwctBDWt_90N3y722r9r3wchK07EMfzfpZ0jOr_CbBTlMg=s128-rj-sc0x00ffffff"
       },
       {
         "name": "BlockSite",
         "desc": "Block distracting websites and apps, schedule focus sessions, and password-protect your blocklist to stay on task.",
-        "id": "eiimnmioipafcokbfikbljfdeojpcgbh"
+        "id": "eiimnmioipafcokbfikbljfdeojpcgbh",
+        "icon": "https://lh3.googleusercontent.com/yK2kWXJAOZfS6YfO-1iHFqkg-xDb26OQnaqA5tKRI3ADyo-urA9EgKGwSXgwVz0ZEfwt9rsOXI9VgTaorXB9mAcoNA=s128-rj-sc0x00ffffff"
       },
       {
         "name": "1Password",
         "desc": "Sign in to sites, generate strong passwords, and autofill saved logins, passkeys, and cards from your vault.",
-        "id": "aeblfdkhhhdcdjpifhhbdiojplfjncoa"
+        "id": "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
+        "icon": "https://lh3.googleusercontent.com/DftM3biDXufonobNWlKgO74qdJosSFjMay_Ku9aIinJwwmtp-hv3Psof4nxKp2mjf6Lgu-pHWPAaPXz7Rs3Uwzen=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Notion Web Clipper",
         "desc": "Save any page on the web straight into a Notion database or page with a single click.",
-        "id": "knheggckgoiihginacbkhaalnibhilkk"
+        "id": "knheggckgoiihginacbkhaalnibhilkk",
+        "icon": "https://lh3.googleusercontent.com/vJmcSHco6MjgE6fCMmyb173fOOscaS2mvVESMrB5y8CutzXRT7mSGCHH510UdpqY4Rbh8BWRWHxjigVR5eZOwtc_oa8=s128-rj-sc0x00ffffff"
       },
       {
         "name": "AutoPagerize",
         "desc": "Automatically loads the next page while scrolling.",
-        "id": "kdplapeciagkkjoignnkfpbfkebcfbpb"
+        "id": "kdplapeciagkkjoignnkfpbfkebcfbpb",
+        "icon": "https://lh3.googleusercontent.com/ac9aZyF9TcZpJpQKFyx_yyvRQUlwF3HsNMaDZ7O5egqrh6ZIWzc6RQ4_v1IhNMBINrmul2T935Mv9AARvDFODheQNQ=s128-rj-sc0x00ffffff"
       }
     ]
   },
@@ -270,97 +339,116 @@
       {
         "name": "ColorZilla",
         "desc": "Advanced eyedropper, page color analyzer, color picker, palette generator, and CSS gradient builder.",
-        "id": "bhlhnicpbhignbdhedgjhgdocnmhomnp"
+        "id": "bhlhnicpbhignbdhedgjhgdocnmhomnp",
+        "icon": "https://lh3.googleusercontent.com/dqKrPk33LRO7ZFvKvSJv0q-rofymwBRJDiA3fuAZEXydo_tTS-959G0ZZKjLet9xVoVEWmD0FTYTZMEFx1mzbPzuOQ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Site Palette",
         "desc": "Extract and generate beautiful, shareable color palettes from any website layout dynamically.",
-        "id": "pekhihjiehdafocefoimckjpbkegknoh"
+        "id": "pekhihjiehdafocefoimckjpbkegknoh",
+        "icon": "https://lh3.googleusercontent.com/qLakzFlTY3eqYv6BOenu6-hC1FCIy3_E45sVeu4jYRlvgV7hzzfog-jLvWLZ0gNahAo8t1Cb1TH_VJIDgpmbg6a5Ng=s128-rj-sc0x00ffffff"
       },
       {
         "name": "SVG Export",
         "desc": "Search, preview, copy code, or download SVGs from web pages in bulk. Converts icons to PNG/JPEG formats.",
-        "id": "naeaaedieihlkmdajjefioajbbdbdjgp"
+        "id": "naeaaedieihlkmdajjefioajbbdbdjgp",
+        "icon": "https://lh3.googleusercontent.com/fR16mYRlFmk-BNlXdj_FA2sUHf5bMEGi-k2BKxlJdxYFxBX5_jA4Fi3BOU6ddVXL5TGWa-0TSEkHqtshLaKQlSbugw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "PerfectPixel",
         "desc": "Overlay design mockup images on top of developed HTML to verify alignments and ensure pixel-perfect matches.",
-        "id": "dkaagdgjmgdmbnecmcefdhjekcoceebi"
+        "id": "dkaagdgjmgdmbnecmcefdhjekcoceebi",
+        "icon": "https://lh3.googleusercontent.com/-O_pNhKsmQ8E2bAy_IfZIKG8sT1BMw0_2El6L7YVZhB1QzcOrZg0OBtXWQODcUqauYPHDziudWMMDLIgrsjSvTncDw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Image Downloader",
         "desc": "Download all images from a webpage with filtering options.",
-        "id": "cnpniohnfphhjihaiiggeabnkjhpaldj"
+        "id": "cnpniohnfphhjihaiiggeabnkjhpaldj",
+        "icon": "https://lh3.googleusercontent.com/J_LkjX3uKA947doXUIoYd8yy7VhfZ3B6uyHnFcH880utPnkj0uqe22a2h3jXcI65_m8zA8FtmEED_fE2IxtWBa0daQ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Page Ruler Redux",
         "desc": "Measure pixel dimensions and spacing on webpages.",
-        "id": "jcbmcnpepaddcedmjdcmhbekjhbfnlff"
+        "id": "jcbmcnpepaddcedmjdcmhbekjhbfnlff",
+        "icon": "https://lh3.googleusercontent.com/TnYy9kaL1ZwLjFEBGv-fZAK8yqCsdDXo7kSpfFhhu_mVxzjIqOPiYJZTRxYDEFI8zo4P_w0RPV805RzxynUlvttE6g=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Mobile Simulator",
         "desc": "Test responsive designs using mock smartphone, tablet, and smart TV viewpoints with screen touch gestures.",
-        "id": "ckejmhbmlajgoklhgbapkiccekfoccmk"
+        "id": "ckejmhbmlajgoklhgbapkiccekfoccmk",
+        "icon": "https://lh3.googleusercontent.com/AdZGgDWDCE3zyp1t_rJo1VT_9ge6l7QeFftWKrr2opJc4IgOmbQY82_4s44rGpHqZjw6ALtEsjlY8Sv1nERN-nAJEA=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Window Resizer",
         "desc": "Resize your browser window to simulate specific viewport resolutions, including mobile, laptop, and tablet widths.",
-        "id": "hgjfanlllikpfpaadggdbchdpcbiaeei"
+        "id": "hgjfanlllikpfpaadggdbchdpcbiaeei",
+        "icon": "https://lh3.googleusercontent.com/lTJ_Ce4lytaB1E9IFl0tiQztl-vEb7WtYOlz2sAjutKqlQ_SZMbmhrI5IzCOYYEYMQeySfVllOtBXlN8g66bmMQG=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Dimensions",
         "desc": "A tool for designers to measure screen dimensions, margins, paddings, and relative pixel distances on mouse movements.",
-        "id": "baocaagndhipibgklemoalmkljaimfdj"
+        "id": "baocaagndhipibgklemoalmkljaimfdj",
+        "icon": "https://lh3.googleusercontent.com/0JFok3OfZb24fmGrDwvfee6MVAAUyJpHKmi2xTlfIxLcWyZqOq-9r-jD_xKX8eFMbTCG35oLGGxskZ3pVBzvOr9Kgw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Grid Ruler",
         "desc": "Draw layout guidelines, align columns, measure absolute margins, and set grids directly over top of web pages.",
-        "id": "joadogiaiabhmggdifljlpkclnpfncmj"
+        "id": "joadogiaiabhmggdifljlpkclnpfncmj",
+        "icon": "https://lh3.googleusercontent.com/6T8NLxab9oVFpwM30mpWphpfkyPpCuN8NboQpcpRx9DVeFopasPZKOsvSI7MaWIsxBPpDXqCZBDkB_sgYX0q0wk8g98=s128-rj-sc0x00ffffff"
       },
       {
         "name": "WhatFont",
         "desc": "Identify web typography instantly. Hover over text to inspect font families, sizes, line heights, and weights.",
-        "id": "opogloaldjiplhogobhmghlgnlciebin"
+        "id": "opogloaldjiplhogobhmghlgnlciebin",
+        "icon": "https://lh3.googleusercontent.com/CK3fH5_mCC5yXX_ur2gFLjbwX9akfUDOJkbx4TibD5bjOrZgF6FLt-XYB6BomYda0aUk4i9JMnnKj0VDhx4ULghkfYo=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Fonts Ninja",
         "desc": "Inspect typography on any page. View font names, css values, weights, and try fonts inside the visual dashboard.",
-        "id": "eljapbgkmlngdpckoiiibecpemleclhh"
+        "id": "eljapbgkmlngdpckoiiibecpemleclhh",
+        "icon": "https://lh3.googleusercontent.com/6y1HnDyFGr1RzFbTU7-ELvuKo2eT6kB7ZPGOS7o7mDoQPP4MsmAKqfFgiS6Z_8s66Ewm6vnSgd0SOWonF4pDZ170=s128-rj-sc0x00ffffff"
       },
       {
         "name": "User-Agent Switcher",
         "desc": "Mock your browser's user-agent headers to test mobile websites, specific browser render views, and user-agent scripts.",
-        "id": "djflhoibgkdhkhhcedjiklpkjnoahfmg"
+        "id": "djflhoibgkdhkhhcedjiklpkjnoahfmg",
+        "icon": "https://lh3.googleusercontent.com/3ReAyr8mN30UHplkYGcG5TLs8TO55q0ovp2EAWUPCjbE2VGlKOKhsUQ13xBrUOTFHsrhi4EqDHD1BU2xaO8R0goJdPk=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Check My Links",
         "desc": "A link checker that crawls web pages and lists status codes, highlighting working (200) and broken (404) links.",
-        "id": "aajoalonednamcpodaeocebfgldhcpbe"
+        "id": "aajoalonednamcpodaeocebfgldhcpbe",
+        "icon": "https://lh3.googleusercontent.com/2fhTcwtijYCCokWPXM-QIGxJyaQcFiddMsvZcz1yE1jdWueY0W48thM7kIaKIdvTwRx5pX2aBMMhRl1GTlR7LKi3Gw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "WhatRuns",
         "desc": "One-click widget showing web application technology stacks, tracking scripts, webservers, and analytics platforms.",
-        "id": "cmkdbmfndkfgebldhnkbfhlneefdaaip"
+        "id": "cmkdbmfndkfgebldhnkbfhlneefdaaip",
+        "icon": "https://lh3.googleusercontent.com/QPdeBM4L_QRq9GwNYY1mUJK4Pe6jN_4FfcRSf7qjt_XQmUYXgwfjgZDmBNS65Yy119kK8s2Rn70A0eLXnfhjNX93oA=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Wapiti Mobile Simulator",
         "desc": "Interactive viewport resize and simulation of mock environments to test responsive web layouts easily.",
-        "id": "jddmgnnleekklonpcbcklcooabmllgpc"
+        "id": "jddmgnnleekklonpcbcklcooabmllgpc",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
       },
       {
         "name": "Eye Dropper",
         "desc": "Pick colors from any webpage with a built-in color picker, then copy codes as HEX, RGB, or HSL.",
-        "id": "hmdcmlfkchdmnmnmheododdhjedfccka"
+        "id": "hmdcmlfkchdmnmnmheododdhjedfccka",
+        "icon": "https://lh3.googleusercontent.com/JHgGb5sWzuZecolMRmsJluBhKZFQ1FrO9YXgcHkqRb9hy-73rOJh-smwk3oHVJDxCf0BdoYFJAPbGd_d-_i3cLugsw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "GoFullPage",
         "desc": "Capture a full-page screenshot in one click, then crop, annotate, and export it as an image or PDF.",
-        "id": "fdpohaocaechififmbbbbbknoalclacl"
+        "id": "fdpohaocaechififmbbbbbknoalclacl",
+        "icon": "https://lh3.googleusercontent.com/xkq24Y-hSgJHCOs7hskeMNfZatMQYRmybkMY8gGrzHTYVJiQR_2un6xgg9cXY93ShVNU5LdC7n5fddtbQxeNIV0hma8=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Fireshot",
         "desc": "Capture, annotate, and export full webpage screenshots.",
-        "id": "mcbpblocgmgfnpjjppndjkmgjaogfceg"
+        "id": "mcbpblocgmgfnpjjppndjkmgjaogfceg",
+        "icon": "https://lh3.googleusercontent.com/H6VcwetaNraR4b3yrUvu_601L0otxCtlLpR0woT3815_6z-QsxGJVbBY9TWiadOYdeY3BOAYH-r22flXK3wZln-CCA=s128-rj-sc0x00ffffff"
       }
     ]
   },
@@ -370,37 +458,44 @@
       {
         "name": "Momentum",
         "desc": "Replace new tab page with a personal dashboard featuring to-do, weather, inspiration, and focus prompts.",
-        "id": "laookkfknpbbblfpciffpaejjkokdgca"
+        "id": "laookkfknpbbblfpciffpaejjkokdgca",
+        "icon": "https://lh3.googleusercontent.com/H9tXckFzG4jZjM5Ag6gvBl0dCm75uQIlextzqmubbZ4stRiSfAyRG6pna-QjMk4S5kOCeShmPMcWxlPPdKlQyDqW=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Custom Cursor for Chrome",
         "desc": "Customize your browser cursor with a massive collection of fun, creative, and cute custom cursors.",
-        "id": "ogdlpmhglpejoiomcodnpjnfgcpmgale"
+        "id": "ogdlpmhglpejoiomcodnpjnfgcpmgale",
+        "icon": "https://lh3.googleusercontent.com/H2MMZR0mOR25jQf_4GdtDTufefua3igDkUq9TXdzfdqHXxkp9zfuVp3gSqAKRWGG2urjM0PlMIdLuZWcWRAtlUvZ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "GIPHY for Chrome",
         "desc": "Search and drag-and-drop GIFs and stickers into emails, Slack, social media posts, and repositories instantly.",
-        "id": "jlleokkdhkflpmghiioglgmnminbekdi"
+        "id": "jlleokkdhkflpmghiioglgmnminbekdi",
+        "icon": "https://lh3.googleusercontent.com/quqzql2fPqx6SmFG0qX43yEdzAe0cYGlar_26wOiw9HKUjj6d_9GZvMPSiLnlkNpvc8_SuTpWdmCkZfIBCg_5-cqsw=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Isometric Contributions",
         "desc": "Toggles your 2D GitHub contribution graph into a 3D isometric building block view.",
-        "id": "mjoedlfflcchnleknnceiplgaeoegien"
+        "id": "mjoedlfflcchnleknnceiplgaeoegien",
+        "icon": "https://lh3.googleusercontent.com/lPhI8jdm4Xf6gX2ZfJBnKZG2LcR4T9kLNaYuSFeSdKdz5JeM7NByEYPus0gwGL0TY7r3ugKG-pkLgaXWqkK0eUGQ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Panic Button",
         "desc": "Hide all of your active browser tabs at once with a single click or keyboard shortcut, and restore them later.",
-        "id": "faminaigigodmhcgngfbnfmjbbclgplk"
+        "id": "faminaigigodmhcgngfbnfmjbbclgplk",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
       },
       {
         "name": "Tabby Cat",
         "desc": "Brightens every new tab with a unique, procedurally generated cat that blinks, sleeps, and can be petted.",
-        "id": "mefhakmgclhhfbdadeojlkbllmecialg"
+        "id": "mefhakmgclhhfbdadeojlkbllmecialg",
+        "icon": "https://lh3.googleusercontent.com/9PIUsClrLHDgUriw1keU_74EHWjCSBv5Phu21Wsp41FxdIR8nuJFUHSKA8eL5Uo96Pu-u79HLTsEYWe_xByvfNzSnQ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "New Tab Redirect",
         "desc": "Replace the default new tab page with a custom URL, local file, or one of Chrome's built-in pages.",
-        "id": "icpgjfneehieebagbmdbhnlpiopdcmna"
+        "id": "icpgjfneehieebagbmdbhnlpiopdcmna",
+        "icon": "https://lh3.googleusercontent.com/7RgJ3rIgKBuP8iw38MBo2tMnf_zbAzzk2h-Ls7NpaSTW6PS6fHZM8245Bq_Lf1-WLGbeJj-OJhAjAcnRykKAGOUyPw=s128-rj-sc0x00ffffff"
       }
     ]
   },
@@ -410,47 +505,56 @@
       {
         "name": "uBlock Origin",
         "desc": "Blocks ads, trackers, malware, and unwanted content for faster and safer browsing.",
-        "id": "cjpalhdlnbpafiamejdnhcphjbkeiagm"
+        "id": "cjpalhdlnbpafiamejdnhcphjbkeiagm",
+        "icon": "https://lh3.googleusercontent.com/rrgyVBVte7CfjjeTU-rCHDKba7vtq-yn3o8-10p5b6QOj_2VCDAO3VdggV5fUnugbG2eDGPPjoJ9rsiU_tUZBExgLGc=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Privacy Badger",
         "desc": "Automatically detects and blocks invisible trackers while you browse.",
-        "id": "pkehgijcmpdhfbdbbnkijodmdjhbjlgp"
+        "id": "pkehgijcmpdhfbdbbnkijodmdjhbjlgp",
+        "icon": "https://lh3.googleusercontent.com/LzhiFbFNvTwkOM7XX4K3wkwSlTkMj6NLyixs1yLPaYGIzXaiFGsfi6qcwzKzQcLR-6jtIVnFPRlQWUZC-OlnHpROcg=s128-rj-sc0x00ffffff"
       },
       {
         "name": "Cookie-Editor",
         "desc": "View, edit, import, export, and manage browser cookies with ease.",
-        "id": "hlkenndednhfkekhgcdicdfddnkalmdm"
+        "id": "hlkenndednhfkekhgcdicdfddnkalmdm",
+        "icon": "https://lh3.googleusercontent.com/yML5TEO1-N1ngawnIW4MxhsnB7HQr7DMS4RBH8SJGEg-R0P3RDAUoSSgtROcpcsy6l44h-G3urZYL9JEIj8S7ypQ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "LocalCDN",
         "desc": "Serves popular web libraries locally to improve privacy and reduce external requests.",
-        "id": "jlmhhokfnncdpfglafcfbinjdnfbjmjf"
+        "id": "jlmhhokfnncdpfglafcfbinjdnfbjmjf",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
       },
       {
         "name": "Decentraleyes",
         "desc": "Emulates popular CDNs locally to reduce requests to third-party servers.",
-        "id": "ldpochfccmkkmhdbclfhpagapcfdljkj"
+        "id": "ldpochfccmkkmhdbclfhpagapcfdljkj",
+        "icon": "https://lh3.googleusercontent.com/Jgp9Gkt4CXIrIb0jjBFW0smpPGq_Le60968t8oPB4J1L3pEBzXyb292YuDlexKAjDF2V1geKZo4-XPrtsH7oK2jg=s128-rj-sc0x00ffffff"
       },
       {
         "name": "ClearURLs",
         "desc": "Removes tracking parameters from URLs before they are opened or shared.",
-        "id": "lckanjgmijmafbedllaakclkaicjfmnk"
+        "id": "lckanjgmijmafbedllaakclkaicjfmnk",
+        "icon": "https://lh3.googleusercontent.com/buoRxpVerhTQPyzUa4kX_9FaWmzrl5LVSVyLGzJP9E8dRLyP-8YLID_HSlRNZxo2RLHBY7N7h4k77ayFBG_eWq0GGQ=s128-rj-sc0x00ffffff"
       },
       {
         "name": "I still don't care about cookies",
         "desc": "Automatically hides or accepts cookie consent banners on supported websites.",
-        "id": "edibdbjcniadpccecjdfdjjppcpchdlm"
+        "id": "edibdbjcniadpccecjdfdjjppcpchdlm",
+        "icon": "https://lh3.googleusercontent.com/S9_5LRhxmhzkW2pLuFqvnXzrRSfyAr4msuEMDVbF2PPa4wYdZeeDIGM2u4oSBCvwMxh5-mBUWLq8H7FTeLouHYTD8Gc=s128-rj-sc0x00ffffff"
       },
       {
         "name": "CanvasBlocker",
         "desc": "Protects against browser fingerprinting by spoofing fingerprinting APIs.",
-        "id": "nomnklagbgmgghhjidfhnoelnjfndfpd"
+        "id": "nomnklagbgmgghhjidfhnoelnjfndfpd",
+        "icon": "https://lh3.googleusercontent.com/qiz-ryiwkGsM7q2B5Zf2iCHYGnaPC64NujtPgSMKdeHSCfPfi3qRAKnvEGdzTnFqGZE_ECLIgpj9qoPyluF09kMa0Kk=s128-rj-sc0x00ffffff"
       },
       {
         "name": "NoScript",
         "desc": "Provides advanced control over JavaScript, WebGL, and other active web content.",
-        "id": "doojmbjmlfjjnbmnoijecmcbfeoakpjm"
+        "id": "doojmbjmlfjjnbmnoijecmcbfeoakpjm",
+        "icon": "https://lh3.googleusercontent.com/6m-F6Npe6HtRSinqg6afQSOKZa4mKPqXJ-lKepCy-C0geZMq297vh1zT6C_2USRxYEX0vZnGvhzSq8CUid91qg8rsQ=s128-rj-sc0x00ffffff"
       }
     ]
   }
