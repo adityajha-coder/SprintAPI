@@ -42,7 +42,7 @@ Adding new resources is incredibly simple using our automated script. Please fol
 5. Commit your modifications and push the branch to your fork.
 6. Open a Pull Request describing the resource you added.
 
-For full, detailed instructions on the data formats and script usage, **please read the [important.md](important.md) guide** in this repository.
+For full, detailed instructions on the data formats and script usage, **please read the [important.md](scratch/important.md) guide** in this repository.
 
 > **Note for Contributors:** 
 > We manually review all submissions to maintain the high quality of SprintAPI. Please be kind and thoughtful when raising a Pull Request. Ensure that any resource you add is genuinely helpful, correctly categorized, and functional. Please do not submit spam, fake, or duplicate PRs simply to inflate your contribution graphs. Quality matters!
