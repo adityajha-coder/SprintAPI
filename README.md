@@ -16,9 +16,9 @@
 
 ## About the Project
 
-SprintAPI is a community driven, hand curated catalog built for developers who want to spend less time researching and more time building. It consolidates hundreds of production ready resources, categorized with precise details like authentication requirements, CORS support, pricing rules, and utility workflows.
+SprintAPI is a community driven, hand curated catalog built for developers who want to spend less time researching and more time building. It consolidates hundreds of production ready resources, categorized with precise details like authentication requirements, pricing rules, and utility workflows.
 
-The interface is fully optimized for speed, featuring instant search querying, multi select criteria filters, automatic active section navigation highlighting, and responsive dark layouts.
+The interface is fully optimized for speed, featuring instant search querying, multi select criteria filters, automatic active section navigation highlighting, and responsive layouts.
 
 ## Catalog Collections
 
@@ -26,26 +26,26 @@ The directory indexes resources across four distinct categories:
 
 | Resource Type | Available Entries | Core Focus Area |
 | :--- | :--- | :--- |
-| Public APIs | 350+ | AI/ML, Weather, Testing, Finance, and Communication |
-| Developer Tools | 200+ | Frameworks, Design assets, and deployment utilities |
+| Public APIs | 350+ | AI/ML, Testing, Data, and Others |
+| Tools | 400+ | Design, deployment, Security & Other utilities |
 | VS Code Extensions | 145+ | Essential IDE plugins for editor productivity |
-| Chrome Extensions | 55+ | Web utilities, debuggers, and frontend helpers |
+| Chrome Extensions | 120+ | Web utilities, Productivity, and Other usefuls |
 
 ## How to Contribute
 
-Adding new resources or improving the codebase is simple. You can contribute by following these steps:
+Adding new resources is incredibly simple using our automated script. Please follow these steps:
 
-1. Fork the repository to your own GitHub account.
-2. Clone your fork locally using standard Git tools.
-3. Install dependencies within the project root by running the command `pnpm install`.
-4. Open the data directory and update the target JSON database file:
-   * APIs belong in `data/apis.json`
-   * Tools belong in `data/tools.json`
-   * VS Code Extensions belong in `data/extensions.json`
-   * Chrome Extensions belong in `data/chrome-extensions.json`
-5. Ensure your JSON entry matches the schema structure of existing items.
-6. Commit your modifications and push the branch to your fork.
-7. Open a Pull Request describing the resource you added.
+1. Fork the repository to your own GitHub account and clone it locally.
+2. Install dependencies (e.g. `npm install` or `pnpm install`).
+3. Open the file `scratch/push.js` and add your resource information to the `NEW_ITEMS` array.
+4. Run `node scratch/push.js` in your terminal. The script will automatically deduplicate and format your data into the correct category!
+5. Commit your modifications and push the branch to your fork.
+6. Open a Pull Request describing the resource you added.
+
+For full, detailed instructions on the data formats and script usage, **please read the [important.md](important.md) guide** in this repository.
+
+> **Note for Contributors:** 
+> We manually review all submissions to maintain the high quality of SprintAPI. Please be kind and thoughtful when raising a Pull Request. Ensure that any resource you add is genuinely helpful, correctly categorized, and functional. Please do not submit spam, fake, or duplicate PRs simply to inflate your contribution graphs. Quality matters!
 
 ## Contributors
 
