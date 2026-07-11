@@ -331,6 +331,11 @@
         "name": "Cronitor Crontab Guru",
         "desc": "Build and understand cron expressions.",
         "url": "https://crontab.guru"
+      },
+      {
+        "name": "Resend",
+        "desc": "Email API for developers. Build, test, and deliver transactional emails at scale.",
+        "url": "https://resend.com/"
       }
     ]
   },
@@ -1816,6 +1821,11 @@
         "name": "Privacy Guides",
         "desc": "Discover trusted privacy focused applications, services, browsers, and security recommendations.",
         "url": "https://www.privacyguides.org"
+      },
+      {
+        "name": "GitGuardian",
+        "desc": "Automated secrets detection and security policy enforcement for source code, repositories, and CI/CD pipelines.",
+        "url": "https://www.gitguardian.com/"
       }
     ]
   },
@@ -2136,6 +2146,26 @@
         "name": "MuscleWiki",
         "desc": "Find exercises for every muscle group with detailed animations and instructions.",
         "url": "https://musclewiki.com"
+      }
+    ]
+  },
+  {
+    "cat": "DevOps & Cloud",
+    "items": [
+      {
+        "name": "Kubernetes",
+        "desc": "Open-source system for automating deployment, scaling, and management of containerized applications.",
+        "url": "https://kubernetes.io/"
+      }
+    ]
+  },
+  {
+    "cat": "Testing & Debugging",
+    "items": [
+      {
+        "name": "Sentry",
+        "desc": "Developer-first error tracking and performance monitoring platform.",
+        "url": "https://sentry.io/"
       }
     ]
   }

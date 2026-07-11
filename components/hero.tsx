@@ -1,25 +1,58 @@
 import { ArrowRight } from 'lucide-react'
 import { counts } from '@/lib/data'
 
-const marqueeItems = [
-  'Supabase',
-  'OpenRouter API',
-  'Anthropic API',
-  'Marvel API',
-  'Telegram Bot API',
-  'GitHub API',
-  'NASA API',
-  'OpenWeather API',
-  'Spotify Web API',
-  'TMDb API',
-  'Hacker News API',
-  'JSONPlaceholder API',
-  'Dad Jokes API',
-  'Poke API',
-  'Telegram Bot API',
-  'Harry Potter API',
-  'YouTube Data API'
+const marqueeApiItems = [
+  { name: 'OpenLibrary', url: 'https://openlibrary.org/developers/api' },
+  { name: 'OpenRouter API', url: 'https://openrouter.ai' },
+  { name: 'Anthropic API', url: 'https://anthropic.com' },
+  { name: 'Marvel API', url: 'https://developer.marvel.com' },
+  { name: 'Telegram Bot API', url: 'https://core.telegram.org' },
+  { name: 'GitHub API', url: 'https://docs.github.com/en/rest' },
+  { name: 'NASA API', url: 'https://api.nasa.gov' },
+  { name: 'OpenWeather API', url: 'https://openweathermap.org' },
+  { name: 'Spotify Web API', url: 'https://developer.spotify.com' },
+  { name: 'TMDb API', url: 'https://www.themoviedb.org' },
+  { name: 'Hacker News API', url: 'https://github.com/HackerNews/API' },
+  { name: 'JSONPlaceholder API', url: 'https://jsonplaceholder.typicode.com' },
+  { name: 'Dad Jokes API', url: 'https://icanhazdadjoke.com' },
+  { name: 'Poke API', url: 'https://pokeapi.co' },
+  { name: 'Harry Potter API', url: 'https://hp-api.onrender.com' },
+  { name: 'YouTube Data API', url: 'https://developers.google.com/youtube' }
 ]
+
+const marqueeToolItems = [
+  { name: 'Vercel', url: 'https://vercel.com' },
+  { name: 'n8n', url: 'https://n8n.io/' },
+  { name: 'LifeAt', url: 'https://lifeat.io/' },
+  { name: 'Figma', url: 'https://figma.com' },
+  { name: 'Kubernetes', url: 'https://kubernetes.io/' },
+  { name: 'Cursor', url: 'https://cursor.sh' },
+  { name: 'Stripe', url: 'https://stripe.com' },
+  { name: 'GitGuardian', url: 'https://www.gitguardian.com/' },
+  { name: 'Postman', url: 'https://postman.com' },
+  { name: 'Regex101', url: 'https://regex101.com' },
+  { name: 'URLScan', url: 'https://urlscan.io/' },
+  { name: 'PostgreSQL', url: 'https://postgresql.org/' },
+  { name: 'Claude', url: 'https://claude.ai' },
+  { name: 'Prettier', url: 'https://prettier.io' },
+  { name: 'Biome', url: 'https://biomejs.dev' },
+  { name: 'Vercel', url: 'https://vercel.com' },
+  { name: 'Cloudflare', url: 'https://cloudflare.com' },
+  { name: 'Firebase', url: 'https://firebase.google.com' },
+  { name: 'DigitalOcean', url: 'https://digitalocean.com' },
+  { name: 'Obsidian', url: 'https://obsidian.md/' },
+  { name: 'Make', url: 'https://make.com' },
+  { name: 'HTTPie', url: 'https://httpie.io' }
+]
+
+const getFavicon = (url: string) => {
+  try {
+    const domain = new URL(url).hostname
+    return `https://www.google.com/s2/favicons?domain=${domain}&sz=64`
+  } catch (e) {
+    return ''
+  }
+}
 
 export function Hero() {
   const total = counts.apis + counts.tools + counts.extensions + counts.chromeExtensions
@@ -75,25 +108,55 @@ export function Hero() {
           </a>
         </div>
 
-        {/* Infinite sliding API marquee */}
-        <div className="mx-auto mt-16 max-w-xl">
+        {/* Infinite sliding API & Tools marquees */}
+        <div className="mx-auto mt-16 max-w-xl flex flex-col gap-3">
+          {/* First marquee: APIs */}
           <div className="flex items-center gap-3 overflow-hidden rounded-xl border border-border/80 bg-card/30 px-3 py-2.5 shadow-sm">
             <span className="text-xs font-semibold uppercase tracking-wider text-primary select-none shrink-0 bg-primary/10 px-2 py-0.5 rounded-md">
-              Try:
+              Try APIs:
             </span>
             <div className="relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_8%,white_92%,transparent)]">
               <div className="flex w-max animate-marquee gap-8 whitespace-nowrap text-xs font-medium text-white">
                 <div className="flex gap-8 shrink-0">
-                  {marqueeItems.map((item, idx) => (
-                    <span key={idx} className="hover:text-foreground transition-colors cursor-default">
-                      {item}
+                  {marqueeApiItems.map((item, idx) => (
+                    <span key={idx} className="flex items-center gap-2 hover:text-foreground transition-colors cursor-default">
+                      <img src={getFavicon(item.url)} alt="" className="size-4 rounded-sm bg-white/10" aria-hidden="true" />
+                      {item.name}
                     </span>
                   ))}
                 </div>
                 <div className="flex gap-8 shrink-0" aria-hidden="true">
-                  {marqueeItems.map((item, idx) => (
-                    <span key={`dup-${idx}`} className="hover:text-foreground transition-colors cursor-default">
-                      {item}
+                  {marqueeApiItems.map((item, idx) => (
+                    <span key={`dup-${idx}`} className="flex items-center gap-2 hover:text-foreground transition-colors cursor-default">
+                      <img src={getFavicon(item.url)} alt="" className="size-4 rounded-sm bg-white/10" aria-hidden="true" />
+                      {item.name}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Second marquee: Tools */}
+          <div className="flex items-center gap-3 overflow-hidden rounded-xl border border-border/80 bg-card/30 px-3 py-2.5 shadow-sm">
+            <span className="text-xs font-semibold uppercase tracking-wider text-primary select-none shrink-0 bg-primary/10 px-2 py-0.5 rounded-md">
+              Try Tools:
+            </span>
+            <div className="relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_8%,white_92%,transparent)]">
+              <div className="flex w-max animate-marquee-reverse gap-8 whitespace-nowrap text-xs font-medium text-white">
+                <div className="flex gap-8 shrink-0">
+                  {marqueeToolItems.map((item, idx) => (
+                    <span key={idx} className="flex items-center gap-2 hover:text-foreground transition-colors cursor-default">
+                      <img src={getFavicon(item.url)} alt="" className="size-4 rounded-sm bg-white/10" aria-hidden="true" />
+                      {item.name}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex gap-8 shrink-0" aria-hidden="true">
+                  {marqueeToolItems.map((item, idx) => (
+                    <span key={`dup-${idx}`} className="flex items-center gap-2 hover:text-foreground transition-colors cursor-default">
+                      <img src={getFavicon(item.url)} alt="" className="size-4 rounded-sm bg-white/10" aria-hidden="true" />
+                      {item.name}
                     </span>
                   ))}
                 </div>

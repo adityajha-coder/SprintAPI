@@ -215,10 +215,23 @@
 }
 
 .animate-marquee {
-  animation: marquee 25s linear infinite !important;
+  animation: marquee 35s linear infinite !important;
 }
 
-.animate-marquee:hover {
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse 35s linear infinite !important;
+}
+
+.animate-marquee:hover, .animate-marquee-reverse:hover {
   animation-play-state: paused !important;
 }
 
