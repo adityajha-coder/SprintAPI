@@ -124,7 +124,7 @@ export function Navbar() {
         </div>
 
         {open && (
-          <div className="absolute inset-x-0 top-full mt-2 flex flex-col gap-1 rounded-2xl border border-border p-2 glass md:hidden">
+          <div className="absolute inset-x-0 top-full mt-2 flex flex-col gap-1 rounded-2xl border border-border p-2 bg-background shadow-xl md:hidden">
             {links.map((link) => (
               <a
                 key={link.href}

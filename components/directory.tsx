@@ -365,12 +365,12 @@ export function Directory() {
               {showFilters && (
                 <div
                   ref={filterPanelRef}
-                  className="absolute right-0 top-full z-50 mt-2 w-[min(28rem,calc(100vw-2rem))] origin-top-right animate-in fade-in slide-in-from-top-2 rounded-2xl border border-border bg-card p-4 shadow-2xl sm:w-[32rem]"
+                  className="absolute right-0 top-full z-50 mt-2 w-[min(28rem,calc(100vw-2rem))] max-h-[75vh] overflow-y-auto origin-top-right animate-in fade-in slide-in-from-top-2 rounded-2xl border border-border bg-card p-4 shadow-2xl sm:w-[32rem]"
                   role="dialog"
                   aria-label="Filter options"
                 >
                 {/* Header */}
-                <div className="mb-3 flex items-center justify-between">
+                <div className="mb-3 flex items-center justify-between sticky top-0 bg-card z-10 pb-1">
                   <h3 className="text-sm font-semibold text-foreground">
                     Filter{' '}
                     {tab === 'extensions'
@@ -406,7 +406,7 @@ export function Directory() {
                     <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">
                       Category
                     </p>
-                    <div className="flex max-h-40 flex-wrap gap-1.5 overflow-y-auto pr-1">
+                    <div className="flex flex-wrap gap-1.5 pr-1">
                       <Chip
                         active={selectedCategories.length === 0}
                         onClick={() => setSelectedCategories([])}
