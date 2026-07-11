@@ -9,3 +9,4 @@ node_modules
 plan.txt
 .vscode/
 tsconfig.tsbuildinfo
+scratch/

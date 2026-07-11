@@ -131,6 +131,46 @@
         "name": "Devika",
         "desc": "Open-source agentic software engineer designed to understand user instructions and write clean modules.",
         "url": "https://github.com/stitionai/devika"
+      },
+      {
+        "name": "AIXploria",
+        "desc": "Massive directory of AI tools categorized by use case.",
+        "url": "https://www.aixploria.com"
+      },
+      {
+        "name": "Futurepedia",
+        "desc": "Discover the latest AI tools and applications.",
+        "url": "https://www.futurepedia.io"
+      },
+      {
+        "name": "There's An AI For That",
+        "desc": "Search thousands of AI tools by task.",
+        "url": "https://theresanaiforthat.com"
+      },
+      {
+        "name": "Toolify",
+        "desc": "Browse thousands of AI tools organized by category and use case.",
+        "url": "https://www.toolify.ai"
+      },
+      {
+        "name": "Goblin Tools",
+        "desc": "AI powered productivity tools for breaking tasks, estimating time, rewriting text, and simplifying daily planning.",
+        "url": "https://goblin.tools"
+      },
+      {
+        "name": "Glif",
+        "desc": "Build creative AI workflows and applications without writing any programming code.",
+        "url": "https://glif.app"
+      },
+      {
+        "name": "Poe",
+        "desc": "Access multiple artificial intelligence models from one simple conversational interface.",
+        "url": "https://poe.com"
+      },
+      {
+        "name": "OpenRouter",
+        "desc": "Use hundreds of AI models through one unified API with flexible pricing.",
+        "url": "https://openrouter.ai"
       }
     ]
   },
@@ -238,6 +278,11 @@
         "url": "https://supabase.com"
       },
       {
+        "name": "Firebase",
+        "desc": "Google's mobile and web application development platform.",
+        "url": "https://firebase.google.com/"
+      },
+      {
         "name": "Express.js",
         "desc": "Fast, unopinionated, minimalist web framework for Node.js",
         "url": "https://expressjs.com"
@@ -281,6 +326,11 @@
         "name": "tRPC",
         "desc": "End-to-end typesafe APIs without GraphQL or code generation",
         "url": "https://trpc.io"
+      },
+      {
+        "name": "Cronitor Crontab Guru",
+        "desc": "Build and understand cron expressions.",
+        "url": "https://crontab.guru"
       }
     ]
   },
@@ -341,6 +391,186 @@
         "name": "TurboRepo",
         "desc": "High-performance build system for JavaScript and TypeScript monorepos",
         "url": "https://turbo.build/repo"
+      },
+      {
+        "name": "Wappalyzer",
+        "desc": "Identify CMSs, frameworks, analytics, and hosting providers used by websites.",
+        "url": "https://www.wappalyzer.com"
+      },
+      {
+        "name": "BuiltWith",
+        "desc": "Discover the technologies and frameworks powering any website.",
+        "url": "https://builtwith.com"
+      },
+      {
+        "name": "Wayback Machine",
+        "desc": "Browse archived versions of websites from previous years.",
+        "url": "https://web.archive.org"
+      },
+      {
+        "name": "Archive.today",
+        "desc": "Create and view permanent snapshots of web pages.",
+        "url": "https://archive.today"
+      },
+      {
+        "name": "Hunter",
+        "desc": "Find publicly available professional email addresses associated with domains.",
+        "url": "https://hunter.io"
+      },
+      {
+        "name": "EmailHippo",
+        "desc": "Validate whether an email address exists and is deliverable.",
+        "url": "https://tools.emailhippo.com"
+      },
+      {
+        "name": "TinyWow",
+        "desc": "Free online tools for PDF editing, image conversion, AI writing, and more.",
+        "url": "https://tinywow.com"
+      },
+      {
+        "name": "PDF24 Tools",
+        "desc": "Merge, split, compress, convert, and edit PDF files online.",
+        "url": "https://tools.pdf24.org"
+      },
+      {
+        "name": "ExplainShell",
+        "desc": "Understand Linux shell commands by breaking down each argument.",
+        "url": "https://explainshell.com"
+      },
+      {
+        "name": "PublicWWW",
+        "desc": "Search source code across millions of websites.",
+        "url": "https://publicwww.com"
+      },
+      {
+        "name": "AlternativeTo",
+        "desc": "Find alternatives to apps, software, and online services.",
+        "url": "https://alternativeto.net"
+      },
+      {
+        "name": "Ninite",
+        "desc": "Install multiple Windows applications with one installer.",
+        "url": "https://ninite.com"
+      },
+      {
+        "name": "CamelCamelCamel",
+        "desc": "Track Amazon price history and receive price-drop alerts.",
+        "url": "https://camelcamelcamel.com"
+      },
+      {
+        "name": "Keepa",
+        "desc": "Detailed Amazon price tracking with historical charts.",
+        "url": "https://keepa.com"
+      },
+      {
+        "name": "Every Time Zone",
+        "desc": "Visualize and compare multiple time zones easily.",
+        "url": "https://everytimezone.com"
+      },
+      {
+        "name": "RapidTables",
+        "desc": "Useful engineering, programming, and conversion calculators.",
+        "url": "https://www.rapidtables.com"
+      },
+      {
+        "name": "UnitConverters",
+        "desc": "Convert between hundreds of units and measurements.",
+        "url": "https://www.unitconverters.net"
+      },
+      {
+        "name": "CloudConvert",
+        "desc": "Convert documents, videos, audio, images, and archives.",
+        "url": "https://cloudconvert.com"
+      },
+      {
+        "name": "Compress PNG",
+        "desc": "Compress PNG, JPG, GIF, SVG, and PDF files.",
+        "url": "https://compresspng.com"
+      },
+      {
+        "name": "FMHY",
+        "desc": "Curated collection of thousands of free software, websites, and digital resources.",
+        "url": "https://fmhy.net"
+      },
+      {
+        "name": "Built At Lightspeed",
+        "desc": "Directory of high-quality developer tools and SaaS products.",
+        "url": "https://www.builtatlightspeed.com"
+      },
+      {
+        "name": "Responsively App",
+        "desc": "Preview responsive websites across multiple devices at the same time.",
+        "url": "https://responsively.app"
+      },
+      {
+        "name": "Screenity",
+        "desc": "Record browser screens with annotations, webcam, and audio completely free.",
+        "url": "https://screenity.io"
+      },
+      {
+        "name": "OneCompiler",
+        "desc": "Run more than seventy programming languages directly inside your browser.",
+        "url": "https://onecompiler.com"
+      },
+      {
+        "name": "IT Tools",
+        "desc": "Collection of over one hundred developer utilities for daily productivity tasks.",
+        "url": "https://it-tools.tech"
+      },
+      {
+        "name": "Tiny Helpers",
+        "desc": "Curated directory featuring hundreds of useful online tools for developers.",
+        "url": "https://tiny-helpers.dev"
+      },
+      {
+        "name": "Awesome Selfhosted",
+        "desc": "Largest curated collection of self hosted open source software projects.",
+        "url": "https://awesome-selfhosted.net"
+      },
+      {
+        "name": "LibHunt",
+        "desc": "Discover trending open source libraries, frameworks, and developer resources.",
+        "url": "https://www.libhunt.com"
+      },
+      {
+        "name": "Alternative.me",
+        "desc": "Find software alternatives with community ratings and detailed comparisons.",
+        "url": "https://alternative.me"
+      },
+      {
+        "name": "Product Hunt",
+        "desc": "Discover newly launched software, startups, AI tools, and innovative products.",
+        "url": "https://www.producthunt.com"
+      },
+      {
+        "name": "OpenAlternative",
+        "desc": "Find high quality open source alternatives to popular commercial software.",
+        "url": "https://openalternative.co"
+      },
+      {
+        "name": "12ft Ladder",
+        "desc": "Attempts to display accessible versions of some publicly available web articles.",
+        "url": "https://12ft.io"
+      },
+      {
+        "name": "RemovePaywall",
+        "desc": "Locate legally accessible archived or cached versions of public web pages.",
+        "url": "https://www.removepaywall.com"
+      },
+      {
+        "name": "DeepL",
+        "desc": "Translate documents and text accurately using advanced artificial intelligence language models.",
+        "url": "https://www.deepl.com"
+      },
+      {
+        "name": "TradingView",
+        "desc": "Analyze stocks, cryptocurrencies, forex, and commodities with professional interactive charts.",
+        "url": "https://www.tradingview.com"
+      },
+      {
+        "name": "LabEx",
+        "desc": "Practice programming and DevOps skills through interactive browser based laboratories.",
+        "url": "https://labex.io"
       }
     ]
   },
@@ -501,6 +731,16 @@
         "name": "Meilisearch",
         "desc": "Lightning-fast, open-source search engine tailored for developers",
         "url": "https://www.meilisearch.com"
+      },
+      {
+        "name": "SQL Fiddle",
+        "desc": "Test SQL queries online using different relational database engines.",
+        "url": "https://sqlfiddle.com"
+      },
+      {
+        "name": "DB Fiddle",
+        "desc": "Experiment with SQL queries across multiple database systems instantly.",
+        "url": "https://dbfiddle.uk"
       }
     ]
   },
@@ -541,6 +781,96 @@
         "name": "Socket.io",
         "desc": "Bidirectional and low-latency communication for every platform",
         "url": "https://socket.io"
+      },
+      {
+        "name": "MXToolbox",
+        "desc": "Diagnose email servers, DNS records, blacklist status, and SMTP issues.",
+        "url": "https://mxtoolbox.com"
+      },
+      {
+        "name": "DNSChecker",
+        "desc": "Verify DNS propagation from locations around the world.",
+        "url": "https://dnschecker.org"
+      },
+      {
+        "name": "IPinfo",
+        "desc": "Look up IP addresses for geolocation, ASN, company, and network information.",
+        "url": "https://ipinfo.io"
+      },
+      {
+        "name": "ViewDNS",
+        "desc": "Perform reverse IP, WHOIS, DNS, and network lookups.",
+        "url": "https://viewdns.info"
+      },
+      {
+        "name": "Hoppscotch",
+        "desc": "Open-source API client for testing REST, GraphQL, WebSocket, and more.",
+        "url": "https://hoppscotch.io"
+      },
+      {
+        "name": "Webhook.site",
+        "desc": "Generate unique endpoints to inspect incoming HTTP requests and webhooks.",
+        "url": "https://webhook.site"
+      },
+      {
+        "name": "Down For Everyone Or Just Me",
+        "desc": "Check whether a website is offline globally or only for you.",
+        "url": "https://downforeveryoneorjustme.com"
+      },
+      {
+        "name": "IsItDownRightNow",
+        "desc": "Monitor website availability and recent uptime history.",
+        "url": "https://www.isitdownrightnow.com"
+      },
+      {
+        "name": "BGP.he.net",
+        "desc": "Research IP prefixes, ASNs, and internet routing information.",
+        "url": "https://bgp.he.net"
+      },
+      {
+        "name": "Snapdrop",
+        "desc": "Transfer files instantly between devices on the same network.",
+        "url": "https://snapdrop.net"
+      },
+      {
+        "name": "PairDrop",
+        "desc": "Open-source AirDrop alternative for any device.",
+        "url": "https://pairdrop.net"
+      },
+      {
+        "name": "FilePizza",
+        "desc": "Transfer large files directly between browsers using secure peer to peer technology.",
+        "url": "https://file.pizza"
+      },
+      {
+        "name": "Sharedrop",
+        "desc": "Share files instantly between nearby devices without creating an account.",
+        "url": "https://www.sharedrop.io"
+      },
+      {
+        "name": "HTTPie",
+        "desc": "Test REST APIs with an intuitive interface and powerful request builder.",
+        "url": "https://httpie.io"
+      },
+      {
+        "name": "ReqBin",
+        "desc": "Send HTTP requests and test REST APIs directly from your browser.",
+        "url": "https://reqbin.com"
+      },
+      {
+        "name": "Webhook Tester",
+        "desc": "Generate temporary webhook endpoints for debugging and API integration testing.",
+        "url": "https://webhook-test.com"
+      },
+      {
+        "name": "JSONPlaceholder",
+        "desc": "Free fake REST API for frontend development and application prototyping.",
+        "url": "https://jsonplaceholder.typicode.com"
+      },
+      {
+        "name": "Mocky",
+        "desc": "Create custom mock API endpoints for rapid testing and development.",
+        "url": "https://designer.mocky.io"
       }
     ]
   },
@@ -561,6 +891,11 @@
         "name": "Animista",
         "desc": "On-demand CSS animations library",
         "url": "https://animista.net"
+      },
+      {
+        "name": "Can I Use",
+        "desc": "Check browser compatibility for HTML, CSS, and JavaScript features.",
+        "url": "https://caniuse.com"
       }
     ]
   },
@@ -581,6 +916,21 @@
         "name": "UUID Generator",
         "desc": "Online UUID/GUID generator",
         "url": "https://www.uuidgenerator.net"
+      },
+      {
+        "name": "CyberChef",
+        "desc": "Swiss Army knife for encoding, decoding, hashing, encryption, and data analysis.",
+        "url": "https://gchq.github.io/CyberChef"
+      },
+      {
+        "name": "Exif.tools",
+        "desc": "Inspect metadata embedded in images and other files.",
+        "url": "https://exif.tools"
+      },
+      {
+        "name": "Base64 Guru",
+        "desc": "Advanced Base64 encoding, decoding, validation, and image conversion utilities.",
+        "url": "https://base64.guru"
       }
     ]
   },
@@ -601,6 +951,31 @@
         "name": "Diffchecker",
         "desc": "Compare text to find the difference",
         "url": "https://www.diffchecker.com"
+      },
+      {
+        "name": "JSON Crack",
+        "desc": "Visualize complex JSON data as an interactive graph.",
+        "url": "https://jsoncrack.com"
+      },
+      {
+        "name": "JSONLint",
+        "desc": "Validate and format JSON instantly.",
+        "url": "https://jsonlint.com"
+      },
+      {
+        "name": "Grep.app",
+        "desc": "Search millions of public GitHub repositories instantly.",
+        "url": "https://grep.app"
+      },
+      {
+        "name": "Code Beautify",
+        "desc": "Format, validate, and convert dozens of file formats.",
+        "url": "https://codebeautify.org"
+      },
+      {
+        "name": "JSONVisio",
+        "desc": "Visualize complex JSON structures as interactive trees for easier debugging.",
+        "url": "https://jsonvisio.com"
       }
     ]
   },
@@ -621,6 +996,11 @@
         "name": "CSS Gradient",
         "desc": "Free css gradient generator tool",
         "url": "https://cssgradient.io"
+      },
+      {
+        "name": "Fontjoy",
+        "desc": "Create visually pleasing font combinations using artificial intelligence powered recommendations.",
+        "url": "https://fontjoy.com"
       }
     ]
   },
@@ -746,6 +1126,26 @@
         "name": "GitBook",
         "desc": "Collaborative documentation platform for teams and developers",
         "url": "https://www.gitbook.com"
+      },
+      {
+        "name": "DevDocs",
+        "desc": "Fast offline documentation for hundreds of programming languages and APIs.",
+        "url": "https://devdocs.io"
+      },
+      {
+        "name": "Roadmap.sh",
+        "desc": "Interactive learning roadmaps for software developers.",
+        "url": "https://roadmap.sh"
+      },
+      {
+        "name": "OverAPI",
+        "desc": "Collection of API and programming cheat sheets.",
+        "url": "https://overapi.com"
+      },
+      {
+        "name": "QuickRef.ME",
+        "desc": "Access concise programming cheat sheets covering languages, frameworks, and tools.",
+        "url": "https://quickref.me"
       }
     ]
   },
@@ -936,6 +1336,81 @@
         "name": "UI Gradients",
         "desc": "A collection of beautiful CSS color gradients to browse, copy, and set in background styles.",
         "url": "https://uigradients.com"
+      },
+      {
+        "name": "Photopea",
+        "desc": "Browser-based Photoshop alternative supporting PSD, AI, XD, Sketch, and more.",
+        "url": "https://www.photopea.com"
+      },
+      {
+        "name": "Remove.bg",
+        "desc": "Automatically remove image backgrounds using AI.",
+        "url": "https://www.remove.bg"
+      },
+      {
+        "name": "Squoosh",
+        "desc": "Compress and optimize images directly in your browser.",
+        "url": "https://squoosh.app"
+      },
+      {
+        "name": "Upscale.media",
+        "desc": "AI-powered image upscaling and enhancement.",
+        "url": "https://www.upscale.media"
+      },
+      {
+        "name": "SVGOMG",
+        "desc": "Optimize SVG files by removing unnecessary data.",
+        "url": "https://jakearchibald.github.io/svgomg"
+      },
+      {
+        "name": "TinyPNG",
+        "desc": "Reduce PNG, JPEG, WebP, and AVIF image sizes.",
+        "url": "https://tinypng.com"
+      },
+      {
+        "name": "Icons8 Background Remover",
+        "desc": "Remove image backgrounds online using AI.",
+        "url": "https://icons8.com/bgremover"
+      },
+      {
+        "name": "Draw.io",
+        "desc": "Create flowcharts, UML diagrams, ER diagrams, and mind maps.",
+        "url": "https://app.diagrams.net"
+      },
+      {
+        "name": "Mermaid Live",
+        "desc": "Create diagrams using Mermaid syntax.",
+        "url": "https://mermaid.live"
+      },
+      {
+        "name": "ASCIIFlow",
+        "desc": "Create ASCII diagrams directly in your browser.",
+        "url": "https://asciiflow.com"
+      },
+      {
+        "name": "SVG Repo",
+        "desc": "Browse hundreds of thousands of free SVG icons and illustrations for projects.",
+        "url": "https://www.svgrepo.com"
+      },
+      {
+        "name": "Haikei",
+        "desc": "Generate beautiful SVG backgrounds, gradients, blobs, and abstract design elements.",
+        "url": "https://haikei.app"
+      },
+      {
+        "name": "FFFuel",
+        "desc": "Create SVG patterns, textures, gradients, blobs, and creative background graphics.",
+        "url": "https://www.fffuel.co"
+      },
+      {
+        "name": "Shots.so",
+        "desc": "Create polished screenshots for websites, applications, portfolios, and social media.",
+        "url": "https://shots.so"
+      },
+      {
+        "name": "CodePNG",
+        "desc": "Convert source code into clean and shareable image snippets instantly.",
+        "url": "https://codepng.app"
       }
     ]
   },
@@ -1096,6 +1571,571 @@
         "name": "GitFight",
         "desc": "Enter your GitHub username to compare contribution stats and launch a visual 'fight' with other programmers.",
         "url": "https://gitfight.com"
+      },
+      {
+        "name": "Pokedex",
+        "desc": "Rich Pokémon database featuring moves, items, abilities, comparisons, team builder, and type matchups.",
+        "url": "https://pokedex-project-db.vercel.app/"
+      },
+      {
+        "name": "Attendora",
+        "desc": "Smart attendance tracker with predictive insights, timetable scanning, GPA calculator, reports.",
+        "url": "https://attendora-sat.vercel.app"
+      },
+      {
+        "name": "Radio Garden",
+        "desc": "Listen to live radio stations from thousands of cities around the world instantly.",
+        "url": "https://radio.garden"
+      },
+      {
+        "name": "Window Swap",
+        "desc": "View real window scenes shared by people living in different countries worldwide.",
+        "url": "https://window-swap.com"
+      },
+      {
+        "name": "JustWatch",
+        "desc": "Find where movies and television shows are streaming across popular online platforms.",
+        "url": "https://www.justwatch.com"
+      },
+      {
+        "name": "Letterboxd",
+        "desc": "Track watched movies, build watchlists, review films, and discover recommendations from others.",
+        "url": "https://letterboxd.com"
+      },
+      {
+        "name": "StoryGraph",
+        "desc": "Receive personalized book recommendations with detailed reading statistics and progress tracking.",
+        "url": "https://thestorygraph.com"
+      },
+      {
+        "name": "Open Library",
+        "desc": "Borrow, search, and read millions of free digital books and historical publications.",
+        "url": "https://openlibrary.org"
+      },
+      {
+        "name": "Wikiwand",
+        "desc": "Browse Wikipedia articles through a modern interface with faster navigation and better readability.",
+        "url": "https://www.wikiwand.com"
+      },
+      {
+        "name": "GeoGuessr",
+        "desc": "Test your geography knowledge by guessing locations using immersive street view images.",
+        "url": "https://www.geoguessr.com"
+      },
+      {
+        "name": "Earth Nullschool",
+        "desc": "Visualize live global weather, wind patterns, ocean currents, and climate data interactively.",
+        "url": "https://earth.nullschool.net"
+      },
+      {
+        "name": "FutureMe",
+        "desc": "Write letters to your future self and receive them on a chosen date.",
+        "url": "https://www.futureme.org"
+      },
+      {
+        "name": "MapCrunch",
+        "desc": "Travel randomly around the world using immersive Google Street View locations.",
+        "url": "https://www.mapcrunch.com"
+      },
+      {
+        "name": "Radio Browser",
+        "desc": "Search and stream thousands of free internet radio stations from every country.",
+        "url": "https://www.radio-browser.info"
+      },
+      {
+        "name": "Earth.fm",
+        "desc": "Listen to authentic nature sounds recorded from forests, beaches, and mountains worldwide.",
+        "url": "https://earth.fm"
+      }
+    ]
+  },
+  {
+    "cat": "Security",
+    "items": [
+      {
+        "name": "Have I Been Pwned",
+        "desc": "Check whether your email address or phone number has appeared in known data breaches.",
+        "url": "https://haveibeenpwned.com"
+      },
+      {
+        "name": "VirusTotal",
+        "desc": "Scan files, URLs, domains, and IP addresses using dozens of antivirus engines.",
+        "url": "https://www.virustotal.com"
+      },
+      {
+        "name": "URLScan",
+        "desc": "Analyze websites for security risks, redirects, trackers, and technologies.",
+        "url": "https://urlscan.io"
+      },
+      {
+        "name": "Hybrid Analysis",
+        "desc": "Perform deep malware analysis on suspicious files and URLs.",
+        "url": "https://www.hybrid-analysis.com"
+      },
+      {
+        "name": "AbuseIPDB",
+        "desc": "Check whether an IP address has been reported for malicious activity.",
+        "url": "https://www.abuseipdb.com"
+      },
+      {
+        "name": "Shodan",
+        "desc": "Search internet-connected devices, servers, webcams, routers, and exposed services.",
+        "url": "https://www.shodan.io"
+      },
+      {
+        "name": "Censys",
+        "desc": "Search internet hosts, certificates, and exposed infrastructure.",
+        "url": "https://search.censys.io"
+      },
+      {
+        "name": "SecurityTrails",
+        "desc": "Research domains, DNS history, subdomains, and ownership records.",
+        "url": "https://securitytrails.com"
+      },
+      {
+        "name": "Temp Mail",
+        "desc": "Generate disposable email addresses for temporary registrations.",
+        "url": "https://temp-mail.org"
+      },
+      {
+        "name": "10 Minute Mail",
+        "desc": "Receive temporary emails that automatically expire.",
+        "url": "https://10minutemail.com"
+      },
+      {
+        "name": "OSINT Framework",
+        "desc": "Directory of hundreds of free OSINT and investigation tools.",
+        "url": "https://osintframework.com"
+      },
+      {
+        "name": "IntelX",
+        "desc": "Search public leaks, documents, domains, emails, phone numbers, and datasets.",
+        "url": "https://intelx.io"
+      },
+      {
+        "name": "IP Location",
+        "desc": "Find geolocation and ISP information for any IP address.",
+        "url": "https://www.iplocation.net"
+      },
+      {
+        "name": "SSL Labs",
+        "desc": "Analyze SSL/TLS security configuration of websites.",
+        "url": "https://www.ssllabs.com/ssltest"
+      },
+      {
+        "name": "Mozilla Observatory",
+        "desc": "Audit website security headers and best practices.",
+        "url": "https://observatory.mozilla.org"
+      },
+      {
+        "name": "Security Headers",
+        "desc": "Check HTTP security headers for any website.",
+        "url": "https://securityheaders.com"
+      },
+      {
+        "name": "Google Transparency Report",
+        "desc": "Check whether a website is flagged as unsafe by Google.",
+        "url": "https://transparencyreport.google.com/safe-browsing/search"
+      },
+      {
+        "name": "PacketTotal",
+        "desc": "Analyze PCAP network captures online.",
+        "url": "https://packettotal.com"
+      },
+      {
+        "name": "BrowserLeaks",
+        "desc": "See what information your browser exposes to websites.",
+        "url": "https://browserleaks.com"
+      },
+      {
+        "name": "Cover Your Tracks",
+        "desc": "Test browser fingerprinting and tracking protection.",
+        "url": "https://coveryourtracks.eff.org"
+      },
+      {
+        "name": "Privnote",
+        "desc": "Create self-destructing encrypted notes.",
+        "url": "https://privnote.com"
+      },
+      {
+        "name": "CRT.sh",
+        "desc": "Find SSL certificates and discover hidden subdomains for security research and reconnaissance.",
+        "url": "https://crt.sh"
+      },
+      {
+        "name": "FOFA",
+        "desc": "Cyber asset search engine for internet connected devices and exposed services worldwide.",
+        "url": "https://en.fofa.info"
+      },
+      {
+        "name": "ZoomEye",
+        "desc": "Search engine for exposed services, devices, and internet assets across the globe.",
+        "url": "https://www.zoomeye.org"
+      },
+      {
+        "name": "OpenSanctions",
+        "desc": "Search people, companies, sanctions, and public compliance records from multiple sources.",
+        "url": "https://www.opensanctions.org"
+      },
+      {
+        "name": "DNSDumpster",
+        "desc": "Visual DNS reconnaissance and subdomain discovery with network mapping capabilities.",
+        "url": "https://dnsdumpster.com"
+      },
+      {
+        "name": "FullHunt",
+        "desc": "Discover attack surfaces, subdomains, and exposed assets for security assessments.",
+        "url": "https://fullhunt.io"
+      },
+      {
+        "name": "Phonebook.cz",
+        "desc": "Discover publicly indexed emails, domains, and digital footprints from datasets.",
+        "url": "https://phonebook.cz"
+      },
+      {
+        "name": "AlienVault OTX",
+        "desc": "Community powered threat intelligence platform with malware indicators and reports.",
+        "url": "https://otx.alienvault.com"
+      },
+      {
+        "name": "URLVoid",
+        "desc": "Check website reputation using multiple blacklist engines and security databases.",
+        "url": "https://www.urlvoid.com"
+      },
+      {
+        "name": "SimpleLogin",
+        "desc": "Protect your inbox using disposable email aliases for signups and online accounts.",
+        "url": "https://simplelogin.io"
+      },
+      {
+        "name": "Firefox Monitor",
+        "desc": "Check whether your email address has appeared in known public data breaches.",
+        "url": "https://monitor.firefox.com"
+      },
+      {
+        "name": "Privacy Guides",
+        "desc": "Discover trusted privacy focused applications, services, browsers, and security recommendations.",
+        "url": "https://www.privacyguides.org"
+      }
+    ]
+  },
+  {
+    "cat": "Automation & Workflows",
+    "items": [
+      {
+        "name": "Make",
+        "desc": "Visual workflow automation platform with thousands of integrations and advanced branching logic.",
+        "url": "https://www.make.com"
+      },
+      {
+        "name": "Zapier",
+        "desc": "Popular no code automation platform connecting thousands of apps with simple workflows.",
+        "url": "https://zapier.com"
+      },
+      {
+        "name": "Activepieces",
+        "desc": "Open source workflow automation platform with self hosting and AI capabilities.",
+        "url": "https://www.activepieces.com"
+      },
+      {
+        "name": "Pipedream",
+        "desc": "Developer focused automation platform supporting APIs, code execution, and event driven workflows.",
+        "url": "https://pipedream.com"
+      },
+      {
+        "name": "Node RED",
+        "desc": "Flow based programming tool ideal for IoT devices, APIs, and backend automation.",
+        "url": "https://nodered.org"
+      },
+      {
+        "name": "Windmill",
+        "desc": "Open source workflow engine for scripts, jobs, APIs, and developer automation.",
+        "url": "https://www.windmill.dev"
+      },
+      {
+        "name": "Relay.app",
+        "desc": "Workflow automation platform designed for human approvals and AI assisted business processes.",
+        "url": "https://www.relay.app"
+      },
+      {
+        "name": "Lindy",
+        "desc": "AI powered automation assistant for email, meetings, CRM, and business workflows.",
+        "url": "https://www.lindy.ai"
+      },
+      {
+        "name": "Gumloop",
+        "desc": "AI first visual workflow builder for web automation, research, and data extraction.",
+        "url": "https://www.gumloop.com"
+      },
+      {
+        "name": "Composio",
+        "desc": "Connect AI agents with hundreds of applications using secure tool integrations.",
+        "url": "https://composio.dev"
+      },
+      {
+        "name": "IFTTT",
+        "desc": "Simple automation platform connecting web services, smart home devices, and mobile apps.",
+        "url": "https://ifttt.com"
+      },
+      {
+        "name": "Microsoft Power Automate",
+        "desc": "Enterprise workflow automation tightly integrated with Microsoft 365 and Azure services.",
+        "url": "https://powerautomate.microsoft.com"
+      },
+      {
+        "name": "Workato",
+        "desc": "Enterprise integration platform for automating business applications and complex workflows.",
+        "url": "https://www.workato.com"
+      },
+      {
+        "name": "Huginn",
+        "desc": "Self hosted automation platform that creates agents for monitoring and acting on events.",
+        "url": "https://github.com/huginn/huginn"
+      },
+      {
+        "name": "Kestra",
+        "desc": "Declarative workflow orchestration platform for data pipelines, automation, and scheduling.",
+        "url": "https://kestra.io"
+      },
+      {
+        "name": "Temporal",
+        "desc": "Code first durable workflow engine for long running distributed application workflows.",
+        "url": "https://temporal.io"
+      },
+      {
+        "name": "Camunda",
+        "desc": "Business process automation platform supporting BPMN workflows and decision automation.",
+        "url": "https://camunda.com"
+      },
+      {
+        "name": "Apache Airflow",
+        "desc": "Open source workflow scheduler for managing data pipelines and recurring automation tasks.",
+        "url": "https://airflow.apache.org"
+      },
+      {
+        "name": "Prefect",
+        "desc": "Modern workflow orchestration platform for data engineering and machine learning pipelines.",
+        "url": "https://www.prefect.io"
+      },
+      {
+        "name": "Mage AI",
+        "desc": "Open source platform for building data pipelines with AI assisted development.",
+        "url": "https://www.mage.ai"
+      },
+      {
+        "name": "n8n",
+        "desc": "Fair-code licensed workflow automation tool with hundreds of integrations.",
+        "url": "https://n8n.io"
+      },
+      {
+        "name": "Browse AI",
+        "desc": "Extract website data and automate repetitive browsing tasks without coding experience.",
+        "url": "https://www.browse.ai"
+      }
+    ]
+  },
+  {
+    "cat": "Personal Productivity",
+    "items": [
+      {
+        "name": "Notion",
+        "desc": "Organize notes, tasks, documents, wikis, and projects in one collaborative workspace.",
+        "url": "https://www.notion.so"
+      },
+      {
+        "name": "Todoist",
+        "desc": "Powerful task manager with reminders, recurring tasks, labels, and productivity tracking.",
+        "url": "https://todoist.com"
+      },
+      {
+        "name": "TickTick",
+        "desc": "Task manager featuring calendar, Pomodoro timer, habits, and smart reminders.",
+        "url": "https://ticktick.com"
+      },
+      {
+        "name": "Any.do",
+        "desc": "Simple planner for managing daily tasks, calendars, grocery lists, and reminders.",
+        "url": "https://www.any.do"
+      },
+      {
+        "name": "Google Keep",
+        "desc": "Capture notes, checklists, voice memos, and reminders across all your devices.",
+        "url": "https://keep.google.com"
+      },
+      {
+        "name": "Obsidian",
+        "desc": "Private knowledge management app with linked notes and powerful markdown support.",
+        "url": "https://obsidian.md"
+      },
+      {
+        "name": "MindMeister",
+        "desc": "Create visual mind maps for brainstorming, planning, and organizing thoughts.",
+        "url": "https://www.mindmeister.com"
+      },
+      {
+        "name": "Readwise",
+        "desc": "Sync highlights from books and articles with daily review reminders.",
+        "url": "https://readwise.io"
+      },
+      {
+        "name": "Pocket",
+        "desc": "Save articles, videos, and webpages to read later without distractions.",
+        "url": "https://getpocket.com"
+      },
+      {
+        "name": "Raindrop.io",
+        "desc": "Organize bookmarks with collections, tags, previews, and cloud synchronization.",
+        "url": "https://raindrop.io"
+      },
+      {
+        "name": "Wallabag",
+        "desc": "Open source read later application with offline reading and tagging features.",
+        "url": "https://wallabag.it"
+      },
+      {
+        "name": "Forest",
+        "desc": "Stay focused by growing virtual trees while avoiding phone distractions.",
+        "url": "https://www.forestapp.cc"
+      },
+      {
+        "name": "Pomofocus",
+        "desc": "Minimal Pomodoro timer for improving focus and managing work sessions.",
+        "url": "https://pomofocus.io"
+      },
+      {
+        "name": "LifeAt",
+        "desc": "Beautiful virtual workspace with ambient sounds, timers, and relaxing backgrounds.",
+        "url": "https://lifeat.io"
+      },
+      {
+        "name": "Noisli",
+        "desc": "Mix ambient sounds and background noise for better focus and relaxation.",
+        "url": "https://www.noisli.com"
+      },
+      {
+        "name": "A Soft Murmur",
+        "desc": "Create personalized ambient sound environments for studying and sleeping.",
+        "url": "https://asoftmurmur.com"
+      },
+      {
+        "name": "Sleepyti.me",
+        "desc": "Calculate ideal sleep and wake times based on sleep cycles.",
+        "url": "https://sleepyti.me"
+      },
+      {
+        "name": "Habitica",
+        "desc": "Gamify habits and daily tasks with quests, rewards, and character progression.",
+        "url": "https://habitica.com"
+      },
+      {
+        "name": "Loop Habit Tracker",
+        "desc": "Build healthy habits with detailed statistics and long term progress tracking.",
+        "url": "https://loophabits.org"
+      },
+      {
+        "name": "WaterMinder",
+        "desc": "Track daily water intake with reminders and hydration goals.",
+        "url": "https://waterminder.com"
+      },
+      {
+        "name": "MyFitnessPal",
+        "desc": "Track calories, nutrition, exercise, and personal health goals efficiently.",
+        "url": "https://www.myfitnesspal.com"
+      },
+      {
+        "name": "Fitbod",
+        "desc": "Generate personalized workout routines based on your fitness progress.",
+        "url": "https://fitbod.me"
+      },
+      {
+        "name": "Splitwise",
+        "desc": "Track shared expenses and settle balances with friends and family.",
+        "url": "https://www.splitwise.com"
+      },
+      {
+        "name": "Monito",
+        "desc": "Compare international money transfer services for the best exchange rates.",
+        "url": "https://www.monito.com"
+      },
+      {
+        "name": "Numbeo",
+        "desc": "Compare cost of living, safety, healthcare, and city statistics worldwide.",
+        "url": "https://www.numbeo.com"
+      },
+      {
+        "name": "WorldTimeBuddy",
+        "desc": "Compare multiple time zones and schedule meetings more efficiently.",
+        "url": "https://www.worldtimebuddy.com"
+      },
+      {
+        "name": "Calendly",
+        "desc": "Schedule meetings automatically without long email conversations.",
+        "url": "https://calendly.com"
+      },
+      {
+        "name": "Clockify",
+        "desc": "Track work hours, productivity, projects, and billable time effortlessly.",
+        "url": "https://clockify.me"
+      },
+      {
+        "name": "RescueTime",
+        "desc": "Analyze digital habits and improve focus with productivity insights.",
+        "url": "https://www.rescuetime.com"
+      },
+      {
+        "name": "SuperCook",
+        "desc": "Generate recipes using ingredients you already have at home without wasting food.",
+        "url": "https://www.supercook.com"
+      },
+      {
+        "name": "Eat This Much",
+        "desc": "Automatically create personalized meal plans based on your nutrition and fitness goals.",
+        "url": "https://www.eatthismuch.com"
+      },
+      {
+        "name": "OpenFoodFacts",
+        "desc": "Explore nutrition facts, ingredients, allergens, and food product information from around the world.",
+        "url": "https://world.openfoodfacts.org"
+      },
+      {
+        "name": "CoinMarketCap",
+        "desc": "Track cryptocurrency prices, market trends, exchanges, and blockchain project information.",
+        "url": "https://coinmarketcap.com"
+      },
+      {
+        "name": "Wise",
+        "desc": "Transfer money internationally using transparent exchange rates and lower transaction fees.",
+        "url": "https://wise.com"
+      },
+      {
+        "name": "Motion",
+        "desc": "Automatically organize meetings, calendars, and tasks using intelligent scheduling technology.",
+        "url": "https://www.usemotion.com"
+      },
+      {
+        "name": "Brain.fm",
+        "desc": "Listen to scientifically designed music that improves focus, sleep, and relaxation naturally.",
+        "url": "https://brain.fm"
+      },
+      {
+        "name": "Rome2Rio",
+        "desc": "Discover the best routes using flights, trains, buses, ferries, and rideshare services.",
+        "url": "https://www.rome2rio.com"
+      },
+      {
+        "name": "FlightConnections",
+        "desc": "Explore airline routes, direct flights, and airport connections across the entire world.",
+        "url": "https://www.flightconnections.com"
+      },
+      {
+        "name": "Reclaim AI",
+        "desc": "Automatically schedule habits, meetings, and focus time around your existing calendar.",
+        "url": "https://reclaim.ai"
+      },
+      {
+        "name": "MuscleWiki",
+        "desc": "Find exercises for every muscle group with detailed animations and instructions.",
+        "url": "https://musclewiki.com"
       }
     ]
   }

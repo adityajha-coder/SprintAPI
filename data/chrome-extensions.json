@@ -157,6 +157,42 @@
         "desc": "Get instant SEO insights for any page, including title tags, meta descriptions, headings, and robots directives.",
         "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
         "icon": "https://lh3.googleusercontent.com/oFVSn32RiYmiXqaAFCzhAnNh70kCeFtP_vRCUXq54kC6tMjxn2nbLT05mztIb6RqL9xfPP2FCmfStYRsaYjdu9RKjjI=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Redirector",
+        "desc": "Automatically redirect URLs based on custom rules you define.",
+        "id": "ocgpenflpmgnfapjedencafcfakcekcd",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Header Editor",
+        "desc": "Advanced request and response header editor with rule based automation.",
+        "id": "eningockdidmgiojffjmkdblpjocbhgh",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Instant Data Scraper",
+        "desc": "Automatically detects tables and lists on webpages and exports them to CSV or Excel.",
+        "id": "ofaokhiedipichpaobibbnahnkdoiiah",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "DOM Outliner",
+        "desc": "Visualize the HTML DOM structure of any webpage for debugging.",
+        "id": "ikpnmbdbianahagngfppfnbjoklahhgp",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Marker.io",
+        "desc": "Capture screenshots and annotate bugs before sending them to project management tools.",
+        "id": "jfiihjeimjpkpoaekpdpllpaeichkiod",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Gitako",
+        "desc": "Adds a VS Code style file tree sidebar to GitHub repositories.",
+        "id": "fcppjbfcfahjgnofdkccednhhjhjapfa",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
       }
     ]
   },
@@ -330,6 +366,84 @@
         "desc": "Automatically loads the next page while scrolling.",
         "id": "kdplapeciagkkjoignnkfpbfkebcfbpb",
         "icon": "https://lh3.googleusercontent.com/ac9aZyF9TcZpJpQKFyx_yyvRQUlwF3HsNMaDZ7O5egqrh6ZIWzc6RQ4_v1IhNMBINrmul2T935Mv9AARvDFODheQNQ=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Violentmonkey",
+        "desc": "Lightweight open-source userscript manager compatible with most Tampermonkey scripts.",
+        "id": "jinjaccalgkegednnccohejagnlnfdag",
+        "icon": "https://lh3.googleusercontent.com/wAjIhsb6UfVOYybA5DQBgKZ5dFx45Glf44OywmAkgcGKwaChRPpABYZq4cjlfNdt8kvxUHhIDbjgk8NTLpHl0i-EKA=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "SingleFile",
+        "desc": "Save an entire webpage as a single self contained HTML file.",
+        "id": "mpiodijhokgodhhofbcjdecpffjipkle",
+        "icon": "https://lh3.googleusercontent.com/o0y9hJ4CbiG6LFlfHSRz70ErdrXrV19X6lLz42pTcKFKKq-VrEuXQRcvvtbt2BKgS-ehjJlZqZSc5tWtsyhGfBoxilE=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Linkclump",
+        "desc": "Open, copy, or bookmark multiple links by dragging a selection box.",
+        "id": "lfpjkncokllnfokkgpkobnkbkmelfefj",
+        "icon": "https://lh3.googleusercontent.com/9ltnIEt69m4FFH6LYVpFJFYUcsq25GJ8LFB2Qchj3CB-pNqjPyxcjWnuBSzzyZ7EO43TqK4AiFGQ8RDUuHQwr1b-qhI=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Extensity",
+        "desc": "Quickly enable or disable installed Chrome extensions from a single menu.",
+        "id": "jkdbdnjfknibiohhjnihpjmcankbocje",
+        "icon": "https://lh3.googleusercontent.com/mgOg2hnGuthlYj-MEUXedWn_s9QjTXBwusffIAhbIuHM8L3K2c5cq1xf7bCzbRE5f9E6RXaGLPNEuJEt4hP6sLDL=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Immersive Translate",
+        "desc": "Bilingual translation for webpages, PDFs, subtitles, and videos using multiple AI providers.",
+        "id": "bhfokfbejmkjafonffjhilfhkcabeiio",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Simple Allow Copy",
+        "desc": "Re-enables copy, text selection, right-click, and paste on restricted websites.",
+        "id": "aefehdhdciieocakfobpaaolhipkcpgc",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Reader View",
+        "desc": "Converts cluttered webpages into a clean reading mode with customizable fonts and themes.",
+        "id": "llimhhconnjiflfimocjggfjdlmlhblm",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Web Archives",
+        "desc": "Instantly open archived versions of webpages from multiple archive services.",
+        "id": "fadihbhmcpodjghfefkbofnabhplbife",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Save Page WE",
+        "desc": "Save complete webpages for offline viewing with all resources embedded.",
+        "id": "olnblpmehglpcallpnbgmikjblmkopia",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Link Grabber",
+        "desc": "Extract all links from the current webpage with filtering options.",
+        "id": "caodelkhipncidmoebgbbeemedohcdma",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Wayback Machine",
+        "desc": "Open archived versions of websites from the Internet Archive.",
+        "id": "fpnmgdkabkmnadcjpehmlllkndpkmiak",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Language Reactor",
+        "desc": "Learn languages using dual subtitles and interactive tools on Netflix and YouTube.",
+        "id": "hoombieeljmmljlkjmnheibnpciblicm",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Keepa",
+        "desc": "Shows Amazon price history charts and sends price-drop alerts.",
+        "id": "neebplgakaahbhdphmkckjjcegoiijjo",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
       }
     ]
   },
@@ -449,6 +563,24 @@
         "desc": "Capture, annotate, and export full webpage screenshots.",
         "id": "mcbpblocgmgfnpjjppndjkmgjaogfceg",
         "icon": "https://lh3.googleusercontent.com/H6VcwetaNraR4b3yrUvu_601L0otxCtlLpR0woT3815_6z-QsxGJVbBY9TWiadOYdeY3BOAYH-r22flXK3wZln-CCA=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Hover Zoom+",
+        "desc": "Preview full resolution images by hovering over thumbnails.",
+        "id": "nonjdcjchghhkdoolnlbekcfllmednbl",
+        "icon": "https://lh3.googleusercontent.com/m5IdUSqd-0vjxsxR8MaJhLBnyW3QjUMsXsdI_dwDn2n2-HRJXOnvGfBDXWDph1JOWa71mUtKoYoPRu2aqOrzpw_osQ=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Copyfish OCR",
+        "desc": "Extract text from images, PDFs, videos, and screenshots using OCR.",
+        "id": "eefninhhiifgcimhhkibjhbpfahdlefh",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "SVG Gobbler",
+        "desc": "Extract SVG assets from websites and download or copy them instantly.",
+        "id": "mpbmffcomjnmrodfmjdgclmgbbhobgde",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
       }
     ]
   },
@@ -555,6 +687,65 @@
         "desc": "Provides advanced control over JavaScript, WebGL, and other active web content.",
         "id": "doojmbjmlfjjnbmnoijecmcbfeoakpjm",
         "icon": "https://lh3.googleusercontent.com/6m-F6Npe6HtRSinqg6afQSOKZa4mKPqXJ-lKepCy-C0geZMq297vh1zT6C_2USRxYEX0vZnGvhzSq8CUid91qg8rsQ=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Bypass Paywalls Clean",
+        "desc": "Helps access publicly available article versions on supported news sites for research purposes.",
+        "id": "unknow",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "LibRedirect",
+        "desc": "Automatically redirects requests from popular services to privacy friendly alternative frontends.",
+        "id": "neehiecaplfhhphconjcamgpjjiehdbg",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      }
+    ]
+  },
+  {
+    "cat": "Media & Downloads",
+    "items": [
+      {
+        "name": "AddonCrop",
+        "desc": "Adds advanced media download and browser utility features beyond Chrome's default capabilities.",
+        "id": "unknown",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Enhancer for YouTube",
+        "desc": "Customize YouTube with volume boost, playback speed, auto-HD, screenshots, and keyboard shortcuts.",
+        "id": "ponfpcnoihfmfllpaingbgckeeldkhle",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Video DownloadHelper",
+        "desc": "Detects and downloads videos and HLS streams from thousands of supported websites (excluding YouTube).",
+        "id": "lmjnegcaeklhafolokijcfjliaokphfk",
+        "icon": "https://lh3.googleusercontent.com/0DxYNhw8FVUzHuji-pUcAbb1q4KoSDWACVgkh21SJdsP7S8utP-RA7UWxJ_HRO8xkGxcBQJw7cxxahJdWfa4Y1wo=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Imageye",
+        "desc": "Finds and downloads all images on a webpage with size and resolution filters.",
+        "id": "agionbommeaifngbhincahgmoflcikhm",
+        "icon": "https://lh3.googleusercontent.com/7wz7zn8tPEC1A6jhRoJaTCzC0cyYsOu-CbJRvgzf_Jgg06dSVHGxRL_ub_bJ2KcOs7dDfFAXbWMv0clnZMdfoRVgGQ=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Unhook",
+        "desc": "Removes YouTube recommendations, Shorts, comments, and other distractions.",
+        "id": "khncfooichmfjbepaaaebmommgaepoid",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Shazam",
+        "desc": "Identifies music playing in browser tabs or on webpages.",
+        "id": "mmioliijnhnoblpgimnlajmefafdfilb",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Global Speed",
+        "desc": "Control playback speed on nearly every HTML5 video across the web.",
+        "id": "pgffhmifenmomiabibdpnceahangimdi",
+        "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
       }
     ]
   }
