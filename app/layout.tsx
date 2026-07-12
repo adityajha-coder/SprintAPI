@@ -1,7 +1,15 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono, Caveat } from 'next/font/google'
+import { counts } from '@/lib/data'
 import './globals.css'
+
+const apisCount = Math.floor(counts.apis / 10) * 10
+const toolsCount = Math.floor(counts.tools / 10) * 10
+
+const baseDescription = `Discover ${apisCount}+ free public APIs, ${toolsCount}+ developer tools, VSC extensions, and Chrome extensions. Search, filter, and ship your next project faster.`
+const ogDescription = `Access a curated collection of ${apisCount}+ free public APIs, ${toolsCount}+ tools, and extensions to speed up your build workflow.`
+const twitterDescription = `Find ${apisCount}+ free APIs, ${toolsCount}+ developer utilities, and browser extensions to build apps faster.`
 
 const geistSans = Geist({
   subsets: ['latin'],
@@ -21,8 +29,7 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   metadataBase: new URL('https://sprintapi.vercel.app'),
   title: 'SprintAPI — Free APIs, Tools & VSC Extensions for Developers',
-  description:
-    'Discover 350+ free public APIs, 200+ developer tools, VSC extensions, and Chrome extensions. Search, filter, and ship your next project faster.',
+  description: baseDescription,
   generator: 'v0.app',
   keywords: [
     'free apis',
@@ -39,7 +46,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'SprintAPI — Curated Directory of Free Developer Resources',
-    description: 'Access a curated collection of 350+ free public APIs, 200+ tools, and extensions to speed up your build workflow.',
+    description: ogDescription,
     url: 'https://sprintapi.vercel.app',
     siteName: 'SprintAPI',
     images: [
@@ -56,7 +63,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'SprintAPI — Curated Directory of Free Developer Resources',
-    description: 'Find 350+ free APIs, 200+ developer utilities, and browser extensions to build apps faster.',
+    description: twitterDescription,
     images: ['/fevicon.png'],
   },
   robots: {
@@ -92,7 +99,7 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'DataCatalog',
               'name': 'SprintAPI',
-              'description': 'Discover 350+ free public APIs, 200+ developer tools, VSC extensions, and Chrome extensions. Search, filter, and ship your next project faster.',
+              'description': baseDescription,
               'url': 'https://sprintapi.vercel.app',
               'keywords': 'free apis, developer tools, vscode extensions, chrome extensions, public apis, free tools',
               'creator': {
