@@ -108,7 +108,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <a
             href="#directory"
-            className="hidden items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground sm:flex"
+            className="hidden items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground sm:flex active:scale-95"
           >
             Browse resources
           </a>
