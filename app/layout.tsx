@@ -28,13 +28,15 @@ const caveat = Caveat({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://sprintapi.vercel.app'),
-  title: 'SprintAPI — Free APIs, Tools & VSC Extensions for Developers',
+  title: 'SprintAPI | All Resources in One Place',
   description: baseDescription,
-  generator: 'v0.app',
   keywords: [
     'free apis',
     'developer tools',
     'vscode extensions',
+    'Useful Tools',
+    'Productivity Tools',
+    'Free LLMs',
     'chrome extensions',
     'public apis',
     'free developer resources',
@@ -45,7 +47,7 @@ export const metadata: Metadata = {
     apple: '/fevicon.png',
   },
   openGraph: {
-    title: 'SprintAPI — Curated Directory of Free Developer Resources',
+    title: 'SprintAPI | Curated Directory of Free Developer Resources',
     description: ogDescription,
     url: 'https://sprintapi.vercel.app',
     siteName: 'SprintAPI',
@@ -62,7 +64,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SprintAPI — Curated Directory of Free Developer Resources',
+    title: 'SprintAPI | Curated Directory of Free Developer Resources',
     description: twitterDescription,
     images: ['/fevicon.png'],
   },
@@ -103,9 +105,9 @@ export default function RootLayout({
               'url': 'https://sprintapi.vercel.app',
               'keywords': 'free apis, developer tools, vscode extensions, chrome extensions, public apis, free tools',
               'creator': {
-                '@type': 'Organization',
-                'name': 'SprintAPI Contributors',
-                'url': 'https://github.com/adityajha-coder/SprintAPI'
+                '@type': 'Person',
+                'name': 'Aditya Jha',
+                'url': 'https://github.com/adityajha-coder'
               }
             })
           }}

@@ -3211,5 +3211,23 @@
     "auth": "API Key",
     "cors": true,
     "pricing": "Freemium"
+  },
+  {
+    "name": "Amadeus for Developers",
+    "desc": "Flight search, hotel booking, airport information, and travel recommendations.",
+    "url": "https://developers.amadeus.com/",
+    "category": "Travel",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Freemium"
+  },
+  {
+    "name": "OpenTripMap API",
+    "desc": "Tourist attractions, landmarks, museums, and points of interest worldwide.",
+    "url": "https://opentripmap.io/product",
+    "category": "Travel",
+    "auth": "API Key",
+    "cors": true,
+    "pricing": "Free"
   }
 ]

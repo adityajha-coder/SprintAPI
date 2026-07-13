@@ -9,4 +9,4 @@ node_modules
 plan.txt
 .vscode/
 tsconfig.tsbuildinfo
-update_tools.js
+scratch/update_tools.js
