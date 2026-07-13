@@ -1,6 +1,6 @@
 // SprintAPI — Universal Data Pusher
 
-// // Please read important.md for full information and instructions on 
+// // Please read important.md for full information and instructions on
 // how to use this script.
 
 const fs = require('fs');

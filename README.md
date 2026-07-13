@@ -20,6 +20,8 @@ SprintAPI is a community driven, hand curated catalog built for developers who w
 
 The interface is fully optimized for speed, featuring instant search querying, multi select criteria filters, automatic active section navigation highlighting, and responsive layouts.
 
+> **Note:** Any broken links indicate that the resource is not publicly available online and must be downloaded manually.
+
 ## Catalog Collections
 
 The directory indexes resources across four distinct categories:

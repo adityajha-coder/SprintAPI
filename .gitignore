@@ -10,3 +10,4 @@ plan.txt
 .vscode/
 tsconfig.tsbuildinfo
 scratch/update_tools.js
+pwa/
