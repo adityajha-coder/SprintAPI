@@ -16,13 +16,52 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
   const [activeLink, setActiveLink] = useState<string | null>(null)
+  const [isHeaderHidden, setIsHeaderHidden] = useState(false)
 
+  // Track scroll depth and secondary control bar reaching top
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8)
-    onScroll()
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
+    let ticking = false
+
+    const update = () => {
+      setScrolled(window.scrollY > 8)
+
+      const sentinel = document.getElementById('directory-sticky-sentinel')
+      if (sentinel) {
+        const rect = sentinel.getBoundingClientRect()
+        // When sentinel reaches near top of viewport (threshold 64px to hide, 80px to show)
+        setIsHeaderHidden((prev) => (prev ? rect.top <= 80 : rect.top <= 64))
+      }
+      ticking = false
+    }
+
+    const onScrollOrResize = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(update)
+        ticking = true
+      }
+    }
+
+    update()
+    const rafId = window.requestAnimationFrame(update)
+
+    window.addEventListener('scroll', onScrollOrResize, { passive: true })
+    window.addEventListener('resize', onScrollOrResize, { passive: true })
+    window.addEventListener('hashchange', onScrollOrResize)
+
+    return () => {
+      window.cancelAnimationFrame(rafId)
+      window.removeEventListener('scroll', onScrollOrResize)
+      window.removeEventListener('resize', onScrollOrResize)
+      window.removeEventListener('hashchange', onScrollOrResize)
+    }
   }, [])
+
+  // Close mobile menu if header hides
+  useEffect(() => {
+    if (isHeaderHidden) {
+      setOpen(false)
+    }
+  }, [isHeaderHidden])
 
   // Highlight active link based on intersection & hash
   useEffect(() => {
@@ -67,7 +106,14 @@ export function Navbar() {
   }, [])
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-4">
+    <header
+      className={cn(
+        'fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-4 transition-all duration-300 ease-in-out',
+        isHeaderHidden
+          ? '-translate-y-full opacity-0 pointer-events-none'
+          : 'translate-y-0 opacity-100',
+      )}
+    >
       <nav
         className={cn(
           'flex w-full max-w-6xl items-center justify-between rounded-2xl border border-border px-4 py-3 transition-all duration-300 md:px-6',

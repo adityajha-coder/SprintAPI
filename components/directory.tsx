@@ -261,16 +261,19 @@ export function Directory() {
   const visibleCategories = showAllCategories ? categories : categories.slice(0, CATEGORY_LIMIT)
 
   return (
-    <section id="directory" className="mx-auto max-w-6xl scroll-mt-28 px-4 pb-24">
+    <section id="directory" className="mx-auto max-w-6xl scroll-mt-4 px-4 pb-24">
+      {/* Sentinel element to track when the sticky bar reaches the top */}
+      <div id="directory-sticky-sentinel" className="h-0 w-full pointer-events-none" />
+
       <div aria-hidden="true" className="relative">
-        <span id="apis" className="absolute -top-28" />
-        <span id="tools" className="absolute -top-28" />
-        <span id="extensions" className="absolute -top-28" />
-        <span id="chrome-extensions" className="absolute -top-28" />
+        <span id="apis" className="absolute -top-4" />
+        <span id="tools" className="absolute -top-4" />
+        <span id="extensions" className="absolute -top-4" />
+        <span id="chrome-extensions" className="absolute -top-4" />
       </div>
 
       {/* Sticky control bar — mobile-friendly responsive row */}
-      <div className="sticky top-24 z-30 -mx-4 rounded-2xl border border-border glass md:mx-0">
+      <div className="sticky top-3 md:top-4 z-40 -mx-4 rounded-2xl border border-border glass md:mx-0 transition-all duration-300 shadow-sm">
         <div className="flex flex-col gap-2.5 p-2 md:flex-row md:items-center md:gap-3 md:p-3">
           {/* Tabs — scrollable on mobile */}
           <div className="flex overflow-x-auto rounded-xl border border-border bg-secondary/40 p-1 scrollbar-none shrink-0 max-w-full">
