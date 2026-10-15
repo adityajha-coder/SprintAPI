@@ -78,7 +78,13 @@ function VSCodeExtensionIcon({ id, name }: { id: string; name: string }) {
 
 function ChromeExtensionIcon({ item }: { item: ExtensionEntry }) {
   const [failed, setFailed] = useState(false)
-  const url = item.icon || `https://chrome.google.com/webstore/detail/${item.id}/images/icon/128`
+  const url =
+    item.icon ||
+    (item.id
+      ? `https://chrome.google.com/webstore/detail/${item.id}/images/icon/128`
+      : item.url
+        ? `https://www.google.com/s2/favicons?domain=${item.url}&sz=64`
+        : '')
 
   if (failed) {
     return (
@@ -180,10 +186,15 @@ export function ToolCard({ item }: { item: ToolEntry }) {
       <p className="mt-3 line-clamp-3 flex-1 text-sm leading-relaxed text-white">
         {item.desc}
       </p>
-      <div className="mt-4">
+      <div className="mt-4 flex items-center gap-2">
         <Badge className="border-primary/30 bg-primary/10 text-primary">
           {hostname(item.url)}
         </Badge>
+        {item.openSource && (
+          <Badge>
+            Open Source
+          </Badge>
+        )}
       </div>
     </a>
   )
@@ -232,7 +243,9 @@ export function ExtensionCard({ item }: { item: ExtensionEntry }) {
 }
 
 export function ChromeExtensionCard({ item }: { item: ExtensionEntry }) {
-  const storeUrl = `https://chromewebstore.google.com/detail/${item.id}`
+  const storeUrl =
+    item.url || (item.id ? `https://chromewebstore.google.com/detail/${item.id}` : '#')
+  const isDirectUrl = Boolean(item.url && !item.id)
 
   return (
     <a href={storeUrl} target="_blank" rel="noreferrer" className={cardBase}>
@@ -253,10 +266,10 @@ export function ChromeExtensionCard({ item }: { item: ExtensionEntry }) {
 
       <div className="mt-4 flex items-center justify-between">
         <span className="rounded-lg border border-primary/20 bg-primary/5 px-2 py-1 text-[10px] font-semibold text-primary">
-          Chrome Web Store
+          {isDirectUrl ? 'Official Site' : 'Chrome Web Store'}
         </span>
         <span className="text-xs font-medium text-muted-foreground group-hover:text-primary transition-colors">
-          Add to Chrome
+          {isDirectUrl ? 'Visit Website' : 'Add to Chrome'}
         </span>
       </div>
     </a>

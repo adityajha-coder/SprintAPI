@@ -18,6 +18,7 @@ export type ToolEntry = {
   desc: string
   url: string
   category: string
+  openSource?: boolean
 }
 
 export type ExtensionEntry = {
@@ -26,6 +27,7 @@ export type ExtensionEntry = {
   id: string
   category: string
   icon?: string
+  url?: string
 }
 
 type Group<T> = { cat: string; items: T[] }

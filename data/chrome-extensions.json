@@ -233,6 +233,76 @@
         "name": "Hoppscotch Browser Extension",
         "desc": "Cross-origin browser helper that bypasses CORS restrictions when testing local and remote APIs in Hoppscotch.",
         "id": "amknoiejhlmhancpahfcfcfhllgkpbld"
+      },
+      {
+        "name": "Allow CORS: Access-Control-Allow-Origin",
+        "desc": "Adds the Access-Control-Allow-Origin header to responses so you can test cross-origin requests during local development.",
+        "id": "lhobafahddgcelffkeicbaginigeejlf"
+      },
+      {
+        "name": "Web Scraper",
+        "desc": "Point-and-click data extraction: build sitemaps, scrape multi-page sites and export results to CSV without writing code.",
+        "id": "jnhgnonknehpejjnehehllkliplmbmhn"
+      },
+      {
+        "name": "Proxy SwitchyOmega",
+        "desc": "Manage and quickly switch between multiple proxy profiles with auto-switch rules based on URL patterns.",
+        "id": "padekgcemlokbadohgkifijomclgjgif"
+      },
+      {
+        "name": "FoxyProxy",
+        "desc": "Advanced proxy manager with URL pattern matching, per-site routing and multiple saved proxy configurations.",
+        "id": "gcknhkkoolaabfmlnjonogaaifnjlfnp"
+      },
+      {
+        "name": "Markdown Viewer",
+        "desc": "Renders local and remote Markdown files in the browser with themes, syntax highlighting, tables of contents and math support.",
+        "id": "ckkdlimhmcjmikdlpkmbgfkaikojcbjk"
+      },
+      {
+        "name": "Table Capture",
+        "desc": "Copy any HTML table to the clipboard or send it to Google Sheets or Excel in one click.",
+        "id": "iebpjdmgckacbodjpijphcplhebcmeop"
+      },
+      {
+        "name": "Enhanced GitHub",
+        "desc": "Shows repository size, adds file download links and displays file sizes directly in GitHub listings.",
+        "id": "anlikcnbgdeidpacdbdljnabclhahhmd"
+      },
+      {
+        "name": "Disable JavaScript",
+        "desc": "Toggle JavaScript on or off for the current site to test fallbacks, bypass popups and debug rendering.",
+        "id": "jfpdlihdedhlmhlbgooailmfhahieoem"
+      },
+      {
+        "name": "SelectorGadget",
+        "desc": "Click elements on a page to generate the exact CSS selector or XPath for scraping and testing.",
+        "id": "mhjhnkcfbdhnjickkkdbjoemdmbfginb"
+      },
+      {
+        "name": "Apollo Client Devtools",
+        "desc": "Inspect GraphQL queries, mutations, cache contents and run queries against your Apollo Client app.",
+        "id": "jdkknkkbebbapilgoeccciglkfbmbnfm"
+      },
+      {
+        "name": "Material Icons for GitHub",
+        "desc": "Replaces GitHub file and folder icons with clear, color-coded Material icons so repos are easier to scan.",
+        "id": "igiofjhpmpihnifddepnpngfjhkfenbp"
+      },
+      {
+        "name": "Save All Resources",
+        "desc": "Saves every resource of a webpage (HTML, CSS, JS, images, fonts) into a ZIP for offline use and analysis.",
+        "id": "abpdnfjocnmdomablahdcfnoggeeiedb"
+      },
+      {
+        "name": "View Chrome Extension Source",
+        "desc": "View or download the source code of any Chrome Web Store extension before you install it.",
+        "id": "jifpbeccnghkjeaalbbjmodiffmgedin"
+      },
+      {
+        "name": "Shortkeys",
+        "desc": "Create custom keyboard shortcuts to run actions, JavaScript snippets or open URLs from any page.",
+        "id": "logpjaacgmcbpdkdchjiaagddngobkck"
       }
     ]
   },
@@ -504,6 +574,154 @@
         "name": "Bionic Reading",
         "desc": "Guides your eyes through text with artificial fixation points for faster, more focused reading and comprehension.",
         "id": "bionicreadingbionicreadingbionic"
+      },
+      {
+        "name": "Vimium",
+        "desc": "Navigate and control the browser entirely from the keyboard using Vim-style shortcuts and link hints.",
+        "id": "dbepggeogbaibhgnhhndojpepiihcmeb"
+      },
+      {
+        "name": "Surfingkeys",
+        "desc": "Keyboard-driven browsing with Vim-like bindings, a command omnibar, visual mode and fully scriptable mappings.",
+        "id": "gfbliohnnapiefjpjlpjnehglfpaknnc"
+      },
+      {
+        "name": "Stylebot",
+        "desc": "Change the appearance of any website with a simple CSS editor, per-site, with no coding required for basic tweaks.",
+        "id": "oiaejidbmkiecgbjeifoejpgmdaleoha"
+      },
+      {
+        "name": "Auto Tab Discard",
+        "desc": "Automatically frees memory by discarding inactive tabs while keeping them in your tab strip, with whitelist rules.",
+        "id": "jhnleheckmknfcgijgkadoemagpecfol"
+      },
+      {
+        "name": "Tab Manager Plus",
+        "desc": "Search, sort, group and close tabs across all windows from a single popup, with duplicate detection.",
+        "id": "cnjifjpddelmedmihgijeibhnjfabmlf"
+      },
+      {
+        "name": "Text Blaze",
+        "desc": "Text expander with snippets, dynamic fields and forms for faster email, support replies and data entry.",
+        "id": "idgadaccgipmpannjkmfddolnnhmeklj"
+      },
+      {
+        "name": "Distill Web Monitor",
+        "desc": "Monitor webpages for changes and get alerts for price drops, stock updates, news or any selected page region.",
+        "id": "inlikjemeeknofckkjolnjbpehgadgge"
+      },
+      {
+        "name": "Zotero Connector",
+        "desc": "Save papers, articles and web references to your Zotero library with full metadata in one click.",
+        "id": "ekhagklcjbdpajgpjgmbionohlpdbjgc"
+      },
+      {
+        "name": "Hypothesis",
+        "desc": "Annotate and highlight any webpage or PDF, and share or discuss notes privately or publicly.",
+        "id": "bjfhmglciegochdpefhhlphglcehbmek"
+      },
+      {
+        "name": "Unpaywall",
+        "desc": "Finds legal open-access copies of paywalled research articles and shows a green tab when one is available.",
+        "id": "iplffkdpngmdjhlpjmppncnlhomiipha"
+      },
+      {
+        "name": "Authenticator",
+        "desc": "Generate two-factor authentication codes (TOTP) directly in the browser, with import and export support.",
+        "id": "bhghoamapcdpbohphigoooaddinpkbai"
+      },
+      {
+        "name": "Simple Translate",
+        "desc": "Translate selected text or whole pages instantly using a popup or toolbar panel.",
+        "id": "ibplnjkanclpjokhdolnendpplpjiace"
+      },
+      {
+        "name": "Google Dictionary (by Google)",
+        "desc": "View definitions in a popup by double-clicking any word, with pronunciation and a history list.",
+        "id": "mgijmajocgfcbeboacabfgobmjgjcoja"
+      },
+      {
+        "name": "Mercury Reader",
+        "desc": "Strips ads and clutter from articles for a distraction-free reading view with adjustable fonts and themes.",
+        "id": "oknpjjbmpnndlpmnhmekjpocelpnlfdi"
+      },
+      {
+        "name": "Wikiwand",
+        "desc": "Restyles Wikipedia with a cleaner, modern reading layout and easier navigation.",
+        "id": "emffkefkbkpkgpdeeooapgaicgmcbolj"
+      },
+      {
+        "name": "Save to Pocket",
+        "desc": "Save articles, videos and pages to read later across devices, with tagging and offline reading.",
+        "id": "niloccemoadcdkdjlinkgdfekeahmflj"
+      },
+      {
+        "name": "Obsidian Web Clipper",
+        "desc": "Official clipper that saves pages and highlights to your Obsidian vault as Markdown using customizable templates.",
+        "id": "mphkdfmipddgnhkogjdmfpieipfgnhfd"
+      },
+      {
+        "name": "Link to Text Fragment",
+        "desc": "Right-click selected text to create a shareable link that scrolls to and highlights that exact passage.",
+        "id": "pbcodcjpfjdpcineamnnmbkkmkdpajjg"
+      },
+      {
+        "name": "Tab Session Manager",
+        "desc": "Save and restore windows and tabs as sessions, with automatic backups and sync between devices.",
+        "id": "iaiomicjabeggjcfkbimgmglanimpnae"
+      },
+      {
+        "name": "Readwise Highlighter",
+        "desc": "Highlight any article or PDF on the web and sync the highlights into Readwise for review and export.",
+        "id": "jjhefcfhmnkfeepcpnilbbkaadhngkbi"
+      },
+      {
+        "name": "Floccus",
+        "desc": "Sync your bookmarks across browsers and devices through Nextcloud, WebDAV, Google Drive or a Git repository.",
+        "id": "fploionmjgeclbkemipmkogoaohcdbig"
+      },
+      {
+        "name": "RSS Feed Reader",
+        "desc": "Detects RSS and Atom feeds on pages and lets you subscribe and read them in a clean built-in reader.",
+        "id": "pnjaodmkngahhkoihejjehlcdlnohgmp"
+      },
+      {
+        "name": "LeechBlock NG",
+        "desc": "Block time-wasting sites by schedule, time limit or delay, with strict lockdown options to enforce focus.",
+        "id": "blaaajhemilngeeffpbfkdjjoefldkok"
+      },
+      {
+        "name": "Yomitan",
+        "desc": "Popup dictionary for language learners: hover over foreign text for instant definitions, audio and Anki card creation.",
+        "id": "likgccmbimhjbgkjambclfkhldnlhbnn"
+      },
+      {
+        "name": "Simple Gmail Notes",
+        "desc": "Add private notes to any Gmail email that are stored in your own Google Drive and shown next to the message.",
+        "id": "alhgpfoeiimagjlnfekdhkjlkiomcapa"
+      },
+      {
+        "name": "Picture-in-Picture Extension",
+        "desc": "Pop any video out into a floating always-on-top window with one click or shortcut while you work elsewhere.",
+        "id": "hkgfoiooedgoejojocmhlaklaeopbecg"
+      },
+      {
+        "name": "Linkwarden",
+        "desc": "Browser extension for self-hosted or cloud Linkwarden: save links to collections with automatic page archiving.",
+        "id": "kddcmclbofadffipdfkjgfpfolbbdmlb",
+        "url": "https://linkwarden.app"
+      },
+      {
+        "name": "Karakeep",
+        "desc": "Open-source bookmark-everything app with AI tagging; the browser extension saves links, notes and images to your instance.",
+        "id": "",
+        "url": "https://karakeep.app"
+      },
+      {
+        "name": "Wallabag",
+        "desc": "Self-hosted read-it-later extension that saves clean copies of articles to your own wallabag server.",
+        "id": "bepcolhhpajolhibodpfaiejpebbongk",
+        "url": "https://wallabag.org"
       }
     ]
   },
@@ -656,6 +874,32 @@
         "name": "Checkbot",
         "desc": "Crawls web pages to audit on-page SEO, speed, broken links, insecure passwords, and duplicate title tags.",
         "id": "pfoljijmijflnbahkgofnbmflmjkbfgg"
+      },
+      {
+        "name": "Lightshot",
+        "desc": "Capture a selected area of the screen, edit it quickly and upload or share it with a link.",
+        "id": "mbniclmhobmnbdlbpiphghaielnnpgdp"
+      },
+      {
+        "name": "Awesome Screenshot & Screen Recorder",
+        "desc": "Capture full pages or selections, annotate them and record your screen with webcam.",
+        "id": "nlipoenfbbikpbjkfpfillcgkoblgpmj"
+      },
+      {
+        "name": "Search by Image",
+        "desc": "Reverse image search across Google, Bing, TinEye and many other engines from the right-click menu.",
+        "id": "cnojnbdhbhnkbcieeekonklommdnndci"
+      },
+      {
+        "name": "Chrono Download Manager",
+        "desc": "Download manager that sniffs all links and media on a page, with batch downloads, pause and resume, and filters.",
+        "id": "mciiogijehkdemklbdcbfkefimifhecn"
+      },
+      {
+        "name": "ArchiveWeb.page",
+        "desc": "Archive webpages as you browse, including dynamic content and logins, into WARC/WACZ files you own and can replay offline.",
+        "id": "fpeoodllldobpkpkabhgipbelpnippek",
+        "url": "https://archiveweb.page"
       }
     ]
   },
@@ -703,6 +947,36 @@
         "desc": "Replace the default new tab page with a custom URL, local file, or one of Chrome's built-in pages.",
         "id": "icpgjfneehieebagbmdbhnlpiopdcmna",
         "icon": "https://lh3.googleusercontent.com/7RgJ3rIgKBuP8iw38MBo2tMnf_zbAzzk2h-Ls7NpaSTW6PS6fHZM8245Bq_Lf1-WLGbeJj-OJhAjAcnRykKAGOUyPw=s128-rj-sc0x00ffffff"
+      },
+      {
+        "name": "Tabliss",
+        "desc": "Beautiful, customizable new tab page with backgrounds, clock, quotes, weather and widgets, with no account needed.",
+        "id": "hipekcciheckooncpjeljhnekcoolahp"
+      },
+      {
+        "name": "Reddit Enhancement Suite",
+        "desc": "Adds inline image expansion, account switching, keyboard navigation, filters and many other Reddit upgrades.",
+        "id": "kbmfpngjjgdllneeigpgjifpgocmfgmb"
+      },
+      {
+        "name": "Control Panel for Twitter",
+        "desc": "Customize the Twitter/X timeline by hiding promoted content, suggestions and other unwanted elements.",
+        "id": "kpmjjdhbcfebfjgdnpjagcndoelnidfj"
+      },
+      {
+        "name": "Ruffle",
+        "desc": "Flash Player emulator that lets old Flash games and animations run in the browser again without any plugin.",
+        "id": "donbcfbmhbcapadipfkeojnmajbakjdc"
+      },
+      {
+        "name": "SteamDB",
+        "desc": "Adds price history, charts and app details from SteamDB directly onto Steam store and community pages.",
+        "id": "kdbmhfkmnlmbkgbabkdealhhbfhlmmon"
+      },
+      {
+        "name": "Augmented Steam",
+        "desc": "Enhances the Steam store with lowest-price history, HowLongToBeat times, regional prices and wishlist tools.",
+        "id": "dnhpnfgdlenaccegplpojghhmaamnnfp"
       }
     ]
   },
@@ -784,6 +1058,82 @@
         "name": "KeePassXC-Browser",
         "desc": "Official browser integration for KeePassXC open-source password manager with secure credential autofill.",
         "id": "oboonakemofpalcgghocfoadofidjkkk"
+      },
+      {
+        "name": "Cookie AutoDelete",
+        "desc": "Automatically deletes cookies from closed tabs while letting you whitelist the sites you want to stay logged into.",
+        "id": "fhcgjolkccmbidfldomjliifgaodjagh"
+      },
+      {
+        "name": "DuckDuckGo Privacy Essentials",
+        "desc": "Blocks hidden trackers, forces encrypted connections and shows a privacy grade for every site.",
+        "id": "bkdgflcldnnnapblkhphbgpggdiikppg"
+      },
+      {
+        "name": "Malwarebytes Browser Guard",
+        "desc": "Blocks scams, malicious sites, trackers and intrusive ads before they load.",
+        "id": "ihcjicgdanjaechkgeegckofjjedodee"
+      },
+      {
+        "name": "uBlacklist",
+        "desc": "Remove unwanted domains (content farms, spam sites) from Google and other search results.",
+        "id": "pncfbmialoiaghdehhbnbhkkgmjanfhe"
+      },
+      {
+        "name": "Proton VPN",
+        "desc": "Fast, open-source and audited VPN from CERN scientists with a strict no-logs policy, Swiss privacy laws, and unlimited free data.",
+        "id": "jplgfhpmjnbigmhklmmbgecoobifkmpa"
+      },
+      {
+        "name": "Windscribe",
+        "desc": "Blocks ads and trackers, unblocks geo-restricted websites, and offers location spoofing with generous free monthly data.",
+        "id": "hnmpcagpplmpfojmgmnngilcnanddlhb"
+      },
+      {
+        "name": "NordVPN",
+        "desc": "Lightweight proxy VPN extension with Threat Protection to block ads, malicious URLs, and WebRTC IP address leaks.",
+        "id": "fjoaledfpmneenckfbpdfhkmimnjocfa"
+      },
+      {
+        "name": "ExpressVPN",
+        "desc": "High-speed encrypted proxy VPN extension with WebRTC leak protection, location spoofing, and HTTPS everywhere enforcement.",
+        "id": "fgddmllnllkalaagkghckoinaemepmha"
+      },
+      {
+        "name": "Surfshark VPN",
+        "desc": "CleanWeb ad & tracker blocker, strict no-logs policy, and encrypted proxy servers across 100+ countries in a single click.",
+        "id": "ailoabdmgclmfmhdagmmnephedchndep"
+      },
+      {
+        "name": "TunnelBear VPN",
+        "desc": "Simple, friendly browser proxy VPN to browse privately and bypass censorship with servers in 45+ countries.",
+        "id": "omdakjcmkglenbhjadbccaookpfjihpa"
+      },
+      {
+        "name": "CyberGhost VPN",
+        "desc": "1-click anonymous browsing proxy that hides your IP address and encrypts online traffic without registration.",
+        "id": "ffbkglfijbcbgblgflchnbphjdllaogb"
+      },
+      {
+        "name": "hide.me VPN",
+        "desc": "Free VPN proxy extension that secures your IP, prevents WebRTC leaks, and bypasses geo-blocking with zero logs.",
+        "id": "fobiodmmjfecnbgjpchcjhognepfgpgm"
+      },
+      {
+        "name": "uBlock Origin Lite",
+        "desc": "Lightweight Manifest V3 content blocker based on uBlock Origin that blocks ads and trackers with very low resource use.",
+        "id": "ddkjiahejlhfcafbddmgiahcphecmpfh"
+      },
+      {
+        "name": "AdGuard AdBlocker",
+        "desc": "Blocks ads, pop-ups, trackers and malicious sites with custom filter lists and a per-site control panel.",
+        "id": "bgnkhhnnamicmpeenaelnjfhikgbkllg"
+      },
+      {
+        "name": "AdNauseam",
+        "desc": "Blocks ads and also quietly clicks them in the background to pollute ad-profiling data; install from the project site as it is not on the Chrome Web Store.",
+        "id": "",
+        "url": "https://adnauseam.io"
       }
     ]
   },
@@ -831,6 +1181,21 @@
         "desc": "Control playback speed on nearly every HTML5 video across the web.",
         "id": "pgffhmifenmomiabibdpnceahangimdi",
         "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Return YouTube Dislike",
+        "desc": "Restores the dislike count on YouTube videos using archived and crowd-sourced data.",
+        "id": "gebbhagfogifgggkldgodflihgfeippi"
+      },
+      {
+        "name": "Improve YouTube!",
+        "desc": "Customize YouTube with playback controls, theme options, layout tweaks, shortcuts and ad and clutter removal.",
+        "id": "bnomihfieiccainjcjblhegjgglakjdd"
+      },
+      {
+        "name": "DeArrow",
+        "desc": "Replaces clickbait YouTube titles and thumbnails with community-submitted, descriptive ones.",
+        "id": "enamippconapkdmgfgjchkhakpfinmaj"
       }
     ]
   }
