@@ -27,6 +27,7 @@ const tabs: { id: Tab; label: string; count: number }[] = [
 ]
 
 const CATEGORY_LIMIT = 10
+const PAGE_SIZE = 60
 
 function Chip({
   active,
@@ -83,6 +84,11 @@ export function Directory() {
   const [selectedPricings, setSelectedPricings] = useState<string[]>([])
   const [showFilters, setShowFilters] = useState(false)
   const [showAllCategories, setShowAllCategories] = useState(false)
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
+
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE)
+  }, [tab, query, selectedCategories, selectedAuths, selectedPricings])
   const filterPanelRef = useRef<HTMLDivElement>(null)
   const filterBtnRef = useRef<HTMLButtonElement>(null)
   const searchInputRef = useRef<HTMLInputElement>(null)
@@ -195,6 +201,23 @@ export function Directory() {
           matches(query, e.name, e.desc, e.category, e.id),
       ),
     [selectedCategories, query],
+  )
+
+  const displayedApis = useMemo(
+    () => filteredApis.slice(0, visibleCount),
+    [filteredApis, visibleCount],
+  )
+  const displayedTools = useMemo(
+    () => filteredTools.slice(0, visibleCount),
+    [filteredTools, visibleCount],
+  )
+  const displayedExtensions = useMemo(
+    () => filteredExtensions.slice(0, visibleCount),
+    [filteredExtensions, visibleCount],
+  )
+  const displayedChromeExtensions = useMemo(
+    () => filteredChromeExtensions.slice(0, visibleCount),
+    [filteredChromeExtensions, visibleCount],
   )
 
   // Live faceted counts — each dimension counts against the *other* active filters + query.
@@ -584,16 +607,11 @@ export function Directory() {
       {/* Result count */}
       <div className="mt-6 flex items-center justify-between">
         <p className="text-sm text-muted-foreground">
-          Showing <span className="font-semibold text-foreground">{resultCount}</span> of{' '}
+          Showing{' '}
           <span className="font-semibold text-foreground">
-            {tab === 'apis'
-              ? apis.length
-              : tab === 'tools'
-                ? tools.length
-                : tab === 'extensions'
-                  ? extensions.length
-                  : chromeExtensions.length}
+            {Math.min(visibleCount, resultCount)}
           </span>{' '}
+          of <span className="font-semibold text-foreground">{resultCount}</span>{' '}
           {tab === 'extensions'
             ? 'VSC Extensions'
             : tab === 'chrome-extensions'
@@ -618,22 +636,48 @@ export function Directory() {
           </button>
         </div>
       ) : (
-        <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {tab === 'apis' &&
-            filteredApis.map((item) => <ApiCard key={item.name} item={item} />)}
-          {tab === 'tools' &&
-            filteredTools.map((item) => (
-              <ToolCard key={`${item.category}-${item.name}`} item={item} />
-            ))}
-          {tab === 'extensions' &&
-            filteredExtensions.map((item) => (
-              <ExtensionCard key={item.id} item={item} />
-            ))}
-          {tab === 'chrome-extensions' &&
-            filteredChromeExtensions.map((item) => (
-              <ChromeExtensionCard key={item.id} item={item} />
-            ))}
-        </div>
+        <>
+          <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {tab === 'apis' &&
+              displayedApis.map((item) => <ApiCard key={item.name} item={item} />)}
+            {tab === 'tools' &&
+              displayedTools.map((item) => (
+                <ToolCard key={`${item.category}-${item.name}`} item={item} />
+              ))}
+            {tab === 'extensions' &&
+              displayedExtensions.map((item) => (
+                <ExtensionCard key={item.id} item={item} />
+              ))}
+            {tab === 'chrome-extensions' &&
+              displayedChromeExtensions.map((item) => (
+                <ChromeExtensionCard key={item.id} item={item} />
+              ))}
+          </div>
+
+          {resultCount > visibleCount && (
+            <div className="mt-12 flex flex-col items-center justify-center gap-3">
+              <p className="text-xs text-muted-foreground">
+                Showing {Math.min(visibleCount, resultCount)} of {resultCount} resources
+              </p>
+              <div className="flex flex-wrap items-center justify-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setVisibleCount((prev) => prev + PAGE_SIZE)}
+                  className="inline-flex items-center gap-2 rounded-xl border border-border bg-secondary/80 px-5 py-2.5 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/50 hover:bg-secondary hover:shadow"
+                >
+                  Load More (+{Math.min(PAGE_SIZE, resultCount - visibleCount)})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setVisibleCount(resultCount)}
+                  className="inline-flex items-center rounded-xl border border-border/50 px-4 py-2.5 text-xs font-medium text-muted-foreground transition-colors hover:border-border hover:text-foreground"
+                >
+                  Show All ({resultCount})
+                </button>
+              </div>
+            </div>
+          )}
+        </>
       )}
     </section>
   )

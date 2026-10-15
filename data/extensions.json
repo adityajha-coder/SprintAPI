@@ -51,6 +51,26 @@
         "name": "Trailing Spaces",
         "desc": "Highlight and remove trailing whitespace",
         "id": "shardulm94.trailing-spaces"
+      },
+      {
+        "name": "Pretty TypeScript Errors",
+        "desc": "Makes TypeScript errors human-readable and clean with syntax highlighting, visual structure, and clickable type links.",
+        "id": "yoavbls.pretty-ts-errors"
+      },
+      {
+        "name": "Total TypeScript",
+        "desc": "Translates complex and cryptic TypeScript compiler errors into plain, beginner-friendly English explanations.",
+        "id": "mattpocock.ts-error-translator"
+      },
+      {
+        "name": "Version Lens",
+        "desc": "Displays current, newer, and major package versions directly above each dependency entry in package.json.",
+        "id": "pflannery.vscode-versionlens"
+      },
+      {
+        "name": "Gremlins tracker",
+        "desc": "Highlights zero-width spaces, invisible characters, and malicious non-ASCII homoglyphs that break code compilation.",
+        "id": "nhoizey.gremlins"
       }
     ]
   },
@@ -291,6 +311,26 @@
         "name": "Settings Sync",
         "desc": "Synchronize settings, snippets, themes across machines",
         "id": "Shan.code-settings-sync"
+      },
+      {
+        "name": "Console Ninja",
+        "desc": "Displays console.log output and runtime execution values directly inline next to your code in real-time.",
+        "id": "wallabyjs.console-ninja"
+      },
+      {
+        "name": "Indent-Rainbow",
+        "desc": "Colorizes indentation steps with alternating colors to make deeply nested structures easily readable.",
+        "id": "oderwat.indent-rainbow"
+      },
+      {
+        "name": "CodeSnap",
+        "desc": "Create beautiful, crisp screenshots of your code snippets with customizable windows, shadows, and fonts.",
+        "id": "kamyadav.codesnap"
+      },
+      {
+        "name": "Rainbow CSV",
+        "desc": "Highlights columns in CSV and TSV files in different colors and allows SQL-like RBQL queries directly on tables.",
+        "id": "mechatroner.rainbow-csv"
       }
     ]
   },
@@ -351,6 +391,26 @@
         "name": "Live Preview",
         "desc": "Microsoft's in-editor browser preview",
         "id": "ms-vscode.live-server"
+      },
+      {
+        "name": "JSON to TS",
+        "desc": "Instantly converts JSON from your clipboard into strongly-typed TypeScript interfaces.",
+        "id": "mitchdenny.json-ts"
+      },
+      {
+        "name": "Tailwind Fold",
+        "desc": "Automatically folds long Tailwind CSS class attributes into clean collapsible pills for tidy JSX and HTML.",
+        "id": "stivo.tailwind-fold"
+      },
+      {
+        "name": "Iconify IntelliSense",
+        "desc": "Inline icon previews and autocomplete for 100,000+ open-source icons directly in your editor code.",
+        "id": "antfu.iconify"
+      },
+      {
+        "name": "Color Info",
+        "desc": "Provides an in-depth tooltip preview showing RGB, HSL, CMYK, and CSS color translations on hover.",
+        "id": "bierner.color-info"
       }
     ]
   },
@@ -406,6 +466,26 @@
         "name": "Nginx Configuration",
         "desc": "Syntax highlighting for Nginx config files",
         "id": "william-voyek.vscode-nginx"
+      },
+      {
+        "name": "Even Better TOML",
+        "desc": "Fully-featured TOML language support with syntax highlighting, validation, and auto-completion for Cargo and PyProject.",
+        "id": "tamasfe.even-better-toml"
+      },
+      {
+        "name": "Hex Editor",
+        "desc": "Official Microsoft extension to inspect and modify binary files in hexadecimal format with side-by-side ASCII.",
+        "id": "ms-vscode.hexeditor"
+      },
+      {
+        "name": "Deno",
+        "desc": "Official VS Code extension for Deno runtime, providing linting, formatting, and TypeScript checking out of the box.",
+        "id": "denoland.vscode-deno"
+      },
+      {
+        "name": "Bun",
+        "desc": "Official extension for Bun, supporting fast script running, native debugging, and testing.",
+        "id": "oven.bun-vscode"
       }
     ]
   },
@@ -451,6 +531,16 @@
         "name": "Coverage Gutters",
         "desc": "Display test coverage status inline using colors in gutters",
         "id": "ryanluker.vscode-coverage-gutters"
+      },
+      {
+        "name": "Regex Previewer",
+        "desc": "Live testing and previewing of regular expressions in a side-by-side companion document.",
+        "id": "chrmarti.regex"
+      },
+      {
+        "name": "Regex Visualizer",
+        "desc": "Generates visual railroad diagram graphs of regular expressions to make complex regex easily understandable.",
+        "id": "hediet.vscode-regex-visualizer"
       }
     ]
   },
@@ -596,6 +686,16 @@
         "name": "GraphQL",
         "desc": "Syntax highlighting and IntelliSense for GraphQL",
         "id": "GraphQL.vscode-graphql"
+      },
+      {
+        "name": "SQLite Viewer",
+        "desc": "View and explore SQLite database tables, schema, and rows directly inside VS Code without external apps.",
+        "id": "qwtel.sqlite-viewer"
+      },
+      {
+        "name": "Firebase Explorer",
+        "desc": "Explore and manage Firestore documents, Realtime Database records, and Cloud Storage files directly from VS Code.",
+        "id": "toba.vsfire"
       }
     ]
   },
@@ -631,6 +731,11 @@
         "name": "Docs View",
         "desc": "View documentation on hover in a side panel",
         "id": "bierner.docs-view"
+      },
+      {
+        "name": "Excalidraw",
+        "desc": "Create and edit sketch-style collaborative diagrams and architecture drawings natively inside VS Code.",
+        "id": "pomdtr.excalidraw-editor"
       }
     ]
   },

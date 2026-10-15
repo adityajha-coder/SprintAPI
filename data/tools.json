@@ -171,12 +171,7 @@
         "name": "OpenRouter",
         "desc": "Use hundreds of AI models through one unified API with flexible pricing.",
         "url": "https://openrouter.ai"
-      }
-    ]
-  },
-  {
-    "cat": "Coding Assistants",
-    "items": [
+      },
       {
         "name": "Claude Code",
         "desc": "Anthropic's agentic command-line tool for writing code and managing terminal tasks",
@@ -201,11 +196,116 @@
         "name": "Aider",
         "desc": "AI pair programming tool in your terminal to edit local files directly",
         "url": "https://aider.chat"
+      }
+    ]
+  },
+  {
+    "cat": "CLI & Terminal",
+    "items": [
+      {
+        "name": "Warp",
+        "desc": "Rust-based terminal with AI command search, block-based editing, and modern collaborative workflows.",
+        "url": "https://www.warp.dev/"
       },
       {
-        "name": "Continue",
-        "desc": "Open-source autopilot extension for custom IDE integrations (VS Code, JetBrains)",
-        "url": "https://github.com/continuedev/continue"
+        "name": "Starship",
+        "desc": "Minimal, blazing-fast cross-shell prompt — works with Bash, Zsh, Fish, PowerShell, and more.",
+        "url": "https://starship.rs/"
+      },
+      {
+        "name": "Fig (Amazon Q)",
+        "desc": "IDE-style autocomplete for your terminal — 500+ CLI tools with contextual suggestions.",
+        "url": "https://fig.io/"
+      },
+      {
+        "name": "tldr",
+        "desc": "Simplified, community-driven man pages — practical examples instead of overwhelming documentation.",
+        "url": "https://tldr.sh/"
+      },
+      {
+        "name": "bat",
+        "desc": "A cat clone with syntax highlighting, Git integration, and line numbering — cat but beautiful.",
+        "url": "https://github.com/sharkdp/bat"
+      },
+      {
+        "name": "fzf",
+        "desc": "General-purpose fuzzy finder for the command line — search files, history, processes, and anything.",
+        "url": "https://github.com/junegunn/fzf"
+      },
+      {
+        "name": "ripgrep",
+        "desc": "Recursively search directories for regex patterns — faster than grep, ag, and ack combined.",
+        "url": "https://github.com/BurntSushi/ripgrep"
+      },
+      {
+        "name": "exa / eza",
+        "desc": "Modern replacement for ls — color-coded file types, Git status, tree view, and file metadata.",
+        "url": "https://github.com/eza-community/eza"
+      },
+      {
+        "name": "zoxide",
+        "desc": "Smarter cd command — learns your habits and lets you jump to directories with partial names.",
+        "url": "https://github.com/ajeetdsouza/zoxide"
+      },
+      {
+        "name": "lazygit",
+        "desc": "Simple terminal UI for git commands — stage, commit, rebase, cherry-pick with keyboard shortcuts.",
+        "url": "https://github.com/jesseduffield/lazygit"
+      },
+      {
+        "name": "lazydocker",
+        "desc": "Simple terminal UI for Docker and Docker Compose — manage containers, images, volumes, and logs.",
+        "url": "https://github.com/jesseduffield/lazydocker"
+      },
+      {
+        "name": "neofetch",
+        "desc": "System info tool that displays OS, kernel, CPU, GPU, memory, and more in a beautiful terminal banner.",
+        "url": "https://github.com/dylanaraps/neofetch"
+      },
+      {
+        "name": "btop",
+        "desc": "Beautiful resource monitor — CPU, memory, disk, network, and processes with themes and mouse support.",
+        "url": "https://github.com/aristocratos/btop"
+      },
+      {
+        "name": "jq",
+        "desc": "Lightweight command-line JSON processor — slice, filter, map, and transform structured data.",
+        "url": "https://jqlang.github.io/jq/"
+      },
+      {
+        "name": "gh CLI",
+        "desc": "GitHub's official CLI — manage PRs, issues, repos, actions, and gists from your terminal.",
+        "url": "https://cli.github.com/"
+      },
+      {
+        "name": "tmux",
+        "desc": "Terminal multiplexer — split panes, sessions, and windows with scriptable configuration.",
+        "url": "https://github.com/tmux/tmux"
+      },
+      {
+        "name": "Zellij",
+        "desc": "Modern terminal workspace — panes, tabs, floating windows, sessions, and a built-in plugin system.",
+        "url": "https://zellij.dev/"
+      },
+      {
+        "name": "Delta",
+        "desc": "Syntax-highlighting pager for git, diff, and grep output with side-by-side view and line numbers.",
+        "url": "https://github.com/dandavison/delta"
+      },
+      {
+        "name": "Eza",
+        "desc": "A modern, maintained replacement for ls with color coding, tree view, git status, and file metadata.",
+        "url": "https://eza.rocks/"
+      },
+      {
+        "name": "Hyperfine",
+        "desc": "Command-line benchmarking tool with statistical analysis, warmup runs, and export to markdown.",
+        "url": "https://github.com/sharkdp/hyperfine"
+      },
+      {
+        "name": "Tokei",
+        "desc": "Blazingly fast CLI utility displaying lines of code, comments, and blanks categorized by language.",
+        "url": "https://github.com/XAMPPRocky/tokei"
       }
     ]
   },
@@ -266,6 +366,36 @@
         "name": "Park UI",
         "desc": "Beautifully designed components built with Ark UI and Panda CSS",
         "url": "https://park-ui.com"
+      }
+    ]
+  },
+  {
+    "cat": "Frontend Utilities",
+    "items": [
+      {
+        "name": "Heroicons",
+        "desc": "Beautiful hand-crafted SVG icons",
+        "url": "https://heroicons.com"
+      },
+      {
+        "name": "Font Awesome",
+        "desc": "The web's most popular icon set and toolkit",
+        "url": "https://fontawesome.com"
+      },
+      {
+        "name": "Animista",
+        "desc": "On-demand CSS animations library",
+        "url": "https://animista.net"
+      },
+      {
+        "name": "Can I Use",
+        "desc": "Check browser compatibility for HTML, CSS, and JavaScript features.",
+        "url": "https://caniuse.com"
+      },
+      {
+        "name": "Bundlejs",
+        "desc": "Online bundler that calculates the minified and gzipped bundle size of any npm package or code snippet.",
+        "url": "https://bundlejs.com/"
       }
     ]
   },
@@ -336,6 +466,41 @@
         "name": "Resend",
         "desc": "Email API for developers. Build, test, and deliver transactional emails at scale.",
         "url": "https://resend.com/"
+      }
+    ]
+  },
+  {
+    "cat": "Backend & Cryptography",
+    "items": [
+      {
+        "name": "Bcrypt Generator",
+        "desc": "Generate and test bcrypted strings",
+        "url": "https://bcrypt-generator.com"
+      },
+      {
+        "name": "JWT.io",
+        "desc": "Decode, verify and generate JWT",
+        "url": "https://jwt.io"
+      },
+      {
+        "name": "UUID Generator",
+        "desc": "Online UUID/GUID generator",
+        "url": "https://www.uuidgenerator.net"
+      },
+      {
+        "name": "CyberChef",
+        "desc": "Swiss Army knife for encoding, decoding, hashing, encryption, and data analysis.",
+        "url": "https://gchq.github.io/CyberChef"
+      },
+      {
+        "name": "Exif.tools",
+        "desc": "Inspect metadata embedded in images and other files.",
+        "url": "https://exif.tools"
+      },
+      {
+        "name": "Base64 Guru",
+        "desc": "Advanced Base64 encoding, decoding, validation, and image conversion utilities.",
+        "url": "https://base64.guru"
       }
     ]
   },
@@ -576,11 +741,76 @@
         "name": "LabEx",
         "desc": "Practice programming and DevOps skills through interactive browser based laboratories.",
         "url": "https://labex.io"
+      },
+      {
+        "name": "DevToys",
+        "desc": "Offline Swiss Army knife for developers: format JSON, decode JWT, test regex, convert base64, hash text.",
+        "url": "https://devtoys.app/"
+      },
+      {
+        "name": "Transform.tools",
+        "desc": "Polyglot code converter for developers: JSON to TypeScript, SVG to JSX, HTML to JSX, CSS to Tailwind.",
+        "url": "https://transform.tools/"
+      },
+      {
+        "name": "Quicktype",
+        "desc": "Generate strongly-typed models and serializers from JSON, JSON Schema, or GraphQL in 20+ programming languages.",
+        "url": "https://quicktype.io/"
+      },
+      {
+        "name": "Crontab.guru",
+        "desc": "Interactive cron schedule expression editor and validator with human-readable English translations.",
+        "url": "https://crontab.guru/"
       }
     ]
   },
   {
-    "cat": "Full-Stack Frameworks",
+    "cat": "Text Manipulation",
+    "items": [
+      {
+        "name": "Regex101",
+        "desc": "Regular expression tester and debugger",
+        "url": "https://regex101.com"
+      },
+      {
+        "name": "JSON Formatter",
+        "desc": "Format, validate and beautify JSON",
+        "url": "https://jsonformatter.org"
+      },
+      {
+        "name": "Diffchecker",
+        "desc": "Compare text to find the difference",
+        "url": "https://www.diffchecker.com"
+      },
+      {
+        "name": "JSON Crack",
+        "desc": "Visualize complex JSON data as an interactive graph.",
+        "url": "https://jsoncrack.com"
+      },
+      {
+        "name": "JSONLint",
+        "desc": "Validate and format JSON instantly.",
+        "url": "https://jsonlint.com"
+      },
+      {
+        "name": "Grep.app",
+        "desc": "Search millions of public GitHub repositories instantly.",
+        "url": "https://grep.app"
+      },
+      {
+        "name": "Code Beautify",
+        "desc": "Format, validate, and convert dozens of file formats.",
+        "url": "https://codebeautify.org"
+      },
+      {
+        "name": "JSONVisio",
+        "desc": "Visualize complex JSON structures as interactive trees for easier debugging.",
+        "url": "https://jsonvisio.com"
+      }
+    ]
+  },
+  {
+    "cat": "Frameworks & Libraries",
     "items": [
       {
         "name": "Next.js",
@@ -616,11 +846,51 @@
         "name": "Ruby on Rails",
         "desc": "Web development that doesnt hurt",
         "url": "https://rubyonrails.org"
+      },
+      {
+        "name": "SolidJS",
+        "desc": "Simple and reactive JavaScript library for building user interfaces with no virtual DOM.",
+        "url": "https://solidjs.com"
+      },
+      {
+        "name": "Bootstrap",
+        "desc": "The most popular HTML, CSS, and JS library for responsive, mobile-first front-end web layouts.",
+        "url": "https://getbootstrap.com"
+      },
+      {
+        "name": "Fastify",
+        "desc": "Highly efficient, low overhead, and fast web framework for Node.js backend systems.",
+        "url": "https://fastify.dev"
+      },
+      {
+        "name": "Express",
+        "desc": "Fast, unopinionated, minimalist web framework for Node.js server applications.",
+        "url": "https://expressjs.com"
+      },
+      {
+        "name": "Django",
+        "desc": "High-level Python web framework that encourages rapid development and clean, pragmatic design.",
+        "url": "https://www.djangoproject.com"
+      },
+      {
+        "name": "Spring Boot",
+        "desc": "Build stand-alone, production-grade Spring-based Java applications with minimal configuration.",
+        "url": "https://spring.io/projects/spring-boot"
+      },
+      {
+        "name": "Fiber",
+        "desc": "An Express-inspired web framework written in Go, focusing on speed and minimal memory foot-print.",
+        "url": "https://gofiber.io"
+      },
+      {
+        "name": "Actix Web",
+        "desc": "A powerful, pragmatic, and extremely fast web framework for Rust servers.",
+        "url": "https://actix.rs"
       }
     ]
   },
   {
-    "cat": "DevOps & Hosting",
+    "cat": "Hosting & Deployment",
     "items": [
       {
         "name": "Vercel",
@@ -681,6 +951,51 @@
         "name": "SST",
         "desc": "Build serverless full-stack apps on AWS with live lambda development",
         "url": "https://sst.dev"
+      },
+      {
+        "name": "Firebase Hosting",
+        "desc": "Production-grade hosting for web applications, static assets, and dynamic serverless configurations.",
+        "url": "https://firebase.google.com"
+      },
+      {
+        "name": "Linode",
+        "desc": "Managed cloud services, hosting, compute instances, and load balancers by Akamai.",
+        "url": "https://linode.com"
+      },
+      {
+        "name": "AWS Amplify",
+        "desc": "Configure secure mobile and web backends, compile frontends, and deploy static assets on AWS.",
+        "url": "https://aws.amazon.com/amplify"
+      },
+      {
+        "name": "Cloudflare Pages",
+        "desc": "JAMstack platform for developers to deploy static websites with Cloudflare's global edge speed.",
+        "url": "https://pages.cloudflare.com"
+      },
+      {
+        "name": "GitHub Pages",
+        "desc": "Host public repositories, project websites, blogs, and documentations directly from GitHub.",
+        "url": "https://pages.github.com"
+      },
+      {
+        "name": "GitLab Pages",
+        "desc": "Configure GitLab CI/CD pipelines to build and deploy static sites directly from repositories.",
+        "url": "https://docs.gitlab.com/ee/user/project/pages/"
+      },
+      {
+        "name": "Supabase Hosting",
+        "desc": "Run edge functions, storage buckets, and secure serverless backend instances on Supabase.",
+        "url": "https://supabase.com"
+      },
+      {
+        "name": "Surge.sh",
+        "desc": "Simple command-line hosting tool to publish static directory assets instantly.",
+        "url": "https://surge.sh"
+      },
+      {
+        "name": "Zeal",
+        "desc": "Simple offline API documentation browser to read and search docs for 200+ technologies without internet.",
+        "url": "https://zealdocs.org"
       }
     ]
   },
@@ -701,11 +1016,6 @@
         "name": "Redis",
         "desc": "Open source in-memory data store",
         "url": "https://redis.io"
-      },
-      {
-        "name": "Firebase",
-        "desc": "App development platform by Google",
-        "url": "https://firebase.google.com"
       },
       {
         "name": "MySQL",
@@ -746,6 +1056,81 @@
         "name": "DB Fiddle",
         "desc": "Experiment with SQL queries across multiple database systems instantly.",
         "url": "https://dbfiddle.uk"
+      },
+      {
+        "name": "dbdiagram.io",
+        "desc": "Quick, declarative database diagram designer where you draw ER diagrams by writing simple DBML code.",
+        "url": "https://dbdiagram.io/"
+      },
+      {
+        "name": "DrawSQL",
+        "desc": "Beautiful, collaborative database schema visualizer and builder for PostgreSQL, MySQL, and SQL Server.",
+        "url": "https://drawsql.app/"
+      },
+      {
+        "name": "DuckDB",
+        "desc": "In-process SQL OLAP database management system — blazingly fast analytical queries on local Parquet and CSV files.",
+        "url": "https://duckdb.org/"
+      },
+      {
+        "name": "SurrealDB",
+        "desc": "End-to-end multi-model cloud database for web, mobile, and serverless apps with graph and document queries.",
+        "url": "https://surrealdb.com/"
+      },
+      {
+        "name": "CockroachDB",
+        "desc": "Distributed SQL database engineered for global scale, transactional consistency, and automatic resilience.",
+        "url": "https://www.cockroachlabs.com"
+      }
+    ]
+  },
+  {
+    "cat": "DevOps & Cloud",
+    "items": [
+      {
+        "name": "Kubernetes",
+        "desc": "Open-source system for automating deployment, scaling, and management of containerized applications.",
+        "url": "https://kubernetes.io/"
+      },
+      {
+        "name": "Terraform",
+        "desc": "Infrastructure as Code tool for building, changing, and versioning cloud infrastructure safely.",
+        "url": "https://www.terraform.io/"
+      },
+      {
+        "name": "Ansible",
+        "desc": "Agentless IT automation for configuration management, app deployment, and orchestration.",
+        "url": "https://www.ansible.com/"
+      },
+      {
+        "name": "Prometheus",
+        "desc": "Open-source monitoring and alerting toolkit with powerful metrics collection and PromQL query language.",
+        "url": "https://prometheus.io/"
+      },
+      {
+        "name": "Grafana",
+        "desc": "Open-source observability platform for metrics, logs, and traces with beautiful dashboards.",
+        "url": "https://grafana.com/"
+      },
+      {
+        "name": "ArgoCD",
+        "desc": "Declarative GitOps continuous delivery tool for Kubernetes with automatic sync and drift detection.",
+        "url": "https://argoproj.github.io/cd/"
+      },
+      {
+        "name": "Pulumi",
+        "desc": "Infrastructure as Code using real programming languages — TypeScript, Python, Go, C#, and Java.",
+        "url": "https://www.pulumi.com/"
+      },
+      {
+        "name": "Dokku",
+        "desc": "Smallest PaaS implementation — a Docker-powered mini-Heroku you can run on a $5 VPS.",
+        "url": "https://dokku.com/"
+      },
+      {
+        "name": "LocalStack",
+        "desc": "Fully functional local AWS cloud stack that runs in Docker, letting you test Lambda, S3, and DynamoDB offline.",
+        "url": "https://localstack.cloud/"
       }
     ]
   },
@@ -876,116 +1261,21 @@
         "name": "Mocky",
         "desc": "Create custom mock API endpoints for rapid testing and development.",
         "url": "https://designer.mocky.io"
+      },
+      {
+        "name": "Bruno",
+        "desc": "Fast, git-friendly, offline-first open-source API client that stores collections directly in your repo.",
+        "url": "https://usebruno.com/"
+      },
+      {
+        "name": "Mockoon",
+        "desc": "Fastest and easiest way to run mock REST APIs locally with custom routes, latency, and status codes.",
+        "url": "https://mockoon.com/"
       }
     ]
   },
   {
-    "cat": "Frontend Utilities",
-    "items": [
-      {
-        "name": "Heroicons",
-        "desc": "Beautiful hand-crafted SVG icons",
-        "url": "https://heroicons.com"
-      },
-      {
-        "name": "Font Awesome",
-        "desc": "The web's most popular icon set and toolkit",
-        "url": "https://fontawesome.com"
-      },
-      {
-        "name": "Animista",
-        "desc": "On-demand CSS animations library",
-        "url": "https://animista.net"
-      },
-      {
-        "name": "Can I Use",
-        "desc": "Check browser compatibility for HTML, CSS, and JavaScript features.",
-        "url": "https://caniuse.com"
-      }
-    ]
-  },
-  {
-    "cat": "Backend & Cryptography",
-    "items": [
-      {
-        "name": "Bcrypt Generator",
-        "desc": "Generate and test bcrypted strings",
-        "url": "https://bcrypt-generator.com"
-      },
-      {
-        "name": "JWT.io",
-        "desc": "Decode, verify and generate JWT",
-        "url": "https://jwt.io"
-      },
-      {
-        "name": "UUID Generator",
-        "desc": "Online UUID/GUID generator",
-        "url": "https://www.uuidgenerator.net"
-      },
-      {
-        "name": "CyberChef",
-        "desc": "Swiss Army knife for encoding, decoding, hashing, encryption, and data analysis.",
-        "url": "https://gchq.github.io/CyberChef"
-      },
-      {
-        "name": "Exif.tools",
-        "desc": "Inspect metadata embedded in images and other files.",
-        "url": "https://exif.tools"
-      },
-      {
-        "name": "Base64 Guru",
-        "desc": "Advanced Base64 encoding, decoding, validation, and image conversion utilities.",
-        "url": "https://base64.guru"
-      }
-    ]
-  },
-  {
-    "cat": "Text Manipulation",
-    "items": [
-      {
-        "name": "Regex101",
-        "desc": "Regular expression tester and debugger",
-        "url": "https://regex101.com"
-      },
-      {
-        "name": "JSON Formatter",
-        "desc": "Format, validate and beautify JSON",
-        "url": "https://jsonformatter.org"
-      },
-      {
-        "name": "Diffchecker",
-        "desc": "Compare text to find the difference",
-        "url": "https://www.diffchecker.com"
-      },
-      {
-        "name": "JSON Crack",
-        "desc": "Visualize complex JSON data as an interactive graph.",
-        "url": "https://jsoncrack.com"
-      },
-      {
-        "name": "JSONLint",
-        "desc": "Validate and format JSON instantly.",
-        "url": "https://jsonlint.com"
-      },
-      {
-        "name": "Grep.app",
-        "desc": "Search millions of public GitHub repositories instantly.",
-        "url": "https://grep.app"
-      },
-      {
-        "name": "Code Beautify",
-        "desc": "Format, validate, and convert dozens of file formats.",
-        "url": "https://codebeautify.org"
-      },
-      {
-        "name": "JSONVisio",
-        "desc": "Visualize complex JSON structures as interactive trees for easier debugging.",
-        "url": "https://jsonvisio.com"
-      }
-    ]
-  },
-  {
-    "cat": "Colors & Design",
+    "cat": "Design & UX Resources",
     "items": [
       {
         "name": "Coolors",
@@ -1006,256 +1296,6 @@
         "name": "Fontjoy",
         "desc": "Create visually pleasing font combinations using artificial intelligence powered recommendations.",
         "url": "https://fontjoy.com"
-      }
-    ]
-  },
-  {
-    "cat": "Machine Learning & Data Science",
-    "items": [
-      {
-        "name": "Jupyter Notebook",
-        "desc": "Web-based interactive computing environment for notebooks",
-        "url": "https://jupyter.org"
-      },
-      {
-        "name": "Google Colab",
-        "desc": "Hosted Jupyter notebook service requiring zero configuration",
-        "url": "https://colab.research.google.com"
-      },
-      {
-        "name": "Hugging Face",
-        "desc": "Hub for pre-trained machine learning models, datasets, and spaces",
-        "url": "https://huggingface.co"
-      },
-      {
-        "name": "Kaggle",
-        "desc": "Data science competitions, public datasets, and learning resources",
-        "url": "https://www.kaggle.com"
-      },
-      {
-        "name": "PyTorch",
-        "desc": "Open-source deep learning framework developed by Meta's AI research lab",
-        "url": "https://pytorch.org"
-      },
-      {
-        "name": "TensorFlow",
-        "desc": "End-to-end open-source machine learning platform by Google",
-        "url": "https://www.tensorflow.org"
-      },
-      {
-        "name": "Scikit-Learn",
-        "desc": "Simple and efficient machine learning tools for Python",
-        "url": "https://scikit-learn.org"
-      },
-      {
-        "name": "Pandas",
-        "desc": "High-performance data analysis and manipulation library for Python",
-        "url": "https://pandas.pydata.org"
-      },
-      {
-        "name": "Weights & Biases",
-        "desc": "Experiment tracking, model serialization, and dataset versioning platform",
-        "url": "https://wandb.ai"
-      },
-      {
-        "name": "Streamlit",
-        "desc": "Create and share custom web applications for data science and ML",
-        "url": "https://streamlit.io"
-      }
-    ]
-  },
-  {
-    "cat": "App Development",
-    "items": [
-      {
-        "name": "Expo Go",
-        "desc": "Client app to run and test React Native projects on physical devices",
-        "url": "https://expo.dev/client"
-      },
-      {
-        "name": "Flipper",
-        "desc": "Extensible mobile app debugger developed by Meta",
-        "url": "https://fbflipper.com"
-      },
-      {
-        "name": "Reactotron",
-        "desc": "Desktop app for inspecting React Native and React application state and network requests",
-        "url": "https://github.com/infinitered/reactotron"
-      },
-      {
-        "name": "Flutter DevTools",
-        "desc": "Suite of performance, debugging, and profiling tools for Flutter apps",
-        "url": "https://docs.flutter.dev/tools/devtools"
-      },
-      {
-        "name": "Fastlane",
-        "desc": "Open-source tool to automate beta deployments and App Store releases for iOS and Android",
-        "url": "https://fastlane.tools"
-      },
-      {
-        "name": "Tauri",
-        "desc": "Framework for building tiny, blazing fast desktop applications using web technologies and Rust",
-        "url": "https://tauri.app"
-      },
-      {
-        "name": "CocoaPods",
-        "desc": "Dependency manager for Swift and Objective-C Cocoa projects",
-        "url": "https://cocoapods.org"
-      },
-      {
-        "name": "Android Studio",
-        "desc": "The official Integrated Development Environment (IDE) for Android app development",
-        "url": "https://developer.android.com/studio"
-      }
-    ]
-  },
-  {
-    "cat": "Documentation",
-    "items": [
-      {
-        "name": "Docusaurus",
-        "desc": "Build optimized website docs using React and Markdown",
-        "url": "https://docusaurus.io"
-      },
-      {
-        "name": "Mintlify",
-        "desc": "Modern developer documentation platform that integrates with GitHub",
-        "url": "https://mintlify.com"
-      },
-      {
-        "name": "Nextra",
-        "desc": "Next.js static site generator optimized for docs layouts",
-        "url": "https://nextra.site"
-      },
-      {
-        "name": "GitBook",
-        "desc": "Collaborative documentation platform for teams and developers",
-        "url": "https://www.gitbook.com"
-      },
-      {
-        "name": "DevDocs",
-        "desc": "Fast offline documentation for hundreds of programming languages and APIs.",
-        "url": "https://devdocs.io"
-      },
-      {
-        "name": "Roadmap.sh",
-        "desc": "Interactive learning roadmaps for software developers.",
-        "url": "https://roadmap.sh"
-      },
-      {
-        "name": "OverAPI",
-        "desc": "Collection of API and programming cheat sheets.",
-        "url": "https://overapi.com"
-      },
-      {
-        "name": "QuickRef.ME",
-        "desc": "Access concise programming cheat sheets covering languages, frameworks, and tools.",
-        "url": "https://quickref.me"
-      }
-    ]
-  },
-  {
-    "cat": "Frameworks & Libraries",
-    "items": [
-      {
-        "name": "Next.js",
-        "desc": "The React framework for the web, enabling server-side rendering and static site generation.",
-        "url": "https://nextjs.org"
-      },
-      {
-        "name": "Nuxt",
-        "desc": "The intuitive Vue framework for building production-grade web applications.",
-        "url": "https://nuxt.com"
-      },
-      {
-        "name": "SvelteKit",
-        "desc": "The official application framework for Svelte, providing fast routing and server rendering.",
-        "url": "https://kit.svelte.dev"
-      },
-      {
-        "name": "Astro",
-        "desc": "Web framework for building content-driven websites with zero client-side JavaScript by default.",
-        "url": "https://astro.build"
-      },
-      {
-        "name": "Remix",
-        "desc": "Full-stack web framework focused on web standards, modern user experience, and fast loads.",
-        "url": "https://remix.run"
-      },
-      {
-        "name": "SolidJS",
-        "desc": "Simple and reactive JavaScript library for building user interfaces with no virtual DOM.",
-        "url": "https://solidjs.com"
-      },
-      {
-        "name": "Tailwind CSS",
-        "desc": "Utility-first CSS framework for rapid UI development and highly customizable designs.",
-        "url": "https://tailwindcss.com"
-      },
-      {
-        "name": "Bootstrap",
-        "desc": "The most popular HTML, CSS, and JS library for responsive, mobile-first front-end web layouts.",
-        "url": "https://getbootstrap.com"
-      },
-      {
-        "name": "Fastify",
-        "desc": "Highly efficient, low overhead, and fast web framework for Node.js backend systems.",
-        "url": "https://fastify.dev"
-      },
-      {
-        "name": "NestJS",
-        "desc": "Progressive Node.js framework for building efficient, reliable, and scalable server-side applications.",
-        "url": "https://nestjs.com"
-      },
-      {
-        "name": "Express",
-        "desc": "Fast, unopinionated, minimalist web framework for Node.js server applications.",
-        "url": "https://expressjs.com"
-      },
-      {
-        "name": "Django",
-        "desc": "High-level Python web framework that encourages rapid development and clean, pragmatic design.",
-        "url": "https://www.djangoproject.com"
-      },
-      {
-        "name": "FastAPI",
-        "desc": "Modern, fast, high-performance web framework for building APIs with Python and auto-docs.",
-        "url": "https://fastapi.tiangolo.com"
-      },
-      {
-        "name": "Ruby on Rails",
-        "desc": "SaaS framework for web development, encouraging convention over configuration.",
-        "url": "https://rubyonrails.org"
-      },
-      {
-        "name": "Spring Boot",
-        "desc": "Build stand-alone, production-grade Spring-based Java applications with minimal configuration.",
-        "url": "https://spring.io/projects/spring-boot"
-      },
-      {
-        "name": "Laravel",
-        "desc": "Web application framework with expressive, elegant syntax for PHP web systems.",
-        "url": "https://laravel.com"
-      },
-      {
-        "name": "Fiber",
-        "desc": "An Express-inspired web framework written in Go, focusing on speed and minimal memory foot-print.",
-        "url": "https://gofiber.io"
-      },
-      {
-        "name": "Actix Web",
-        "desc": "A powerful, pragmatic, and extremely fast web framework for Rust servers.",
-        "url": "https://actix.rs"
-      }
-    ]
-  },
-  {
-    "cat": "Design & UX Resources",
-    "items": [
-      {
-        "name": "Figma",
-        "desc": "Collaborative interface design tool to design, prototype, and export frontend web layouts.",
-        "url": "https://figma.com"
       },
       {
         "name": "Adobe XD",
@@ -1271,11 +1311,6 @@
         "name": "Spline 3D",
         "desc": "Create interactive 3D web designs and export them to React, HTML, or vector modules.",
         "url": "https://spline.design"
-      },
-      {
-        "name": "Font Awesome",
-        "desc": "Comprehensive icon library and toolkit offering thousands of vector icons for websites.",
-        "url": "https://fontawesome.com"
       },
       {
         "name": "Google Fonts",
@@ -1308,19 +1343,9 @@
         "url": "https://humaans.com"
       },
       {
-        "name": "Heroicons",
-        "desc": "Beautiful, hand-crafted SVG icons by the creators of Tailwind CSS, available as outline and solid styles.",
-        "url": "https://heroicons.com"
-      },
-      {
         "name": "Lucide Icons",
         "desc": "Community-run fork of Feather Icons. Crisp, customizable SVG icons for layouts.",
         "url": "https://lucide.dev"
-      },
-      {
-        "name": "Coolors",
-        "desc": "The super-fast color palettes generator. Create, save, and share beautiful color schemes.",
-        "url": "https://coolors.co"
       },
       {
         "name": "Realtime Colors",
@@ -1331,11 +1356,6 @@
         "name": "CSS-Tricks",
         "desc": "Front-end articles, guides, code snippets, and css properties dictionary for web builders.",
         "url": "https://css-tricks.com"
-      },
-      {
-        "name": "Color Hunt",
-        "desc": "Open platform for color inspiration with thousands of trendy hand-picked color palettes.",
-        "url": "https://colorhunt.co"
       },
       {
         "name": "UI Gradients",
@@ -1416,241 +1436,271 @@
         "name": "CodePNG",
         "desc": "Convert source code into clean and shareable image snippets instantly.",
         "url": "https://codepng.app"
+      },
+      {
+        "name": "TLDraw",
+        "desc": "Tiny, collaborative digital canvas and diagramming tool with an infinite whiteboard and developer SDK.",
+        "url": "https://www.tldraw.com/"
       }
     ]
   },
   {
-    "cat": "Hosting & Deployment",
+    "cat": "Testing & Debugging",
     "items": [
       {
-        "name": "Vercel",
-        "desc": "Deploy serverless frontend apps, static sites, and edge functions instantly with git integrations.",
-        "url": "https://vercel.com"
+        "name": "Sentry",
+        "desc": "Developer-first error tracking and performance monitoring platform.",
+        "url": "https://sentry.io/"
       },
       {
-        "name": "Netlify",
-        "desc": "SaaS hosting, serverless functions, form helpers, and edge deploy integrations for modern sites.",
-        "url": "https://netlify.com"
+        "name": "Playwright",
+        "desc": "End-to-end testing for modern web apps — cross-browser, auto-waiting, and trace viewer.",
+        "url": "https://playwright.dev/"
       },
       {
-        "name": "Heroku",
-        "desc": "SaaS cloud platform to compile, run, and scale backend server applications and databases.",
-        "url": "https://heroku.com"
+        "name": "Cypress",
+        "desc": "Fast, reliable end-to-end testing framework with time-travel debugging and automatic waiting.",
+        "url": "https://www.cypress.io/"
       },
       {
-        "name": "Render",
-        "desc": "Modern hosting for web services, static sites, databases, cron jobs, and background workers.",
-        "url": "https://render.com"
+        "name": "Storybook",
+        "desc": "Build UI components in isolation — develop, test, and document components without running your full app.",
+        "url": "https://storybook.js.org/"
       },
       {
-        "name": "Railway",
-        "desc": "Infrastructure platform to spin up backend services, databases, and cron processes in seconds.",
-        "url": "https://railway.app"
+        "name": "Chromatic",
+        "desc": "Visual testing and review platform for Storybook — catch UI bugs, track changes, and approve updates.",
+        "url": "https://www.chromatic.com/"
       },
       {
-        "name": "Fly.io",
-        "desc": "Run server microVMs closer to users with zero-config database replication and global CDNs.",
-        "url": "https://fly.io"
+        "name": "BrowserStack",
+        "desc": "Test on real browsers and devices in the cloud — live, automated, and visual testing at scale.",
+        "url": "https://www.browserstack.com/"
       },
       {
-        "name": "Firebase Hosting",
-        "desc": "Production-grade hosting for web applications, static assets, and dynamic serverless configurations.",
-        "url": "https://firebase.google.com"
+        "name": "k6",
+        "desc": "Modern load testing tool — write tests in JavaScript, run locally or in the cloud, and analyze results.",
+        "url": "https://k6.io/"
       },
       {
-        "name": "DigitalOcean",
-        "desc": "Simple, reliable cloud virtual machines (Droplets), kubernetes clusters, and managed databases.",
-        "url": "https://digitalocean.com"
+        "name": "Vitest",
+        "desc": "Next generation testing framework powered by Vite — blazing fast unit tests with native ESM support.",
+        "url": "https://vitest.dev/"
       },
       {
-        "name": "Linode",
-        "desc": "Managed cloud services, hosting, compute instances, and load balancers by Akamai.",
-        "url": "https://linode.com"
-      },
-      {
-        "name": "AWS Amplify",
-        "desc": "Configure secure mobile and web backends, compile frontends, and deploy static assets on AWS.",
-        "url": "https://aws.amazon.com/amplify"
-      },
-      {
-        "name": "Cloudflare Pages",
-        "desc": "JAMstack platform for developers to deploy static websites with Cloudflare's global edge speed.",
-        "url": "https://pages.cloudflare.com"
-      },
-      {
-        "name": "GitHub Pages",
-        "desc": "Host public repositories, project websites, blogs, and documentations directly from GitHub.",
-        "url": "https://pages.github.com"
-      },
-      {
-        "name": "GitLab Pages",
-        "desc": "Configure GitLab CI/CD pipelines to build and deploy static sites directly from repositories.",
-        "url": "https://docs.gitlab.com/ee/user/project/pages/"
-      },
-      {
-        "name": "Supabase Hosting",
-        "desc": "Run edge functions, storage buckets, and secure serverless backend instances on Supabase.",
-        "url": "https://supabase.com"
-      },
-      {
-        "name": "Surge.sh",
-        "desc": "Simple command-line hosting tool to publish static directory assets instantly.",
-        "url": "https://surge.sh"
-      },
-      {
-        "name": "Zeal",
-        "desc": "Simple offline API documentation browser to read and search docs for 200+ technologies without internet.",
-        "url": "https://zealdocs.org"
+        "name": "Mailpit",
+        "desc": "Fast email and SMTP testing server for developers with a web UI to view and inspect sent test emails.",
+        "url": "https://mailpit.axllent.org/"
       }
     ]
   },
   {
-    "cat": "Fun & Interactive",
+    "cat": "Open Source & Self-Hosted",
     "items": [
       {
-        "name": "GitHub Skyline",
-        "desc": "Visualize your annual GitHub commit contribution graph as an interactive 3D model or virtual reality city.",
-        "url": "https://skyline.github.com"
+        "name": "Plausible Analytics",
+        "desc": "Privacy-friendly Google Analytics alternative — lightweight, open-source, no cookies needed.",
+        "url": "https://plausible.io/"
       },
       {
-        "name": "Regex101",
-        "desc": "Online interactive regular expression debugger, tester, explanation generator, and library.",
-        "url": "https://regex101.com"
+        "name": "Umami",
+        "desc": "Simple, fast, self-hosted web analytics — privacy-focused with real-time dashboard and no cookie banner.",
+        "url": "https://umami.is/"
       },
       {
-        "name": "DevHints",
-        "desc": "A curated directory of simple, clean, and interactive cheat sheets for developer tools and languages.",
-        "url": "https://devhints.io"
+        "name": "Uptime Kuma",
+        "desc": "Self-hosted monitoring tool — HTTP, TCP, DNS, Docker, and more with beautiful status pages.",
+        "url": "https://github.com/louislam/uptime-kuma"
       },
       {
-        "name": "JSON Hero",
-        "desc": "A beautiful, interactive JSON explorer that makes reading, searching, and mapping JSON files clean and intuitive.",
-        "url": "https://jsonhero.io"
+        "name": "Minio",
+        "desc": "High-performance, S3-compatible object storage — run your own cloud storage on any infrastructure.",
+        "url": "https://min.io/"
       },
       {
-        "name": "Carbon",
-        "desc": "Create and share beautiful high-resolution image snapshots of your source code snippets.",
-        "url": "https://carbon.now.sh"
+        "name": "Gitea",
+        "desc": "Lightweight, self-hosted Git service — a painless GitHub alternative with issues, PRs, and CI/CD.",
+        "url": "https://gitea.io/"
       },
       {
-        "name": "Ray.so",
-        "desc": "Turn your coding selections into beautiful, customized screenshot layouts with gradient backgrounds.",
-        "url": "https://ray.so"
+        "name": "Portainer",
+        "desc": "Container management UI for Docker, Kubernetes, and Swarm — deploy, manage, and troubleshoot containers.",
+        "url": "https://www.portainer.io/"
       },
       {
-        "name": "Excalidraw",
-        "desc": "Virtual collaborative whiteboard for sketching hand-drawn-like diagrams, layouts, and system mockups.",
-        "url": "https://excalidraw.com"
+        "name": "Directus",
+        "desc": "Open-source headless CMS and data platform — instant REST and GraphQL APIs for any SQL database.",
+        "url": "https://directus.io/"
       },
       {
-        "name": "TLDR Pages",
-        "desc": "Simplified and community-driven terminal man pages, offering practical command usage examples.",
-        "url": "https://tldr.sh"
+        "name": "Strapi",
+        "desc": "Open-source headless CMS — customizable API, content types, roles, and media library.",
+        "url": "https://strapi.io/"
       },
       {
-        "name": "CodePen",
-        "desc": "Social development playground to write, test, share, and debug front-end HTML, CSS, and JS components.",
-        "url": "https://codepen.io"
+        "name": "NocoDB",
+        "desc": "Open-source Airtable alternative — turn any database into a smart spreadsheet with API access.",
+        "url": "https://nocodb.com/"
       },
       {
-        "name": "StackBlitz",
-        "desc": "Online IDE powered by WebContainers to spin up full-stack Node.js environments inside browser tabs.",
-        "url": "https://stackblitz.com"
+        "name": "Baserow",
+        "desc": "Open-source no-code database and Airtable alternative — build databases, views, and automations.",
+        "url": "https://baserow.io/"
       },
       {
-        "name": "JSFiddle",
-        "desc": "Online playground to write, test, inspect, and share HTML, CSS, and JavaScript snippets.",
-        "url": "https://jsfiddle.net"
+        "name": "Cal.com",
+        "desc": "Open-source Calendly alternative — scheduling, team availability, payments, and workflow automations.",
+        "url": "https://cal.com/"
       },
       {
-        "name": "HackerTyper",
-        "desc": "Type random keys on your keyboard and watch complete software code appear on screen like in the movies.",
-        "url": "https://hackertyper.net"
+        "name": "Typesense",
+        "desc": "Open-source, typo-tolerant search engine — blazing fast alternative to Algolia and Elasticsearch.",
+        "url": "https://typesense.org/"
       },
       {
-        "name": "GitKraken",
-        "desc": "Cross-platform visual Git client featuring interactive merge conflict tools, commit trees, and terminal integration.",
-        "url": "https://www.gitkraken.com"
+        "name": "Listmonk",
+        "desc": "Self-hosted newsletter and mailing list manager — high performance with template editor and analytics.",
+        "url": "https://listmonk.app/"
       },
       {
-        "name": "GitFight",
-        "desc": "Enter your GitHub username to compare contribution stats and launch a visual 'fight' with other programmers.",
-        "url": "https://gitfight.com"
+        "name": "Chatwoot",
+        "desc": "Open-source customer engagement suite — live chat, email, social, and messaging from one dashboard.",
+        "url": "https://www.chatwoot.com/"
       },
       {
-        "name": "Pokedex",
-        "desc": "Rich Pokémon database featuring moves, items, abilities, comparisons, team builder, and type matchups.",
-        "url": "https://pokedex-project-db.vercel.app/"
+        "name": "Planka",
+        "desc": "Elegant open-source Trello alternative — kanban boards, cards, tasks, and real-time collaboration.",
+        "url": "https://planka.app/"
       },
       {
-        "name": "Attendora",
-        "desc": "Smart attendance tracker with predictive insights, timetable scanning, GPA calculator, reports.",
-        "url": "https://attendora-sat.vercel.app"
+        "name": "Infisical",
+        "desc": "Open-source secret management platform — sync secrets across teams, environments, and infrastructure.",
+        "url": "https://infisical.com/"
       },
       {
-        "name": "Radio Garden",
-        "desc": "Listen to live radio stations from thousands of cities around the world instantly.",
-        "url": "https://radio.garden"
+        "name": "Outline",
+        "desc": "Beautiful open-source wiki and knowledge base — fast, collaborative, with Markdown and API access.",
+        "url": "https://www.getoutline.com/"
       },
       {
-        "name": "Window Swap",
-        "desc": "View real window scenes shared by people living in different countries worldwide.",
-        "url": "https://window-swap.com"
+        "name": "PocketBase",
+        "desc": "Open source backend in 1 single file: embedded SQLite, realtime subscriptions, authentication, and admin UI.",
+        "url": "https://pocketbase.io/"
+      }
+    ]
+  },
+  {
+    "cat": "Performance & Monitoring",
+    "items": [
+      {
+        "name": "WebPageTest",
+        "desc": "Free website speed testing from multiple locations and browsers with waterfall charts and filmstrip views.",
+        "url": "https://www.webpagetest.org/"
       },
       {
-        "name": "JustWatch",
-        "desc": "Find where movies and television shows are streaming across popular online platforms.",
-        "url": "https://www.justwatch.com"
+        "name": "PageSpeed Insights",
+        "desc": "Google's tool to analyze web page performance — Core Web Vitals, LCP, FID, CLS with fix suggestions.",
+        "url": "https://pagespeed.web.dev/"
       },
       {
-        "name": "Letterboxd",
-        "desc": "Track watched movies, build watchlists, review films, and discover recommendations from others.",
-        "url": "https://letterboxd.com"
+        "name": "Bundlephobia",
+        "desc": "Find the cost of adding an npm package — bundle size, download time, tree-shaking support, and alternatives.",
+        "url": "https://bundlephobia.com/"
       },
       {
-        "name": "StoryGraph",
-        "desc": "Receive personalized book recommendations with detailed reading statistics and progress tracking.",
-        "url": "https://thestorygraph.com"
+        "name": "Unlighthouse",
+        "desc": "Scan your entire site with Lighthouse — automated multi-page audits with beautiful reports.",
+        "url": "https://unlighthouse.dev/"
       },
       {
-        "name": "Open Library",
-        "desc": "Borrow, search, and read millions of free digital books and historical publications.",
-        "url": "https://openlibrary.org"
+        "name": "Clinic.js",
+        "desc": "Node.js performance profiling — detect CPU bottlenecks, event loop delays, and I/O issues.",
+        "url": "https://clinicjs.org/"
       },
       {
-        "name": "Wikiwand",
-        "desc": "Browse Wikipedia articles through a modern interface with faster navigation and better readability.",
-        "url": "https://www.wikiwand.com"
+        "name": "Speedlify",
+        "desc": "Continuously measure site performance over time — track Lighthouse scores with historical comparison.",
+        "url": "https://www.zachleat.com/web/speedlify/"
       },
       {
-        "name": "GeoGuessr",
-        "desc": "Test your geography knowledge by guessing locations using immersive street view images.",
-        "url": "https://www.geoguessr.com"
+        "name": "PerfBudget",
+        "desc": "Set performance budgets and track them — alert when JavaScript, CSS, or image sizes exceed limits.",
+        "url": "https://perf-budget.netlify.app/"
+      }
+    ]
+  },
+  {
+    "cat": "Learning & Practice",
+    "items": [
+      {
+        "name": "Exercism",
+        "desc": "Free code practice in 70+ languages with mentored learning — real exercises with human feedback.",
+        "url": "https://exercism.org/"
       },
       {
-        "name": "Earth Nullschool",
-        "desc": "Visualize live global weather, wind patterns, ocean currents, and climate data interactively.",
-        "url": "https://earth.nullschool.net"
+        "name": "LeetCode",
+        "desc": "Coding interview preparation — 2500+ problems, contests, discuss, and company-tagged questions.",
+        "url": "https://leetcode.com/"
       },
       {
-        "name": "FutureMe",
-        "desc": "Write letters to your future self and receive them on a chosen date.",
-        "url": "https://www.futureme.org"
+        "name": "HackerRank",
+        "desc": "Practice coding, prepare for interviews, and get hired — challenges across algorithms, AI, and databases.",
+        "url": "https://www.hackerrank.com/"
       },
       {
-        "name": "MapCrunch",
-        "desc": "Travel randomly around the world using immersive Google Street View locations.",
-        "url": "https://www.mapcrunch.com"
+        "name": "Project Euler",
+        "desc": "Challenging mathematical/programming problems — over 900 problems to sharpen computational thinking.",
+        "url": "https://projecteuler.net/"
       },
       {
-        "name": "Radio Browser",
-        "desc": "Search and stream thousands of free internet radio stations from every country.",
-        "url": "https://www.radio-browser.info"
+        "name": "Frontend Mentor",
+        "desc": "Real-world frontend challenges with professional designs — HTML, CSS, JS projects with community feedback.",
+        "url": "https://www.frontendmentor.io/"
       },
       {
-        "name": "Earth.fm",
-        "desc": "Listen to authentic nature sounds recorded from forests, beaches, and mountains worldwide.",
-        "url": "https://earth.fm"
+        "name": "CSS Battle",
+        "desc": "Online CSS code golf — replicate target images using the least CSS possible with community leaderboards.",
+        "url": "https://cssbattle.dev/"
+      },
+      {
+        "name": "TypeHero",
+        "desc": "Interactive TypeScript challenges — learn advanced types, generics, and type system concepts by doing.",
+        "url": "https://typehero.dev/"
+      },
+      {
+        "name": "SQLZoo",
+        "desc": "Interactive SQL tutorial — learn SQL with hands-on exercises from basic SELECT to advanced subqueries.",
+        "url": "https://sqlzoo.net/"
+      },
+      {
+        "name": "OverTheWire",
+        "desc": "Wargames for learning security concepts — SSH, web exploitation, cryptography, and reverse engineering.",
+        "url": "https://overthewire.org/"
+      },
+      {
+        "name": "Advent of Code",
+        "desc": "Annual December coding challenge — 25 days of programming puzzles for any skill level or language.",
+        "url": "https://adventofcode.com/"
+      },
+      {
+        "name": "Flexbox Froggy",
+        "desc": "Learn CSS Flexbox by playing a game — guide Froggy to the lilypad using flexbox properties.",
+        "url": "https://flexboxfroggy.com/"
+      },
+      {
+        "name": "Grid Garden",
+        "desc": "Learn CSS Grid by watering a garden — interactive exercises teaching grid-template and placement.",
+        "url": "https://cssgridgarden.com/"
+      },
+      {
+        "name": "RegexOne",
+        "desc": "Interactive regex tutorial — learn regular expressions step-by-step with live matching exercises.",
+        "url": "https://regexone.com/"
+      },
+      {
+        "name": "SQL Murder Mystery",
+        "desc": "Interactive game that teaches SQL queries, joins, and filters by investigating a fictional crime scene.",
+        "url": "https://mystery.knightlab.com/"
       }
     ]
   },
@@ -1826,6 +1876,11 @@
         "name": "GitGuardian",
         "desc": "Automated secrets detection and security policy enforcement for source code, repositories, and CI/CD pipelines.",
         "url": "https://www.gitguardian.com/"
+      },
+      {
+        "name": "Tailscale",
+        "desc": "Zero-config mesh VPN built on WireGuard to connect all your machines, servers, and devices securely.",
+        "url": "https://tailscale.com/"
       }
     ]
   },
@@ -1941,6 +1996,151 @@
         "name": "Browse AI",
         "desc": "Extract website data and automate repetitive browsing tasks without coding experience.",
         "url": "https://www.browse.ai"
+      }
+    ]
+  },
+  {
+    "cat": "Machine Learning & Data Science",
+    "items": [
+      {
+        "name": "Jupyter Notebook",
+        "desc": "Web-based interactive computing environment for notebooks",
+        "url": "https://jupyter.org"
+      },
+      {
+        "name": "Google Colab",
+        "desc": "Hosted Jupyter notebook service requiring zero configuration",
+        "url": "https://colab.research.google.com"
+      },
+      {
+        "name": "Hugging Face",
+        "desc": "Hub for pre-trained machine learning models, datasets, and spaces",
+        "url": "https://huggingface.co"
+      },
+      {
+        "name": "Kaggle",
+        "desc": "Data science competitions, public datasets, and learning resources",
+        "url": "https://www.kaggle.com"
+      },
+      {
+        "name": "PyTorch",
+        "desc": "Open-source deep learning framework developed by Meta's AI research lab",
+        "url": "https://pytorch.org"
+      },
+      {
+        "name": "TensorFlow",
+        "desc": "End-to-end open-source machine learning platform by Google",
+        "url": "https://www.tensorflow.org"
+      },
+      {
+        "name": "Scikit-Learn",
+        "desc": "Simple and efficient machine learning tools for Python",
+        "url": "https://scikit-learn.org"
+      },
+      {
+        "name": "Pandas",
+        "desc": "High-performance data analysis and manipulation library for Python",
+        "url": "https://pandas.pydata.org"
+      },
+      {
+        "name": "Weights & Biases",
+        "desc": "Experiment tracking, model serialization, and dataset versioning platform",
+        "url": "https://wandb.ai"
+      },
+      {
+        "name": "Streamlit",
+        "desc": "Create and share custom web applications for data science and ML",
+        "url": "https://streamlit.io"
+      }
+    ]
+  },
+  {
+    "cat": "App Development",
+    "items": [
+      {
+        "name": "Expo Go",
+        "desc": "Client app to run and test React Native projects on physical devices",
+        "url": "https://expo.dev/client"
+      },
+      {
+        "name": "Flipper",
+        "desc": "Extensible mobile app debugger developed by Meta",
+        "url": "https://fbflipper.com"
+      },
+      {
+        "name": "Reactotron",
+        "desc": "Desktop app for inspecting React Native and React application state and network requests",
+        "url": "https://github.com/infinitered/reactotron"
+      },
+      {
+        "name": "Flutter DevTools",
+        "desc": "Suite of performance, debugging, and profiling tools for Flutter apps",
+        "url": "https://docs.flutter.dev/tools/devtools"
+      },
+      {
+        "name": "Fastlane",
+        "desc": "Open-source tool to automate beta deployments and App Store releases for iOS and Android",
+        "url": "https://fastlane.tools"
+      },
+      {
+        "name": "Tauri",
+        "desc": "Framework for building tiny, blazing fast desktop applications using web technologies and Rust",
+        "url": "https://tauri.app"
+      },
+      {
+        "name": "CocoaPods",
+        "desc": "Dependency manager for Swift and Objective-C Cocoa projects",
+        "url": "https://cocoapods.org"
+      },
+      {
+        "name": "Android Studio",
+        "desc": "The official Integrated Development Environment (IDE) for Android app development",
+        "url": "https://developer.android.com/studio"
+      }
+    ]
+  },
+  {
+    "cat": "Documentation",
+    "items": [
+      {
+        "name": "Docusaurus",
+        "desc": "Build optimized website docs using React and Markdown",
+        "url": "https://docusaurus.io"
+      },
+      {
+        "name": "Mintlify",
+        "desc": "Modern developer documentation platform that integrates with GitHub",
+        "url": "https://mintlify.com"
+      },
+      {
+        "name": "Nextra",
+        "desc": "Next.js static site generator optimized for docs layouts",
+        "url": "https://nextra.site"
+      },
+      {
+        "name": "GitBook",
+        "desc": "Collaborative documentation platform for teams and developers",
+        "url": "https://www.gitbook.com"
+      },
+      {
+        "name": "DevDocs",
+        "desc": "Fast offline documentation for hundreds of programming languages and APIs.",
+        "url": "https://devdocs.io"
+      },
+      {
+        "name": "Roadmap.sh",
+        "desc": "Interactive learning roadmaps for software developers.",
+        "url": "https://roadmap.sh"
+      },
+      {
+        "name": "OverAPI",
+        "desc": "Collection of API and programming cheat sheets.",
+        "url": "https://overapi.com"
+      },
+      {
+        "name": "QuickRef.ME",
+        "desc": "Access concise programming cheat sheets covering languages, frameworks, and tools.",
+        "url": "https://quickref.me"
       }
     ]
   },
@@ -2150,22 +2350,147 @@
     ]
   },
   {
-    "cat": "DevOps & Cloud",
+    "cat": "Fun & Interactive",
     "items": [
       {
-        "name": "Kubernetes",
-        "desc": "Open-source system for automating deployment, scaling, and management of containerized applications.",
-        "url": "https://kubernetes.io/"
-      }
-    ]
-  },
-  {
-    "cat": "Testing & Debugging",
-    "items": [
+        "name": "GitHub Skyline",
+        "desc": "Visualize your annual GitHub commit contribution graph as an interactive 3D model or virtual reality city.",
+        "url": "https://skyline.github.com"
+      },
       {
-        "name": "Sentry",
-        "desc": "Developer-first error tracking and performance monitoring platform.",
-        "url": "https://sentry.io/"
+        "name": "DevHints",
+        "desc": "A curated directory of simple, clean, and interactive cheat sheets for developer tools and languages.",
+        "url": "https://devhints.io"
+      },
+      {
+        "name": "JSON Hero",
+        "desc": "A beautiful, interactive JSON explorer that makes reading, searching, and mapping JSON files clean and intuitive.",
+        "url": "https://jsonhero.io"
+      },
+      {
+        "name": "Carbon",
+        "desc": "Create and share beautiful high-resolution image snapshots of your source code snippets.",
+        "url": "https://carbon.now.sh"
+      },
+      {
+        "name": "Ray.so",
+        "desc": "Turn your coding selections into beautiful, customized screenshot layouts with gradient backgrounds.",
+        "url": "https://ray.so"
+      },
+      {
+        "name": "Excalidraw",
+        "desc": "Virtual collaborative whiteboard for sketching hand-drawn-like diagrams, layouts, and system mockups.",
+        "url": "https://excalidraw.com"
+      },
+      {
+        "name": "TLDR Pages",
+        "desc": "Simplified and community-driven terminal man pages, offering practical command usage examples.",
+        "url": "https://tldr.sh"
+      },
+      {
+        "name": "CodePen",
+        "desc": "Social development playground to write, test, share, and debug front-end HTML, CSS, and JS components.",
+        "url": "https://codepen.io"
+      },
+      {
+        "name": "StackBlitz",
+        "desc": "Online IDE powered by WebContainers to spin up full-stack Node.js environments inside browser tabs.",
+        "url": "https://stackblitz.com"
+      },
+      {
+        "name": "JSFiddle",
+        "desc": "Online playground to write, test, inspect, and share HTML, CSS, and JavaScript snippets.",
+        "url": "https://jsfiddle.net"
+      },
+      {
+        "name": "HackerTyper",
+        "desc": "Type random keys on your keyboard and watch complete software code appear on screen like in the movies.",
+        "url": "https://hackertyper.net"
+      },
+      {
+        "name": "GitKraken",
+        "desc": "Cross-platform visual Git client featuring interactive merge conflict tools, commit trees, and terminal integration.",
+        "url": "https://www.gitkraken.com"
+      },
+      {
+        "name": "GitFight",
+        "desc": "Enter your GitHub username to compare contribution stats and launch a visual 'fight' with other programmers.",
+        "url": "https://gitfight.com"
+      },
+      {
+        "name": "Pokedex",
+        "desc": "Rich Pokémon database featuring moves, items, abilities, comparisons, team builder, and type matchups.",
+        "url": "https://pokedex-project-db.vercel.app/"
+      },
+      {
+        "name": "Attendora",
+        "desc": "Smart attendance tracker with predictive insights, timetable scanning, GPA calculator, reports.",
+        "url": "https://attendora-sat.vercel.app"
+      },
+      {
+        "name": "Radio Garden",
+        "desc": "Listen to live radio stations from thousands of cities around the world instantly.",
+        "url": "https://radio.garden"
+      },
+      {
+        "name": "Window Swap",
+        "desc": "View real window scenes shared by people living in different countries worldwide.",
+        "url": "https://window-swap.com"
+      },
+      {
+        "name": "JustWatch",
+        "desc": "Find where movies and television shows are streaming across popular online platforms.",
+        "url": "https://www.justwatch.com"
+      },
+      {
+        "name": "Letterboxd",
+        "desc": "Track watched movies, build watchlists, review films, and discover recommendations from others.",
+        "url": "https://letterboxd.com"
+      },
+      {
+        "name": "StoryGraph",
+        "desc": "Receive personalized book recommendations with detailed reading statistics and progress tracking.",
+        "url": "https://thestorygraph.com"
+      },
+      {
+        "name": "Open Library",
+        "desc": "Borrow, search, and read millions of free digital books and historical publications.",
+        "url": "https://openlibrary.org"
+      },
+      {
+        "name": "Wikiwand",
+        "desc": "Browse Wikipedia articles through a modern interface with faster navigation and better readability.",
+        "url": "https://www.wikiwand.com"
+      },
+      {
+        "name": "GeoGuessr",
+        "desc": "Test your geography knowledge by guessing locations using immersive street view images.",
+        "url": "https://www.geoguessr.com"
+      },
+      {
+        "name": "Earth Nullschool",
+        "desc": "Visualize live global weather, wind patterns, ocean currents, and climate data interactively.",
+        "url": "https://earth.nullschool.net"
+      },
+      {
+        "name": "FutureMe",
+        "desc": "Write letters to your future self and receive them on a chosen date.",
+        "url": "https://www.futureme.org"
+      },
+      {
+        "name": "MapCrunch",
+        "desc": "Travel randomly around the world using immersive Google Street View locations.",
+        "url": "https://www.mapcrunch.com"
+      },
+      {
+        "name": "Radio Browser",
+        "desc": "Search and stream thousands of free internet radio stations from every country.",
+        "url": "https://www.radio-browser.info"
+      },
+      {
+        "name": "Earth.fm",
+        "desc": "Listen to authentic nature sounds recorded from forests, beaches, and mountains worldwide.",
+        "url": "https://earth.fm"
       }
     ]
   }

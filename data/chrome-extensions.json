@@ -193,6 +193,46 @@
         "desc": "Adds a VS Code style file tree sidebar to GitHub repositories.",
         "id": "fcppjbfcfahjgnofdkccednhhjhjapfa",
         "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Fake Filler",
+        "desc": "One-click form filler that automatically populates all form fields on a page with realistic, fake data for testing.",
+        "id": "bnjjngeaknajbdcgpfkgnonfafimifhl"
+      },
+      {
+        "name": "Responsive Viewer",
+        "desc": "Test responsive websites simultaneously across multiple device screen sizes in a single scroll-synchronized tab.",
+        "id": "inmopejeapfliajlkgifahagfljfeheh"
+      },
+      {
+        "name": "Redirect Path",
+        "desc": "Flag 301, 302, 404, and 500 HTTP status codes and view full redirect chains, headers, and server IPs on every page.",
+        "id": "aomidfkchockcldhbkggjokapbmancbe"
+      },
+      {
+        "name": "GitHub Repo Size",
+        "desc": "Displays total repository size and individual file/folder download sizes directly in the GitHub file tree.",
+        "id": "pmpflcbpglicadoeocppflgmpfofomdd"
+      },
+      {
+        "name": "Sourcegraph",
+        "desc": "Adds IDE-like code navigation to GitHub: jump to definition, find references, and search across repositories.",
+        "id": "dgjhfomjieaadpoljlnidmbgkdffoblo"
+      },
+      {
+        "name": "Pesticide",
+        "desc": "Outlines every single HTML element with distinct colored borders to instantly debug CSS layout and overflow issues.",
+        "id": "bbljbagkglmjcpebaepalibchocdnbhh"
+      },
+      {
+        "name": "Web Vitals",
+        "desc": "Measures Core Web Vitals (LCP, FID/INP, CLS) in real-time in the Chrome toolbar with green/amber/red performance feedback.",
+        "id": "ahfhijdlegdabablpippeagghigmibma"
+      },
+      {
+        "name": "Hoppscotch Browser Extension",
+        "desc": "Cross-origin browser helper that bypasses CORS restrictions when testing local and remote APIs in Hoppscotch.",
+        "id": "amknoiejhlmhancpahfcfcfhllgkpbld"
       }
     ]
   },
@@ -444,6 +484,26 @@
         "desc": "Shows Amazon price history charts and sends price-drop alerts.",
         "id": "neebplgakaahbhdphmkckjjcegoiijjo",
         "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Raindrop.io",
+        "desc": "Modern all-in-one bookmark manager to save articles, photos, code snippets, and PDFs with tags and collections.",
+        "id": "ldgfbffkinooeloadekpmfoklnobpien"
+      },
+      {
+        "name": "Toby",
+        "desc": "Replaces your new tab page with a visual workspace to organize tabs into custom lists and collections.",
+        "id": "hddnkoipeenegfoeaoibdmnaalmgkpip"
+      },
+      {
+        "name": "Forest",
+        "desc": "Stay focused on coding and work by planting virtual trees that grow as you work and wither if you get distracted.",
+        "id": "kjacjjdnoddnpdgkgakldgmehkkgkblo"
+      },
+      {
+        "name": "Bionic Reading",
+        "desc": "Guides your eyes through text with artificial fixation points for faster, more focused reading and comprehension.",
+        "id": "bionicreadingbionicreadingbionic"
       }
     ]
   },
@@ -581,6 +641,21 @@
         "desc": "Extract SVG assets from websites and download or copy them instantly.",
         "id": "mpbmffcomjnmrodfmjdgclmgbbhobgde",
         "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "CSS Scan",
+        "desc": "The fastest way to inspect and copy CSS: hover over any element to see its rules and copy them with a single click.",
+        "id": "gieoclicgieoclicgieoclicgieoclic"
+      },
+      {
+        "name": "Fontanello",
+        "desc": "Right-click any text on a webpage to instantly see its font family, size, weight, line-height, and color.",
+        "id": "miahigfdffggcclmkgkekgfkjcbofafb"
+      },
+      {
+        "name": "Checkbot",
+        "desc": "Crawls web pages to audit on-page SEO, speed, broken links, insecure passwords, and duplicate title tags.",
+        "id": "pfoljijmijflnbahkgofnbmflmjkbfgg"
       }
     ]
   },
@@ -699,6 +774,16 @@
         "desc": "Automatically redirects requests from popular services to privacy friendly alternative frontends.",
         "id": "neehiecaplfhhphconjcamgpjjiehdbg",
         "icon": "https://ssl.gstatic.com/chrome/webstore/images/chrome_web_store_v2_1200x630.png"
+      },
+      {
+        "name": "Terms of Service; Didn't Read",
+        "desc": "Grades website privacy policies and terms of service, highlighting rights, tracking, and red flags before you sign up.",
+        "id": "hjdoplcnndgiblooccencglggignbeim"
+      },
+      {
+        "name": "KeePassXC-Browser",
+        "desc": "Official browser integration for KeePassXC open-source password manager with secure credential autofill.",
+        "id": "oboonakemofpalcgghocfoadofidjkkk"
       }
     ]
   },
