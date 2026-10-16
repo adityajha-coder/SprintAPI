@@ -29,7 +29,7 @@ The directory indexes resources across four distinct categories:
 | Resource Type | Available Entries | Core Focus Area |
 | :--- | :--- | :--- |
 | Public APIs | 2,250+ | AI/ML, Testing, Data, and Others |
-| Tools | 1,230+ | Design, deployment, Security & Other utilities |
+| Tools | 1,380+ | Design, deployment, Security & Other utilities |
 | VS Code Extensions | 165+ | Essential IDE plugins for editor productivity |
 | Chrome Extensions | 200+ | Web utilities, Productivity, and Other usefuls |
 

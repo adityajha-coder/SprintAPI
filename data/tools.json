@@ -201,12 +201,6 @@
         "openSource": false
       },
       {
-        "name": "OpenRouter",
-        "desc": "Use hundreds of AI models through one unified API with flexible pricing.",
-        "url": "https://openrouter.ai",
-        "openSource": false
-      },
-      {
         "name": "Claude Code",
         "desc": "Anthropic's agentic command-line tool for writing code and managing terminal tasks",
         "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code",
@@ -411,118 +405,16 @@
         "openSource": false
       },
       {
-        "name": "LangChain",
-        "desc": "Framework for building LLM-powered applications and agents",
-        "url": "https://www.langchain.com",
-        "openSource": true
-      },
-      {
-        "name": "LlamaIndex",
-        "desc": "Data framework for connecting LLMs to your documents",
-        "url": "https://www.llamaindex.ai",
-        "openSource": true
-      },
-      {
-        "name": "Flowise",
-        "desc": "Drag-and-drop UI to build custom LLM flows",
-        "url": "https://flowiseai.com",
-        "openSource": true
-      },
-      {
-        "name": "Dify",
-        "desc": "Open-source platform for building agentic AI apps",
-        "url": "https://dify.ai",
-        "openSource": true
-      },
-      {
-        "name": "Langflow",
-        "desc": "Visual low-code builder for RAG and multi-agent apps",
-        "url": "https://www.langflow.org",
-        "openSource": true
-      },
-      {
-        "name": "vLLM",
-        "desc": "High-throughput open-source LLM inference engine",
-        "url": "https://github.com/vllm-project/vllm",
-        "openSource": true
-      },
-      {
-        "name": "llama.cpp",
-        "desc": "Efficient LLM inference in C/C++ on everyday hardware",
-        "url": "https://github.com/ggml-org/llama.cpp",
-        "openSource": true
-      },
-      {
-        "name": "Together AI",
-        "desc": "Fast inference and fine-tuning for open-source models",
-        "url": "https://www.together.ai",
-        "openSource": false
-      },
-      {
-        "name": "Groq",
-        "desc": "Ultra-low-latency LLM inference platform",
-        "url": "https://groq.com",
-        "openSource": false
-      },
-      {
-        "name": "LMArena",
-        "desc": "Crowdsourced leaderboard comparing AI models head to head",
-        "url": "https://lmarena.ai",
-        "openSource": false
-      },
-      {
         "name": "Pieces",
         "desc": "On-device AI companion that remembers your dev workflow",
         "url": "https://pieces.app",
         "openSource": false
       },
       {
-        "name": "CrewAI",
-        "desc": "Cutting-edge framework for orchestrating role-playing, autonomous AI agents to tackle complex tasks.",
-        "url": "https://www.crewai.com",
-        "openSource": true
-      },
-      {
-        "name": "AutoGen",
-        "desc": "Open-source programming framework by Microsoft for building agentic AI systems and multi-agent workflows.",
-        "url": "https://microsoft.github.io/autogen/",
-        "openSource": true
-      },
-      {
-        "name": "LocalAI",
-        "desc": "Free, open-source OpenAI alternative drop-in REST API for running LLMs, image, and audio generation locally.",
-        "url": "https://localai.io",
-        "openSource": true
-      },
-      {
         "name": "Fabric",
         "desc": "Open-source framework for augmenting humans using AI with a modular system of crowdsourced prompts.",
         "url": "https://github.com/danielmiessler/fabric",
         "openSource": true
-      },
-      {
-        "name": "LiteLLM",
-        "desc": "Open-source LLM gateway and proxy server to call 100+ AI APIs using the standard OpenAI format.",
-        "url": "https://www.litellm.ai",
-        "openSource": true
-      },
-      {
-        "name": "Unify",
-        "desc": "Dynamic LLM router that benchmarks and routes queries to the fastest and cheapest inference provider.",
-        "url": "https://unify.ai",
-        "openSource": false
-      },
-      {
-        "name": "Requesty",
-        "desc": "Unified LLM router providing single-key access, fallbacks, and analytics for 150+ AI models.",
-        "url": "https://requesty.ai",
-        "openSource": false
-      },
-      {
-        "name": "Not Diamond",
-        "desc": "Intelligent AI model router that automatically sends each prompt to the best-performing LLM.",
-        "url": "https://www.notdiamond.ai",
-        "openSource": false
       },
       {
         "name": "OpenCode",
@@ -537,28 +429,76 @@
         "openSource": true
       },
       {
-        "name": "Mem0",
-        "desc": "Open-source memory layer for AI agents and personalized LLM assistants that adapts over time.",
-        "url": "https://mem0.ai",
-        "openSource": true
-      },
-      {
-        "name": "Phidata",
-        "desc": "Open-source framework for building multi-modal autonomous AI agents with memory, knowledge, and tools.",
-        "url": "https://www.phidata.com",
-        "openSource": true
-      },
-      {
-        "name": "smolagents",
-        "desc": "Lightweight, code-first AI agent library by Hugging Face where agents write and execute Python code actions.",
-        "url": "https://github.com/huggingface/smolagents",
-        "openSource": true
-      },
-      {
         "name": "Khoj",
         "desc": "Open-source, self-hostable AI personal second brain to search and chat with your local documents, notes, and photos.",
         "url": "https://khoj.dev",
         "openSource": true
+      },
+      {
+        "name": "Qwen",
+        "desc": "Alibaba Cloud's flagship open-weight LLMs, vision-language models, and coding reasoning engines.",
+        "url": "https://chat.qwenlm.ai",
+        "openSource": true
+      },
+      {
+        "name": "Meta Llama",
+        "desc": "State-of-the-art open-weights foundation models developed by Meta for conversational AI, reasoning, and coding.",
+        "url": "https://llama.meta.com",
+        "openSource": true
+      },
+      {
+        "name": "Gemma",
+        "desc": "Family of lightweight, state-of-the-art open models built from the research and technology of Google DeepMind Gemini.",
+        "url": "https://ai.google.dev/gemma",
+        "openSource": true
+      },
+      {
+        "name": "NVIDIA Nemotron",
+        "desc": "NVIDIA's customized open-weight models optimized for alignment, multi-turn reasoning, and high-performance inference via NVIDIA NIM.",
+        "url": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct",
+        "openSource": true
+      },
+      {
+        "name": "Microsoft Phi",
+        "desc": "State-of-the-art small language model (SLM) family by Microsoft delivering outsized reasoning and coding performance.",
+        "url": "https://azure.microsoft.com/en-us/products/phi",
+        "openSource": true
+      },
+      {
+        "name": "Mistral AI",
+        "desc": "Frontier open-weights and commercial generative AI models including Mistral Large, Codestral, and Pixtral.",
+        "url": "https://mistral.ai",
+        "openSource": true
+      },
+      {
+        "name": "Cohere Command R+",
+        "desc": "Scalable enterprise LLM optimized for conversational interaction, retrieval-augmented generation (RAG), and multi-step tool use.",
+        "url": "https://cohere.com/command",
+        "openSource": false
+      },
+      {
+        "name": "AI21 Jamba",
+        "desc": "Production-grade foundation model family combining SSM (Mamba) and Transformer architectures for massive context windows.",
+        "url": "https://www.ai21.com/jamba",
+        "openSource": true
+      },
+      {
+        "name": "GLM-4",
+        "desc": "Advanced bilingual open-weight and proprietary foundation model family with multimodal understanding by Zhipu AI.",
+        "url": "https://zhipuai.cn",
+        "openSource": true
+      },
+      {
+        "name": "MiniMax",
+        "desc": "Next-generation multimodal AI models and conversational platform specializing in reasoning, voice, and video synthesis.",
+        "url": "https://www.minimaxi.com",
+        "openSource": false
+      },
+      {
+        "name": "Blackbox AI",
+        "desc": "AI-powered code generation, autocomplete, code search, and programming assistant for developers.",
+        "url": "https://www.blackbox.ai",
+        "openSource": false
       }
     ]
   },
@@ -983,6 +923,18 @@
         "name": "fastfetch",
         "desc": "Maintained, feature-rich and performance-oriented neofetch-like system information tool written in C.",
         "url": "https://github.com/fastfetch-cli/fastfetch",
+        "openSource": true
+      },
+      {
+        "name": "Consola",
+        "desc": "Elegant and extensible console logger for Node.js and browser with pretty levels and mock testing.",
+        "url": "https://github.com/unjs/consola",
+        "openSource": true
+      },
+      {
+        "name": "Ora",
+        "desc": "Elegant and lightweight terminal spinner for interactive command-line interfaces.",
+        "url": "https://github.com/sindresorhus/ora",
         "openSource": true
       }
     ]
@@ -1588,6 +1540,12 @@
         "desc": "Open-source progressive web app with 12+ everyday frontend developer tools and generators.",
         "url": "https://omatsuri.app",
         "openSource": true
+      },
+      {
+        "name": "perfect-debounce",
+        "desc": "Zero-dependency, fully-typed debounce and throttle functions for JavaScript and TypeScript by UnJS.",
+        "url": "https://github.com/unjs/perfect-debounce",
+        "openSource": true
       }
     ]
   },
@@ -1605,18 +1563,6 @@
         "desc": "Google's mobile and web application development platform.",
         "url": "https://firebase.google.com/",
         "openSource": false
-      },
-      {
-        "name": "Express.js",
-        "desc": "Fast, unopinionated, minimalist web framework for Node.js",
-        "url": "https://expressjs.com",
-        "openSource": true
-      },
-      {
-        "name": "NestJS",
-        "desc": "A progressive Node.js framework",
-        "url": "https://nestjs.com",
-        "openSource": true
       },
       {
         "name": "Appwrite",
@@ -1643,18 +1589,6 @@
         "openSource": false
       },
       {
-        "name": "FastAPI",
-        "desc": "Modern, fast web framework for building APIs with Python",
-        "url": "https://fastapi.tiangolo.com",
-        "openSource": true
-      },
-      {
-        "name": "Hono",
-        "desc": "Ultrafast web framework for the Edges (Cloudflare Workers, Deno, Bun)",
-        "url": "https://hono.dev",
-        "openSource": true
-      },
-      {
         "name": "tRPC",
         "desc": "End-to-end typesafe APIs without GraphQL or code generation",
         "url": "https://trpc.io",
@@ -1665,66 +1599,6 @@
         "desc": "Email API for developers. Build, test, and deliver transactional emails at scale.",
         "url": "https://resend.com/",
         "openSource": false
-      },
-      {
-        "name": "Node.js",
-        "desc": "JavaScript runtime built on Chrome's V8 engine",
-        "url": "https://nodejs.org",
-        "openSource": true
-      },
-      {
-        "name": "Deno",
-        "desc": "Secure runtime for JavaScript and TypeScript",
-        "url": "https://deno.com",
-        "openSource": true
-      },
-      {
-        "name": "Flask",
-        "desc": "Lightweight WSGI web framework for Python",
-        "url": "https://flask.palletsprojects.com",
-        "openSource": true
-      },
-      {
-        "name": "Gin",
-        "desc": "High-performance HTTP web framework for Go",
-        "url": "https://gin-gonic.com",
-        "openSource": true
-      },
-      {
-        "name": "Echo",
-        "desc": "High-performance minimalist Go web framework",
-        "url": "https://echo.labstack.com",
-        "openSource": false
-      },
-      {
-        "name": "Axum",
-        "desc": "Ergonomic and modular Rust web framework",
-        "url": "https://github.com/tokio-rs/axum",
-        "openSource": true
-      },
-      {
-        "name": "Rocket",
-        "desc": "Simple, fast and type-safe web framework for Rust",
-        "url": "https://rocket.rs",
-        "openSource": false
-      },
-      {
-        "name": "Phoenix",
-        "desc": "Productive web framework for Elixir",
-        "url": "https://www.phoenixframework.org",
-        "openSource": true
-      },
-      {
-        "name": "Elysia",
-        "desc": "Ergonomic TypeScript framework optimized for Bun",
-        "url": "https://elysiajs.com",
-        "openSource": false
-      },
-      {
-        "name": "AdonisJS",
-        "desc": "Fully featured TypeScript-first Node.js framework",
-        "url": "https://adonisjs.com",
-        "openSource": true
       },
       {
         "name": "Prisma",
@@ -1985,12 +1859,6 @@
         "openSource": false
       },
       {
-        "name": "Nitro",
-        "desc": "Next-generation server toolkit to build and deploy universal JavaScript servers anywhere.",
-        "url": "https://nitro.unjs.io",
-        "openSource": true
-      },
-      {
         "name": "Encore",
         "desc": "Backend development framework for Go and TypeScript with built-in infrastructure automation and tracing.",
         "url": "https://encore.dev",
@@ -2031,6 +1899,12 @@
         "desc": "Unified AI gateway with automatic fallbacks, load balancing, semantic caching, and observability.",
         "url": "https://portkey.ai",
         "openSource": false
+      },
+      {
+        "name": "Pino",
+        "desc": "Super fast, low overhead Node.js JSON logger with asynchronous logging and worker thread support.",
+        "url": "https://getpino.io",
+        "openSource": true
       }
     ]
   },
@@ -2287,12 +2161,6 @@
         "desc": "Next Generation Frontend Tooling",
         "url": "https://vitejs.dev",
         "openSource": false
-      },
-      {
-        "name": "Bun",
-        "desc": "Fast all-in-one JavaScript runtime",
-        "url": "https://bun.sh",
-        "openSource": true
       },
       {
         "name": "Zod",
@@ -2707,6 +2575,36 @@
         "desc": "Self-hosted, open-source URL shortener with multi-domain support, geolocated stats, and tracking.",
         "url": "https://shlink.io",
         "openSource": true
+      },
+      {
+        "name": "type-fest",
+        "desc": "Curated collection of essential TypeScript types to supercharge type-safety in modern JavaScript applications.",
+        "url": "https://github.com/sindresorhus/type-fest",
+        "openSource": true
+      },
+      {
+        "name": "SuperJSON",
+        "desc": "Safely serialize and deserialize JavaScript expressions into JSON with full support for Date, Map, Set, and BigInt.",
+        "url": "https://github.com/flightcontrolhq/superjson",
+        "openSource": true
+      },
+      {
+        "name": "pathe",
+        "desc": "Universal, normalized path utilities for Node.js, Deno, Bun, and browser environments by UnJS.",
+        "url": "https://github.com/unjs/pathe",
+        "openSource": true
+      },
+      {
+        "name": "Chokidar",
+        "desc": "Minimal and efficient cross-platform file system watcher library for Node.js.",
+        "url": "https://github.com/paulmillr/chokidar",
+        "openSource": true
+      },
+      {
+        "name": "fast-glob",
+        "desc": "Blazingly fast and memory-efficient file system globbing library for Node.js.",
+        "url": "https://github.com/mrmlnc/fast-glob",
+        "openSource": true
       }
     ]
   },
@@ -2884,7 +2782,7 @@
     ]
   },
   {
-    "cat": "Frameworks & Libraries",
+    "cat": "Languages & Frameworks",
     "items": [
       {
         "name": "Next.js",
@@ -2896,7 +2794,7 @@
         "name": "Remix",
         "desc": "Full stack web framework",
         "url": "https://remix.run",
-        "openSource": false
+        "openSource": true
       },
       {
         "name": "Astro",
@@ -2908,7 +2806,7 @@
         "name": "SvelteKit",
         "desc": "Rapidly developing robust, performant web applications",
         "url": "https://kit.svelte.dev",
-        "openSource": false
+        "openSource": true
       },
       {
         "name": "Nuxt",
@@ -2932,7 +2830,7 @@
         "name": "SolidJS",
         "desc": "Simple and reactive JavaScript library for building user interfaces with no virtual DOM.",
         "url": "https://solidjs.com",
-        "openSource": false
+        "openSource": true
       },
       {
         "name": "Bootstrap",
@@ -2962,13 +2860,13 @@
         "name": "Fiber",
         "desc": "An Express-inspired web framework written in Go, focusing on speed and minimal memory foot-print.",
         "url": "https://gofiber.io",
-        "openSource": false
+        "openSource": true
       },
       {
         "name": "Actix Web",
         "desc": "A powerful, pragmatic, and extremely fast web framework for Rust servers.",
         "url": "https://actix.rs",
-        "openSource": false
+        "openSource": true
       },
       {
         "name": "TanStack Start",
@@ -3016,6 +2914,204 @@
         "name": "Symfony",
         "desc": "Set of reusable PHP components and a high-performance PHP framework for enterprise web projects.",
         "url": "https://symfony.com",
+        "openSource": true
+      },
+      {
+        "name": "Express.js",
+        "desc": "Fast, unopinionated, minimalist web framework for Node.js",
+        "url": "https://expressjs.com",
+        "openSource": true
+      },
+      {
+        "name": "NestJS",
+        "desc": "A progressive Node.js framework",
+        "url": "https://nestjs.com",
+        "openSource": true
+      },
+      {
+        "name": "FastAPI",
+        "desc": "Modern, fast web framework for building APIs with Python",
+        "url": "https://fastapi.tiangolo.com",
+        "openSource": true
+      },
+      {
+        "name": "Hono",
+        "desc": "Ultrafast web framework for the Edges (Cloudflare Workers, Deno, Bun)",
+        "url": "https://hono.dev",
+        "openSource": true
+      },
+      {
+        "name": "Node.js",
+        "desc": "JavaScript runtime built on Chrome's V8 engine",
+        "url": "https://nodejs.org",
+        "openSource": true
+      },
+      {
+        "name": "Deno",
+        "desc": "Secure runtime for JavaScript and TypeScript",
+        "url": "https://deno.com",
+        "openSource": true
+      },
+      {
+        "name": "Flask",
+        "desc": "Lightweight WSGI web framework for Python",
+        "url": "https://flask.palletsprojects.com",
+        "openSource": true
+      },
+      {
+        "name": "Gin",
+        "desc": "High-performance HTTP web framework for Go",
+        "url": "https://gin-gonic.com",
+        "openSource": true
+      },
+      {
+        "name": "Echo",
+        "desc": "High-performance minimalist Go web framework",
+        "url": "https://echo.labstack.com",
+        "openSource": true
+      },
+      {
+        "name": "Axum",
+        "desc": "Ergonomic and modular Rust web framework",
+        "url": "https://github.com/tokio-rs/axum",
+        "openSource": true
+      },
+      {
+        "name": "Rocket",
+        "desc": "Simple, fast and type-safe web framework for Rust",
+        "url": "https://rocket.rs",
+        "openSource": true
+      },
+      {
+        "name": "Phoenix",
+        "desc": "Productive web framework for Elixir",
+        "url": "https://www.phoenixframework.org",
+        "openSource": true
+      },
+      {
+        "name": "Elysia",
+        "desc": "Ergonomic TypeScript framework optimized for Bun",
+        "url": "https://elysiajs.com",
+        "openSource": true
+      },
+      {
+        "name": "AdonisJS",
+        "desc": "Fully featured TypeScript-first Node.js framework",
+        "url": "https://adonisjs.com",
+        "openSource": true
+      },
+      {
+        "name": "Nitro",
+        "desc": "Next-generation server toolkit to build and deploy universal JavaScript servers anywhere.",
+        "url": "https://nitro.unjs.io",
+        "openSource": true
+      },
+      {
+        "name": "Bun",
+        "desc": "Fast all-in-one JavaScript runtime",
+        "url": "https://bun.sh",
+        "openSource": true
+      },
+      {
+        "name": "Koa",
+        "desc": "Next-generation web framework designed by the team behind Express, using async functions and middleware cascading.",
+        "url": "https://koajs.com",
+        "openSource": true
+      },
+      {
+        "name": "Chi",
+        "desc": "Lightweight, idiomatic, and composable router for building Go HTTP services.",
+        "url": "https://github.com/go-chi/chi",
+        "openSource": true
+      },
+      {
+        "name": "Litestar",
+        "desc": "Effortlessly extensible, high-performance ASGI Python web framework with first-class OpenAPI and typed dependency injection.",
+        "url": "https://litestar.dev",
+        "openSource": true
+      },
+      {
+        "name": "Sanic",
+        "desc": "Async Python 3.8+ web server and framework built to run fast with non-blocking async/await capabilities.",
+        "url": "https://sanic.dev",
+        "openSource": true
+      },
+      {
+        "name": "Tornado",
+        "desc": "Python web framework and asynchronous networking library capable of scaling to tens of thousands of open connections.",
+        "url": "https://www.tornadoweb.org",
+        "openSource": true
+      },
+      {
+        "name": "Micronaut",
+        "desc": "Modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications.",
+        "url": "https://micronaut.io",
+        "openSource": true
+      },
+      {
+        "name": "Quarkus",
+        "desc": "Supersonic Subatomic Java — a Kubernetes-native Java stack tailored for GraalVM and HotSpot.",
+        "url": "https://quarkus.io",
+        "openSource": true
+      },
+      {
+        "name": "Ktor",
+        "desc": "Asynchronous framework for creating microservices, web applications, and HTTP clients in Kotlin.",
+        "url": "https://ktor.io",
+        "openSource": true
+      },
+      {
+        "name": "Vert.x",
+        "desc": "Eclipse Vert.x is a tool-kit for building reactive, event-driven applications on the Java Virtual Machine.",
+        "url": "https://vertx.io",
+        "openSource": true
+      },
+      {
+        "name": "ASP.NET Core",
+        "desc": "Cross-platform, high-performance, open-source framework by Microsoft for building modern, cloud-enabled web applications.",
+        "url": "https://dotnet.microsoft.com/apps/aspnet",
+        "openSource": true
+      },
+      {
+        "name": "Sinatra",
+        "desc": "Classy and lightweight domain-specific language for quickly creating web applications in Ruby with minimal effort.",
+        "url": "https://sinatrarb.com",
+        "openSource": true
+      },
+      {
+        "name": "Slim",
+        "desc": "PHP micro-framework that helps developers quickly write simple yet powerful web applications and RESTful APIs.",
+        "url": "https://www.slimframework.com",
+        "openSource": true
+      },
+      {
+        "name": "TypeScript",
+        "desc": "Typed JavaScript at any scale — strongly typed programming language that builds on JavaScript for robust tooling.",
+        "url": "https://www.typescriptlang.org",
+        "openSource": true
+      },
+      {
+        "name": "npm trends",
+        "desc": "Compare npm package download statistics, bundle sizes, and GitHub metrics side-by-side to choose the right library.",
+        "url": "https://npmtrends.com",
+        "openSource": true
+      },
+      {
+        "name": "Moiva",
+        "desc": "Discover and evaluate software libraries with comparison charts, health metrics, downloads, and maintenance data.",
+        "url": "https://moiva.io",
+        "openSource": true
+      },
+      {
+        "name": "Star History",
+        "desc": "Interactive visualization and comparison tool for tracking GitHub repository star growth and community adoption over time.",
+        "url": "https://star-history.com",
+        "openSource": true
+      },
+      {
+        "name": "Pkg Size",
+        "desc": "Inspect and discover the true install weight and bundle size of any npm package without installing it.",
+        "url": "https://pkg-size.dev",
         "openSource": true
       }
     ]
@@ -3434,6 +3530,18 @@
         "name": "Bytebase",
         "desc": "Open-source database CI/CD, schema migration, and security governance tool for DevOps teams.",
         "url": "https://www.bytebase.com",
+        "openSource": true
+      },
+      {
+        "name": "Dexie.js",
+        "desc": "A minimalistic, ergonomic, and reactive wrapper for IndexedDB with intuitive querying.",
+        "url": "https://dexie.org",
+        "openSource": true
+      },
+      {
+        "name": "idb",
+        "desc": "Lightweight promise-based wrapper that simplifies the IndexedDB API while preserving its power.",
+        "url": "https://github.com/jakearchibald/idb",
         "openSource": true
       }
     ]
@@ -3967,6 +4075,12 @@
         "desc": "Inspect HTTP traffic, build mock REST APIs in seconds, and simulate latency without writing code.",
         "url": "https://beeceptor.com",
         "openSource": false
+      },
+      {
+        "name": "ipaddr.js",
+        "desc": "Small, robust library for manipulating IPv4 and IPv6 addresses in JavaScript and Node.js.",
+        "url": "https://github.com/whitequark/ipaddr.js",
+        "openSource": true
       }
     ]
   },
@@ -4266,6 +4380,216 @@
         "desc": "Hand-drawn vector illustration library to mix and match avatars, clothing, and poses under CC0 license.",
         "url": "https://www.openpeeps.com",
         "openSource": false
+      },
+      {
+        "name": "Eraser.io",
+        "desc": "AI-powered diagramming and documentation tool for technical design, cloud architecture, and sequence diagrams.",
+        "url": "https://www.eraser.io",
+        "openSource": false
+      },
+      {
+        "name": "IcePanel",
+        "desc": "C4 model software architecture diagramming tool for visualizing complex software systems and microservices.",
+        "url": "https://icepanel.io",
+        "openSource": false
+      },
+      {
+        "name": "PlantUML",
+        "desc": "Open-source diagram-as-code tool to generate UML, architecture, and sequence diagrams from plain text.",
+        "url": "https://plantuml.com",
+        "openSource": true
+      },
+      {
+        "name": "Structurizr",
+        "desc": "Architecture-as-code platform based on the C4 model to author and version software architecture diagrams.",
+        "url": "https://structurizr.com",
+        "openSource": true
+      },
+      {
+        "name": "Whimsical",
+        "desc": "Collaborative visual workspace for fast flowcharts, wireframes, mind maps, and technical product docs.",
+        "url": "https://whimsical.com",
+        "openSource": false
+      },
+      {
+        "name": "Mermaid Chart",
+        "desc": "Visual editor and collaborative platform for creating, sharing, and embedding Mermaid diagrams.",
+        "url": "https://www.mermaidchart.com",
+        "openSource": false
+      },
+      {
+        "name": "Ilograph",
+        "desc": "Interactive system architecture diagrams that can be explored from multiple perspectives and abstractions.",
+        "url": "https://www.ilograph.com",
+        "openSource": false
+      },
+      {
+        "name": "ZenUML",
+        "desc": "Create beautiful sequence diagrams from natural code-like syntax with real-time bidirectional rendering.",
+        "url": "https://zenuml.com",
+        "openSource": true
+      },
+      {
+        "name": "Canva",
+        "desc": "The world's leading web-based graphic design platform for social graphics, presentations, and marketing assets.",
+        "url": "https://www.canva.com",
+        "openSource": false
+      },
+      {
+        "name": "ProtoPie",
+        "desc": "High-fidelity interaction design and sensor-enabled prototyping tool for mobile, desktop, web, and automotive UI.",
+        "url": "https://www.protopie.io",
+        "openSource": false
+      },
+      {
+        "name": "Origami Studio",
+        "desc": "Design, animate, and prototype interactive user interfaces with patch-based visual scripting developed by Meta.",
+        "url": "https://origami.design",
+        "openSource": false
+      },
+      {
+        "name": "UXPin",
+        "desc": "Code-based prototyping and interactive UI component design system platform connected directly to React.",
+        "url": "https://www.uxpin.com",
+        "openSource": false
+      },
+      {
+        "name": "Lunacy",
+        "desc": "Free vector graphics and UI/UX design software with built-in graphics, AI tools, and full offline support.",
+        "url": "https://icons8.com/lunacy",
+        "openSource": false
+      },
+      {
+        "name": "Collect UI",
+        "desc": "Daily curated collection of UI components, checkout flows, form patterns, and screen designs for inspiration.",
+        "url": "https://collectui.com",
+        "openSource": false
+      },
+      {
+        "name": "Saaspo",
+        "desc": "Curated directory of the finest SaaS landing pages, onboarding flows, and UI component designs.",
+        "url": "https://saaspo.com",
+        "openSource": false
+      },
+      {
+        "name": "Lapa Ninja",
+        "desc": "The best landing page design inspiration, free UI kits, and web design illustrations curated for designers.",
+        "url": "https://www.lapa.ninja",
+        "openSource": false
+      },
+      {
+        "name": "Dark Mode Design",
+        "desc": "Curated showcase of beautifully crafted dark mode websites, digital products, and web interfaces.",
+        "url": "https://www.darkmodedesign.com",
+        "openSource": false
+      },
+      {
+        "name": "Checklist Design",
+        "desc": "A collection of best UI/UX design practices and interactive checklists for digital product pages and components.",
+        "url": "https://www.checklist.design",
+        "openSource": false
+      },
+      {
+        "name": "Hoverstat.es",
+        "desc": "Showcase of eccentric, innovative, and experimental website interactions, animations, and art-directed UI.",
+        "url": "https://www.hoverstat.es",
+        "openSource": false
+      },
+      {
+        "name": "Colorffy",
+        "desc": "Advanced gradient generator, mesh gradients, and color harmony creator for digital and web designers.",
+        "url": "https://colorffy.com",
+        "openSource": false
+      },
+      {
+        "name": "Huetone",
+        "desc": "Tool for creating accessible, perceptually uniform color palettes and design tokens based on APCA and WCAG.",
+        "url": "https://huetone.ardov.me",
+        "openSource": true
+      },
+      {
+        "name": "Khroma",
+        "desc": "AI-powered color palette generator that learns designer preferences to create endless tailored palettes and duotones.",
+        "url": "https://www.khroma.co",
+        "openSource": false
+      },
+      {
+        "name": "Vectorpea",
+        "desc": "Free online vector graphics editor for creating, opening, and editing SVG, AI, and EPS files directly in the browser.",
+        "url": "https://www.vectorpea.com",
+        "openSource": false
+      },
+      {
+        "name": "CleanPNG",
+        "desc": "Free transparent HD PNG cutouts and graphic design elements with no registration or download limits required.",
+        "url": "https://www.cleanpng.com",
+        "openSource": false
+      },
+      {
+        "name": "Glaze",
+        "desc": "Royalty-free illustration library with customizable modern illustrations for websites, apps, and marketing.",
+        "url": "https://www.glazestock.com",
+        "openSource": false
+      },
+      {
+        "name": "Shapefest",
+        "desc": "Massive library of free 3D clay shapes, geometric forms, and abstract textures for UI design and landing pages.",
+        "url": "https://www.shapefest.com",
+        "openSource": false
+      },
+      {
+        "name": "Wannathis",
+        "desc": "Exclusive, premium 3D illustrations, device mockups, and hand-crafted asset packs for digital designers.",
+        "url": "https://wannathis.one",
+        "openSource": false
+      },
+      {
+        "name": "Jitter",
+        "desc": "Browser-based motion design tool to create fast animations for UI interactions, apps, and website hero sections.",
+        "url": "https://jitter.video",
+        "openSource": false
+      },
+      {
+        "name": "Relume",
+        "desc": "AI-powered wireframing tool, sitemap builder, and component library for Figma and Webflow to build sites faster.",
+        "url": "https://www.relume.io",
+        "openSource": false
+      },
+      {
+        "name": "Rotato",
+        "desc": "Professional animated 3D device mockup generator for app designers, landing page videos, and presentations.",
+        "url": "https://rotato.app",
+        "openSource": false
+      },
+      {
+        "name": "Vectary",
+        "desc": "Online 3D and AR design platform to create photorealistic 3D product mockups and interactive web embeds.",
+        "url": "https://www.vectary.com",
+        "openSource": false
+      },
+      {
+        "name": "LottieLab",
+        "desc": "Modern in-browser motion graphics and Lottie animation editor designed specifically for UI/UX product teams.",
+        "url": "https://www.lottielab.com",
+        "openSource": false
+      },
+      {
+        "name": "UI Faces",
+        "desc": "Free diverse avatars and user profile portraits for UI mockups, design prototypes, and social proof sections.",
+        "url": "https://uifaces.co",
+        "openSource": false
+      },
+      {
+        "name": "Open Doodles",
+        "desc": "Free, open-source sketchy illustration set by Pablo Stanley for wireframes, onboarding flows, and landing pages.",
+        "url": "https://www.opendoodles.com",
+        "openSource": true
+      },
+      {
+        "name": "illlustrations",
+        "desc": "100+ beautiful open-source illustrations designed during the 100 days of illustration challenge, free for commercial use.",
+        "url": "https://illlustrations.co",
+        "openSource": true
       }
     ]
   },
@@ -5311,6 +5635,12 @@
         "desc": "Open-source digital image forensic toolset for reverse image search, EXIF inspection, and tamper analysis.",
         "url": "https://github.com/GuidoBartoli/sherloq",
         "openSource": true
+      },
+      {
+        "name": "Helmet",
+        "desc": "Secure Express and Connect applications by setting crucial HTTP response security headers.",
+        "url": "https://helmetjs.github.io",
+        "openSource": true
       }
     ]
   },
@@ -5725,10 +6055,328 @@
         "openSource": true
       },
       {
-        "name": "Qwen",
-        "desc": "Alibaba Cloud's flagship open-weight LLMs, vision-language models, and coding reasoning engines.",
-        "url": "https://chat.qwenlm.ai",
+        "name": "Transformers.js",
+        "desc": "State-of-the-art Machine Learning for the web — run Hugging Face transformer models directly in browser or Node.js.",
+        "url": "https://huggingface.co/docs/transformers.js",
         "openSource": true
+      },
+      {
+        "name": "Arize Phoenix",
+        "desc": "Open-source AI observability and evaluation platform for tracing, evals, and prompt analysis in LLMs and RAG.",
+        "url": "https://phoenix.arize.com",
+        "openSource": true
+      },
+      {
+        "name": "Braintrust",
+        "desc": "Enterprise-grade AI evaluation, observability, and prompt playground platform for engineering teams.",
+        "url": "https://www.braintrust.dev",
+        "openSource": false
+      },
+      {
+        "name": "SGLang",
+        "desc": "Fast serving and structured decoding engine for large language models and vision-language models.",
+        "url": "https://github.com/sgl-project/sglang",
+        "openSource": true
+      },
+      {
+        "name": "OpenPipe",
+        "desc": "Developer platform to turn expensive prompt chains into fast, cheap, fine-tuned models with automated evaluation.",
+        "url": "https://openpipe.ai",
+        "openSource": false
+      },
+      {
+        "name": "OpenRouter",
+        "desc": "Use hundreds of AI models through one unified API with flexible pricing.",
+        "url": "https://openrouter.ai",
+        "openSource": false
+      },
+      {
+        "name": "LangChain",
+        "desc": "Framework for building LLM-powered applications and agents",
+        "url": "https://www.langchain.com",
+        "openSource": true
+      },
+      {
+        "name": "LlamaIndex",
+        "desc": "Data framework for connecting LLMs to your documents",
+        "url": "https://www.llamaindex.ai",
+        "openSource": true
+      },
+      {
+        "name": "Flowise",
+        "desc": "Drag-and-drop UI to build custom LLM flows",
+        "url": "https://flowiseai.com",
+        "openSource": true
+      },
+      {
+        "name": "Dify",
+        "desc": "Open-source platform for building agentic AI apps",
+        "url": "https://dify.ai",
+        "openSource": true
+      },
+      {
+        "name": "Langflow",
+        "desc": "Visual low-code builder for RAG and multi-agent apps",
+        "url": "https://www.langflow.org",
+        "openSource": true
+      },
+      {
+        "name": "vLLM",
+        "desc": "High-throughput open-source LLM inference engine",
+        "url": "https://github.com/vllm-project/vllm",
+        "openSource": true
+      },
+      {
+        "name": "llama.cpp",
+        "desc": "Efficient LLM inference in C/C++ on everyday hardware",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "openSource": true
+      },
+      {
+        "name": "Together AI",
+        "desc": "Fast inference and fine-tuning for open-source models",
+        "url": "https://www.together.ai",
+        "openSource": false
+      },
+      {
+        "name": "Groq",
+        "desc": "Ultra-low-latency LLM inference platform",
+        "url": "https://groq.com",
+        "openSource": false
+      },
+      {
+        "name": "LMArena",
+        "desc": "Crowdsourced leaderboard comparing AI models head to head",
+        "url": "https://lmarena.ai",
+        "openSource": false
+      },
+      {
+        "name": "CrewAI",
+        "desc": "Cutting-edge framework for orchestrating role-playing, autonomous AI agents to tackle complex tasks.",
+        "url": "https://www.crewai.com",
+        "openSource": true
+      },
+      {
+        "name": "AutoGen",
+        "desc": "Open-source programming framework by Microsoft for building agentic AI systems and multi-agent workflows.",
+        "url": "https://microsoft.github.io/autogen/",
+        "openSource": true
+      },
+      {
+        "name": "LocalAI",
+        "desc": "Free, open-source OpenAI alternative drop-in REST API for running LLMs, image, and audio generation locally.",
+        "url": "https://localai.io",
+        "openSource": true
+      },
+      {
+        "name": "LiteLLM",
+        "desc": "Open-source LLM gateway and proxy server to call 100+ AI APIs using the standard OpenAI format.",
+        "url": "https://www.litellm.ai",
+        "openSource": true
+      },
+      {
+        "name": "Unify",
+        "desc": "Dynamic LLM router that benchmarks and routes queries to the fastest and cheapest inference provider.",
+        "url": "https://unify.ai",
+        "openSource": false
+      },
+      {
+        "name": "Requesty",
+        "desc": "Unified LLM router providing single-key access, fallbacks, and analytics for 150+ AI models.",
+        "url": "https://requesty.ai",
+        "openSource": false
+      },
+      {
+        "name": "Not Diamond",
+        "desc": "Intelligent AI model router that automatically sends each prompt to the best-performing LLM.",
+        "url": "https://www.notdiamond.ai",
+        "openSource": false
+      },
+      {
+        "name": "Mem0",
+        "desc": "Open-source memory layer for AI agents and personalized LLM assistants that adapts over time.",
+        "url": "https://mem0.ai",
+        "openSource": true
+      },
+      {
+        "name": "Phidata",
+        "desc": "Open-source framework for building multi-modal autonomous AI agents with memory, knowledge, and tools.",
+        "url": "https://www.phidata.com",
+        "openSource": true
+      },
+      {
+        "name": "smolagents",
+        "desc": "Lightweight, code-first AI agent library by Hugging Face where agents write and execute Python code actions.",
+        "url": "https://github.com/huggingface/smolagents",
+        "openSource": true
+      },
+      {
+        "name": "LangGraph",
+        "desc": "Build resilient, stateful, multi-actor applications with LLMs using cyclical graph orchestration by LangChain.",
+        "url": "https://www.langchain.com/langgraph",
+        "openSource": true
+      },
+      {
+        "name": "LangSmith",
+        "desc": "Unified DevOps platform for debugging, testing, evaluating, and monitoring LLM applications and agents.",
+        "url": "https://www.langchain.com/langsmith",
+        "openSource": false
+      },
+      {
+        "name": "DSPy",
+        "desc": "Stanford framework for programming with foundation models rather than prompting them, featuring automated prompt optimization.",
+        "url": "https://dspy.ai",
+        "openSource": true
+      },
+      {
+        "name": "Haystack",
+        "desc": "End-to-end open-source Python framework by deepset for building customizable, production-ready LLM and RAG pipelines.",
+        "url": "https://haystack.deepset.ai",
+        "openSource": true
+      },
+      {
+        "name": "Semantic Kernel",
+        "desc": "Open-source SDK by Microsoft that enables developers to integrate advanced LLMs into conventional C#, Python, and Java applications.",
+        "url": "https://github.com/microsoft/semantic-kernel",
+        "openSource": true
+      },
+      {
+        "name": "Instructor",
+        "desc": "Structured LLM outputs made easy — extract validated, typed data using Pydantic across Python, TypeScript, and Go.",
+        "url": "https://python.useinstructor.com",
+        "openSource": true
+      },
+      {
+        "name": "Agno",
+        "desc": "Lightweight framework for building multi-modal, memory-enabled AI agents with tools and knowledge bases.",
+        "url": "https://www.agno.com",
+        "openSource": true
+      },
+      {
+        "name": "E2B",
+        "desc": "Secure open-source cloud sandboxes for running code generated by AI agents and LLMs safely.",
+        "url": "https://e2b.dev",
+        "openSource": true
+      },
+      {
+        "name": "AgentOps",
+        "desc": "Benchmarking, observability, and replay platform specifically designed for autonomous AI agents.",
+        "url": "https://agentops.ai",
+        "openSource": false
+      },
+      {
+        "name": "Netron",
+        "desc": "Visualizer for neural network, deep learning, and machine learning models supporting ONNX, TensorFlow, PyTorch, and Core ML.",
+        "url": "https://netron.app",
+        "openSource": true
+      },
+      {
+        "name": "Optuna",
+        "desc": "Open-source hyperparameter optimization framework with efficient Bayesian sampling and automated pruning algorithms.",
+        "url": "https://optuna.org",
+        "openSource": true
+      },
+      {
+        "name": "SHAP",
+        "desc": "Game-theoretic approach to explain the output of any machine learning model with Shapley values and interactive plots.",
+        "url": "https://shap.readthedocs.io",
+        "openSource": true
+      },
+      {
+        "name": "Ray",
+        "desc": "Unified compute framework to scale AI, machine learning, and Python workloads from laptops to massive cloud clusters.",
+        "url": "https://www.ray.io",
+        "openSource": true
+      },
+      {
+        "name": "D-Tale",
+        "desc": "Visual interactive GUI and web client for Pandas dataframes with filtering, reshaping, correlation, and charts.",
+        "url": "https://github.com/man-group/dtale",
+        "openSource": true
+      },
+      {
+        "name": "YData Profiling",
+        "desc": "One-line exploratory data analysis (EDA) tool that generates interactive HTML reports from Pandas and Spark dataframes.",
+        "url": "https://github.com/ydataai/ydata-profiling",
+        "openSource": true
+      },
+      {
+        "name": "Great Expectations",
+        "desc": "Leading open-source data quality, profiling, and validation framework for robust production data pipelines.",
+        "url": "https://greatexpectations.io",
+        "openSource": true
+      },
+      {
+        "name": "Evidently AI",
+        "desc": "Open-source ML observability platform to evaluate, test, and monitor data drift and model quality over time.",
+        "url": "https://www.evidentlyai.com",
+        "openSource": true
+      },
+      {
+        "name": "Cleanlab",
+        "desc": "Data-centric AI package to automatically detect label errors, out-of-distribution samples, and dataset anomalies.",
+        "url": "https://cleanlab.ai",
+        "openSource": true
+      },
+      {
+        "name": "FiftyOne",
+        "desc": "Open-source toolset by Voxel51 for exploring, visualizing, and curating high-quality computer vision datasets.",
+        "url": "https://fiftyone.ai",
+        "openSource": true
+      },
+      {
+        "name": "Roboflow",
+        "desc": "Complete computer vision platform to annotate images, manage datasets, train models, and deploy vision APIs.",
+        "url": "https://roboflow.com",
+        "openSource": false
+      },
+      {
+        "name": "ONNX Runtime",
+        "desc": "Cross-platform, high-performance scoring engine developed by Microsoft for accelerating PyTorch and TensorFlow models.",
+        "url": "https://onnxruntime.ai",
+        "openSource": true
+      },
+      {
+        "name": "Triton Inference Server",
+        "desc": "Open-source multi-model inference serving software by NVIDIA that maximizes GPU and CPU throughput at scale.",
+        "url": "https://developer.nvidia.com/triton-inference-server",
+        "openSource": true
+      },
+      {
+        "name": "Kedro",
+        "desc": "Open-source Python framework from QuantumBlack/McKinsey for creating reproducible, maintainable data science pipelines.",
+        "url": "https://kedro.org",
+        "openSource": true
+      },
+      {
+        "name": "Feast",
+        "desc": "Open-source feature store for machine learning to define, manage, and serve features for online and offline models.",
+        "url": "https://feast.dev",
+        "openSource": true
+      },
+      {
+        "name": "Albumentations",
+        "desc": "Fast and flexible image augmentation library with an intuitive interface for deep learning computer vision.",
+        "url": "https://albumentations.ai",
+        "openSource": true
+      },
+      {
+        "name": "TIMM",
+        "desc": "PyTorch Image Models — the standard collection of state-of-the-art computer vision architectures and pretrained weights.",
+        "url": "https://timm.fast.ai",
+        "openSource": true
+      },
+      {
+        "name": "Faster-Whisper",
+        "desc": "High-performance reimplementation of OpenAI Whisper using CTranslate2, delivering up to 4x faster transcription.",
+        "url": "https://github.com/SYSTRAN/faster-whisper",
+        "openSource": true
+      },
+      {
+        "name": "Gretel.ai",
+        "desc": "Developer platform for generating privacy-preserving synthetic data and tabular fine-tuning for machine learning.",
+        "url": "https://gretel.ai",
+        "openSource": false
       }
     ]
   },
@@ -5853,6 +6501,144 @@
         "name": "Lynx",
         "desc": "Cross-platform UI framework by ByteDance enabling web developers to build high-performance native mobile views.",
         "url": "https://lynxjs.org",
+        "openSource": true
+      },
+      {
+        "name": "Xcode",
+        "desc": "Apple's integrated development environment (IDE) for building apps across iOS, iPadOS, macOS, watchOS, and tvOS.",
+        "url": "https://developer.apple.com/xcode/",
+        "openSource": false
+      },
+      {
+        "name": "SF Symbols",
+        "desc": "Apple's library of 6,000+ configurable vector iconography designed to integrate seamlessly with San Francisco and Apple platforms.",
+        "url": "https://developer.apple.com/sf-symbols/",
+        "openSource": false
+      },
+      {
+        "name": "TestFlight",
+        "desc": "Apple's official beta testing and distribution platform for gathering feedback on iOS and iPadOS apps prior to App Store release.",
+        "url": "https://developer.apple.com/testflight/",
+        "openSource": false
+      },
+      {
+        "name": "RocketSim",
+        "desc": "Essential companion for Xcode Simulator to test user permissions, dark mode, network conditions, and record video mockups.",
+        "url": "https://www.rocketsim.app",
+        "openSource": false
+      },
+      {
+        "name": "Gradle",
+        "desc": "High-performance build automation tool that powers dependency management and compilation across the Android build ecosystem.",
+        "url": "https://gradle.org",
+        "openSource": true
+      },
+      {
+        "name": "Jadx",
+        "desc": "DEX to Java decompiler and graphical viewer for inspecting and reverse-engineering Android APK binaries and classes.",
+        "url": "https://github.com/skylot/jadx",
+        "openSource": true
+      },
+      {
+        "name": "Chucker",
+        "desc": "In-app HTTP inspector for Android that records network activity directly as push notifications on your test device.",
+        "url": "https://github.com/ChuckerTeam/chucker",
+        "openSource": true
+      },
+      {
+        "name": "LeakCanary",
+        "desc": "Memory leak detection library for Android that catches memory leaks and retains during development automatically.",
+        "url": "https://square.github.io/leakcanary/",
+        "openSource": true
+      },
+      {
+        "name": "APKTool",
+        "desc": "A tool for reverse engineering 3rd-party, closed binary Android apps to decode resources and rebuild modified APKs.",
+        "url": "https://apktool.org",
+        "openSource": true
+      },
+      {
+        "name": "Vysor",
+        "desc": "Mirror and control physical Android and iOS devices directly on your desktop with high frame rates and keyboard navigation.",
+        "url": "https://www.vysor.io",
+        "openSource": false
+      },
+      {
+        "name": "Ionic",
+        "desc": "Enterprise-ready cross-platform UI toolkit for building mobile apps with Web technologies (React, Vue, Angular).",
+        "url": "https://ionicframework.com",
+        "openSource": true
+      },
+      {
+        "name": ".NET MAUI",
+        "desc": "Cross-platform framework by Microsoft for creating native mobile and desktop apps with C# and XAML.",
+        "url": "https://dotnet.microsoft.com/apps/maui",
+        "openSource": true
+      },
+      {
+        "name": "NativeScript",
+        "desc": "Open-source framework for building truly native iOS and Android apps using JavaScript, TypeScript, or Angular.",
+        "url": "https://nativescript.org",
+        "openSource": true
+      },
+      {
+        "name": "Apache Cordova",
+        "desc": "Mobile development framework allowing web developers to access native device APIs via standard HTML5 and JavaScript.",
+        "url": "https://cordova.apache.org",
+        "openSource": true
+      },
+      {
+        "name": "Codemagic",
+        "desc": "Dedicated mobile CI/CD pipeline for automated building, testing, code signing, and publishing of iOS and Android apps.",
+        "url": "https://codemagic.io",
+        "openSource": false
+      },
+      {
+        "name": "Bitrise",
+        "desc": "Mobile-first continuous integration and delivery platform tailored for iOS and Android engineering teams.",
+        "url": "https://bitrise.io",
+        "openSource": false
+      },
+      {
+        "name": "Capgo",
+        "desc": "Instant live code and asset updates for Capacitor mobile apps without waiting for App Store and Google Play reviews.",
+        "url": "https://capgo.app",
+        "openSource": true
+      },
+      {
+        "name": "RevenueCat",
+        "desc": "Complete in-app purchases, subscriptions, customer receipt validation, and paywall management platform for iOS and Android.",
+        "url": "https://www.revenuecat.com",
+        "openSource": false
+      },
+      {
+        "name": "Adapty",
+        "desc": "In-app subscription infrastructure, paywall A/B testing, and mobile analytics platform for iOS and Android developers.",
+        "url": "https://adapty.io",
+        "openSource": false
+      },
+      {
+        "name": "Superwall",
+        "desc": "Remotely configure, customize, and A/B test native paywalls in iOS and Android apps without submitting app updates.",
+        "url": "https://superwall.com",
+        "openSource": false
+      },
+      {
+        "name": "OneSignal",
+        "desc": "Market-leading push notifications, in-app messaging, and customer engagement service for mobile apps.",
+        "url": "https://onesignal.com",
+        "openSource": false
+      },
+      {
+        "name": "Emerge Tools",
+        "desc": "Suite of mobile developer tools to optimize app binary size, startup time, and UI performance for iOS and Android.",
+        "url": "https://www.emergetools.com",
+        "openSource": false
+      },
+      {
+        "name": "Detox",
+        "desc": "Gray-box end-to-end testing and automation library for React Native and native mobile applications.",
+        "url": "https://wix.github.io/Detox/",
         "openSource": true
       }
     ]
@@ -6489,12 +7275,6 @@
         "openSource": false
       },
       {
-        "name": "Shadertoy",
-        "desc": "Build, share, and explore breathtaking real-time procedural WebGL pixel shaders in your browser.",
-        "url": "https://www.shadertoy.com",
-        "openSource": false
-      },
-      {
         "name": "p5.js Web Editor",
         "desc": "Creative coding platform and JavaScript library for artists, designers, and beginners to make interactive visuals.",
         "url": "https://editor.p5js.org",
@@ -6505,24 +7285,6 @@
         "desc": "Explore, analyze, and visualize data on the web using interactive JavaScript notebooks and D3.js.",
         "url": "https://observablehq.com",
         "openSource": false
-      },
-      {
-        "name": "Godot Engine",
-        "desc": "Free and open-source 2D and 3D game engine designed for indie developers with no royalties.",
-        "url": "https://godotengine.org",
-        "openSource": true
-      },
-      {
-        "name": "Kaboom / KAPLAY",
-        "desc": "Fun, lightweight, and expressive JavaScript game programming library that helps you make web games fast.",
-        "url": "https://kaplayjs.com",
-        "openSource": true
-      },
-      {
-        "name": "Phaser",
-        "desc": "Fast, free, and fun open-source HTML5 game framework for Canvas and WebGL desktop and mobile browser games.",
-        "url": "https://phaser.io",
-        "openSource": true
       },
       {
         "name": "Strudel",
@@ -7224,6 +7986,138 @@
         "desc": "Web-based runtime for 3D apps and collaborative XR experiences, exporting directly from Blender and Unity.",
         "url": "https://needle.tools",
         "openSource": false
+      },
+      {
+        "name": "Shadertoy",
+        "desc": "Build, share, and explore breathtaking real-time procedural WebGL pixel shaders in your browser.",
+        "url": "https://www.shadertoy.com",
+        "openSource": false
+      },
+      {
+        "name": "Godot Engine",
+        "desc": "Free and open-source 2D and 3D game engine designed for indie developers with no royalties.",
+        "url": "https://godotengine.org",
+        "openSource": true
+      },
+      {
+        "name": "Kaboom / KAPLAY",
+        "desc": "Fun, lightweight, and expressive JavaScript game programming library that helps you make web games fast.",
+        "url": "https://kaplayjs.com",
+        "openSource": true
+      },
+      {
+        "name": "Phaser",
+        "desc": "Fast, free, and fun open-source HTML5 game framework for Canvas and WebGL desktop and mobile browser games.",
+        "url": "https://phaser.io",
+        "openSource": true
+      },
+      {
+        "name": "Unity",
+        "desc": "The world's leading real-time 2D and 3D game engine and development ecosystem.",
+        "url": "https://unity.com",
+        "openSource": false
+      },
+      {
+        "name": "Unreal Engine",
+        "desc": "The advanced real-time 3D engine by Epic Games for photoreal visuals, AAA games, and simulations.",
+        "url": "https://www.unrealengine.com",
+        "openSource": false
+      },
+      {
+        "name": "Raylib",
+        "desc": "Simple and easy-to-use C library for learning video games programming with zero external dependencies.",
+        "url": "https://www.raylib.com",
+        "openSource": true
+      },
+      {
+        "name": "LÖVE (Love2D)",
+        "desc": "Awesome, open-source 2D game framework powered by Lua and SDL for rapid game creation.",
+        "url": "https://love2d.org",
+        "openSource": true
+      },
+      {
+        "name": "MonoGame",
+        "desc": "Free, open-source cross-platform game development framework built on C# and .NET.",
+        "url": "https://monogame.net",
+        "openSource": true
+      },
+      {
+        "name": "PICO-8",
+        "desc": "Tiny fantasy console for making, playing, and sharing 8-bit retro games, pixel art, and chiptunes.",
+        "url": "https://www.lexaloffle.com/pico-8.php",
+        "openSource": false
+      },
+      {
+        "name": "TIC-80",
+        "desc": "Free and open-source fantasy computer for making, playing, and sharing tiny 8-bit games.",
+        "url": "https://tic80.com",
+        "openSource": true
+      },
+      {
+        "name": "Aseprite",
+        "desc": "The industry-standard animated sprite editor and pixel art tool designed specifically for game developers.",
+        "url": "https://www.aseprite.org",
+        "openSource": true
+      },
+      {
+        "name": "Pixelorama",
+        "desc": "Free & open-source 2D sprite editor and pixel art animation tool built with the Godot Engine.",
+        "url": "https://orama-interactive.itch.io/pixelorama",
+        "openSource": true
+      },
+      {
+        "name": "Tiled",
+        "desc": "Flexible, open-source tile map editor supporting orthogonal, isometric, and hexagonal maps.",
+        "url": "https://www.mapeditor.org",
+        "openSource": true
+      },
+      {
+        "name": "LDtk",
+        "desc": "Modern, fast 2D level editor by the creator of Dead Cells, built with game designers in mind.",
+        "url": "https://ldtk.io",
+        "openSource": true
+      },
+      {
+        "name": "jsfxr",
+        "desc": "Free 8-bit retro sound effect generator in the browser for video games and game jams.",
+        "url": "https://sfxr.me",
+        "openSource": true
+      },
+      {
+        "name": "FMOD Studio",
+        "desc": "Leading interactive audio middleware and sound design suite for games across all platforms.",
+        "url": "https://www.fmod.com",
+        "openSource": false
+      },
+      {
+        "name": "Kenney",
+        "desc": "Thousands of completely free (CC0) 2D, 3D, UI, and audio assets created for game developers.",
+        "url": "https://kenney.nl",
+        "openSource": true
+      },
+      {
+        "name": "itch.io",
+        "desc": "The premier open platform and marketplace for independent video games, game assets, and game jams.",
+        "url": "https://itch.io",
+        "openSource": false
+      },
+      {
+        "name": "OpenGameArt",
+        "desc": "Vast community repository of free, open-source 2D/3D game art, music, and sound effects.",
+        "url": "https://opengameart.org",
+        "openSource": true
+      },
+      {
+        "name": "MagicaVoxel",
+        "desc": "Free lightweight 8-bit voxel art editor and GPU path-tracing renderer.",
+        "url": "https://ephtracy.github.io",
+        "openSource": false
+      },
+      {
+        "name": "Blockbench",
+        "desc": "Free, modern 3D model editor for low-poly and voxel models with animation and texturing.",
+        "url": "https://www.blockbench.net",
+        "openSource": true
       }
     ]
   },
@@ -7288,6 +8182,12 @@
         "name": "HandBrake",
         "desc": "Open-source video transcoder for converting video from nearly any format to a selection of modern codecs.",
         "url": "https://handbrake.fr",
+        "openSource": true
+      },
+      {
+        "name": "pdf-lib",
+        "desc": "Create and modify PDF documents in any JavaScript environment across Node, browser, and Deno.",
+        "url": "https://pdf-lib.js.org",
         "openSource": true
       }
     ]
