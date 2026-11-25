@@ -4590,6 +4590,12 @@
         "desc": "100+ beautiful open-source illustrations designed during the 100 days of illustration challenge, free for commercial use.",
         "url": "https://illlustrations.co",
         "openSource": true
+      },
+      {
+        "name": "Kite",
+        "desc": "Design canvas your AI agents and team share: Claude, ChatGPT, Cursor or Codex draw editable layers over a hosted MCP server; copy frames as HTML, React or Tailwind",
+        "url": "https://kite.new",
+        "openSource": false
       }
     ]
   },
